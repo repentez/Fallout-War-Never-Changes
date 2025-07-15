@@ -1,20 +1,69 @@
 guiTypes = {
 	containerWindowType = {
-		name = project_safehouse_gui
+		name = "USA_commonwealth_gui_window"
 		position = {
 			x = 0
 			y = 0
 		}
 		size = {
-			width = 100%
+			width = 1000
 			height = 1000
 		}
-		dirty = 30
+		orientation = center
+		origo = center
+		##fade_time = 100
+		moveable = yes
+		##fade_type = linear
+		click_to_front = no
+		clipping = no
 
-		parent_window_token = decision_tab
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_border"
+		}
 
-		context = decision_category
+		buttonType = {
+			name ="Button_1"
+			quadTextureSprite ="GFX_closebutton"
+			position = { x=-55 y=10 }
+			#this makes the window open
+			buttonText = ""
+			buttonFont = "hoi_16mbs"
+			Orientation = upper_right
+		}
+	}
 
+	containerWindowType = {
+		name = "USA_commonwealth_button_gui_window"
+		position = {
+			x = -120
+			y = -350
+		}
+		size = {
+			width = 100
+			height = 80
+		}
+		orientation = center
+		origo = center
+		##fade_time = 100
+		moveable = no
+		##fade_type = linear
+		click_to_front = no
+		clipping = no
 
+		##background = {
+		##	name = "Background"
+		##	quadTextureSprite = "GFX_tiled_window_1b_border"
+		##}
+
+		buttonType = {
+			name ="Button_1"
+			quadTextureSprite ="GFX_goal_USA_election"
+			position = { x=40 y=13 }
+			#this makes the window open
+			buttonText = ""
+			buttonFont = "hoi_16mbs"
+			Orientation = centre
+		}
 	}
 }

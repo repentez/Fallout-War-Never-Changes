@@ -1,0 +1,57 @@
+scripted_gui = {
+    USA_commonwealth_button_gui = {
+        window_name = "USA_commonwealth_button_gui_window"
+        context_type = player_context
+        parent_window_token = politics_tab
+         
+        visible = {
+            tag = USA
+        }
+        
+        effects = {
+			Button_1_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_commonwealth_gui_open
+					}
+					clr_country_flag = USA_commonwealth_gui_open
+				}
+				else = {
+					set_country_flag = USA_commonwealth_gui_open
+				}
+			}
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+    }
+}
+
+scripted_gui = {
+    USA_commonwealth_gui = {
+        window_name = "USA_commonwealth_gui_window"
+        context_type = player_context
+        parent_window_token = top_bar
+         
+        visible = {
+            has_country_flag = USA_commonwealth_gui_open
+        }
+        
+        effects = { 
+			Button_1_click = {
+				clr_country_flag = USA_commonwealth_gui_open
+			}
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+    }
+}
