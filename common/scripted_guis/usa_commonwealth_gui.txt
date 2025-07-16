@@ -20,6 +20,17 @@ scripted_gui = {
 					set_country_flag = USA_commonwealth_gui_open
 				}
 			}
+			Button_2_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_commonwealth_gui_tab_1_window_open
+					}
+					clr_country_flag = USA_commonwealth_gui_tab_1_window_open
+				}
+				else = {
+					set_country_flag = USA_commonwealth_gui_tab_1_window_open
+				}
+			}
         }
         
         triggers = {
