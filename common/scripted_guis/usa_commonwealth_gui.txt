@@ -15,20 +15,11 @@ scripted_gui = {
 						has_country_flag = USA_commonwealth_gui_open
 					}
 					clr_country_flag = USA_commonwealth_gui_open
+
+					set_variable = { USA_commonwealth_gui_tab = 0 }
 				}
 				else = {
 					set_country_flag = USA_commonwealth_gui_open
-				}
-			}
-			Button_2_click = {
-				if = {
-					limit = {
-						has_country_flag = USA_commonwealth_gui_tab_1_window_open
-					}
-					clr_country_flag = USA_commonwealth_gui_tab_1_window_open
-				}
-				else = {
-					set_country_flag = USA_commonwealth_gui_tab_1_window_open
 				}
 			}
         }
@@ -40,6 +31,66 @@ scripted_gui = {
         }
         
     }
+}
+
+scripted_gui = {
+	USA_commonwealth_gui_tab_1_window = {
+			window_name = "USA_commonwealth_gui_tab_1_window"
+			context_type = player_context
+			parent_window_token = USA_commonwealth_gui
+
+			visible = {
+				check_variable = { USA_commonwealth_gui_tab = 1 }
+			}
+
+			properties = {
+				my_icon = {
+					image = "GFX_james_c_wallace_election"
+					x = 0
+					y = 0
+				}
+			}
+	}
+}
+
+scripted_gui = {
+	USA_commonwealth_gui_tab_2_window = {
+			window_name = "USA_commonwealth_gui_tab_2_window"
+			context_type = player_context
+			parent_window_token = USA_commonwealth_gui
+
+			visible = {
+				check_variable = { USA_commonwealth_gui_tab = 2 }
+			}
+
+			properties = {
+				my_icon = {
+					image = "GFX_james_c_wallace_election"
+					x = 0
+					y = 0
+				}
+			}
+	}
+}
+
+scripted_gui = {
+	USA_commonwealth_gui_tab_3_window = {
+		window_name = "USA_commonwealth_gui_tab_3_window"
+		context_type = player_context
+		parent_window_token = USA_commonwealth_gui
+
+		visible = {
+			check_variable = { USA_commonwealth_gui_tab = 3 }
+		}
+
+		properties = {
+			my_icon = {
+				image = "GFX_james_c_wallace_election"
+				x = 0
+				y = 0
+			}
+		}
+	}
 }
 
 scripted_gui = {
@@ -55,6 +106,19 @@ scripted_gui = {
         effects = { 
 			Button_1_click = {
 				clr_country_flag = USA_commonwealth_gui_open
+				set_variable = { USA_commonwealth_gui_tab = 0 }
+			}
+			Button_2_click = { ## Tab 1
+				set_variable = { USA_commonwealth_gui_tab = 1 }
+			}
+			Button_3_click = { ## Tab 2
+				set_variable = { USA_commonwealth_gui_tab = 2 }
+			}
+			Button_4_click = { ## Tab 3
+				set_variable = { USA_commonwealth_gui_tab = 3 }
+			}
+			Button_5_click = { ## Close tabs
+				set_variable = { USA_commonwealth_gui_tab = 0 }
 			}
         }
         
