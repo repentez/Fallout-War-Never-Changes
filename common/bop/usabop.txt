@@ -40,7 +40,13 @@ USA_enclave_balance = {
             on_activate = {
                 add_stability = -0.1
                 add_war_support = -0.07
-                country_event = congress_summons_doa.1
+                USA = {
+                    country_event = {
+                        id = congress_summons_doa.1
+                        days = 3
+                        is_triggered_only = yes
+                    }
+                }
             }
         }
         range = {

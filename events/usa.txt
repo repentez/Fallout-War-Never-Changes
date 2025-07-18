@@ -12,17 +12,7 @@ country_event = {
     desc = congress_summons_doa.d
     picture = GFX_USA_congress_image
 
-    trigger = {
-        is_power_balance_in_range = {
-            id = USA_enclave_balance
-            range = USA_hearings_held
-        }
-    }
-
     days = 3
-
-    fire_only_once = yes
-    is_triggered_only = yes
 
     option = {
         name = congress_summons_doa.1.a
@@ -48,9 +38,6 @@ country_event = {
         days = 2
     }
 
-    fire_only_once = yes
-    is_triggered_only = yes
-
     option = {
         name = revelations.1.a
         add_stability = 0.03
@@ -71,9 +58,6 @@ country_event = {
     desc = mr_secretary.d
     picture = GFX_USA_congress_image
 
-    fire_only_once = yes
-    is_triggered_only = yes
-
     option = {
         name = mr_secretary.1.a
         add_stability = -0.04
@@ -93,9 +77,6 @@ country_event = {
     title = revelationstwo.t
     desc = revelationstwo.d
     picture = GFX_USA_congress_image
-
-    fire_only_once = yes
-    is_triggered_only = yes
 
     option = {
         name = revelationstwo.1.a
@@ -130,11 +111,6 @@ country_event = {
     title = the_crossing_of_the_rubicon.t
     desc = the_crossing_of_the_rubicon.d
     picture = GFX_report_event_generic_read_write
-
-    days = 3
-
-    fire_only_once = yes
-    is_triggered_only = yes
 
     option = {
         name = the_crossing_of_the_rubicon.1.a

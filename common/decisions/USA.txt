@@ -588,8 +588,8 @@ USA_project_safehouse_cat = {
 
 		available = {
 			check_variable = {
-				var = USA_vault_created_check
-				value = 1
+				var = USA_decision_vault_counter
+				value = 2
 				compare = greater_than_or_equals
 			}
 		}
@@ -1481,6 +1481,46 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+	}
+
+	add_decision = {
+		complete_effect = {
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+			add_to_array = { decision_array = 1 }
+		}
+	}
+
+	remove_decision = {
+		complete_effect = {
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+			remove_from_array = { decision_array = 1 }
+		}
 	}
 
 	USA_construct_vault_88 = {
