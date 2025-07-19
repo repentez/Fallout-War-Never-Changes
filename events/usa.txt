@@ -12,7 +12,8 @@ country_event = {
     desc = congress_summons_doa.d
     picture = GFX_USA_congress_image
 
-    days = 3
+    is_triggered_only = yes
+    fire_only_once = yes
 
     option = {
         name = congress_summons_doa.1.a
@@ -24,7 +25,6 @@ country_event = {
         country_event = {
             id = revelations.1
             days = 2
-            is_triggered_only = yes
         }
     }
 }
@@ -34,9 +34,8 @@ country_event = {
     desc = revelations.d
     picture = GFX_USA_congress_image
 
-    mean_time_to_happen = {
-        days = 2
-    }
+    is_triggered_only = yes
+    fire_only_once = yes
 
     option = {
         name = revelations.1.a
@@ -48,7 +47,6 @@ country_event = {
         country_event = {
             id = mr_secretary.1
             days = 11
-            is_triggered_only = yes
         }
     }
 }
@@ -58,6 +56,9 @@ country_event = {
     desc = mr_secretary.d
     picture = GFX_USA_congress_image
 
+    is_triggered_only = yes
+    fire_only_once = yes
+    
     option = {
         name = mr_secretary.1.a
         add_stability = -0.04
@@ -67,8 +68,7 @@ country_event = {
         }
         country_event = {
             id = revelationstwo.1
-            days = 14
-            is_triggered_only = yes
+            days = 14                
         }
     }
 }
@@ -78,6 +78,9 @@ country_event = {
     desc = revelationstwo.d
     picture = GFX_USA_congress_image
 
+    is_triggered_only = yes
+    fire_only_once = yes
+    
     option = {
         name = revelationstwo.1.a
         add_power_balance_value = {
@@ -91,7 +94,6 @@ country_event = {
             country_event = {
                 id = the_crossing_of_the_rubicon.1
                 days = 3
-                is_triggered_only = yes
             }
         }
         else_if = {
@@ -100,8 +102,7 @@ country_event = {
             }
             country_event = {
                 id = and_the_veil_comes_down.1
-                days = 3
-                is_triggered_only = yes
+                days = 3                    
             }
         }
     }
@@ -110,8 +111,11 @@ country_event = {
     id = the_crossing_of_the_rubicon.1
     title = the_crossing_of_the_rubicon.t
     desc = the_crossing_of_the_rubicon.d
-    picture = GFX_report_event_generic_read_write
+    picture = GFX_USA_congress_image
 
+    is_triggered_only = yes
+    fire_only_once = yes
+    
     option = {
         name = the_crossing_of_the_rubicon.1.a
     }
@@ -121,8 +125,6 @@ country_event = {
     title = and_the_veil_comes_down.t
     desc = and_the_veil_comes_down.d
     picture = GFX_report_event_generic_read_write
-
-    days = 3
 
     fire_only_once = yes
     is_triggered_only = yes
@@ -139,44 +141,44 @@ country_event = {
     }
 }
 
-country_event = {
-    id = vault_tec_growth_check.1
-
-    days = 360
-
-    hidden = yes
-    is_triggered_only = yes
-
-    immediate = {
-        if = {
-            limit = {
-                check_variable = {
-                    var = USA_decision_vault_counter
-                    value = 2
-                    compare = greater_than_or_equals
-                }
-            }
-            set_variable = {
-                var = USA_vault_created_check
-                value = 1
-            }
-            country_event = {
-                id = vault_tec_growth_check.1
-                days = 360
-            }
-        }
-        else_if = {
-            limit = {
-                check_variable = {
-                    var = USA_decision_vault_counter
-                    value = 2
-                    compare = less_than
-                }
-            }
-            set_variable = {
-                var = USA_vault_created_check
-                value = 0
-            }
-        }
-    }
-}
+#country_event = { This is irrelevant (?) idek why i even tried this
+#    id = vault_tec_growth_check.1
+#
+#    days = 360
+#
+#    hidden = yes
+#    is_triggered_only = yes
+#
+#    immediate = {
+#        if = {
+#            limit = {
+#                check_variable = {
+#                    var = USA_decision_vault_counter
+#                    value = 2
+#                    compare = greater_than_or_equals
+#                }
+#            }
+#            set_variable = {
+#                var = USA_vault_created_check
+#                value = 1
+#            }
+#            country_event = {
+#                id = vault_tec_growth_check.1
+#                days = 360
+#            }
+#        }
+#        else_if = {
+#            limit = {
+#                check_variable = {
+#                    var = USA_decision_vault_counter
+#                    value = 2
+#                    compare = less_than
+#                }
+#            }
+#            set_variable = {
+#                var = USA_vault_created_check
+#                value = 0
+#            }
+#        }
+#    }
+#}

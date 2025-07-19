@@ -17,17 +17,11 @@ leader_traits = {
 	anti_enclave = {
 		random = no
 		political_power_gain = -1
-		USA_enclave_balance = {
-			power_balance_weekly = -0.01
-		}
 	}
 
 	enclave_supporter = {
 		random = no
 		political_power_gain = 1
-		USA_enclave_balance = {
-			power_balance_weekly = 0.01
-		}
 	}
 
 

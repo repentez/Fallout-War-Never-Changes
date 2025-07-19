@@ -16,11 +16,11 @@ USA_enclave_balance = {
 
     side = {
         id = USA_coalition_side
-        icon = GFX_coalition_star #someone please make the coalition icons
+        icon = GFX_coalition_star
         range = {
             id = USA_resistance_to_corruption
-            min = -0.35
-            max = -0.5
+            min = -0.5
+            max = -0.35
             modifier = {
                 political_power_gain = -3
                 consumer_goods_factor = 0.05
@@ -29,8 +29,8 @@ USA_enclave_balance = {
         }
         range = {
             id = USA_hearings_held
-            min = -0.5
-            max = -0.75
+            min = -0.75
+            max = -0.5
             modifier = {
                 stability_weekly = 0.06
                 war_support_weekly = -0.03
@@ -44,15 +44,14 @@ USA_enclave_balance = {
                     country_event = {
                         id = congress_summons_doa.1
                         days = 3
-                        is_triggered_only = yes
                     }
                 }
             }
         }
         range = {
             id = USA_enclave_exposed
-            min = -0.75
-            max = -0.9
+            min = -0.9
+            max = -0.75
             modifier = {
                 stability_weekly = 0.04
                 war_support_weekly = 0.03
@@ -88,8 +87,8 @@ USA_enclave_balance = {
         }
         range = {
             id = USA_recovering_democracy 
-            min = -0.9
-            max = -1
+            min = -1
+            max = -0.9
             modifier = {
                 stability_weekly = 0.05
                 war_support_weekly = 0.05
@@ -106,7 +105,7 @@ USA_enclave_balance = {
     
     side = {
         id = USA_enclave_side
-        icon = GFX_enclave_e #someone please make the enclave icons
+        icon = GFX_enclave_e
         range = {
             id = USA_secret_corruption
             min = 0.1
