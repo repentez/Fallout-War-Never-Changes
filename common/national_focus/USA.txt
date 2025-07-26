@@ -59,8 +59,9 @@ focus_tree = {
         prerequisite = { focus = USA_us_army }
         completion_reward = {
             add_manpower = 500000
-            monthly_population = -0.05
-            stability_weekly = -0.1
+            add_dynamic_modifier = {
+                modifier = USA_recruitment_drive_expanded
+            }
         }
     }
 
@@ -72,9 +73,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_expand_recruitment_drives }
         completion_reward = {
-            army_core_defence_factor = 0.35
-            max_dig_in_factor = 0.2
-            acclimatization_cold_climate_gain_factor = 0.1
+            add_dynamic_modifier = {
+                modifier = USA_enforced_anchorage_line
+            }
 
             1158 = {
 	            add_building_construction = {
@@ -108,7 +109,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_enforce_the_anchorage_line }
         completion_reward = {
-            weekly_manpower = 5000
+            add_dynamic_modifier = {
+                modifier = USA_enacted_the_draft
+            }
             add_war_support = -0.05
             add_stability = -0.1
         }
@@ -122,7 +125,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_army }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = armor
@@ -138,7 +141,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_expand_recruitment_drives }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = infantry_weapons
@@ -154,8 +157,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_modernize_infantry_kits }
         completion_reward = {
-            supply_factor = 0.1
-            out_of_supply_factor = -0.1
+            add_dynamic_modifier = {
+                modifier = USA_automated_the_logistics
+            }
             add_war_support = -0.05
         }
     }
@@ -168,8 +172,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_automated_logistics }
         completion_reward = {
-            army_defence_factor = 0.1
-            army_attack_factor = 0.15
+            add_dynamic_modifier = {
+                modifier = USA_integrated_the_exoskeleton_support
+            }
         }
     }
 
@@ -181,8 +186,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_automated_logistics }
         completion_reward = {
-            army_armor_defence_factor = 0.1
-            army_armor_attack_factor = 0.1
+            add_dynamic_modifier = {
+                modifier = USA_adapted_combat_armor
+            }
         }
     }
 
@@ -205,10 +211,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = tanks
+                category = armor
             }
         }
     }
@@ -221,10 +227,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = tanks
+                category = armor
             }
         }
     }
@@ -238,10 +244,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = logistics
+                category = logistics_tech
             }
         }
     }
@@ -255,10 +261,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_mobile_logistics_corps }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = military_police
+                category = military_police_tech
             }
         }
     }
@@ -285,10 +291,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = recon
+                category = recon_tech
             }
         }
     }
@@ -303,10 +309,10 @@ focus_tree = {
         prerequisite = { focus = USA_heavy_recon_focus }
         prerequisite = { focus = USA_composite_armor_research }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = tanks
+                category = armor
             }
         }
     }
@@ -320,7 +326,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_main_battle_tanks }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = artillery
@@ -337,7 +343,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_main_battle_tanks }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = artillery
@@ -355,10 +361,12 @@ focus_tree = {
         prerequisite = { focus = USA_reactive_armor_systems }
         prerequisite = { focus = USA_advanced_gunnery }
         completion_reward = {
-            add_building_construction = {
-                type = military_factory
-                level = 1
-                instant_build = yes
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
             }
         }
     }
@@ -441,9 +449,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_navy }
         completion_reward = {
-            add_experience = {
-                navy_experience = 50
-            }
+            navy_experience = 50
         }
     }
 
@@ -456,7 +462,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_navy }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = naval_doctrine
@@ -476,10 +482,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_navy }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = USA_carrier_doctrine
+                category = cv_tech
             }
         }
         mutually_exclusive = {
@@ -498,10 +504,10 @@ focus_tree = {
         prerequisite = { focus = USA_modern_naval_engineering }
         prerequisite = { focus = USA_modernize_naval_training_protocols }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = naval_technology
+                category = naval_equipment
             }
         }
     }
@@ -515,9 +521,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_capital_ship_doctrine }
         completion_reward = {
-            add_experience = {
-                navy_experience = 50
-            }
+            navy_experience = 50
         }
     }
 
@@ -530,7 +534,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_carrier_strike_doctrine }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = naval_doctrine
@@ -547,7 +551,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_carrier_strike_doctrine }
         completion_reward = {
-            naval_attrition = -0.1
+            add_dynamic_modifier = {
+                modifier = USA_improved_deck_side_logistics
+            }
         }
     }
 
@@ -575,10 +581,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_naval_technological_superiority }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = missile_technology
+                category = nuclear
             }
         }
     }
@@ -604,10 +610,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_naval_technological_superiority }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = naval_engineering
+                category = ship_modules_tech
             }
         }
     }
@@ -621,9 +627,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_capital_ship_doctrine }
         completion_reward = {
-            add_experience = {
-                navy_experience = 100
-            }
+            navy_experience = 100
         }
     }
 
@@ -636,10 +640,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_naval_technological_superiority }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = propulsion_technology
+                category = naval_artillery
             }
         }
     }
@@ -653,10 +657,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_naval_technological_superiority }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = naval_technology
+                category = naval_equipment
             }
         }
     }
@@ -671,9 +675,7 @@ focus_tree = {
         prerequisite = { focus = USA_command_the_waves }
         prerequisite = { focus = USA_fleet_command_protocols }
         completion_reward = {
-            add_experience = {
-                navy_experience = 100
-            }
+            navy_experience = 100
         }
     }
 
@@ -687,7 +689,9 @@ focus_tree = {
         prerequisite = { focus = USA_battlefleet_strategems }
         prerequisite = { focus = USA_floating_airfields }
         completion_reward = {
-            naval_attrition = -0.2
+            add_dynamic_modifier = {
+                modifier = USA_increased_global_naval_presence
+            }
         }
     }
 
@@ -700,7 +704,9 @@ focus_tree = {
         prerequisite = { focus = USA_the_armed_forces }
         completion_reward = {
             air_experience = 100
-            air_superiority_bonus_in_combat = 0.1
+            add_dynamic_modifier = {
+                modifier = USA_air_force
+            }
         }
     }
 
@@ -713,7 +719,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_air_force }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = air_doctrine
@@ -730,9 +736,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_aerial_dominance_initiative }
         completion_reward = {
-            add_experience = {
-                air_experience = 50
-            }
+            air_experience = 50
         }
     }
 
@@ -745,10 +749,12 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_aerial_dominance_initiative }
         completion_reward = {
-            add_building_construction = {
-                type = air_base
-                level = 2
-                instant_build = yes
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = air_base
+                    level = 2
+                    instant_build = yes
+                }
             }
         }
     }
@@ -762,10 +768,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_aerial_dominance_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = aircraft_production
+                category = cat_production
             }
         }
     }
@@ -779,10 +785,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_advanced_fighter_jet_program }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = fuel_technology
+                category = cat_synth_oil
             }
         }
     }
@@ -796,10 +802,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_aviation_fuel_optimization }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = radar_technology
+                category = radar_tech
             }
         }
     }
@@ -813,10 +819,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_standardize_aircraft_production }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = air_superiority
+                category = air_doctrine
             }
         }
     }
@@ -830,7 +836,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_aerial_dominance_initiative }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
                 category = jet_technology
@@ -847,9 +853,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_advanced_fighter_jet_program }
         completion_reward = {
-            add_experience = {
-                air_experience = 50
-            }
+            air_experience = 50
         }
     }
 
@@ -862,10 +866,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_dogfighting_expertise }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = jet_engine_technology
+                category = cat_air_engine
             }
         }
     }
@@ -879,9 +883,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_optimize_jet_engines }
         completion_reward = {
-            add_experience = {
-                air_experience = 100
-            }
+            air_experience = 100
         }
     }
 
@@ -894,10 +896,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_optimize_jet_engines }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = air_defense
+                category = cat_air_guns
             }
         }
     }
@@ -910,10 +912,10 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_the_armed_forces }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
-                category = secret_weapons
+                category = nuclear
             }
         }
     }
@@ -929,9 +931,9 @@ focus_tree = {
             army_experience = 50
             navy_experience = 50
             air_experience = 50
-            special_forces_cap = 5
-            special_forces_no_supply_grace = 55
-
+            add_dynamic_modifier = {
+                modifier = USA_special_ops_service
+            }
         }
     }
 
@@ -943,10 +945,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_special_operations_service }
         completion_reward = {
-            marines_special_forces_contribution_factor = -0.2
-            naval_invasion_prep_speed = 0.35
-            transport_capacity = -0.3
-            extra_marine_supply_grace = 30
+            add_dynamic_modifier = {
+                modifier = USA_from_sea
+            }
         }
         mutually_exclusive = {
             focus = USA_from_the_mountains
@@ -962,7 +963,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_special_operations_service }
         completion_reward = {
-            mountaineers_special_forces_contribution_factor = -0.2
+            add_dynamic_modifier = {
+                modifier = USA_from_mountains
+            }
         }
         mutually_exclusive ={
             focus = USA_from_the_sea
@@ -978,9 +981,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_special_operations_service }
         completion_reward = {
-            paradrop_organization_factor = 0.4
-            paratroopers_special_forces_contribution_factor = -0.2
-
+            add_dynamic_modifier = {
+                modifier = USA_from_skies
+            }
         }
         mutually_exclusive = {
             focus = USA_from_the_mountains
@@ -1056,7 +1059,9 @@ focus_tree = {
         cost = 10
         completion_reward = {
             add_stability = 0.05
-            weekly_manpower = 5000 
+            add_dynamic_modifier = {
+                modifier = USA_reaffirmed_national_values
+            }
         }
     }
 
@@ -1209,14 +1214,14 @@ focus_tree = {
             add_political_power = 100
             378 = {
                 add_building_construction = {
-                    type = civilian_factory
+                    type = industrial_complex
                     level = 3
                     instant_build = yes
                 }
             }
             358 = {
                 add_building_construction = {
-                    type = civilian_factory
+                    type = industrial_complex
                     level = 4
                     instant_build = yes
                 }
@@ -2033,7 +2038,7 @@ focus_tree = {
         }
         mutually_exclusive = {
             focus = USA_keep_them_out_of_this
-            focus = USA_a_preview_session_of_congress
+            focus = USA_a_private_session_of_congress
         }
         completion_reward = {
             add_war_support = 0.3
@@ -2075,7 +2080,7 @@ focus_tree = {
             focus = USA_congress
         }
         mutually_exclusive = {
-            focus = USA_a_preview_session_of_congress
+            focus = USA_a_private_session_of_congress
             focus = USA_only_the_worst_of_the_worst
         }
     }
@@ -2157,13 +2162,15 @@ focus_tree = {
         y = 1
         prerequisite = {
             focus = USA_our_corporate_friends
-        completion_reward = {
-            add_building_construction = {
-                type = arms_factory
-                level = 1
-                instant_build = yes
-            } 
         }
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }    
+            }
         }
     }
 

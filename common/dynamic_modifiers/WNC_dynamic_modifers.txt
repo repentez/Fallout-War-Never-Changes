@@ -1,0 +1,122 @@
+USA_recruitment_drive_expanded = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	monthly_population = -0.05
+	stability_weekly = -0.1
+}
+
+USA_enforced_anchorage_line = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	army_core_defence_factor = 0.35
+	max_dig_in_factor = 0.2
+	acclimatization_cold_climate_gain_factor = 0.1
+}
+
+USA_enacted_the_draft = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	weekly_manpower = 5000
+}
+
+USA_automated_the_logistics = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	supply_factor = 0.1
+	out_of_supply_factor = -0.1
+}
+
+USA_integrated_the_exoskeleton_support = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	army_defence_factor = 0.1
+	army_attack_factor = 0.15
+}
+
+USA_adapted_combat_armor = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	army_armor_defence_factor = 0.1
+	army_armor_attack_factor = 0.1
+}
+
+USA_improved_deck_side_logistics = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	naval_attrition = -0.1
+}
+
+USA_increased_global_naval_presence = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	naval_attrition = -0.2
+}
+
+USA_air_force = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	air_superiority_bonus_in_combat = 0.1
+}
+
+USA_special_ops_service = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	special_forces_cap = 5
+	special_forces_no_supply_grace = 55
+}
+
+USA_from_sea = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	marines_special_forces_contribution_factor = -0.2
+	naval_invasion_prep_speed = 0.35
+	transport_capacity = -0.3
+	extra_marine_supply_grace = 30
+}
+
+USA_from_mountains = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	mountaineers_special_forces_contribution_factor = -0.2
+}
+
+USA_from_skies = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	paradrop_organization_factor = 0.4
+	paratroopers_special_forces_contribution_factor = -0.2
+}
+
+USA_reaffirmed_national_values = {
+	enable = { always = yes }
+
+	icon = GFX_idea_unknown
+
+	weekly_manpower = 5000
+}
