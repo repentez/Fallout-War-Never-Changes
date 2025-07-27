@@ -12,7 +12,8 @@ state={
 
 		}
 		add_core_of = PDF
-
+		add_core_of = BRM
+		add_core_of = TBA
 		victory_points = { 10386 15 }
 	}
 

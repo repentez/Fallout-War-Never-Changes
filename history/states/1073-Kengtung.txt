@@ -5,6 +5,8 @@ state={
 	history={
 		add_core_of = TBA
 		owner = TBA
+		add_core_of = BRM
+		add_core_of = PDF
 		buildings = {
 			infrastructure = 2
 

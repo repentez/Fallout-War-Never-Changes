@@ -615,6 +615,201 @@ USA_project_safehouse_cat = {
 
 	}
 
+	USA_construct_vault_3 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_4 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 378
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_8 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
 	USA_construct_vault_13 = {
 
 		icon = GFX_decision_vault_icon
@@ -675,6 +870,74 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_15 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1117
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
 	}
 
 	USA_construct_vault_19 = {
@@ -737,6 +1000,74 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_21 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
 	}
 
 	USA_construct_vault_22 = {
@@ -799,6 +1130,204 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_51 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 816
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_63 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 816
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	USA_construct_vault_75 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 357
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
 	}
 
 	USA_construct_vault_76 = {
@@ -862,9 +1391,12 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
-	USA_construct_vault_111 = {
+	USA_construct_vault_81 = {
 
 		icon = GFX_decision_vault_icon
 
@@ -923,7 +1455,10 @@ USA_project_safehouse_cat = {
 			consumer_goods_factor = 0.1
 			country_resource_steel = -5
 		}
-
+		
+		ai_will_do = {
+			base = 1
+		}
 	}
 
 	USA_construct_vault_87 = {
@@ -986,132 +1521,12 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
-	USA_construct_vault_101 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 361
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
-	}
-
-	USA_construct_vault_112 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 361
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
-	}
-
-	USA_construct_vault_114 = {
+	USA_construct_vault_88 = {
 
 		icon = GFX_decision_vault_icon
 
@@ -1169,6 +1584,10 @@ USA_project_safehouse_cat = {
 		modifier = {
 			consumer_goods_factor = 0.1
 			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
 		}
 
 	}
@@ -1233,9 +1652,76 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
-	USA_construct_vault_81 = {
+	USA_construct_vault_101 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 361
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	USA_construct_vault_111 = {
 
 		icon = GFX_decision_vault_icon
 
@@ -1295,9 +1781,12 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
-	USA_construct_vault_15 = {
+	USA_construct_vault_112 = {
 
 		icon = GFX_decision_vault_icon
 
@@ -1316,7 +1805,7 @@ USA_project_safehouse_cat = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 1117
+				state = 361
 			}
 		}
 
@@ -1357,9 +1846,12 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
-	USA_construct_vault_75 = {
+	USA_construct_vault_114 = {
 
 		icon = GFX_decision_vault_icon
 
@@ -1419,71 +1911,16 @@ USA_project_safehouse_cat = {
 			country_resource_steel = -5
 		}
 
-	}
-
-	USA_construct_vault_63 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
+		ai_will_do = {
+			base = 1
 		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 816
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
 	}
 
 	add_decision = {
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
 		complete_effect = {
 			add_to_array = { decision_array = 1 }
 			add_to_array = { decision_array = 1 }
@@ -1504,6 +1941,10 @@ USA_project_safehouse_cat = {
 	}
 
 	remove_decision = {
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
 		complete_effect = {
 			remove_from_array = { decision_array = 1 }
 			remove_from_array = { decision_array = 1 }
@@ -1521,191 +1962,5 @@ USA_project_safehouse_cat = {
 			remove_from_array = { decision_array = 1 }
 			remove_from_array = { decision_array = 1 }
 		}
-	}
-
-	USA_construct_vault_88 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 357
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
-	}
-
-	USA_construct_vault_120 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 357
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
-	}
-
-	USA_construct_vault_51 = {
-
-		icon = GFX_decision_vault_icon
-
-		cost = 25
-
-		available = {
-			check_variable = {
-				var = USA_decision_vault_counter
-				value = 7
-				compare = less_than
-			}
-			custom_override_tooltip = {
-				tooltip = USA_decision_vault_counter_tt
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 816
-			}
-		}
-
-		days_remove = 2920
-
-		fire_only_once = yes
-
-		remove_effect = {
-			subtract_from_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			subtract_from_variable = {
-				var = USA_vault_created
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_completed 
-				value = 1
-			}
-			add_manpower = 2000
-		}
-
-		complete_effect = {
-			add_to_variable = {
-				var = USA_decision_vault_counter
-				value = 1
-			}
-			add_to_variable = {
-				var = USA_vault_created 
-				value = 1
-			}
-			add_manpower = -2000
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.1
-			country_resource_steel = -5
-		}
-
 	}
 }
