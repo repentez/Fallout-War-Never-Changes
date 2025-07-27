@@ -103,3 +103,16 @@
 
  LAT_democratic_party:0 "NA" 
  LAT_democratic_party_long:0 "National Alliance"
+
+ MON_communism_party:0 "MPRP"
+ MON_communism_party_long:0 "Mongolian People's Revolutionary Party"
+ MON_democratic_party:0 "DP"
+ MON_democratic_party_long:0 "Democratic Party of Mongolia"
+
+ PRC_communism_party:0 "CCP"
+ PRC_communism_party_long:0 "Chinese Communist Party"
+
+ KOR_communism_party:0 "WPK"
+ KOR_communism_party_long:0 "Worker's Party of Korea"
+ KOR_democratic_party:0 "DPK"
+ KOR_democratic_party_long:0 "Democratic Party of Korea"
