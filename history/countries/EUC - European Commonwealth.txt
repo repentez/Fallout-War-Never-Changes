@@ -160,3 +160,8 @@ add_ideas = {
 }
 
 set_country_flag = EUC_nation_in_crisis
+
+set_autonomy = {
+	target = MOR
+	autonomous_state = autonomy_puppet
+}

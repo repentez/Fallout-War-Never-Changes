@@ -19,3 +19,7 @@ set_popularities = {
 	communism = 0
 	neutrality = 75
 }
+set_autonomy = {
+	target = WES
+	autonomous_state = autonomy_puppet
+}
