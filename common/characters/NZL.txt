@@ -1,9 +1,9 @@
 characters={
 	NZL_michael_joseph_savage={
-		name="Dr. House"
+		name="Guy Williams"
 		portraits={
 			civilian={
-				large="GFX_portrait_NZL_peter_fraser"
+				large=gfx/leaders/NZL/Guy.Williams.png
 			}
 		}
 		country_leader={
