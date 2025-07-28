@@ -21,9 +21,9 @@ set_popularities = {
 	communism = 100
 }
 add_ideas = {
-	Near_Blackouts_idea
-	Resource_OutOfHand_idea
-	Severe_Food_Shortage_idea
+	Near_Complete_Blackouts
+	Shortages_out_of_control
+	Severe_Food_Shortage
 }
 
 create_country_leader = {

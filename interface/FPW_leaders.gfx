@@ -245,9 +245,9 @@ spriteTypes = {
         name = "GFX_SYP_Xirsi"
         texturefile = "gfx/leaders/SYP/SYP_Xirsi.png"
     }
-		spriteType = {
-		name = GFX_DJI_Gerald_Green 
-		texturefile = gfx/leaders/DJI/DJI_Gerald_Green.png"
+	spriteType = {
+		name = "GFX_DJI_Gerald_Green"
+		texturefile = "gfx/leaders/DJI/DJI_Gerald_Green.png"
 	}
 		spriteType = {
 		name = "GFX_DJI_tyler_burton"

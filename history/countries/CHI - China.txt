@@ -64,9 +64,9 @@ if = {
 		CHI_communist_uprisings
 		free_trade
 		CHI_hyper_inflation_1
-		Severe_Food_Shortage_idea
-		Minor_Blackouts_idea
-		Resource_Severe_idea
+		Severe_Food_Shortage
+		Minor_Blackouts
+		Severe_Resource_Shortage
 	}
 }
 save_global_event_target_as = WTT_current_china_leader

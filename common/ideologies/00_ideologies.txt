@@ -264,11 +264,11 @@ ideologies = {
 			}
 			
 			anarchism = {
-				color = { 000 000 0 }
+				color = { 0 0 0 }
 			}
 			
-			Anarcho-Capitalism = { 
-				color = { 253 253 0}
+			Anarcho_Capitalism = { 
+				color = { 253 253 0 }
 			}		
 			Neo_Monarchism = {
 				color = { 184 61 186 }

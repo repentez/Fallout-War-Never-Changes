@@ -121,8 +121,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	Resource_Minor_idea
-	Major_Blackouts_idea	
+	Small_Resource_Shortage
+	Major_Blackouts
 }
 
 

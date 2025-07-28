@@ -97,7 +97,7 @@ add_ideas = {
 	prc_One_Child
 	prc_State_Corruption
 	prc_Incompetent_Army
-	Minor_Blackouts_idea
+	Minor_Blackouts
 	Moderate_Resource_Shortage
 	Rolling_Blackouts
 	Minor_Food_Shortage
