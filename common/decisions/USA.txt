@@ -580,11 +580,9 @@ USA_project_safehouse_cat = {
 
 	USA_vault_tec_mission = {
 
-		icon = GFX_vault_icon
-
-		cost = 25
-
 		priority = 15
+		
+		icon = GFX_vault_icon
 
 		available = {
 			check_variable = {
@@ -597,6 +595,15 @@ USA_project_safehouse_cat = {
 		war_with_on_timeout = PRC
 		days_mission_timeout = 365
 		is_good = no
+		fire_only_once = yes
+
+		cancel_trigger = {
+			check_variable = {
+				var = USA_vault_completed
+				value = 8
+				compare = equals
+			}
+		}
 
 		complete_effect = {
 			add_timed_idea = {
@@ -613,6 +620,9 @@ USA_project_safehouse_cat = {
 			}
 		}
 
+		ai_will_do = {
+			base = 1
+		}
 	}
 
 	USA_construct_vault_3 = {

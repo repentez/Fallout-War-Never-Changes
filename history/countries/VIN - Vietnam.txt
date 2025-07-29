@@ -104,9 +104,9 @@ set_popularities = {
 	neutrality = 35
 }
 add_ideas = {
-	Resource_Minor_idea
+	Small_Resource_Shortage
 	ASEAN_CommunistTerrorCells
-	Major_Blackouts_idea
+	Major_Blackouts
 }
 
 
