@@ -2,31 +2,84 @@ state={
 	id=1118
 	name="STATE_1118"
 
+	resources={
+		oil=40.000
+		steel=15.000
+		rubber=15.000
+	}
+
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 7
 			dockyard = 2
+			arms_factory = 2
+			air_base = 8
 			1562 = {
 				naval_base = 10
-
 			}
-
+			13549 = {
+				naval_base = 8
+			}
+			13552 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = USA
 		add_core_of = CAL
 		victory_points = {
-			1562 15 
+			9814 3 
 		}
-
+		victory_points = {
+			1562 30 
+		}
+		victory_points = {
+			9911 6 
+		}
+		victory_points = {
+			823 4
+		}
+		victory_points = {
+			13556 4 
+		}
+		victory_points = {
+			13555 4 
+		}
+		victory_points = {
+			13549 80 
+		}
+		victory_points = {
+			11757 6 
+		}
+		victory_points = {
+			13548 5 
+		}
+		victory_points = {
+			13550 20 
+		}
+		victory_points = {
+			6881 2 
+		}
+		victory_points = {
+			13552 4 
+		}
+		victory_points = {
+			7986 1
+		}
+		victory_points = {
+			7517 2
+		}
+		victory_points = {
+			13554 2
+		}
 	}
 
 	provinces={
-		823 1562 4727 7517 7986 11757 11795 12303 12374 
+		823 941 986 1562 3784 4657 4727 6881 7517 7986 9814 9855 9911 10387 10483 11757 11795 11859 11876 12303 12374 13546 13547 13548 13549 13550 13551 13552 13553 13554 13555 13556 13557 
 	}
-	manpower=1230000
+	manpower=25634000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=megalopolis
 	local_supplies=0.000
 }
