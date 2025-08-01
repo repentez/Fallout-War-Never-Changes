@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		AFA_nationalist_fervour = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -18,7 +18,7 @@ ideas = {
 	country = {
 
 		AFA_brutal_devastation = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

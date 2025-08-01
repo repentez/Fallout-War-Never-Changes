@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		ERI_the_deal = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -20,7 +20,7 @@ ideas = {
 	country = {
 
 		ERI_the_sea = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -38,7 +38,7 @@ ideas = {
 	country = {
 
 		ERI_independence = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

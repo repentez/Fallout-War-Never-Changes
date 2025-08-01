@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		ORO_expedition = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -22,7 +22,7 @@ ideas = {
 	country = {
 
 		ORO_oil = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

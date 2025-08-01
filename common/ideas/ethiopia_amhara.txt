@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		QEM_nationalist_fervour = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -18,7 +18,7 @@ ideas = {
 	country = {
 
 		QEM_democratic_values = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

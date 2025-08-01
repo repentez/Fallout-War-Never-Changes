@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		BEG_conflict = {
-			picture = 
+			# picture = 
 			allowed = {
 				always = yes
 			}

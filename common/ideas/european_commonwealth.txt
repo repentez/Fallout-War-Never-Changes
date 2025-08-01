@@ -2,7 +2,7 @@ ideas = {
 	country = {
 	
 		euc_energy_crisis_1 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -23,7 +23,7 @@ ideas = {
 		}
 		
 		euc_energy_crisis_2 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -44,7 +44,7 @@ ideas = {
 		}
 		
 		euc_energy_crisis_3 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -65,7 +65,7 @@ ideas = {
 		}
 		
 		euc_rampant_unrest_1 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -81,7 +81,7 @@ ideas = {
 		}
 		
 		euc_rampant_unrest_2 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -97,7 +97,7 @@ ideas = {
 		}
 		
 		euc_rampant_unrest_3 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -112,7 +112,7 @@ ideas = {
 		}
 		
 		euc_economic_recession_1 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -129,7 +129,7 @@ ideas = {
 		}
 		
 		euc_economic_recession_2 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -146,7 +146,7 @@ ideas = {
 		}
 		
 		euc_economic_recession_3 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -163,7 +163,7 @@ ideas = {
 		}
 		
 		euc_remembering_nordic_uprising_1 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -181,7 +181,7 @@ ideas = {
 		}
 		
 		euc_remembering_nordic_uprising_2 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -199,7 +199,7 @@ ideas = {
 		}
 		
 		euc_breaking_union_1 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -214,7 +214,7 @@ ideas = {
 			}
 		}
 		euc_breaking_union_2 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -229,7 +229,7 @@ ideas = {
 			}
 		}
 		euc_breaking_union_3 = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -243,7 +243,7 @@ ideas = {
 			}
 		}
 		euc_restricted_civilian_fuel = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
@@ -257,7 +257,7 @@ ideas = {
 			}
 		}
 		euc_expanded_civilian_fuel = {
-			picture = 
+			# picture = 
 			
 			allowed = {
 				always = no
