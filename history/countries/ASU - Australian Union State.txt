@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = ""
 	picture = gfx/leaders/AST/Portrait_Australia_Jesse_Taylor.png
 	expire = "1965.1.1"
-	ideology = Anarcho-Capitalism
+	ideology = Anarcho_Capitalism
 	traits = {
 	}
 }
