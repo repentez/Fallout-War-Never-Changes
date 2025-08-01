@@ -116,7 +116,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -152,7 +152,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -178,7 +178,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -196,7 +196,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -221,7 +221,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -249,7 +249,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -269,7 +269,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -296,7 +296,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -318,7 +318,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -336,7 +336,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -354,7 +354,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -372,7 +372,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -390,7 +390,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus = }
+		#mutually_exclusive = { focus = }
 		ai_will_do = {
 			factor = 1
 		}
@@ -430,7 +430,7 @@
 		icon = ASU_Shareholders_No_Agreement
 		cost = 2
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -549,7 +549,7 @@
 		x = 12
 		y = 7
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -585,7 +585,7 @@
 		x = 17
 		y = 8
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -606,7 +606,7 @@
 		x = 13
 		y = 8
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
@@ -627,7 +627,7 @@
 		x = 10
 		y = 9
 		available_if_capitulated = no
-		mutually_exclusive = { focus =  }
+		#mutually_exclusive = { focus =  }
 		ai_will_do = {
 			factor = 1
 		}
