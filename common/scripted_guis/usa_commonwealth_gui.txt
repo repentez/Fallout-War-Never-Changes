@@ -94,28 +94,28 @@ scripted_gui = {
 }
 
 scripted_gui = {
-    USA_commonwealth_tab_0_decisions = {
-        context_type = player_context
-        window_name = "USA_commonwealth_tab_0_decisions"
-        parent_window_name = "USA_commonwealth_gui"
-
-		visible = {
-			check_variable = {
-				var = tab_var
-				value = 0
-			}
-			has_country_flag = USA_commonwealth_gui_open
-		}
-        
-        dynamic_lists = {
-            gui_decision_grid = {
-                array = decision_array
-                value = v
-                index = i
-                change_scope = no
-
-                entry_container = "gui_decision_item"
-            }
-        }
-    }        
+    #USA_commonwealth_tab_0_decisions = {
+    #    context_type = player_context
+    #    window_name = "USA_commonwealth_tab_0_decisions"
+    #    parent_window_name = "USA_commonwealth_gui"
+    #
+    #	visible = {
+    #		check_variable = {
+    #			var = tab_var
+    #			value = 0
+    #		}
+    #		has_country_flag = USA_commonwealth_gui_open
+    #	}
+    #    
+    #    dynamic_lists = {
+    #        gui_decision_grid = {
+    #            array = decision_array
+    #            value = v
+    #            index = i
+    #            change_scope = no
+    #
+    #            entry_container = "gui_decision_item"
+    #        }
+    #    }
+    #}        
 }
