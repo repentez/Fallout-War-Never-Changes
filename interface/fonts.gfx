@@ -13,11 +13,16 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "cw_3d_debug"
 		path = "gfx/fonts/garamond_12"
-		color = 0xffffffff
+		color = 0xccebb2
 	}
 	bitmapfont = {
 		name = "pugfont"
         path = "gfx/fonts/pugfont"
 		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Monopea"
+        path = "gfx/fonts/hoi_mapfontMono"
+		color = 0xccebb255
 	}
 }
