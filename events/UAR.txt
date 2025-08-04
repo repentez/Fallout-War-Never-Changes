@@ -1,0 +1,130 @@
+add_namespace = UAR_collapse
+add_namespace = UAR_collapse_news
+
+### EVENT ###
+# Initial rebellion against the Egyptian government. Riyadh falls to Salafists. Kurdish Groups unite into a powerful kurdish state.
+country_event = {
+	id = UAR_collapse.1
+	title = UAR_collapse.1.t
+	desc = UAR_collapse.1.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			SAU = {
+				transfer_state = 292
+				transfer_state = 857
+				transfer_state = 1084
+			}
+			EGY = {
+				transfer_state = 456
+				transfer_state = 457
+				transfer_state = 1076
+			}
+			KUR = {
+				transfer_state = 680
+				transfer_state = 676
+			}
+			ISR = {
+				transfer_state = 454
+			}
+			news_event = {
+				id = UAR_collapse_news.1
+				days = 6
+			}
+		}
+	}
+
+	option = {
+		name = UAR_collapse.1.a
+		# Call upon the army
+		set_country_flag = UAR_sent_in_army
+		country_event = { 
+			id = UAR_collapse.2
+			days = 20
+		}
+	}
+
+	option = {
+		name = UAR_collapse.1.b
+		# Trust local forces to hold
+		set_country_flag = UAR_local_hands
+		country_event = { 
+			id = UAR_collapse.3
+			days = 20
+		}
+	}
+	option = {
+		name = UAR_collapse.1.c
+		# Trust local forces to hold
+		set_country_flag = UAR_local_hands
+		country_event = { 
+			id = UAR_collapse.2
+			days = 20
+		}
+		country_event = { 
+			id = UAR_collapse.4
+			days = 10
+		}
+	}
+}
+#Armies Mutiny - empowered armies weaker fundamentalists
+country_event = {
+	id = UAR_collapse.2
+	title = UAR_collapse.2.t
+	desc = UAR_collapse.2.desc
+	picture = x
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			YEM = {
+				transfer_state = 1028
+				transfer_state = 293
+				transfer_state = 659
+				transfer_state = 858
+			}
+			SYR = {
+				transfer_state = 677
+				transfer_state = 799
+			}
+			IRQ = {
+				transfer_state = 291
+			}
+		}		
+	}
+}
+#Armies Mutiny - weak govt response. Weaker armies and stronger fundamentalists
+country_event = {
+	id = UAR_collapse.3
+	title = UAR_collapse.3.t
+	desc = UAR_collapse.3.desc
+	picture = x
+	is_triggered_only = yes
+}	
+#Armies Mutiny - Side with the Fundamentalists/kurds
+country_event = {
+	id = UAR_collapse.4
+	title = UAR_collapse.4.t
+	desc = UAR_collapse.4.desc
+	picture = x
+	is_triggered_only = yes
+	
+	option = {
+		name = UAR_collapse.4.a
+		#Kurdistan
+		KUR = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.4.b
+		#Egypt
+		EGY = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.4.c
+		#Najd
+		SAU = { change_tag_from = UAR}
+	}
+}
