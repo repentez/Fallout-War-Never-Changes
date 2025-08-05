@@ -315,7 +315,7 @@ YEM = {
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
+	color = rgb { 155 71 77 }
 	color_ui = rgb { 202 131 139 }
 }
 SLO = {
@@ -1004,4 +1004,40 @@ PDF = {
 TBA = {
 	color = rgb { 203 201 188 }
 	color_ui = rgb { 203 201 188 }
+}
+DMM = {
+	color = rgb { 40 145 70 }
+	color_ui = rgb { 40 145 10 }
+}
+AXR = {
+	color = rgb { 100 130 188 }
+	color_ui = rgb { 100 130 188 }
+}
+HEJ = {
+	color = rgb { 40 160 50 }
+	color_ui = rgb { 40 160 50 }
+}
+ADS = {
+	color = rgb { 180 100 30 }
+	color_ui = rgb { 180 100 30 }
+}
+JER = {
+	color = rgb { 230 180 50 }
+	color_ui = rgb { 230 180 50 }
+}
+SRY = {
+	color = rgb { 100 120 200 }
+	color_ui = rgb { 100 120 200 }
+}
+SHA = {
+	color = rgb { 150 100 30 }
+	color_ui = rgb { 150 100 30 }
+}
+RBK = {
+	color = rgb { 150 90 30 }
+	color_ui = rgb { 150 90 30 }
+}
+UAE = {
+	color = rgb { 70 40 170 }
+	color_ui = rgb { 150 90 30 }
 }

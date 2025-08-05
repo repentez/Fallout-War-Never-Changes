@@ -2156,8 +2156,8 @@
  TMS_ADJ:0 "Turkmen"
  UAE_fascism:1 "Arab Emirate"
  UAE_fascism_DEF:1 "the Arab Emirate"
- UAE_democratic:1 "Trucial States"
- UAE_democratic_DEF:1 "the Trucial States"
+ UAE_democratic:1 "Federation of Gulf States"
+ UAE_democratic_DEF:1 "the Federation of Gulf States"
  UAE_neutrality:0 "United Arab Emirates"
  UAE_neutrality_DEF:1 "the United Arab Emirates"
  UAE_communism:1 "People's Arab Union"
@@ -4722,3 +4722,35 @@
  MAG:0 "Union of Maghreb States"
  MAG_DEF:0 "the Maghreb Union"
  MAG_ADJ:0 "Maghrebi"
+ 
+ ADS:0 "Army of the Desert"
+ ADS_DEF:0 "the Army of the Desert"
+ ADS_ADJ:0 "Desert"
+ 
+ HEJ:0 "Republic of Arabia"
+ HEJ_DEF:0 "the Republic of Arabia"
+ HEJ_ADJ:0 "Arabian"
+ 
+ DMM:0 "State of Dammam"
+ DMM_DEF:0 "the State of Dammam"
+ DMM_ADJ:0 "Dammami"
+ 
+ AXR:0 "Republican Army of Alexandria"
+ AXR_DEF:0 "the Army of Alexandria"
+ AXR_ADJ:0 "Alexandrian"
+ 
+ JER:0 "Free City of Jerusalem"
+ JER_DEF:0 "the Free City of Jerusalem"
+ JER_ADJ:0 "Jerusalemite"
+ 
+ SRY:0 "People's Republic of Syria"
+ SRY_DEF:0 "People's Republic of Syria"
+ SRY_ADJ:0 "Syrian"
+ 
+ SHA:0 "Saharan Transitional Authority"
+ SHA_DEF:0 "the Saharan Transitional Authority"
+ SHA_ADJ:0 "Saharan"
+ 
+ RBK:0 "Rub' al Khali Transitional Authority"
+ RBK_DEF:0 "the Rub' al Khali Transitional Authority"
+ RBK_ADJ:0 "Desert"
