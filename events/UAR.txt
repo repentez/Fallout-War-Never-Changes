@@ -24,8 +24,9 @@ country_event = {
 				transfer_state = 1076
 			}
 			KUR = {
-				transfer_state = 680
+				transfer_state = 1197
 				transfer_state = 676
+				transfer_state = 1196
 			}
 			ISR = {
 				transfer_state = 454
