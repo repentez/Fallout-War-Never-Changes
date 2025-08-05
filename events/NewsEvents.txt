@@ -1,0 +1,54 @@
+###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = { #Pakistani Insurrection
+	id = news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event news.1" }
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_report_event_RAJ_kashmir_war
+	is_triggered_only = yes
+
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				original_tag = PAK
+				original_tag = RAJ
+				is_in_faction_with = PRC
+				is_in_faction_with = SOV
+				is_in_faction_with = USA
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = {
+			original_tag = PAK
+		}
+	}
+	option = {
+		name = news.1.c
+		trigger = {
+			original_tag = RAJ
+		}
+	}
+	option = {
+		name = news.1.e
+		trigger = {
+			OR = {
+				is_in_faction_with = SOV
+				is_in_faction_with = USA
+			}
+		}
+	}
+	option = {
+		name = news.1.f
+		trigger = {
+			is_in_faction_with = PRC
+		}
+	}
+}
