@@ -6,8 +6,9 @@ state={
 	history={
 		owner = UAR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 2
 			4206 = {
 				naval_base = 3
@@ -16,13 +17,10 @@ state={
 
 		}
 		victory_points = {
-			1086 1 
-		}
-		victory_points = {
-			4206 1 
-		}
-		victory_points = {
 			1065 1 
+		}
+		victory_points = {
+			1201 5 
 		}
 		add_core_of = UAR
 		add_core_of = PAL
@@ -31,10 +29,10 @@ state={
 	}
 
 	provinces={
-		1 1015 1065 1086 1201 4088 4206 7107 7176 11970 13449 13450 
+		1065 1201 4206 7107 
 	}
 	manpower=933142
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

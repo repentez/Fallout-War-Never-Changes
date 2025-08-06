@@ -1,0 +1,325 @@
+add_namespace = UAR_collapse
+add_namespace = UAR_collapse_news
+
+### EVENT ###
+# Initial rebellion against the Egyptian government. Riyadh falls to Salafists. Kurdish Groups unite into a powerful kurdish state.
+country_event = {
+	id = UAR_collapse.1
+	title = UAR_collapse.1.t
+	desc = UAR_collapse.1.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			SAU = {
+				transfer_state = 292
+				transfer_state = 857
+				transfer_state = 1084
+			}
+			EGY = {
+				transfer_state = 456
+				transfer_state = 457
+				transfer_state = 1076
+			}
+			KUR = {
+				transfer_state = 1197
+				transfer_state = 676
+				transfer_state = 1196
+			}
+			ISR = {
+				transfer_state = 454
+			}
+			news_event = {
+				id = UAR_collapse_news.1
+				days = 6
+			}
+		}
+	}
+	
+	option = {
+		name = UAR_collapse.1.a
+		# Call upon the army
+		UAR = {
+			set_country_flag = UAR_sent_in_army
+		}
+		country_event = { 
+			id = UAR_collapse.2
+			days = 20
+		}
+	}
+
+	option = {
+		name = UAR_collapse.1.b
+		# Trust local forces to hold
+		set_country_flag = UAR_local_hands
+		country_event = { 
+			id = UAR_collapse.2
+			days = 20
+		}
+	}
+	option = {
+		name = UAR_collapse.1.c
+		# Trust local forces to hold
+		set_country_flag = UAR_local_hands
+		country_event = { 
+			id = UAR_collapse.2
+			days = 20
+		}
+		country_event = { 
+			id = UAR_collapse.4
+			days = 10
+		}
+	}
+}
+#Armies Mutiny - empowered armies weaker fundamentalists
+country_event = {
+	id = UAR_collapse.2
+	title = UAR_collapse.2.t
+	desc = UAR_collapse.2.desc
+	picture = x
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			YEM = {
+				transfer_state = 1028
+				transfer_state = 293
+				transfer_state = 659
+				if = {
+					limit = {
+						UAR = {
+							has_country_flag = UAR_sent_in_army
+						}
+					}
+					transfer_state = 858
+				}
+				else = {
+					SAU = {
+						transfer_state = 858
+					}
+				}
+			}
+			SYR = {
+				transfer_state = 677
+				transfer_state = 799
+			}
+			IRQ = {
+				transfer_state = 291
+			}
+			ADS = {
+				transfer_state = 854
+				transfer_state = 1027
+				transfer_state = 1026
+				transfer_state = 675
+				transfer_state = 1083
+			}
+		}		
+	}
+	option = {
+		name = UAR_collapse.1.a
+		# The Union
+		country_event = { 
+			id = UAR_collapse.5
+			days = 20
+		}
+	}
+	
+	option = {
+		name = UAR_collapse.1.a
+		# Side with the armies
+		country_event = { 
+			id = UAR_collapse.3
+		}
+		country_event = { 
+			id = UAR_collapse.5
+			days = 20
+		}
+	}
+	
+}
+#Army Selection
+country_event = {
+	id = UAR_collapse.3
+	title = UAR_collapse.3.t
+	desc = UAR_collapse.3.desc
+	picture = x
+	is_triggered_only = yes
+	
+	option = {
+		name = UAR_collapse.3.a
+		#desert
+		ADS = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.3.b
+		#Iraq
+		IRQ = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.3.c
+		#Assad
+		SYR = { change_tag_from = UAR}
+	}
+	option = {
+		name = UAR_collapse.3.c
+		#Assad
+		YEM = { change_tag_from = UAR}
+	}
+}
+#Armies Mutiny - Side with the Fundamentalists/kurds
+country_event = {
+	id = UAR_collapse.4
+	title = UAR_collapse.4.t
+	desc = UAR_collapse.4.desc
+	picture = x
+	is_triggered_only = yes
+	
+	option = {
+		name = UAR_collapse.4.a
+		#Kurdistan
+		KUR = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.4.b
+		#Egypt
+		EGY = { change_tag_from = UAR }
+	}
+	option = {
+		name = UAR_collapse.4.c
+		#Najd
+		SAU = { change_tag_from = UAR}
+	}
+}
+country_event = {
+	id = UAR_collapse.5
+	title = UAR_collapse.5.t
+	desc = UAR_collapse.5.desc
+	picture = x
+	is_triggered_only = yes
+	#Republican Revolts
+	
+	immediate = {
+		hidden_effect = {
+			HEJ = {
+				transfer_state = 856
+				transfer_state = 679
+				transfer_state = 855
+			}
+			AXR = {
+				transfer_state = 447
+				transfer_state = 452
+			}
+			country_event = { 
+				id = UAR_collapse.6
+				days = 7
+			}
+		}
+	}
+	
+	option = {
+		name = UAR_collapse.5.a
+	}
+	option = {
+		name = UAR_collapse.5.a
+		country_event = { 
+			id = UAR_collapse.7
+		}
+	}
+}
+
+country_event = {
+	id = UAR_collapse.6
+	title = UAR_collapse.6.t
+	desc = UAR_collapse.6.desc
+	picture = x
+	is_triggered_only = yes
+	#Gulf State control collapses
+	
+	immediate = {
+		hidden_effect = {
+			OMA = {
+				transfer_state = 294
+			}
+			UAE = {
+				transfer_state = 658
+				transfer_state = 996
+			}
+			RBK = {
+				transfer_state = 678
+			}
+			DMM = {
+				transfer_state = 859
+			}
+			QAT = {
+				transfer_state = 765
+			}
+			BHR = {
+				transfer_state = 1029
+			}
+			KUW = {
+				transfer_state = 656
+				transfer_state = 1085
+				transfer_state = 1086
+			}
+			country_event = { 
+				id = UAR_collapse.8
+				days = 7
+			}
+		}
+	}
+	
+	option = {
+		name = UAR_collapse.6.a
+	}
+	option = {
+		name = UAR_collapse.6.a
+		country_event = { 
+			id = UAR_collapse.9
+		}
+	}
+}
+
+country_event = {
+	id = UAR_collapse.8
+	title = UAR_collapse.8.t
+	desc = UAR_collapse.8.desc
+	picture = x
+	is_triggered_only = yes
+	#Levant Collapse
+	
+	immediate = {
+		hidden_effect = {
+			PAL = {
+				transfer_state = 1194
+			}
+			JER = {
+				transfer_state = 1195
+			}
+			JOR = {
+				transfer_state = 455
+			}
+			SRY = {
+				transfer_state = 554
+				transfer_state = 680
+			}
+			LEB = {
+				transfer_state = 553
+			}
+			SHA = {
+				transfer_state = 552
+			}
+		}
+	}
+	
+	option = {
+		name = UAR_collapse.8.a
+	}
+	option = {
+		name = UAR_collapse.8.a
+		country_event = { 
+			id = UAR_collapse.9
+		}
+	}
+}
