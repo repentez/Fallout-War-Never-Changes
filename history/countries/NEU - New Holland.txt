@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = ""
 	picture = gfx/leaders/AST/Portrait_Australia_Luuk_Doornveld.png
 	expire = "1965.1.1"
-	ideology = Social_Democract
+	ideology = Social_Democrat
 	traits = {
 	}
 }
