@@ -90,7 +90,7 @@ country_event = {
 
 	option = {
 		name = AUS_events.4.a
-		AST = { recruit_character = AST_Emma_Cavanaugh }
+		AST = { add_character_to_pool = AST_Emma_Cavanaugh }
 	}       
 	option = {
 		name = AUS_events.4.b
@@ -182,7 +182,7 @@ country_event = { # Liberal Victory
 		trigger = {
 			AST = {has_character = AST_Emma_Cavanaugh} 
 		}
-		promote_character = AST_Emma_Cavanaugh
+		AST = { set_country_leader = AST_Emma_Cavanaugh }
 	}      
 	option = {
 		name = AUS_events.6.b
@@ -194,7 +194,7 @@ country_event = { # Liberal Victory
 			long_name = AST_democratic_party_Liberal_long
 			name = GER_neutrality_party_kaiserreich
 		}
-		promote_character = AST_Emma_Cavanaugh
+		AST = { set_country_leader = AST_Emma_Cavanaugh }
 	}              
 }
 ## South Australia Content 
@@ -252,7 +252,7 @@ country_event = {
 			complete_national_focus = ASU_Push_AP
 		}	
 		ASU = {
-			promote_character = AUS_The_Company
+			set_country_leader = AUS_The_Company
 		}
 	}
 }
