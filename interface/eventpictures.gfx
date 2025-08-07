@@ -3583,6 +3583,13 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_PRC_first_flavor.dds"
 	}
 	#############
+	### INDIA ###
+	#############
+	spriteType = {
+		name = "GFX_report_event_RAJ_kashmir_war"
+		texturefile = "gfx/event_pictures/GFX_news_event_kashmir_war.dds"
+	}
+	#############
 	### OTHER ###
 	#############
 	spriteType = {

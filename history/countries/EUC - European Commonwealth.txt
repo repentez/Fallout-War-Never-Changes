@@ -145,7 +145,7 @@ create_country_leader = {
 	name = "Lottie Fevre"
 	desc = ""
 	picture = gfx/leaders/EUC/portrait_euc_lottie_fevre.png
-	ideology = Social_Democract
+	ideology = Social_Democrat
 	traits = {
 		#
 	}

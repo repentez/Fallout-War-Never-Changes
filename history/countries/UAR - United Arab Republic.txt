@@ -129,7 +129,7 @@ create_country_leader = {
 	name = "Zafir Abdelrahman"
 	desc = ""
 	picture = gfx/leaders/UAR/zafir_abdelrahman.png
-	ideology = Social_Democract
+	ideology = Social_Democrat
 	traits = {
 		#
 	}
