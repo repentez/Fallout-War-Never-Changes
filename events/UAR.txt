@@ -263,6 +263,12 @@ country_event = {
 				transfer_state = 1085
 				transfer_state = 1086
 			}
+			UAE = {
+				country_event = { 
+					id = UAR_collapse.10
+					days = 14
+				}
+			}
 			country_event = { 
 				id = UAR_collapse.8
 				days = 7
@@ -276,7 +282,7 @@ country_event = {
 	option = {
 		name = UAR_collapse.6.a
 		country_event = { 
-			id = UAR_collapse.9
+			id = UAR_collapse.11
 		}
 	}
 }
@@ -310,6 +316,12 @@ country_event = {
 			SHA = {
 				transfer_state = 552
 			}
+			JOR = {
+				country_event = { 
+					id = UAR_collapse.9
+					days = 7
+				}
+			}
 		}
 	}
 	
@@ -318,8 +330,44 @@ country_event = {
 	}
 	option = {
 		name = UAR_collapse.8.a
-		country_event = { 
-			id = UAR_collapse.9
+	}
+}
+country_event = {
+	id = UAR_collapse.7
+	title = UAR_collapse.7.t
+	desc = UAR_collapse.7.desc
+	picture = x
+	is_triggered_only = yes
+	#Gulf State control collapses
+}
+country_event = {
+	id = UAR_collapse.9
+	title = UAR_collapse.9.t
+	desc = UAR_collapse.9.desc
+	picture = x
+	is_triggered_only = yes
+	#Gulf State control collapses
+	immediate = {
+		HEJ = {
+				transfer_state = 455
+		}
+	}
+}
+country_event = {
+	id = UAR_collapse.10
+	title = UAR_collapse.10.t
+	desc = UAR_collapse.10.desc
+	picture = x
+	is_triggered_only = yes
+	#Gulf State control collapses
+	immediate = {
+		UAE = {
+				transfer_state = 859
+				transfer_state = 765
+				transfer_state = 1029
+				transfer_state = 656
+				transfer_state = 1085
+				transfer_state = 1086
 		}
 	}
 }
