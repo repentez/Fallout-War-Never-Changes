@@ -11,7 +11,7 @@ ideas = {
 			}
 		
 			modifier = {
-                stability_weekly_factor = -0.01
+                stability_weekly = -0.01
 
 			}
 		
@@ -29,7 +29,7 @@ ideas = {
 			}
 		
 			modifier = {
-                stability_weekly_factor = -0.01
+                stability_weekly = -0.01
 
 			}
 		
@@ -83,8 +83,7 @@ ideas = {
 			}
 		
 			modifier = {
-				stability_weekly_factor = 0.001
-				stability_weekly_factor = -0.05
+				stability_weekly = -0.05
 
 			}
 		
@@ -105,7 +104,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.01
 				political_power_gain = -0.01
-				stability_weekly_factor = 0.001
+				stability_weekly = 0.001
 				production_speed_buildings_factor = 0.04
 			}
 		
@@ -127,7 +126,7 @@ ideas = {
 			modifier = {
 			industrial_capacity_factory = 0.01
 			production_speed_buildings_factor = 0.04			
-			stability_weekly_factor = -0.01
+			stability_weekly = -0.01
 			recruitable_population_factor = -0.03
 			}
 		
@@ -149,7 +148,7 @@ ideas = {
 			modifier = {
 			industrial_capacity_factory = -0.01
 			production_speed_buildings_factor = -0.04			
-			stability_weekly_factor = -0.01
+			stability_weekly = -0.01
 			recruitable_population_factor = -0.03
 			}
 		
@@ -171,7 +170,7 @@ ideas = {
 			modifier = {
 			industrial_capacity_factory = -0.05
 			production_speed_buildings_factor = -0.10			
-			stability_weekly_factor = -0.05
+			stability_weekly = -0.05
 			recruitable_population_factor = -0.08
 			}
 		

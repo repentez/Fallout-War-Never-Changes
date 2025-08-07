@@ -432,9 +432,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_us_navy }
         completion_reward = {
-            add_technology_bonus = {
+            add_tech_bonus = {
                 bonus = 0.5
-                uses = 1
+                uses = 1    
                 category = naval_engineering
             }
         }
@@ -1255,7 +1255,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_the_corporations }
         completion_reward = {
-                consumer_goods_expected_value = -0.1
+                add_ideas = USA_appease_industrial_giant
                 custom_effect_tooltip = USA_appease_the_industrial_giant_tt
         }
         mutually_exclusive = {
@@ -1273,7 +1273,7 @@ focus_tree = {
         prerequisite = { focus = USA_root_out_corporatism }
         completion_reward = {
             add_stability = 0.05
-            consumer_goods_expected_value = 0.1
+            add_ideas = USA_corporate_accountability
             custom_effect_tooltip = USA_the_corporate_accountability_act_tt
         }
     }
@@ -1302,7 +1302,7 @@ focus_tree = {
         y = 1
         cost = 10
         completion_reward = {
-            consumer_goods_expected_value = 0.1
+            add_ideas = USA_balanced_tax_reform
             custom_effect_tooltip = USA_balanced_tax_reform_tt
         }
         prerequisite = {
@@ -1320,7 +1320,7 @@ focus_tree = {
         prerequisite = { focus = USA_appease_the_industrial_giant }
         completion_reward = {
             add_stability = 0.05
-            consumer_goods_expected_value = -0.1
+            add_ideas = USA_ease_regulatory_burdens
         }
     }
 
@@ -1372,7 +1372,7 @@ focus_tree = {
         prerequisite = { focus = USA_root_out_corporatism }
         completion_reward = {
             add_stability = 0.05 
-            consumer_goods_expected_value = 0.09
+            add_ideas = USA_private_sector_partnerships
             custom_effect_tooltip = USA_fair_labor_standards_reform_tt 
         }
     }
@@ -1434,17 +1434,14 @@ focus_tree = {
         y = 1
         cost = 10
         completion_reward = {
-            army_defence_factor = -0.1
-            army_attack_factor = -0.1
+            add_ideas = USA_rain_defense_spending
+            custom_effect_tooltip = USA_rain_in_defense_spending_tt
         }
         prerequisite = {
             focus = USA_the_military
         }
         mutually_exclusive = {
             focus = USA_feed_the_military_industrial_complex
-        }
-        completion_reward = {
-            custom_effect_tooltip = USA_rain_in_defense_spending_tt
         }
     }
 
@@ -1609,11 +1606,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = USA_feed_the_military_industrial_complex }
         completion_reward = {
-            production_factory_efficiency_gain_factor = 0.2
-            production_speed_arms_factory_factor = 0.15
+            add_ideas = USA_rebuild_arsenal_democracy
             add_war_support = 0.1
             add_political_power = 100
-            consumer_goods_factor = -0.03
             add_offsite_building = {
                 type =  arms_factory
                 level = 1
@@ -1715,7 +1710,7 @@ focus_tree = {
             focus = USA_the_press
         }
         completion_reward = {
-            stability_weekly = 0.05
+            add_ideas = USA_civil_propaganda
             add_war_support = 0.1
         }
     }
@@ -1731,7 +1726,7 @@ focus_tree = {
             focus = USA_civil_propaganda
         }
         completion_reward = {
-            stability_weekly = 0.05
+            add_ideas = USA_tarnish_reds
             add_war_support = 0.1
         }
     }

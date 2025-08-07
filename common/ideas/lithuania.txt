@@ -8,7 +8,7 @@ ideas = {
 				OR = {
 					has_government = neutrality
 					has_government = fascism
-					has_government = Military_Dictatorship
+					has_ideology = Military_Dictatorship
 				}
 			}
 		
