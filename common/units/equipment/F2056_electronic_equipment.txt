@@ -1,0 +1,106 @@
+equipments = {
+	command_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			infantry
+		}
+
+		group_by = archetype
+
+		priority = 10
+
+		interface_category = interface_category_land
+
+		upgrades = {
+			
+		}
+
+		active = no
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.4 #percentage
+		maximum_speed = 4
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.20
+
+		resources = {
+			steel = 1
+		}
+	}
+	#2052
+	command_control_equipment = {
+		year = 2052
+
+		archetype = command_equipment
+		active = no
+		#priority = 5
+		visual_level = 0
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.2 #percentage
+		default_morale = 0.1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.40
+
+		resources = {
+			steel = 1
+		}
+	}
+	#2056
+	command_control_equipment1 = {
+		year = 2056
+
+		archetype = command_equipment
+		parent = command_control_equipment
+		#priority = 5
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.3 #percentage
+		default_morale = 0.15
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.52
+
+		resources = {
+			tungsten = 1
+			steel = 1
+		}
+	}
+	#
+	command_control_equipment1 = {
+		year = 2056
+
+		archetype = command_equipment
+		parent = command_control_equipment
+		#priority = 5
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+		max_organisation = 0.3 #percentage
+		default_morale = 0.15
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.52
+
+		resources = {
+			tungsten = 1
+			steel = 1
+		}
+	}
+}
