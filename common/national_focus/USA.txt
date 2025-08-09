@@ -2214,4 +2214,188 @@ focus_tree = {
             focus = USA_establish_enclave_goals
         }
     }
+    focus = {
+        id = USA_state_of_the_enclave
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_farewell_mr_president
+        x = 0
+        y = 5
+     }
+     focus = {
+         id = USA_in_the_name_of_stability
+         icon = GFX_focus_generic_political
+         relative_position_id = USA_state_of_the_enclave
+         x = 0
+         y = 2
+         prerequisite = {
+             focus = USA_state_of_the_enclave
+      }
+      focus = {
+          id = USA_invade_the_congo
+          icon = GFX_focus_generic_army
+          relative_position_id = USA_in_the_name_of_stability
+          x = 0
+          y = 3
+          prerequisite = {
+              focus = USA_in_the_name_of_stability
+          }
+      }
+      focus = {
+          id = USA_and_capitalism
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_invade_the_congo
+          x = 0
+          y = 3
+          prerequisite = {
+              focus = USA_invade_the_congo
+          }
+      }
+      focus = {
+          id = USA_the_resource_crisis
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_state_of_the_enclave
+          x = -4
+          y = 2
+          prerequisite = {
+              focus = USA_state_of_the_enclave
+          }
+      }
+      focus = {
+          id = USA_the_(second)_resource_treaties
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_the_resource_crisis
+          x = -3
+          y = 2
+          prerequisite = {
+              focus = USA_the_resource_crisis
+          }
+      }
+      focus = {
+          id = USA_exploit_africa
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_the_resource_crisis
+          x = 3
+          y = 2
+          prerequisites = {
+              focus = USA_the_resource_crisis
+          }
+          prerequisite = {
+              focus = USA_in_the_name_of_stability
+          }
+      }
+      focus = { 
+          id = USA_patchwork_to
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_the_resource_crisis
+          x = 0
+          y = 4
+          prerequisite = {
+              focus = USA_exploit_africa
+          }
+          prerequisite = {
+              focus = USA_the_(second)_resource_treaties
+          }
+      }
+      focus = {
+          id = USA_the_corporations
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_state_of_the_enclave
+          x = 4
+          y = 2
+          prerequisite = {
+              focus = USA_state_of_the_enclave
+          }
+      }
+      focus = {
+          id = USA_tax_cuts_for_the_wealthy
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_the_corporations
+          x = 2
+          y = 2
+          prerequisite = {
+              focus = USA_the_corporations
+          }
+      }
+      focus = {
+          id = USA_weaponize_the_american_dream
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_tax_cuts_for_the_wealthy
+          x = 0
+          y = 4
+          prerequisite = {
+              focus = USA_tax_cuts_for_the_wealthy
+          }
+      }
+      focus = {
+          id = USA_protests_across_the_country
+          icon = GFX_focus_generic_poltical
+          relative_position_id = USA_the_corporations
+          x = -2
+          y = 2
+          prerequisite = {
+              focus = USA_the_corporations
+          }
+      }
+      focus = {
+          id = USA_riot_control
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_protests_across_the_country
+          x = 0
+          y = 4
+          prerequisite = {
+              focus = USA_protests_across_the_country
+          }
+      }
+      focus = {
+          id = USA_first_enclave_congress
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_state_of_the_enclave
+          x = 0
+          y = 8
+          prerequisite = {
+              focus = USA_riot_control
+          }
+          prerequisite = {
+              focus = USA_weaponize_the_american_dream
+          }
+          prerequisite = {
+              focus = USA_and_capitalism
+          }
+          prerequisite = { 
+              focus = USA_patchwork_to
+          }
+      }
+      focus = {
+          id = USA_and_to_build_a_bridge_to_span_the_tides
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_first_enclave_congress
+          x = -2
+          y = 2
+          prerequisite = {
+              focus = USA_first_enclave_congress
+          }
+      }
+      focus = {
+          id = USA_men_may_come_and_men_may_go
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_first_enclave_congress
+          x = 2
+          y = 2
+          prerequisite = {
+              focus = USA_first_enclave_congress
+          }
+      }
+      focus = {
+          id = USA_may_not_keep_this_one
+          icon = GFX_focus_generic_political
+          relative_position_id = USA_first_enclave_congress
+          x = 0
+          y = 4
+          prerequisite = {
+              focus = USA_men_may_come_and_men_may_go
+          }
+          prerequisite = {
+              focus = USA_and_to_build_a_bridge_to_span_the_tides
+          }
+      }
 }
