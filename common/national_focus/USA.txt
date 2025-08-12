@@ -2261,7 +2261,7 @@ focus_tree = {
           }
       }
       focus = {
-          id = USA_the_(second)_resource_treaties
+          id = USA_the_second_resource_treaties
           icon = GFX_focus_generic_political
           relative_position_id = USA_the_resource_crisis
           x = -3
@@ -2293,7 +2293,7 @@ focus_tree = {
               focus = USA_exploit_africa
           }
           prerequisite = {
-              focus = USA_the_(second)_resource_treaties
+              focus = USA_the_second_resource_treaties
           }
       }
       focus = {
