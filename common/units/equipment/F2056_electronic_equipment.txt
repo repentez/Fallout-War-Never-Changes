@@ -79,27 +79,27 @@ equipments = {
 			steel = 1
 		}
 	}
-	#
-	command_control_equipment1 = {
-		year = 2056
+	#2058
+	command_control_equipment2 = {
+		year = 2058
 
 		archetype = command_equipment
-		parent = command_control_equipment
+		parent = command_control_equipment1
 		#priority = 5
 		visual_level = 1
 
 		#Misc Abilities
-		reliability = 0.9
-		max_organisation = 0.3 #percentage
+		reliability = 0.925
+		max_organisation = 0.4 #percentage
 		default_morale = 0.15
 
 		#Space taken in convoy
 		lend_lease_cost = 1
 
-		build_cost_ic = 1.52
+		build_cost_ic = 1.64
 
 		resources = {
-			tungsten = 1
+			tungsten = 2
 			steel = 1
 		}
 	}

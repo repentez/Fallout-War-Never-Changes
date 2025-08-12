@@ -108,7 +108,7 @@ equipments = {
 
 	#2058
 	infantry_weapons2 = {
-		year = 2056
+		year = 2058
 	
 		archetype = inf_equipment
 		parent = infantry_weapons1
