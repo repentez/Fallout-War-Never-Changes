@@ -2276,7 +2276,7 @@ focus_tree = {
           relative_position_id = USA_the_resource_crisis
           x = 3
           y = 2
-          prerequisites = {
+          prerequisite = {
               focus = USA_the_resource_crisis
           }
           prerequisite = {
@@ -2328,7 +2328,7 @@ focus_tree = {
       }
       focus = {
           id = USA_protests_across_the_country
-          icon = GFX_focus_generic_poltical
+          icon = GFX_focus_generic_political
           relative_position_id = USA_the_corporations
           x = -2
           y = 2
