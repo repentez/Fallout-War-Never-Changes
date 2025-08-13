@@ -13,6 +13,7 @@ technologies = {
 	@row1 = -2
 	@row2 = 0
 	@row3 = 2
+	
 	infantry_weapons = {
 
 		enable_equipments = {
@@ -280,11 +281,191 @@ technologies = {
 			command_control_equipment1
 		}
 
+		path = {
+			leads_to_tech = command_control_equipment2
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1.3
 		start_year = 2056
 		folder = {
 			name = infantry_folder
 			position = { x = @row2 y = @2056 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment2 = {
+		
+		coordination_bonus = 0.06
+
+		enable_equipments = {
+			command_control_equipment2
+		}
+
+		path = {
+			leads_to_tech = command_control_equipment3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.3
+		start_year = 2058
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2058 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment3 = {
+		
+		coordination_bonus = 0.09
+
+		enable_equipments = {
+			command_control_equipment3
+		}
+
+		path = {
+			leads_to_tech = command_control_equipment4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.3
+		start_year = 2060
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2060 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment4 = {
+		
+		coordination_bonus = 0.12
+
+		enable_equipments = {
+			command_control_equipment4
+		}
+
+		path = {
+			leads_to_tech = command_control_equipment5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.3
+		start_year = 2062
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2062 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment5 = {
+		
+		coordination_bonus = 0.15
+
+		enable_equipments = {
+			command_control_equipment5
+		}
+
+		path = {
+			leads_to_tech = command_control_equipment6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.3
+		start_year = 2066
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2066 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment6 = {
+		
+		coordination_bonus = 0.18
+
+		enable_equipments = {
+			command_control_equipment6
+		}
+
+		path = {
+			leads_to_tech = command_control_equipment7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.3
+		start_year = 2072
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2072 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 3
+		}
+	}
+
+	command_control_equipment7 = {
+		
+		coordination_bonus = 0.21
+
+		enable_equipments = {
+			command_control_equipment7
+		}
+
+		research_cost = 1.3
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = { x = @row2 y = @2076 }
 		}
 
 		categories = {

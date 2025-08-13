@@ -212,6 +212,12 @@ script_enum_equipment_bonus_type = {
 	command_equipment
 	command_control_equipment
 	command_control_equipment1
+	command_control_equipment2
+	command_control_equipment3
+	command_control_equipment4
+	command_control_equipment5
+	command_control_equipment6
+	command_control_equipment7
 	inf_equipment
 	infantry_weapons
 	infantry_weapons1
