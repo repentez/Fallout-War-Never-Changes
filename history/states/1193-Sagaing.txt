@@ -7,23 +7,21 @@ state={
 	}
 	history={
 		owner = PDF
-		buildings = {
-			infrastructure = 1
-
-		}
 		add_core_of = PDF
-
+		add_core_of = BRM
+		add_core_of = TBA
 		victory_points = { 10386 15 }
 	}
 
 	buildings = {
-			arms_factory = 1
-			industrial_complex = 1
-    		1234 = {
-        		supply_node = 2
-        		bunker = 1
-    			}
+		infrastructure = 1
+		arms_factory = 1
+		industrial_complex = 1
+		1234 = {
+			supply_node = 2
+			bunker = 1
 		}
+	}
 	manpower= 295195
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

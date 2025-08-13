@@ -4,7 +4,8 @@ state={
 	name="STATE_557"
 
 	history={
-		owner = IVO
+		owner = WES
+		add_core_of = WES
 		add_core_of = MRT
 		victory_points = {
 			5034 3

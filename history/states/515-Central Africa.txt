@@ -6,9 +6,9 @@ state={
 	impassable = yes
 
 	history={
-		owner = CHA
+		owner = WES
 		add_core_of = NGR
-
+		add_core_of = WES
 	}
 
 	provinces={

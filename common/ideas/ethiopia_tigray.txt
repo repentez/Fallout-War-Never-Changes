@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		TIG_the_real_ones = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -21,7 +21,7 @@ ideas = {
 	country = {
 
 		TIG_the_deal = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

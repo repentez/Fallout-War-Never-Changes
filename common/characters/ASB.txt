@@ -27,6 +27,7 @@ characters = {
 			visible = {
 			}
 		}
+	}
 	ASB_Yusuf_Osman = {
 		name = "Yusuf Osman"
 		portraits = {
@@ -50,7 +51,5 @@ characters = {
 			visible = { 
 				}
 		}
-	}
-
-	
+	}	
 }

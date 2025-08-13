@@ -28,6 +28,7 @@ characters = {
 			visible = { 
 				}
 		}
+	}
 	GBA_Bill_Joseph = {
 		name = "Siad Hussein"
 		portraits = {
@@ -50,5 +51,5 @@ characters = {
 			visible = { 
 				}
 		}
-
+	}
 }

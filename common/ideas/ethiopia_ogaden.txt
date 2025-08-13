@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		HAR_surrounded = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -18,7 +18,7 @@ ideas = {
 	country = {
 
 		HAR_no_industry = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

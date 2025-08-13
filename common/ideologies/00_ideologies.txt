@@ -12,11 +12,11 @@ ideologies = {
 				color = { 187 199 39 }
 			}
 
-			Social_Democract = {
+			Social_Democrat = {
 				color = { 247 148 115 }
 			}
 			
-			reformist_communism_democratic = { ### More Radical-Democratic verison of Reformist Communism
+			reformist_communism_democratic = { ### More Radical-Democratic version of Reformist Communism
 				color = { 160 43 76 }
 			}
 
@@ -27,11 +27,33 @@ ideologies = {
 			National_Conservatism = {
 				color = { 1 131 190 }
 			}
-			Liberal_conserativism = {
+			
+			Liberal_conservatism = {
 				color = { 28 79 156 }
 			}
+			
 			Oligarch_guided_democracy = {
 				color = { 255 215 0 }
+			}
+			
+			liberalism = {
+				color = { 100 150 255 }
+			}
+			
+			centrism = {
+				color = { 150 200 255 }
+			}
+			
+			socialism = {
+				color = { 200 100 100 }
+			}
+			
+			moderatism = {
+				color = { 120 170 255 }
+			}
+			
+			populism = {
+				color = { 180 120 255 }
 			}
 		}
 
@@ -124,6 +146,26 @@ ideologies = {
 			totalitarianism = {
 				color = { 91 33 40 }
 			}
+			
+			marxism = {
+				color = { 200 0 0 }
+			}
+			
+			stalinism = {
+				color = { 150 0 0 }
+			}
+			
+			leninism = {
+				color = { 180 0 0 }
+			}
+			
+			anarchist_communism = {
+				color = { 170 0 0 }
+			}
+			
+			anti_revisionism = {
+				color = { 140 0 0 }
+			}
 		}
 
 		dynamic_faction_names = {
@@ -174,7 +216,8 @@ ideologies = {
 			Fundamentalism = {
 				color = { 171 125 50 }
 			}
-			Stratocracy  = {
+			
+			Stratocracy = {
 				color = { 128 128 128 }
 			}
 
@@ -200,6 +243,26 @@ ideologies = {
 
 			Neo_Nazism = {
 				color = { 68 52 52 }
+			}
+			
+			fascism_ideology = {
+				color = { 100 50 0 }
+			}
+			
+			nazism = {
+				color = { 80 40 0 }
+			}
+			
+			gen_nazism = {
+				color = { 70 35 0 }
+			}
+			
+			falangism = {
+				color = { 90 45 0 }
+			}
+			
+			rexism = {
+				color = { 110 55 0 }
 			}
 		}
 
@@ -243,11 +306,11 @@ ideologies = {
 
 		types = {
 
-			Facade_Democracy  = { 
+			Facade_Democracy = { 
 				color = { 10 46 71 }
 			}
 
-			Military_Dictatorship  = {
+			Military_Dictatorship = {
 				color = { 91 125 89 }
 			}
 
@@ -264,14 +327,19 @@ ideologies = {
 			}
 			
 			anarchism = {
-				color = { 000 000 0 }
+				color = { 0 0 0 }
 			}
 			
-			Anarcho-Capitalism = { 
-				color = { 253 253 0}
+			Anarcho_Capitalism = { 
+				color = { 253 253 0 }
 			}		
+			
 			Neo_Monarchism = {
 				color = { 184 61 186 }
+			}
+			
+			despotism = {
+				color = { 100 100 100 }
 			}
 		}
 
@@ -284,7 +352,6 @@ ideologies = {
 		}
 
 		color = { 124 124 124 }
-
 
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1

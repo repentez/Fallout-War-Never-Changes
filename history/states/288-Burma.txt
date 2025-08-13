@@ -14,6 +14,8 @@ state={
 	history={
 		add_core_of = BRM
 		owner = BRM
+		add_core_of = TBA
+		add_core_of = PDF
 		victory_points = {
 			1330 5 
 		}

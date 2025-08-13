@@ -50,7 +50,7 @@ BUL_freebul_free_bulgaria_focus_desc:0 "Bulgaria is free at last! Free from tyra
 
 # balkan rage
 BUL_united_and_strong_focus:0 "United and Strong!"
-BUL_united_and_strong_focus_desc:0 "It is not for nothing that the Balkans are called the “Gunpowder Keg of Europe”, violence, wars and contradictions come from there. Many factors point to this. Such as - many countries and peoples, but what if we unite all the peoples and countries of the Balkans into one strong and proud country. And that is our triumph!"
+BUL_united_and_strong_focus_desc:0 "It is not for nothing that the Balkans are called the \"Gunpowder Keg of Europe\", violence, wars and contradictions come from there. Many factors point to this. Such as - many countries and peoples, but what if we unite all the peoples and countries of the Balkans into one strong and proud country. And that is our triumph!"
 
 ### TRAITS ###
 BUL_butcher_trait:0 "§tButcher§!" 
@@ -63,6 +63,11 @@ BUL_drsg_silistra_region_sl_text:0 "Control level of the §6Silistra§! region: 
 BUL_drsg_plovdiv_region_sl_text:0 "Control level of the §6Plovdiv§! region: [?BUL_drsg_plovdiv_region_vv|+0]"
 BUL_drsg_varna_region_sl_text:0 "Control level of the §6Varna§! region: [?BUL_drsg_varna_region_vv|+0]"
 BUL_drsg_vidin_region_sl_text:0 "Control level of the §6Vidin§! region: [?BUL_drsg_vidin_region_vv|+0]"
+BUL_drsg_sofia_region_sl_text_loc:0 "Control level of the §6Sofia§! region: [?BUL_drsg_sofia_region_vv|+0]"
+BUL_drsg_plovdiv_region_sl_text_loc:0 "Control level of the §6Plovdiv§! region: [?BUL_drsg_plovdiv_region_vv|+0]"
+BUL_drsg_pleven_region_sl_text_loc:0 "Control level of the §6Pleven§! region: [?BUL_drsg_pleven_region_vv|+0]"
+BUL_drsg_varna_region_sl_text_loc:0 "Control level of the §6Varna§! region: [?BUL_drsg_varna_region_vv|+0]"
+BUL_drsg_burgas_region_sl_text_loc:0 "Control level of the §6Burgas§! region: [?BUL_drsg_burgas_region_vv|+0]"
 
 ### DYNAMIC MODIFIERS ###
 BUL_nuclear_power_plant_dm:0 "Nuclear Power Plant"
@@ -87,7 +92,7 @@ BUL_united_and_strong_focus_tt:0 "§YWe triumphed, Bulgaria triumphed! \n\nEdinn
 
 ### IDEAS ###
 BUL_BKP_idea:0 "§tBŭlgarska Komunisticheska Partiya§!"
-BUL_BKP_idea_desc:0 "The §tBŭlgarska Komunisticheska Partiya§! has held undisputed political power in Bulgaria for an extended period exceeding a century.  It has positioned itself as a protector against external threats, namely capitalist ideologies, bourgeois influences, and imperialism, ensuring the nation's stability. \n\nUnlike its counterparts in other Soviet republics, the §tBŭlgarska Komunisticheska Partiya§! exercises comprehensive control, extending beyond governmental institutions to encompass all facets of Bulgarian life. Its influence is pervasive yet subtle, remaining largely unnoticed by the populace who are unaware of the constant monitoring and surveillance they are subject to. The Party maintains a vigilant awareness of all activities and communications within the nation, viewing this comprehensive oversight as the foundation of societal strength."
+BUL_BKP_idea_desc:0 "The §tBŭlgarska Komunisticheska Partiya§! has held undisputed political power in Bulgaria for an extended period exceeding a century. It has positioned itself as a protector against external threats, namely capitalist ideologies, bourgeois influences, and imperialism, ensuring the nation's stability. \n\nUnlike its counterparts in other Soviet republics, the §tBŭlgarska Komunisticheska Partiya§! exercises comprehensive control, extending beyond governmental institutions to encompass all facets of Bulgarian life. Its influence is pervasive yet subtle, remaining largely unnoticed by the populace who are unaware of the constant monitoring and surveillance they are subject to. The Party maintains a vigilant awareness of all activities and communications within the nation, viewing this comprehensive oversight as the foundation of societal strength."
 BUL_agricultural_crisis_1_idea:0 "Crisis in agriculture"
 BUL_agricultural_crisis_1_idea_desc:0 "Only 2 years ago the Bulgarian economy started to stagnate thanks to new radical reforms that shook the fragile body of PRB agriculture."
 BUL_agricultural_crisis_2_idea:0 "Crisis in agriculture"

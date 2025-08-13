@@ -28,6 +28,7 @@ characters = {
 			visible = { 
 				}
 		}
+	}
 	ORO_Valerie_Lebedjev = {
 		name = "Valerie Lebedjev"
 		portraits = {
@@ -52,5 +53,4 @@ characters = {
 				}
 		}
 	}
-
 }

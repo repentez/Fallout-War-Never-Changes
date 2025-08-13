@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		GBA_peacekeepers = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -24,7 +24,7 @@ ideas = {
 	country = {
 
 		GBA_limited = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

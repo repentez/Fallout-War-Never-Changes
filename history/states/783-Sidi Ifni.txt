@@ -11,7 +11,7 @@ state={
 			12857 1
 		}
 
-		owner = MAG
+		owner = EUC
 		add_core_of = MAG
 		add_core_of = MOR
 		buildings = {

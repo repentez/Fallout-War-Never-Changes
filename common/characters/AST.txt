@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Social_Democract
+			ideology=Social_Democrat
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Liberal_conserativism
+			ideology=Liberal_conservatism
 			expire="1965.1.1.1"
 			id=-1
 		}

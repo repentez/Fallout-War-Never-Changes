@@ -53,7 +53,7 @@ country_event = {
 					expire = "2111.1.1.1"
 				}
 			}
-			promote_character = ROM_military_command_of_afprr
+			set_country_leader = ROM_military_command_of_afprr
 		}
 	}
 

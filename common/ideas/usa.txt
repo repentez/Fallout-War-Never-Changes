@@ -1,108 +1,6 @@
 ideas = {
 	country = {
-	
-		incoming_crisis = {
-			picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				political_power_cost = 1
-				consumer_goods_factor = 0.60
-				conscription_factor = -0.5
-				join_faction_tension = 0.20
-			}
-		}
 		
-		usa_corrupt_democracy = {
-			picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				drift_defence_factor = 0.25
-				democracy_drift = 0.4
-				fascism_drift = 0.2
-				neutrality_drift = 0.2
-				communism_drift = -0.4
-			}
-		}
-		
-		usa_inflation_1 = { #this will never be lost only lessened
-			picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_buildings_factor = -0.35
-				industrial_capacity_factory = -0.15
-				local_resources_factor = -0.35
-			}
-		}
-		
-		usa_inflation_2 = { #this will never be lost only lessened
-			picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_buildings_factor = -0.15
-				local_resources_factor = -0.2
-				industrial_capacity_factory = -0.15
-			}
-		}
-		
-		usa_inflation_3 = { #this will never be lost only lessened
-			picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_buildings_factor = -0.05
-				industrial_capacity_factory = -0.05
-			}
-		}
-
 		industrial_union_strikes = {
 			picture = GFX_goal_unknown
 
@@ -161,10 +59,95 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				weekly_stability = -0.02
+				stability_weekly = -0.02
 				war_support_weekly = -0.05
 				communism_drift = -0.1
 				party_popularity_stability_factor = 0.05
+			}
+		}
+
+		USA_vault_tec_good_quarter = {
+			picture = GFX_vault_tec_icon
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.35
+			}
+		}
+		
+		USA_appease_industrial_giant = {
+			picture = GFX_focus_generic_industry
+			
+			modifier = {
+				consumer_goods_expected_value = -0.1
+			}
+		}
+		
+		USA_corporate_accountability = {
+			picture = GFX_focus_generic_political
+			
+			modifier = {
+				consumer_goods_expected_value = 0.1
+			}
+		}
+		
+		USA_balanced_tax_reform = {
+			picture = GFX_goal_unknown
+			
+			modifier = {
+				consumer_goods_expected_value = 0.1
+			}
+		}
+		
+		USA_ease_regulatory_burdens = {
+			picture = GFX_focus_generic_industry
+			
+			modifier = {
+				consumer_goods_expected_value = -0.1
+			}
+		}
+		
+		USA_private_sector_partnerships = {
+			picture = GFX_focus_generic_industry
+			
+			modifier = {
+				consumer_goods_expected_value = 0.09
+			}
+		}
+		
+		USA_rain_defense_spending = {
+			picture = GFX_goal_unknown
+			
+			modifier = {
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1
+			}
+		}
+		
+		USA_rebuild_arsenal_democracy = {
+			picture = GFX_focus_generic_industry
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.2
+				production_speed_arms_factory_factor = 0.15
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		USA_civil_propaganda = {
+			picture = GFX_focus_generic_political
+			
+			modifier = {
+				stability_weekly = 0.05
+			}
+		}
+		
+		USA_tarnish_reds = {
+			picture = GFX_focus_generic_political
+			
+			modifier = {
+				stability_weekly = 0.05
 			}
 		}
 	}

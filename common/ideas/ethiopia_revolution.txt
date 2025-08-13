@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		ETH_aftermath = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -19,7 +19,7 @@ ideas = {
 	country = {
 
 		ETH_shattered = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes
@@ -35,7 +35,7 @@ ideas = {
 	country = {
 
 		ETH_outrage = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

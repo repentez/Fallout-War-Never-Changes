@@ -39,7 +39,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		is_italian_tag = yes
+		ITA_is_italian_tag = yes
 		OR = {
 			has_global_flag = cp_yes_kaiserreich
 			AND = {

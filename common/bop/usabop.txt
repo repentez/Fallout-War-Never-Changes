@@ -1,24 +1,26 @@
 USA_enclave_balance = {
-    initial_value = 0.05
+    initial_value = 0
     left_side = USA_coalition_side
     right_side = USA_enclave_side
-    decision_category = USA_enclave_category
+    decision_category = USA_bop_enclave_cat
     range = {
         id = USA_mid_range
         min = -0.35
         max = 0.1
         modifier = {
             political_power_factor = -0.10
+            stability_factor = -0.02
+            democratic_drift = -0.10
         }
     }
 
     side = {
         id = USA_coalition_side
-        icon = GFX_idea_generic_agrarian_society #someone please make the coalition icons
+        icon = GFX_coalition_star
         range = {
             id = USA_resistance_to_corruption
-            min = -0.35
-            max = -0.5
+            min = -0.5
+            max = -0.35
             modifier = {
                 political_power_gain = -3
                 consumer_goods_factor = 0.05
@@ -27,24 +29,29 @@ USA_enclave_balance = {
         }
         range = {
             id = USA_hearings_held
-            min = -0.5
-            max = -0.75
+            min = -0.75
+            max = -0.5
             modifier = {
                 stability_weekly = 0.06
                 war_support_weekly = -0.03
                 consumer_goods_factor = 0.05
                 political_power_gain = -1
-                power_balance_weekly = -0.05
             }
             on_activate = {
                 add_stability = -0.1
                 add_war_support = -0.07
+                USA = {
+                    country_event = {
+                        id = congress_summons_doa.1
+                        days = 3
+                    }
+                }
             }
         }
         range = {
             id = USA_enclave_exposed
-            min = -0.75
-            max = -0.9
+            min = -0.9
+            max = -0.75
             modifier = {
                 stability_weekly = 0.04
                 war_support_weekly = 0.03
@@ -57,15 +64,18 @@ USA_enclave_balance = {
                 hidden_effect = {
                     if = {
                         limit = {
-                            country_leader = USA_john_granite ##Placeholder, IIRACA will update this in the future. TODO make this a or for each pro enclave president
+                            USA = {
+                                has_country_leader_with_trait = enclave_supporter
+                            }
                         }
                         start_civil_war = {
                             ruling_party = Militarism
-                            ideology = fascism
+                            ideology = democratic
                             size = 0.6
                             capital = 378
+                            add_civil_war_target = ENC
                             states = { 
-                                395 1142 1143 378
+                                395 378 375 384 1118 382 
                             }
                             ##keep_unit_leaders = {
                             ##    750 751 752
@@ -77,13 +87,13 @@ USA_enclave_balance = {
         }
         range = {
             id = USA_recovering_democracy 
-            min = -0.9
-            max = -1
+            min = -1
+            max = -0.9
             modifier = {
                 stability_weekly = 0.05
                 war_support_weekly = 0.05
                 political_power_gain = 5
-                power_balance_weekly = -0.025
+                power_balance_weekly = -0.05
                 consumer_goods_factor = -0.15
             }
             on_activate = {
@@ -95,7 +105,7 @@ USA_enclave_balance = {
     
     side = {
         id = USA_enclave_side
-        icon = GFX_idea_generic_degauss_ship_hulls #someone please make the enclave icons
+        icon = GFX_enclave_e
         range = {
             id = USA_secret_corruption
             min = 0.1

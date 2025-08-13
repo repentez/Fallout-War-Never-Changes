@@ -17,7 +17,7 @@
  Neo_Liberalism_desc:0 "Originating in the early 20th century, Neo-Liberalism is an ideology that had arisen in response to the Great Depression, advocating for a variety of changes to the Classical Liberalism focused namely around addressing the volatility of the Free Market through privatization, deregulation, globalization and free trade, centered around completely removing any issues which could hamper trade and continuing the growth of an economy, especially focused around keeping activity growing instead of shrinking.\n\nHaving gained a negative connotation over the previous few decades, the term has become closely associated with the left-wing, namely by Conservative organizations, especially in the United States and Canada, with many people associating it with liberal social policies involving immigration, rights and gender, among a variety of other issues."
  
  Social_Democracy:0 "Social Democracy"
- Social_Democract_desc:0 ""
+ Social_Democrat_desc:0 ""
  Neo_Nativism:0 "Neo-Nativism"
  Neo_Nativism_desc:0 ""
  National_Communism:0 "National Communism"
@@ -103,3 +103,12 @@
 
  LAT_democratic_party:0 "NA" 
  LAT_democratic_party_long:0 "National Alliance"
+
+ MON_communism_party:0 "MPRP"
+ MON_communism_party_long:0 "Mongolian People's Revolutionary Party"
+ MON_democratic_party:0 "DP"
+ MON_democratic_party_long:0 "Democratic Party of Mongolia"
+
+ PRC_communism_party:0 "CCP"
+ PRC_communism_party_long:0 "Chinese Communist Party"
+

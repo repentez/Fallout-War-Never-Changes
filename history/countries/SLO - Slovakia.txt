@@ -7,18 +7,9 @@ declare_war_on = {
 add_civil_war_target = RSL
 
 set_technology = {
-	tech_trucks = 1
-	gw_artillery = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	infantry_weapons2 = 1
-	support_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	tech_mountaineers = 1
-	tech_engineers = 1
+	command_control_equipment = 1
+	utility_vehicle_0 = 1
 }
 
 if = {

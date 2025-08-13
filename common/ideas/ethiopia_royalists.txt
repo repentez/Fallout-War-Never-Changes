@@ -2,7 +2,7 @@ ideas = {
 	country = {
 
 		SID_monarchy_fervour = {
-			picture = 
+			# picture = 
 	
 			allowed = {
 				always = yes

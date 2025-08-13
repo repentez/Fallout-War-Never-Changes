@@ -1630,13 +1630,9 @@ shared_focus = {
 	}
 	
 	
-	
-	
-	
-	
-	mutually_exclusive = { focus =  }
-	relative_position_id = 
-		prerequisite = {
-			focus = 
+	# mutually_exclusive = { focus =  }
+	# relative_position_id = 
+	# 	prerequisite = {
+	# 		focus = 
 			
-		}
+	# 	}

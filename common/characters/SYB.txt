@@ -26,6 +26,7 @@ characters = {
 			visible = {
 			}
 		}
+	}
 	SYB_Digaale = {
 		name = "Digaale"
 		portraits = {
@@ -49,7 +50,5 @@ characters = {
 			visible = { 
 				}
 		}
-	}
-
-	
+	}	
 }

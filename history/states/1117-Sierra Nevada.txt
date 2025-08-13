@@ -10,16 +10,12 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = CAL
-		victory_points = {
-			941 1 
-		}
-
 	}
 
 	provinces={
-		710 941 1432 1601 1651 4657 7667 10387 10483 11763 
+		1432 1601 1651 7667 11763 13562 13565
 	}
-	manpower=620008
+	manpower=1500000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

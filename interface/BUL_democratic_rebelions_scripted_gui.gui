@@ -4,19 +4,19 @@ guiTypes = {
 		size = { width = 220 height = 128 }
 		position = { x = 0 y = 289 } 
  
-		buttonType = { 
-			name = "BUL_drsg_gui_open"
-			spriteType = "GFX_BUL_drsg_gui_open"
-			position = { x = 190 y = 31 }
-			pdx_tooltip = ""
-			scale = 0.65
-		}
+		#buttonType = { 
+		#	name = "BUL_drsg_gui_open"
+		#	spriteType = "GFX_BUL_drsg_gui_open"
+		#	position = { x = 190 y = 31 }
+		#	pdx_tooltip = ""
+		#	scale = 0.65
+		#}
  
-		iconType = {
-			name = "gui_alert"
-			spriteType = "GFX_gui_alert"
-			position = { x=189 y=-16 }
-		}
+		#iconType = {
+		#	name = "gui_alert"
+		#	spriteType = "GFX_gui_alert"
+		#	position = { x=189 y=-16 }
+		#}
 	}
 	#Example Scripted GUI Window
 	containerWindowType = {

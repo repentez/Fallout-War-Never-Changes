@@ -4,7 +4,7 @@ usa_presidents_cabinet_inlay_window = {
 
     internal = yes
     visible = {
-        //////NOT = { has_completed_focus = // anti enclave path (?)}
+        #//////NOT = { has_completed_focus = // anti enclave path (?)}
         has_completed_focus = {
             focus = john_granite
         }
