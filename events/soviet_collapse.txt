@@ -340,11 +340,47 @@ news_event = {
 					id = soviet_collapse.4
 					days = 28
 				}
+				news_event = {
+					id = soviet_collapse_news.2
+					days = 7
+					random_hours = 24
+				}
 			}
 		}
 	}
 
 	option = {
 		name = soviet_collapse_news.1.a
+	}
+}
+news_event = {
+	id = soviet_collapse_news.2
+	title = soviet_collapse_news.2.t
+	desc = soviet_collapse_news.2.desc
+	picture = GFX_news_event_soviet_collapse_news_2
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SOV = {			
+				dismantle_faction = yes
+			}
+			set_global_flag = SOV_ECST_collapsed_flag
+			every_country = { 
+				limit = { is_subject_of = SOV }		
+				SOV = { end_puppet = PREV }
+				add_stability = -0.05
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse_news.2.a
+		effect_tooltip = {
+			every_country = { 
+				limit = { is_subject_of = SOV }		
+				add_stability = -0.05
+			}
+		}
 	}
 }

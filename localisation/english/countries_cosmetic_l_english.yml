@@ -2963,7 +2963,11 @@
  ASU_NAP:0 "Libertas Australis"
 
  KUR_WOI:0 "Kurdish Military Junta"
- KUR_WOI_ADJ:0 "the Kurdish Military Junta"
+ KUR_WOI_DEF:0 "the Kurdish Military Junta"
 
  BEL_rec:0 "Belgian Reclamation Government"
- BEL_rec_ADJ:0 "the Belgian Reclamation Government"
+ BEL_rec_DEF:0 "the Belgian Reclamation Government"
+
+ MAC_IMRO_resistance:0 "North Macedonia"
+ MAC_IMRO_resistance_DEF:0 "the Independent State of North Macedonia"
+ MAC_IMRO_resistance_ADJ:0 "Macedonian"

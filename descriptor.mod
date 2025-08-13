@@ -1,4 +1,4 @@
-version="A 1.0"
+version="1.0"
 tags={
 	"Technologies"
 	"National Focuses"
@@ -16,6 +16,5 @@ replace_path="common/ideas"
 replace_path="common/decisions"
 replace_path="history/states"
 replace_path="map/strategicregions"
-path = "mod/War-Never-Changes-Redux"
 name="War Never Changes: Redux"
 supported_version="1.16.*"

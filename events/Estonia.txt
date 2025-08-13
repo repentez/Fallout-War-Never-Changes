@@ -54,6 +54,10 @@ country_event = {
 			white_peace = SOV
 			remove_ideas = EST_defend_our_independence_idea
 		}
+		every_country = {
+			limit = { has_war_with = EST }
+			white_peace = EST
+		}
 		every_state = {
 			limit = {
 				is_controlled_by = SOV

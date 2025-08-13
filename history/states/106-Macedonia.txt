@@ -21,7 +21,7 @@ state={
 		add_core_of = YUG
 		add_core_of = MAC
 		add_claim_by = BUL
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

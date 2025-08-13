@@ -98,5 +98,5 @@ set_popularities = {
 	communism = 31
 }
 
-
+set_country_flag = ukraine_speaking_country
 

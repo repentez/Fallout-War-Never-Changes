@@ -3,27 +3,8 @@ add_namespace = yugoslavianevents
 
 news_event = {
 	id = yugoslav_news.1
-	hidden = yes
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	immediate = {
-		random_list = {
-			50 = { YUG = { news_event = { id = yugoslav_news.2 } } }
-		}
-	}
-	
-	option = {
-		name = yugoslav_news.1.a
-	}
-}
-
-# agh
-news_event = {
-	id = yugoslav_news.2
-	title = yugoslav_news.2.t
-	desc = yugoslav_news.2.desc
+	title = yugoslav_news.1.t
+	desc = yugoslav_news.1.desc
 	picture = GFX_news_event_lucicrowejadeyugo
 	
 	major = yes
@@ -31,14 +12,14 @@ news_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = THE_YUGOSLAV_STARTER
-		YUG = {
-		country_event = { id = yugoslavianevents.1 days = 130 }
+		hidden_effect = {
+			set_global_flag = THE_YUGOSLAV_STARTER
+			YUG = { country_event = { id = yugoslavianevents.1 days = 130 } }
 		}
 	}
 	
 	option = {
-		name = yugoslav_news.2.a
+		name = yugoslav_news.1.a
 	}
 }
 
@@ -55,27 +36,41 @@ country_event = {
 		CRO = {
 			transfer_state = 103
 			transfer_state = 163
+			transfer_state = 1001
 			103 = { set_demilitarized_zone = no }	
 			163 = { set_demilitarized_zone = no }	
 		}
 		LBV = {
 			set_cosmetic_tag = fiume
 			transfer_state = 852
+			add_state_core = 852
+			add_state_core = 736
+			add_state_core = 1133
+			852 = { set_demilitarized_zone = no }
+			set_capital = {
+				state = 852
+			}
 		}
 		BOS = {
-			news_event = { id = yugoslav_news.3 days = 1 }
+			#news_event = { id = yugoslav_news.3 days = 1 }
 			transfer_state = 104
+			104 = { set_demilitarized_zone = no }
 		}
 		HRZ = {
 			transfer_state = 804
+			804 = { set_demilitarized_zone = no }
 		}
 		KOS = {
 			transfer_state = 802
 			transfer_state = 1004
+			802 = { set_demilitarized_zone = no }
+			1004 = { set_demilitarized_zone = no }
 		}
 		MAC = {
 			transfer_state = 106
 			transfer_state = 803
+			106 = { set_demilitarized_zone = no }
+			803 = { set_demilitarized_zone = no }
 		}
 	}
 }
