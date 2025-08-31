@@ -387,7 +387,7 @@ on_actions = {
 					transfer_state = 331
 				}
 			}
-			IF = {
+			if = {
 				limit = {
 					has_game_rule = {
 						rule = americas_colonization_status
@@ -2489,6 +2489,19 @@ on_actions = {
 							type = annex_everything
 						}
 					}
+				}
+			}
+			# Global Crisis Ideas - Add to all countries at startup
+			every_country = {
+				limit = {
+					NOT = {
+						tag = PRC
+					}
+				}
+				add_ideas = {
+					Moderate_Resource_Shortage
+					Minor_Blackouts
+					Minor_Food_Shortage
 				}
 			}
 		}

@@ -1,0 +1,85 @@
+spriteTypes = {
+	# Law Category Icons
+	spriteType = {
+		name = "GFX_idea_Resource_Crisis"
+		texturefile = "gfx/interface/ideas/China1_resource_crisis-771849.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Energy_Crisis"
+		texturefile = "gfx/interface/ideas/CAN_albertan_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Food_Crisis"
+		texturefile = "gfx/interface/ideas/BUL_agricultural_crisis_idea.dds"
+	}
+
+	# Resource Crisis Icons
+	spriteType = {
+		name = "GFX_idea_Stable_Supply_Chains"
+		texturefile = "gfx/interface/ideas/CAN_albertan_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Small_Resource_Shortage"
+		texturefile = "gfx/interface/ideas/China1_resource_crisis-771849.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Moderate_Resource_Shortage"
+		texturefile = "gfx/interface/ideas/China1_resource_crisis-771849.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Severe_Resource_Shortage"
+		texturefile = "gfx/interface/ideas/BUL_agricultural_crisis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Shortages_out_of_control"
+		texturefile = "gfx/interface/ideas/ASU_HighPollution_Idea.dds"
+	}
+
+	# Energy Crisis Icons
+	spriteType = {
+		name = "GFX_idea_Energy_Abundance"
+		texturefile = "gfx/interface/ideas/CAN_albertan_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Minor_Blackouts"
+		texturefile = "gfx/interface/ideas/MOL_radiocenter_mayak_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Rolling_Blackouts"
+		texturefile = "gfx/interface/ideas/ASU_HighPollution_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Major_Blackouts"
+		texturefile = "gfx/interface/ideas/ASU_HighPollution_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Near_Complete_Blackouts"
+		texturefile = "gfx/interface/ideas/BUL_mass_purges_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Complete_Blackouts"
+		texturefile = "gfx/interface/ideas/AST_climate_disaster.dds"
+	}
+
+	# Food Crisis Icons
+	spriteType = {
+		name = "GFX_idea_Agricultural_Boom"
+		texturefile = "gfx/interface/ideas/BUL_land_reform_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Minor_Food_Shortage"
+		texturefile = "gfx/interface/ideas/BUL_agricultural_crisis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Moderate_Food_Shortage"
+		texturefile = "gfx/interface/ideas/BUL_agricultural_crisis_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Severe_Food_Shortage"
+		texturefile = "gfx/interface/ideas/BUL_mass_purges_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Famines_Rampant"
+		texturefile = "gfx/interface/ideas/AST_climate_disaster.dds"
+	}
+}
