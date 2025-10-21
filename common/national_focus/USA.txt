@@ -1233,10 +1233,11 @@ focus_tree = {
         id = USA_root_out_corporatism ## FOR IIRACA TODO ADD DECISIONS 
         icon = GFX_focus_generic_political
         relative_position_id = USA_the_corporations
-        x = -5
+        x = 16
         y = 1
         cost = 10
-        prerequisite = { focus = USA_the_corporations }
+        prerequisite = { focus = USA_the_corporations
+        }
         completion_reward = {
             add_war_support = -0.1
             custom_effect_tooltip = USA_root_out_corporatism_tt
@@ -1250,10 +1251,11 @@ focus_tree = {
         id = USA_appease_the_industrial_giant
         icon = GFX_focus_generic_industry
         relative_position_id = USA_the_corporations
-        x = 5
+        x = 7
         y = 1
         cost = 10
-        prerequisite = { focus = USA_the_corporations }
+        prerequisite = { focus = USA_the_corporations
+        }
         completion_reward = {
                 add_ideas = USA_appease_industrial_giant
                 custom_effect_tooltip = USA_appease_the_industrial_giant_tt
@@ -2229,6 +2231,7 @@ focus_tree = {
          y = 2
          prerequisite = {
              focus = USA_state_of_the_enclave
+         }
       }
       focus = {
           id = USA_invade_the_congo
@@ -2350,7 +2353,7 @@ focus_tree = {
           id = USA_first_enclave_congress
           icon = GFX_focus_generic_political
           relative_position_id = USA_state_of_the_enclave
-          x = 0
+          x = -2
           y = 8
           prerequisite = {
               focus = USA_riot_control
