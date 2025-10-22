@@ -336,7 +336,7 @@ SWI_councilor_is_communist = {
 	}
 }
 
-SWI_councilor_is_democratic_liberalism = {
+SWI_councilor_is_democratic_Social_Liberalism = {
 	OR = {
 		has_trait = SWI_radical_democrat
 		has_trait = SWI_pragmatic_democrat
@@ -355,7 +355,7 @@ SWI_councilor_is_democratic_conservatism = {
 	}
 }
 
-SWI_councilor_is_democratic_socialism = {
+SWI_councilor_is_democratic_Social_Liberalism = {
 	has_trait = SWI_social_democrat
 }
 
@@ -369,9 +369,9 @@ SWI_president_compatible_with_country_politics = {
 				AND = {
 					ROOT = { has_government = democratic }
 					OR = {
-						SWI_councilor_is_democratic_socialism = yes
+						SWI_councilor_is_democratic_Social_Liberalism = yes
 						SWI_councilor_is_democratic_conservatism = yes
-						SWI_councilor_is_democratic_liberalism = yes
+						SWI_councilor_is_democratic_Social_Liberalism = yes
 					}
 				}
 				AND = {

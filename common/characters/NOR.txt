@@ -20,7 +20,7 @@ characters={
 			NOR_char_cw_democratic = yes
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits  = {
 				NOR_popular_reformer
 			}
@@ -41,7 +41,7 @@ characters={
 			NOR_char_cw_democratic = yes
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits  = {
 				NOR_democratic_powerhouse
 			}
@@ -79,7 +79,7 @@ characters={
 			NOR_char_cw_democratic = yes
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=Christian_Liberalism
 			traits  = {
 				NOR_tobacco_industrialist_leader
 			}

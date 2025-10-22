@@ -27,3 +27,7 @@ add_ideas = {
 	HAR_surrounded
 	HAR_no_industry
 }
+declare_war_on = {
+	target = ORO
+	type = annex_everything
+}

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism 
+			ideology=Christian_Liberalism 
 			traits = {
 			}
 			expire="1965.1.1.1"

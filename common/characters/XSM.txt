@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits={ national_integralist }
 			expire="1941.1.1.12"
 			id=-1

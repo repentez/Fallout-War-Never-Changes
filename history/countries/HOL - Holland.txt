@@ -265,7 +265,7 @@ if = {
 		}
 	}
 	HOL_dirk_jan_de_geer = {
-		promote_character = { ideology = conservatism }
+		promote_character = { ideology = Christian_Liberalism }
 	}
 }
 

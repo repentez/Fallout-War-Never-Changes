@@ -157,7 +157,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=Social_Liberalism
 			traits={ hawk }
 			expire="1948.1.1.12"
 			id=-1

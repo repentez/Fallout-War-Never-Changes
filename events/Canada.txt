@@ -72,7 +72,7 @@ country_event = { # Real Event
 				character = CAN_anderson
 				promote_leader = yes
 				country_leader = {
-					ideology = conservatism
+					ideology = Christian_Liberalism
 					expire = "2092.1.1.1"
 					traits = {  }
 				}

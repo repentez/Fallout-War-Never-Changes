@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = Christian_Liberalism
 			traits = { dictator }
 			expire = "2099.1.1"
 			id = -1

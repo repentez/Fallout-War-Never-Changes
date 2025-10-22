@@ -51,7 +51,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits={ financial_expert }
 			expire="1953.1.1.12"
 			id=-1

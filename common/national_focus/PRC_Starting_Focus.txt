@@ -1,0 +1,318 @@
+focus_tree = {
+	id = china1
+	continuous_focus_position = { x = -40 y = 2090 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 11
+			tag = PRC
+		}
+	}
+# Entry Focus: When a Nation is Divided
+    focus = {
+        id = when_a_nation_is_divided
+        icon = GFX_goal_generic_unrest
+        x = 7
+        y = 0
+        cost = 1  # Instant entry
+        ai_will_do = { factor = 10 }  # High priority if turmoil flag
+        completion_reward = {
+            add_political_power = -25  # Initial crisis cost
+            log = "Focus when_a_nation_is_divided has fired"
+        }
+    }
+
+    # Midpoint: You Get Rid of the Problems (convergence after branches)
+    focus = {
+        id = you_get_rid_of_the_problems
+        icon = GFX_goal_generic_neutrality
+        x = 7
+        y = 1
+        cost = 7
+		prerequisite { focus = when_a_nation_is_divided}
+        completion_reward = {
+            add_stability = 0.15  # Temporary calm
+            log = "Focus you_get_rid_of_the_problems has fired"
+        }
+    }
+
+	#########################
+    # Left Branch: Protests #
+	#########################
+
+    focus = {
+        id = politburo_convenes_over_Protests
+        icon = GFX_goal_generic_government
+        x = 4
+        y = 2
+        cost = 3
+		prerequisite { focus = you_get_rid_of_the_problems}
+        completion_reward = {
+            add_political_power = 75  # Conclave decisions
+            log = "Focus politburo_convenes_over_Protests has fired"
+        }
+    }
+
+    focus = {
+        id = a_new_red_guard
+        icon = GFX_goal_generic_major_war
+        x = 3
+        y = 3
+        cost = 5
+		prerequisite { focus = politburo_convenes_over_Protests}
+        completion_reward = {
+            add_manpower = 50000  # Recruit guards
+            add_political_power = 50
+            log = "Focus a_new_red_guard has fired"
+        }
+    }
+
+    focus = {
+        id = occupy_the_universities
+        icon = GFX_goal_generic_education
+        x = 3
+        y = 4
+        cost = 3
+		prerequisite { focus = a_new_red_guard}
+        completion_reward = {
+            add_stability = 0.05  # Suppress student protests
+            set_variable = { surveillance_level = 1 }  # For Beholder progression
+            log = "Focus occupy_the_universities has fired"
+        }
+    }
+
+    focus = {
+        id = demonize_the_protesters
+        icon = GFX_goal_generic_propaganda
+        x = 5
+        y = 3
+        cost = 3
+		prerequisite { focus = politburo_convenes_over_Protests}
+        completion_reward = {
+            add_war_support = 0.05  # Propaganda boost
+            log = "Focus demonize_the_protesters has fired"
+        }
+    }
+
+    focus = {
+        id = funds_for_the_pap
+        icon = GFX_goal_generic_money
+        x = 4
+        y = 5
+        cost = 5
+		prerequisite { focus = occupy_the_universities}
+		prerequisite { focus = restrict_flow_of_information}
+        completion_reward = {
+            add_political_power = 100  # PAP funding
+            add_consumer_goods_factories = -1  # Slight economic hit
+            log = "Focus funds_for_the_pap has fired"
+        }
+    }
+
+    focus = {
+        id = restrict_flow_of_information
+        icon = GFX_goal_generic_censor
+        x = 5
+        y = 4
+        cost = 3
+		prerequisite { focus = demonize_the_protesters}
+        completion_reward = {
+            add_espionage_agency_power = 1  # Surveillance start
+            add_stability = 0.10
+            log = "Focus restrict_flow_of_information has fired"
+        }
+    }
+
+    # Exclusive paths from funds_for_the_pap (side arrows)
+    focus = {
+        id = declare_martial_law
+        icon = GFX_goal_generic_major_war
+        x = 3
+        y = 6
+        cost = 5
+		prerequisite { focus = funds_for_the_pap}
+        mutually_exclusive = { focus = batons_out_comrades }
+        completion_reward = {
+            add_stability = 0.20
+            add_political_power = -150  # High cost
+            log = "Focus declare_martial_law has fired"
+        }
+    }
+
+    focus = {
+        id = batons_out_comrades
+        icon = GFX_goal_generic_crackdown
+        x = 5
+        y = 6
+        cost = 4
+		prerequisite { focus = funds_for_the_pap}
+        mutually_exclusive = { focus = declare_martial_law }
+        completion_reward = {
+            add_stability = -0.05  # Risky
+            add_political_power = 25
+            log = "Focus batons_out_comrades has fired"
+        }
+    }
+
+    focus = {
+        id = send_the_military_in
+        icon = GFX_goal_generic_offensive
+        x = 3
+        y = 7
+        cost = 5
+		prerequisite { focus = declare_martial_law}
+        completion_reward = {
+            add_army_experience = 25
+            add_stability = -0.10  # Backlash risk
+            log = "Focus send_the_military_in has fired"
+        }
+    }
+
+    focus = {
+        id = violence_with_a_human_face
+        icon = GFX_goal_generic_offensive
+        x = 5
+        y = 7
+		prerequisite { focus = batons_out_comrades}
+        cost = 3
+        completion_reward = {
+            add_stability = 0.10  # Controlled violence
+            log = "Focus violence_with_a_human_face has fired"
+        }
+    }
+
+    focus = {
+        id = future_of_the_red_guard
+        icon = GFX_goal_generic_reform
+        x = 4
+        y = 8
+        cost = 70
+		prerequisite { focus = send_the_military_in focus = violence_with_a_human_face}
+        completion_reward = {
+            log = "Focus future_of_the_red_guard has fired"
+        }
+    }
+	##########################
+    # Middle Branch: Strikes #
+	##########################
+
+	# Politburo Convening Over Strikes
+    focus = {
+        id = politburo_convenes_over_strikes
+        icon = GFX_goal_generic_government
+        x = 10
+        y = 2
+        cost = 5
+		prerequisite { focus = you_get_rid_of_the_problems}
+        completion_reward = {
+            add_political_power = 75  # Conclave decisions
+            log = "Focus politburo_convenes_over_strikes has fired"
+        }
+    }
+
+    focus = {
+        id = end_reactionary_control_of_industry
+        icon = GFX_goal_generic_economic
+        x = 11
+        y = 3
+        cost = 5
+		prerequisite = {focus = politburo_convenes_over_strikes}
+        completion_reward = {
+            log = "Focus end_reactionary_control_of_industry has fired"
+        }
+    }
+
+    focus = {
+        id = deploy_the_pap
+        icon = GFX_goal_generic_police
+        x = 9
+        y = 3
+        cost = 3
+		prerequisite = { focus = politburo_convenes_over_strikes }
+        completion_reward = {
+            add_stability = 0.05
+            set_variable = { surveillance_level = 1 }
+            log = "Focus deploy_the_pap has fired"
+        }
+    }
+
+    # Exclusive paths from early right (side arrows)
+    focus = {
+        id = infiltrate_with_spies
+        icon = GFX_goal_generic_espionage
+        x = 11
+        y = 4
+        cost = 5
+		prerequisite = { focus = end_reactionary_control_of_industry}
+        completion_reward = {
+            add_espionage_agency_power = 2
+            add_political_power = 50  # Intel is gathered
+            log = "Focus infiltrate_with_spies has fired"
+        }
+    }
+
+    focus = {
+        id = round_up_ring_leaders
+        icon = GFX_goal_generic_arrest
+        x = 9
+        y = 4
+        cost = 4
+		prerequisite = { focus = deploy_the_pap}
+        completion_reward = {
+            add_stability = 0.10
+            add_consumer_goods_factories = 1  # Temporary hit from purges
+            log = "Focus round_up_ring_leaders has fired"
+        }
+    }
+
+    focus = {
+        id = police_the_factories
+        icon = GFX_goal_generic_industry
+        x = 9
+        y = 5
+        cost = 3
+		prerequisite = { focus = round_up_ring_leaders}
+        completion_reward = {
+            add_building_construction_speed = 0.05  # Controlled labor
+            log = "Focus police_the_factories has fired"
+        }
+    }
+
+    focus = {
+        id = install_watchers
+        icon = GFX_goal_generic_spy
+        x = 11
+        y = 5
+        cost = 5
+		prerequisite = { focus = infiltrate_with_spies}
+        completion_reward = {
+            log = "Focus install_watchers has fired"
+        }
+    }
+
+    focus = {
+        id = one_last_strike_on_strikers
+        icon = GFX_goal_generic_offensive
+        x = 10
+        y = 6
+        cost = 5
+		prerequisite = { focus = install_watchers}
+		prerequisite = { focus = police_the_factories}
+        completion_reward = {
+            add_stability = 0.15
+            log = "Focus one_last_strike_on_strikers has fired"
+        }
+    }
+
+    focus = {
+        id = a_new_economic_future
+        icon = GFX_goal_generic_economic_reforms
+        x = 10
+        y = 7
+        cost = 3
+		prerequisite = { focus = one_last_strike_on_strikers}
+        completion_reward = {
+            log = "Focus a_new_economic_future has fired"
+        }
+    }
+}

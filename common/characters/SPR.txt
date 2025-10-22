@@ -12,7 +12,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=Christian_Liberalism
 				traits={ indecisive }
 				expire="1965.1.1.1"
 				id=-1
@@ -29,7 +29,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=Christian_Liberalism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -159,7 +159,7 @@ characters={
 				}
 			}
 			#country_leader = {
-			#	ideology = conservatism
+			#	ideology = Christian_Liberalism
 			#	traits = { figurehead_president }
 			#	expire = "1965.1.1.1"
 			#	id = -1
@@ -178,7 +178,7 @@ characters={
 				}
 			}
 			#country_leader = {
-			#	ideology = conservatism
+			#	ideology = Christian_Liberalism
 			#	expire = "1965.1.1.1"
 			#	id = -1
 			#}

@@ -1665,7 +1665,7 @@ focus_tree = {
         completion_reward = {
             promote_character = {
                 character = USA_john_granite
-                ideology = conservatism
+                ideology = Christian_Liberalism
             }
             add_power_balance_value = {
                 id = USA_enclave_balance

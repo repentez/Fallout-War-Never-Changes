@@ -1,4 +1,362 @@
 add_namespace = prc
+add_namespace = prc.crisis
+add_namespace = prc.violence
+add_namespace = prc.c.news
+
+##########################
+# Economic Crisis Go BRR #
+##########################
+
+country_event = { 
+	id = prc.crisis.1 # Stop Subsidizing the Economy
+	title = prc.crisis.1.t
+	desc = prc.crisis.1.d
+	picture = GFX_report_event_PRC_starting
+	fire_only_once = yes
+	is_triggered_only = yes
+	timeout_days = 5
+
+	option = {
+		name = prc.crisis.1.a
+		ai_chance = {
+			factor = 50
+		}
+		PRC = { 
+			if = {
+					add_stability = -0.10  
+					add_political_power = -50  
+					add_manpower = -75000  
+					}
+				}
+			}
+		}	
+
+country_event = { 
+	id = prc.crisis.2 # Strikes Thoughout Beijing
+	title = prc.crisis.2.t
+	desc = prc.crisis.2.d
+	picture = GFX_report_event_PRC_starting
+	fire_only_once = yes
+	is_triggered_only = yes
+	timeout_days = 5
+
+	option = {
+		name = prc.crisis.2.a
+		ai_chance = {
+			factor = 50
+		}
+			custom_effect_tooltip = Dissent_Into_Bolsherviks_1
+			custom_effect_tooltip = Dissent_From_Whang_1
+			custom_effect_tooltip = "    "
+		PRC = { 			
+			add_ideas = PRC_Strikes_Stage_5
+				}
+			}
+		subtract_from_variable = {
+			var = Whangs_influence
+			value = 100
+				}
+		add_to_variable = {
+			var = Bolshervik_influence
+			value = 100
+		}
+		}
+
+country_event = { 
+	id = prc.crisis.3 # Stop Subsidizing the Economy
+	title = prc.crisis.3.t
+	desc = prc.crisis.3.d
+	picture = GFX_report_event_PRC_starting
+	fire_only_once = yes
+	is_triggered_only = yes
+	timeout_days = 5
+
+	option = {
+		name = prc.crisis.3.a
+		ai_chance = {
+			factor = 50
+		}
+
+		subtract_from_variable = {
+			var = Whangs_influence
+			value = 100
+				}
+		subtract_from_variable = {
+			var = Li_Ming_influence
+			value = 100
+				}
+
+		add_to_variable = {
+			var = Cheng_influence
+			value = 100
+		}
+		add_to_variable = {
+			var = Technocrat_influence
+			value = 100
+			}
+		add_stability = 0.03
+		add_political_power = -50			
+			custom_effect_tooltip = "    "
+			custom_effect_tooltip = Dissent_Into_Cheng_1
+			custom_effect_tooltip = Dissent_Into_Technocrats_1
+			custom_effect_tooltip = Dissent_From_Reformist_1
+			custom_effect_tooltip = Dissent_From_Whang_1			
+		}
+
+	option = {
+		name = prc.crisis.3.b
+		ai_chance = {
+			factor = 50
+		}
+		add_to_variable = {
+			var = Whangs_influence
+			value = 100
+				}
+		subtract_from_variable = {
+			var = Li_Ming_influence
+			value = 100
+				}
+
+		subtract_from_variable = {
+			var = Cheng_influence
+			value = 100
+		}
+		add_to_variable = {
+			var = Technocrat_influence
+			value = 100
+			}
+		add_stability = -0.03
+		add_political_power = 50
+			custom_effect_tooltip = "    "	
+			custom_effect_tooltip = Dissent_Into_Reformist_1
+			custom_effect_tooltip = Dissent_Into_Whang_1
+			custom_effect_tooltip = Dissent_From_Cheng_1
+			custom_effect_tooltip = Dissent_From_Technocrats_1				
+		}
+	}
+
+country_event = { 
+	id = prc.crisis.4 # Protests Across China over Oil Rationing
+	title = prc.crisis.4.t
+	desc = prc.crisis.4.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+	timeout_days = 5
+
+	option = {
+		name = prc.crisis.4.a #Declare Riot
+		ai_chance = {
+			factor = 50
+		}
+	PRC = {
+		add_stability = -0.1
+			add_ideas = { prc_Police_Sent }
+			complete_national_focus = PRC_Greenlight_Hardliners
+	}
+
+			subtract_from_variable = {
+			var = Cheng_influence
+			value = 100
+		}
+		add_to_variable = {
+			var = Technocrat_influence
+			value = 100
+			}
+
+	608 = {
+		damage_building = {
+		  type = infrastructure
+		  damage = 4
+				}
+			}
+
+			custom_effect_tooltip = "    "	
+			custom_effect_tooltip = Dissent_Into_Cheng_1
+			custom_effect_tooltip = Dissent_From_Whang_1
+		}
+
+	option = {
+		name = prc.crisis.4.b #Send In Negotiators
+		ai_chance = {
+			factor = 50
+		}
+	PRC = {
+		add_stability = -0.1
+			add_ideas = {
+				prc_Negotiator_Protesting
+					}
+	}
+
+			subtract_from_variable = {
+			var = Cheng_influence
+			value = 100
+		}
+		add_to_variable = {
+			var = Technocrat_influence
+			value = 100
+			}
+
+	608 = {
+		damage_building = {
+		  type = infrastructure
+		  damage = 4
+				}
+			}
+
+			custom_effect_tooltip = "    "	
+			custom_effect_tooltip = Dissent_Into_Cheng_1
+			custom_effect_tooltip = Dissent_From_Whang_1
+		}
+	}
+
+country_event = { 
+	id = prc.crisis.5 # Violent Solution
+	title = prc.crisis.5.t
+	desc = prc.crisis.5.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+	timeout_days = 5
+
+	trigger = {
+		has_ideas = prc_Police_Sent
+	}
+	option = {
+		name = prc.crisis.5.a #Declare Riot
+		ai_chance = {
+			factor = 50
+		}
+		 PRC = {
+			add_power_balance_value = {
+				id = PRC_Violence_Balance
+				value = 0.1
+				tooltip_side = my_bop_side
+					}
+		 		}	
+			}
+
+	option = {
+		name = prc.crisis.5.b #Send In Negotiators
+		ai_chance = {
+			factor = 50
+			}
+		 PRC = {
+			complete_national_focus = PRC_Greenlight_Hardliners
+			add_power_balance_value = {
+				id = PRC_Violence_Balance
+				value = 0.05
+				tooltip_side = my_bop_side
+					}
+		 	}
+		}
+	}
+
+country_event = { 
+	id = prc.crisis.6 # Peaceful Solution
+	title = prc.crisis.6.t
+	desc = prc.crisis.6.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+ 
+	trigger = {
+		has_ideas = prc_Negotiator_Protesting
+	}
+	option = {
+		name = prc.crisis.6.a #Declare Riot
+		ai_chance = {
+			factor = 50
+		}
+		 PRC = {
+			add_power_balance_value = {
+				id = PRC_Violence_Balance
+				value = -0.1
+				tooltip_side = my_bop_side
+					}
+		 		}	
+			}
+
+	option = {
+		name = prc.crisis.6.b #Send In Negotiators
+		ai_chance = {
+			factor = 50
+			}
+		 PRC = {
+			add_power_balance_value = {
+				id = PRC_Violence_Balance
+				value = -0.05
+				tooltip_side = my_bop_side
+					}
+		 	}
+		}
+	}
+
+news_event = {
+    id = prc.c.news.1
+    title = prc.c.news.1.t
+    desc = prc.c.news.1.d
+    picture = GFX_report_event_PRC_starting
+    major = yes
+    is_triggered_only = yes
+    # Removed fire_only_once to allow repeated triggers if needed
+
+    option = {
+        name = prc.c.news.1.a
+        ai_chance = { factor = 50 }
+        trigger = { has_government = communism }
+        # Add effects here if needed
+    }
+
+    option = {
+        name = prc.c.news.1.b
+        ai_chance = { factor = 50 }
+        trigger = { has_government = democratic }
+        # Add effects here if needed
+    }
+
+    option = {
+        name = prc.c.news.1.c
+        ai_chance = { factor = 50 }
+        trigger = { NOT = { OR = { has_government = communism has_government = democratic } } }
+        # Default option for other government types
+    }
+}
+
+##########################
+# Violence Goes KAKAKAKA #
+##########################
+country_event = { 
+	id = prc.violence.1 # Stop Subsidizing the Economy
+	title = prc.violence.1.t
+	desc = prc.violence.1.d
+	picture = GFX_report_event_PRC_starting
+	fire_only_once = yes
+	is_triggered_only = yes
+	timeout_days = 10
+
+	option = {
+		name = prc.violence.1.a
+		ai_chance = {
+			factor = 50
+		}
+		PRC = { 
+				set_country_flag = Cheng.Unopposed
+				custom_effect_tooltip = Warning_Isolated 
+			}
+	 }
+	option = {
+		name = prc.violence.1.b
+		ai_chance = {
+			factor = 50
+		}
+		PRC = { 
+				custom_effect_tooltip = Not_Isolated
+				set_country_flag = Cheng.Opposed
+				}
+			}
+		}	
+
 
 country_event = {
 	id = prc.1
@@ -7,12 +365,6 @@ country_event = {
 	picture = GFX_report_event_PRC_starting
 	fire_only_once = yes
 
-	trigger = {
-		date > 2056.1.18
-		date < 2056.2.25
-		original_tag = PRC
-	}
-	
 	option = {
 		name = prc.1.a
 		ai_chance = {
@@ -68,45 +420,7 @@ country_event = {
 	}
 }
 
-country_event = { 
-	id = prc.3 # Protests Across China over Oil Rationing
-	title = prc.3.t
-	desc = prc.3.d
-	picture = GFX_report_event_PRC_starting # Needs GFX
-	is_triggered_only = yes
-	fire_only_once = yes
 
-	trigger = {
-	}
-	
-	option = {
-		name = prc.3.a #Concerning 
-		ai_chance = {
-			factor = 50
-		}
-	PRC = {
-		add_stability = -0.1
-	}
-	613 = {
-		damage_building = {
-		  type = infrastructure
-		  damage = 1
-				}
-		}
-	608 = {
-		damage_building = {
-		  type = infrastructure
-		  damage = 1
-				}
-		}
-	326 = {
-		damage_building = {
-		  type = infrastructure
-		  damage = 1
-				}
-		}
-	}
-}
 
 country_event = { 
 	id = prc.4 # Beijing Protests
@@ -171,7 +485,9 @@ country_event = {
 
 	trigger = {
 	}
-	
+	immediate = {
+				mark_focus_tree_layout_dirty = yes
+	} 	
 	option = {
 		name = prc.6.a
 		ai_chance = {
@@ -179,7 +495,38 @@ country_event = {
 		}
 	  	PRC = {
 			add_stability = -0.03
-			news_event = prc.6
 		}
 	}
+}
+
+country_event = { 
+	id = prc.7 # Student Protest
+	title = prc.7.t
+	desc = prc.7.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+	}
+	option = {
+		name = prc.7.a
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+country_event = {
+    id = prc.8
+    title = "Setup Party Cliques"
+    is_triggered_only = yes
+	hidden = yes
+    immediate = {
+        set_variable = { Whangs_influence = 1300 } # Moderate
+        set_variable = { Cheng_influence = 750 } #Militarist
+        set_variable = { Li_Ming_influence = 890 } #Reformists
+        set_variable = { Technocrat_influence = 400 } #Technocrats
+        set_variable = { Bolshervik_influence = 300 } #Bolsherviks
+		log = "Set up for Party Cliques in PRC Triggered"
+    }
 }

@@ -164,7 +164,11 @@ spriteTypes = {
 		name = "GFX_idea_LIT_claims_on_poland_idea"
 		texturefile = "gfx/interface/ideas/LIT_claims_on_poland_idea.dds"
 	}
-
+	### People's Republic Of China ###
+	spriteType = {
+		name = "GFX_idea_One_Child"
+		texturefile = "gfx/interface/ideas/PRC_One_Child.dds"
+	}	
 	### New Plague ###
 	spriteType = {
 		name = "GFX_idea_NewPlague"

@@ -4692,7 +4692,7 @@ ITA_promote_umberto_to_country_leader = {
 					has_ideology_group = democratic
 				}
 			}
-			ITA_prince_umberto = { promote_character = { ideology = conservatism } }
+			ITA_prince_umberto = { promote_character = { ideology = Christian_Liberalism } }
 		}
 	}
 	else_if = {
@@ -4703,7 +4703,7 @@ ITA_promote_umberto_to_country_leader = {
 			character =  ITA_prince_umberto
 			promote_leader = yes
 			country_leader = {
-				ideology = conservatism
+				ideology = Christian_Liberalism
 				traits = { inexperienced_monarch eager_commander }
 				expire = "1965.1.1.1"
 				id = -1
@@ -4776,7 +4776,7 @@ ITA_promote_cln_to_country_leader_democratic = {
 		character =  ITA_comitato_di_liberazione_nazionale
 		promote_leader = yes
 		country_leader = {
-			ideology = socialism
+			ideology = Social_Liberalism
 			expire = 1965.1.1
 			traits = { anti_fascist_committee }
 		}

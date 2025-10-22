@@ -63,7 +63,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = Christian_Liberalism
 			traits = { silent_workhorse quartermaster_general }
 			expire = "1950.1.1.12"
 			id = -1
@@ -1110,7 +1110,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = Social_Liberalism
 			traits = { JUNO_president_of_victory JUNO_unpopular }
 			expire = "1965.1.1.1"
 			id = -1

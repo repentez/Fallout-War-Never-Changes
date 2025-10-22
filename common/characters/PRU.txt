@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits={ economist silent_workhorse }
 			expire="1943.1.1.12"
 			id=-1

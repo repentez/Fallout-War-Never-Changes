@@ -35,3 +35,13 @@ add_ideas = {
 AFA_brutal_devastation
 AFA_nationalist_fervour
 }
+
+declare_war_on = {
+	target = QEM
+	type = annex_everything
+}
+declare_war_on = {
+	target = BEG
+	type = annex_everything
+}
+

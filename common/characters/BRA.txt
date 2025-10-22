@@ -125,7 +125,7 @@ characters={
 	#		}
 	#	}
 	#	#country_leader={
-	#	#	ideology=conservatism
+	#	#	ideology=Christian_Liberalism
 	#	#	expire="1965.1.1.1"
 	#	#	id=-1
 	#	#}
@@ -1013,7 +1013,7 @@ characters={
 		}
 		#country_leader = {
 		#	expire = "1965.1.1"
-		#	ideology = liberalism
+		#	ideology = Social_Liberalism
 		#	id=-1
 		#	traits = {
 		#		BRA_anti_authoritarian
@@ -1068,7 +1068,7 @@ characters={
 		}
 		#country_leader = {
 		#	expire = "1965.1.1"
-		#	ideology = liberalism
+		#	ideology = Social_Liberalism
 		#	id=-1
 		#	traits = {
 		#		BRA_education_pioneer
@@ -1100,7 +1100,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = Social_Liberalism
 			expire = "1965.1.1.1"
 			traits = { democratic_reformer }
 		}
@@ -1131,7 +1131,7 @@ characters={
 		}
 		#country_leader = {
 		#	expire = "1965.1.1"
-		#	ideology = liberalism
+		#	ideology = Social_Liberalism
 		#	id=-1
 		#	traits = {
 		#		ICE_trade_unionist
