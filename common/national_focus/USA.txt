@@ -1051,6 +1051,176 @@ focus_tree = {
     }
 
     focus = {
+        id = USA_a_very_needed_victory
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_james_c_wallace
+        cost = 3
+        x = 0
+        y = 2
+        prerequisite = {
+            focus = USA_james_c_wallace
+        }
+    }
+
+    focus = {
+        id = USA_peace_negotiations_in_europe
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_very_needed_victory
+        cost = 4
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_a_very_needed_victory
+        }
+    }
+    
+    focus = {
+        id = USA_many_a_crisis
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_a_very_needed_victory
+        cost = 4
+        x = -3
+        y = 1
+        prerequisite = {
+            focus = USA_a_very_needed_victory
+        }
+    }
+
+    focus = {
+        id = USA_secure_the_suez_for_trade
+        relative_position_id = USA_peace_negotiations_in_europe
+        icon = GFX_focus_generic_political
+        cost = 3
+        x = 0
+        y = 1.5
+        prerequisite = {
+            focus = USA_peace_negotiations_in_europe
+        }
+    }
+
+    focus = {
+        id = USA_the_energy_crisis
+        relative_position_id = USA_many_a_crisis
+        icon = GFX_focus_generic_political
+        cost = 3
+        x = 1
+        y = 1
+        prerequisite = {
+            focus = USA_many_a_crisis
+        }
+    }
+
+    focus = {
+        id = USA_second_resource_treaties
+        relative_position_id = USA_the_energy_crisis
+        icon = GFX_focus_generic_political
+        cost = 3
+        x = 0
+        y = 1
+        prerequisite =  {
+            focus = USA_the_energy_crisis
+        }
+    }
+
+    focus = {
+        id = USA_you_cannot_achieve_peace
+        relative_position_id = USA_secure_the_suez_for_trade
+        icon = GFX_focus_generic_political
+        cost = 2
+        x = 0
+        y = 2
+        prerequisite = {
+            focus = USA_secure_the_suez_for_trade
+        }
+        prerequisite = {
+            focus = USA_second_resource_treaties
+        }
+    }
+
+    focus = {
+        id = USA_make_a_deal_with_protestors
+        relative_position_id = USA_you_cannot_achieve_peace
+        icon = GFX_focus_generic_political
+        cost = 2
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_you_cannot_achieve_peace
+        }
+    }
+
+    focus = {
+        id = USA_the_budget_crisis
+        relative_position_id = USA_many_a_crisis
+        icon = GFX_focus_generic_political
+        cost = 3
+        x = -1
+        y = 1
+        prerequisite = {
+            focus = USA_many_a_crisis
+        }
+    }
+
+    focus = {
+        id = USA_rein_in_defense_spending
+        relative_position_id = USA_the_budget_crisis
+        icon = GFX_focus_generic_army
+        cost = 3
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_the_budget_crisis
+        }
+    }
+
+    focus = {
+        id = USA_the_ASEAN_war
+        relative_position_id = USA_many_a_crisis
+        icon = GFX_focus_generic_army
+        cost = 3
+        x = -3
+        y = 1
+        prerequisite = {
+            focus = USA_many_a_crisis
+        }
+    }
+    
+    focus = {
+        id = USA_push_for_a_peaceful_resolve
+        relative_position_id = USA_the_ASEAN_war
+        icon = GFX_focus_generic_political
+        cost = 3
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_the_ASEAN_war
+        }
+    }
+
+    focus = {
+        id = USA_send_in_the_peacekeepers
+        relative_position_id = USA_push_for_a_peaceful_resolve
+        icon = GFX_focus_generic_army
+        cost = 3
+        x = 0 
+        y = 1
+        prerequisite = {
+            focus = USA_push_for_a_peaceful_resolve
+        }
+    }
+
+    focus = {
+        id = USA_peacekeeping_in_Kashmir
+        relative_position_id = USA_the_ASEAN_war
+        icon = GFX_focus_generic_army
+        cost = 3
+        x = -2.25
+        y = 1
+        prerequisite = {
+            focus = USA_the_ASEAN_war
+        }
+    }
+    focus = {
         id = USA_reaffirm_national_values
         icon = GFX_focus_generic_political
         relative_position_id = USA_a_republic_in_crisis
@@ -1665,7 +1835,7 @@ focus_tree = {
         completion_reward = {
             promote_character = {
                 character = USA_john_granite
-                ideology = Christian_Liberalism
+                ideology = conservatism
             }
             add_power_balance_value = {
                 id = USA_enclave_balance
