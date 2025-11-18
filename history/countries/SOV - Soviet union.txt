@@ -11,12 +11,14 @@ declare_war_on = {
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
+recruit_character = SOV_georgy_chervov
 
 #Add synthetic refineries tech
 set_technology = {
 	synth_oil_experiments = 1
 }
 
+add_ideas = SOV_zastoy_idea
 
 ####
 #### VANILLA ####

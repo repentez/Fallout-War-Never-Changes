@@ -1,0 +1,24 @@
+SOV_nuclear_power_plant_dm = {
+	enable = {
+		always = yes
+	}
+
+	icon = GFX_modifiers_BUL_nuclear_power_plant_dm
+
+	local_building_slots = 1
+	local_resources = 0.05
+	state_production_speed_industrial_complex_factor = 0.1
+	state_production_speed_infrastructure_factor = 0.1
+}
+SOV_far_eastern_industry_dm = {
+	enable = {
+		always = yes
+	}
+
+	icon = GFX_modifiers_BUL_nuclear_power_plant_dm
+
+	local_building_slots = 1
+	local_resources = 0.05
+	state_production_speed_industrial_complex_factor = 0.1
+	state_production_speed_infrastructure_factor = 0.1
+}

@@ -1,0 +1,384 @@
+focus_tree = {
+	id = BUL_starting
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = yes
+
+	continuous_focus_position = { x = 50 y = 2500 }
+	focus = {
+		id = SOV_economic_of_ussr
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_atomic_energy_plus
+		icon = GFX_goal_unknown
+		x = 15
+		y = 1
+		prerequisite = {
+			focus = SOV_economic_of_ussr
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_north_kazakhian_npp
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = SOV_atomic_energy_plus
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            590 = {
+				add_dynamic_modifier = {
+					modifier = SOV_nuclear_power_plant_dm
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_who_rockets
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		prerequisite = {
+			focus = SOV_north_kazakhian_npp
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_long_road
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		prerequisite = {
+			focus = SOV_who_rockets
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_plus_steepe
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		prerequisite = {
+			focus = SOV_north_kazakhian_npp
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_ah_repressii
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		prerequisite = {
+			focus = SOV_plus_steepe
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_corenization
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		prerequisite = {
+			focus = SOV_ah_repressii
+		}
+		prerequisite = {
+			focus = SOV_long_road
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            
+		}
+	}
+	focus = {
+		id = SOV_central_siberian_npp
+		icon = GFX_goal_unknown
+		x = 22
+		y = 2
+		prerequisite = {
+			focus = SOV_atomic_energy_plus
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            569 = {
+				add_dynamic_modifier = {
+					modifier = SOV_nuclear_power_plant_dm
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_plus_fabrics
+		icon = GFX_goal_unknown
+		x = 20
+		y = 3
+		prerequisite = {
+			focus = SOV_central_siberian_npp
+		}
+	
+		cost = 3
+	
+		ai_will_do = {
+			factor = 1
+		}
+	
+		available = {
+	
+		}
+	
+		bypass = {
+	
+		}
+	
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		
+	
+		completion_reward = {
+            570 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			403 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			40 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+			586 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+	}
+}

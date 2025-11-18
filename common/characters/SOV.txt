@@ -27,6 +27,32 @@ characters = {
 		}
 	}
 
+	### new ###
+
+	SOV_georgy_chervov = {
+		name = SOV_georgy_chervov
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+		advisor =  {
+			slot = army_chief
+			idea_token = SOV_georgy_chervov_hg
+			ledger = army
+			can_be_fired = no
+		}
+		field_marshal = {
+			traits = { war_hero }
+			skill = 3
+			attack_skill = 2
+			defence_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
 	#TODO: This should be a country leader token added to Stalin in the appropriate event/focus/whatever
 	SOV_tsar_iosif_stalin = {
 		name = "Tsar Joseph I"

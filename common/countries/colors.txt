@@ -1041,3 +1041,28 @@ UAE = {
 	color = rgb { 70 40 170 }
 	color_ui = rgb { 150 90 30 }
 }
+
+KAZ = { 
+	color = rgb { 102 174 215 }
+	color_ui = rgb { 102 174 215 }
+}
+TAJ = {
+	color = rgb { 250 190 130 }
+	color_ui = rgb { 250 190 130 }
+}
+KYR = {	
+	color = rgb { 215 86 100 }
+	color_ui = rgb { 215 86 100 }
+}
+UZB = {	
+	color = rgb { 121 73 175 }
+	color_ui = rgb { 121 73 175 }
+}
+TMS = {
+	color = rgb { 136 205 126 }
+	color_ui = rgb { 136 205 126 }
+}
+RKZ = {
+	color = rgb { 49 74 48 }
+	color_ui = rgb { 49 74 48 } 
+}
