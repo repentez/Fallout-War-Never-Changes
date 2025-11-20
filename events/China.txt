@@ -1,4 +1,6 @@
-add_namespace = prc
+add_namespace = prc.event.Ming
+add_namespace = prc.event.Xin
+add_namespace = prc.event.cheng
 add_namespace = prc.crisis
 add_namespace = prc.violence
 add_namespace = prc.c.news
@@ -76,31 +78,15 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-
-		subtract_from_variable = {
-			var = Whangs_influence
-			value = 100
-				}
-		subtract_from_variable = {
-			var = Li_Ming_influence
-			value = 100
-				}
-
-		add_to_variable = {
-			var = Cheng_influence
-			value = 100
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = 0.05
 		}
-		add_to_variable = {
-			var = Technocrat_influence
-			value = 100
-			}
-		add_stability = 0.03
-		add_political_power = -50			
-			custom_effect_tooltip = "    "
-			custom_effect_tooltip = Dissent_Into_Cheng_1
-			custom_effect_tooltip = Dissent_Into_Technocrats_1
-			custom_effect_tooltip = Dissent_From_Reformist_1
-			custom_effect_tooltip = Dissent_From_Whang_1			
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}		
+
 		}
 
 	option = {
@@ -108,31 +94,16 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		add_to_variable = {
-			var = Whangs_influence
-			value = 100
-				}
-		subtract_from_variable = {
-			var = Li_Ming_influence
-			value = 100
-				}
-
-		subtract_from_variable = {
-			var = Cheng_influence
-			value = 100
+		add_political_power = 100
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = -0.03
 		}
-		add_to_variable = {
-			var = Technocrat_influence
-			value = 100
-			}
-		add_stability = -0.03
-		add_political_power = 50
-			custom_effect_tooltip = "    "	
-			custom_effect_tooltip = Dissent_Into_Reformist_1
-			custom_effect_tooltip = Dissent_Into_Whang_1
-			custom_effect_tooltip = Dissent_From_Cheng_1
-			custom_effect_tooltip = Dissent_From_Technocrats_1				
-		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.03
+		}		
+	 }
 	}
 
 country_event = { 
@@ -188,14 +159,7 @@ country_event = {
 					}
 	}
 
-			subtract_from_variable = {
-			var = Cheng_influence
-			value = 100
-		}
-		add_to_variable = {
-			var = Technocrat_influence
-			value = 100
-			}
+		complete_national_focus = send_in_negotiators
 
 	608 = {
 		damage_building = {
@@ -203,10 +167,6 @@ country_event = {
 		  damage = 4
 				}
 			}
-
-			custom_effect_tooltip = "    "	
-			custom_effect_tooltip = Dissent_Into_Cheng_1
-			custom_effect_tooltip = Dissent_From_Whang_1
 		}
 	}
 
@@ -269,13 +229,9 @@ country_event = {
 			factor = 50
 		}
 		 PRC = {
-			add_power_balance_value = {
-				id = PRC_Violence_Balance
-				value = -0.1
-				tooltip_side = my_bop_side
+		country_event = prc.crisis.7
 					}
 		 		}	
-			}
 
 	option = {
 		name = prc.crisis.6.b #Send In Negotiators
@@ -283,13 +239,61 @@ country_event = {
 			factor = 50
 			}
 		 PRC = {
-			add_power_balance_value = {
-				id = PRC_Violence_Balance
-				value = -0.05
-				tooltip_side = my_bop_side
-					}
+		add_timed_idea = {
+			idea = prc_student_outrage
+			days = 365
+		}
+		country_event = prc.crisis.7
 		 	}
 		}
+	}
+
+country_event = { 
+	id = prc.crisis.7 # Peaceful Solution
+	title = prc.crisis.7.t
+	desc = prc.crisis.7.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+ 
+	trigger = {
+		has_ideas = prc_Negotiator_Protesting
+	}
+	option = {
+		name = prc.crisis.7.a # Xin Path
+		ai_chance = {
+			factor = 50
+		}
+			complete_national_focus = compromised_failed
+			}
+
+	option = {
+		name = prc.crisis.7.b # Li Ming Path
+		ai_chance = {
+			factor = 50
+		}
+			complete_national_focus = compromise_is_made
+			}
+	}
+
+country_event = { 
+	id = prc.crisis.8 # Alternative to reform
+	title = prc.crisis.8.t
+	desc = prc.crisis.8.d
+	picture = GFX_report_event_PRC_starting # Needs GFX
+	is_triggered_only = yes
+	fire_only_once = yes
+ 
+	trigger = {
+		
+	}
+	option = {
+		name = prc.crisis.8.a # Xin Path
+		ai_chance = {
+			factor = 50
+		}
+			
+			}
 	}
 
 news_event = {

@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 		
-		"FRA"={
+		"EUC"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
@@ -22,7 +22,7 @@ bookmarks = {
 				FRA_france_leads
 			}
 		}
-		"FRA"={
+		"EUC"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
@@ -134,10 +134,14 @@ bookmarks = {
 			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				
+				prc_One_Child
+				prc_State_Corruption
+				prc_Incompetent_Army
 			}	
 			focuses = {
-				
+				Chengs_State
+				Xin-Cheng_Alliance
+				Li_Ming_Reforms
 			}			
 		}
 		"SOV"={

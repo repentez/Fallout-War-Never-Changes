@@ -2,6 +2,10 @@
 
 #Tooltips 
 
+###########
+# Parties #
+###########
+
 ##################
 # Starting Ideas #
 ##################
@@ -14,6 +18,8 @@
 ################
   prc_Negotiator_Protesting:0 "Protest In Limbo"
   prc_Police_Sent:0 "Standoff with protesters"
+  prc_Negotiator_Protesting2:0 "Protestors Happy"
+  prc_Negotiator_Protesting3:0 "Police Contain and Arrest Protestors"
 
 #################
 # Crisis Events #
@@ -51,6 +57,15 @@
   prc.crisis.6.d:0 "Since the protest began, the government has slashed more funds going to the people and it's now affecting the students, who in response have unified with the Oil Protestors. They are demanding to have a seat at the negotiating table and demand fiscal reform to meet student demands. Cheng has stormed off, babbling about Ming being a Reactionary and an agent of the west."
   prc.crisis.6.a:0 "Allow them a seat"
   prc.crisis.6.b:0 "Refuse them a seat"
+
+  prc.crisis.7.t:0 "The Negotiation"
+  prc.crisis.7.d:0 "An End to the protest is within our grasp. Li Ming’s negotiators have worked out a deal where we could end the strikes by restoring subsidies of the economy and refinancing the healthcare system. However the money to fund it will come out of the PLA annual budget, a move that will enrage the hardliners and members of Whang’s bloc that lean towards the hardliners. Chairman Xin has issued a blunt warning: fail to secure peace, and he will use the Emergency Act to impose order. Whang must choose between keeping his bloc unified and let Xin take over or let this protest end without blood but risking support within congress."
+  prc.crisis.7.a:0 "Xin, declare an Emergency."
+  prc.crisis.7.b:0 "Li, you have our support."
+
+  prc.crisis.8.t:0 "So begins the rectification campaign"
+  prc.crisis.8.d:0 "Since the end of the recent protests across the nation, President Xin, backed by Whang, has initiated a dramatic re-centring of the party. His campaign, dubbed \"The Rectification campaign,\" will demand Absolute political alignment so that China can survive and prosper through this resource crisis. Cheng has backed the mandate to win favour, and the technocrats are the biggest backers of it outside of Whang’s bloc. However, the reformists, whose liberalisation efforts failed during the protests, continue to stall. If they continue to act like this, the government may brand their reforms as \"western counter-revolutionaries\"."
+  prc.crisis.8.a:0 "A Xin-Cheng government is the future"
 
 ###############
 # Crisis News #

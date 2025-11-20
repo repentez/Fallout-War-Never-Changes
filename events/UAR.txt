@@ -370,4 +370,7 @@ country_event = {
 				transfer_state = 1086
 		}
 	}
+	option = {
+		name = UAR_collapse.10.a
+	}
 }

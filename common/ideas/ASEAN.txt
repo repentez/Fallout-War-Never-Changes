@@ -86,7 +86,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = AST_climate_disaster
+			picture = Commie_Terror_Cells
 			
 			modifier = {
 				

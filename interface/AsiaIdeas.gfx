@@ -1,0 +1,18 @@
+SpriteTypes = {	
+	# ASEAN
+	spriteType = {
+		name = "GFX_idea_Commie_Terror_Cells"
+		texturefile = "gfx/interface/ideas/Commie_Terror_Cells.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRC_corruption"
+		texturefile = "gfx/interface/ideas/PRC_corruption.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRC_Army_Incompetent"
+		texturefile = "gfx/interface/ideas/PRC_Army_Incompetent.dds"
+	}
+}
+

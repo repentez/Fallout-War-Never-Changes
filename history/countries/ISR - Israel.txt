@@ -1,0 +1,39 @@
+﻿capital = 454
+####################
+# Foreign Politics #
+####################
+
+	# The Military Alliance is for the invasion of the Middle East, The Alliance will end once the oil has dried up
+
+	declare_war_on = {
+		target = UAR
+		type = annex_everything
+		generator = { 746 } 
+	}
+
+#####################
+# Internal Politics #
+#####################
+recruit_character = ISR_Avi_Adler #Starting Leader
+
+set_politics = {
+	ruling_party = authoritarian_democracy
+	last_election = "2053.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    fascism = 15
+    neutrality = 4
+    democratic = 10
+    communism = 8
+    theocracy = 16
+    authoritarian_democracy = 22
+    socialism = 12
+    conservatism = 13
+} 
+
+###################
+# Economic Starts #
+###################
+set_convoys = 5

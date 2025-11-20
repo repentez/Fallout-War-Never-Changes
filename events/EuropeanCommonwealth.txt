@@ -469,3 +469,29 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = euc.7 # President Impeached
+	title = euc.7.title
+	desc = euc.7.desc
+	picture = GFX_event_picture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {}
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = euc.7.a
+		custom_effect_tooltip = "The President is impeached and parliament operates without a president for now"
+			promote_character = EUC_European_Parliament
+		hidden_effect = {
+			EUC = {
+				recruit_character = EUC_European_Parliament
+			}	
+		}
+	}
+}

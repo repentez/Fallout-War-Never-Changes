@@ -52,7 +52,7 @@ ideas = {
 		}  
 
 		prc_State_Corruption = { #this will never be lost only increased!!!
-			picture = prc_golden_era_image
+			picture = PRC_corruption
 			
 			allowed = {
 				always = no
@@ -74,7 +74,7 @@ ideas = {
 		}
 
 		prc_Incompetent_Army = { 
-			picture = prc_golden_era_image
+			picture = PRC_Army_Incompetent
 			
 			allowed = {
 				always = no
@@ -107,11 +107,69 @@ ideas = {
 			
 		modifier = {
 		stability_factor = -0.05
-		stability_weekly = -0.01
-        consumer_goods_factor = 0.03  
-        political_power_gain = -0.10  
+		stability_weekly = -0.0010
+        consumer_goods_factor = 0.15
+        political_power_gain = -1.00  
 			}
 		}  
+
+		prc_Negotiator_Protesting3 = { #  Xin
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+		stability_weekly = -0.0010
+        consumer_goods_factor = 0.15
+        political_power_gain = -1.00  
+			}
+		}
+
+		prc_Negotiator_Protesting2 = { # # Li Ming
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+        political_power_gain = -1.00  
+			}
+		}    
+
+		prc_people_before_ideology = { # # Li Ming
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+        political_power_gain = -0.50  
+		research_speed_factor = 0.05  
+			}
+		}    
+
 
 		prc_Police_Sent = { # Policed Protests
 			
@@ -132,6 +190,25 @@ ideas = {
         political_power_gain = -0.10  
 			}
 		} 
+
+		prc_student_outrage = { #this will never be lost only increased!!!
+			picture = prc_golden_era_image
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
 
  #####################################
  # Early Game Crisis Part 1: Strikes #
@@ -218,6 +295,7 @@ PRC_Strikes_Stage_1 = {
 				political_power_gain = 0.02
 				construction_speed = -0.05
 				allowed = { has_idea = beholder_economy_law }
+				}
 			}
 		}
 	}

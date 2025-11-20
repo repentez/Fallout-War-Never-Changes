@@ -1,5 +1,17 @@
 ﻿capital = 1192
 set_research_slots = 3
+set_oob = EUC_2056
+
+####################
+# Foreign Politics #
+####################
+
+	# The Military Alliance is for the invasion of the Middle East, The Alliance will end once the oil has dried up
+ create_faction = "The Commonwealth Security Bloc"
+	add_to_faction = GRE
+	add_to_faction = IRE
+	add_to_faction = MOR
+	add_to_faction = ISR
 
 # Starting tech
 set_technology = {

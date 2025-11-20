@@ -1,0 +1,30 @@
+﻿capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+
+	set_convoys = 10
+
+	recruit_character = PER_Zafar_Kordestani
+
+		set_popularities = {
+			neutrality = 10
+			theocracy = 50
+			authoritarian_democracy = 20
+			conservatism = 10
+			ultranationalism = 10
+		}
+
+	2049.2.1 = {
+	set_politics = {
+		ruling_party = theocracy
+		last_election = "2040.1.1"
+		election_frequency = 100
+		elections_allowed = no
+	}
+
+	}
+
+	create_faction = "The Axis of Resistance"
+	add_to_faction = LEB

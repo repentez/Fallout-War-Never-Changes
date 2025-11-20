@@ -1,5 +1,7 @@
 ﻿capital = 1193
 
+	recruit_character = Bo_Sheng_Aung
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
