@@ -26,5 +26,5 @@ oob = "PER_1936"
 
 	}
 
-	create_faction = "The Axis of Resistance"
-	add_to_faction = LEB
+	# create_faction = "The Axis of Resistance"
+	# add_to_faction = LEB
