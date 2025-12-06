@@ -32,12 +32,11 @@ ideas = {
 		MOL_radiocenter_mayak_idea = {
 			removal_cost = -1
 			available = {
-				controls_state = 834
 			}
 		
 			allowed = {
 				always = yes
-				#original_tag = MOL
+				original_tag = MOL
 			}
 
 			modifier = {

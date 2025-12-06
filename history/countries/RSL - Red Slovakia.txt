@@ -51,3 +51,7 @@ set_popularities = {
 	communism = 89
 	fascism = 11
 }
+
+add_ideas = {
+	SOV_postavka_robotov_idea
+}

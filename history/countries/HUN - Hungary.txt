@@ -111,6 +111,9 @@ set_popularities = {
 	neutrality = 20
 }
 
+add_ideas = {
+	SOV_postavka_robotov_idea
+}
 #Start Horty as neutral if DOD
 recruit_character = HUN_miklos_horthy
 recruit_character = HUN_matyas_rakosi

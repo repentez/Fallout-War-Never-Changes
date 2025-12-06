@@ -1066,3 +1066,15 @@ RKZ = {
 	color = rgb { 49 74 48 }
 	color_ui = rgb { 49 74 48 } 
 }
+ABK = {
+	color = rgb { 140 203 94 }
+	color_ui = rgb { 140 203 94 } 
+}
+ADJ = {
+	color = rgb { 0 103 165 }
+	color_ui = rgb { 0 103 165 }
+}
+SOU = {
+	color = rgb { 245 198 56 }
+	color_ui = rgb { 140 203 94 } 
+}
