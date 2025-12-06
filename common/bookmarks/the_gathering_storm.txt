@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 		
-		"EUC"={
+		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
@@ -22,7 +22,7 @@ bookmarks = {
 				FRA_france_leads
 			}
 		}
-		"EUC"={
+		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
@@ -134,14 +134,10 @@ bookmarks = {
 			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				prc_One_Child
-				prc_State_Corruption
-				prc_Incompetent_Army
+				
 			}	
 			focuses = {
-				Chengs_State
-				Xin-Cheng_Alliance
-				Li_Ming_Reforms
+				
 			}			
 		}
 		"SOV"={
@@ -149,14 +145,12 @@ bookmarks = {
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				SOV_zastoy_idea
+				SOV_war_economic_idea
+				SOV_fake_socialism_idea
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
+
 			}	
 		}
 		"SOV"={
@@ -169,9 +163,9 @@ bookmarks = {
 				SOV_politicized_military
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
+				SOV_zastoy_idea
+				SOV_war_economic_idea
+				SOV_fake_socialism_idea
 			}	
 		}
 
