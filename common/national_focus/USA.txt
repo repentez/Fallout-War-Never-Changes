@@ -50,6 +50,92 @@ focus_tree = {
         }
     }
 
+#### Sino-American War
+
+    focus = {
+        id = USA_the_chinese_wage_war_in_the_pacific
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_us_army
+        x = 2
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = USA_us_army
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_war_with = PRC
+			}
+		}
+    }
+
+    focus = {
+        id = USA_island_hopping_doctrine
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_us_army
+        x = 2
+        y = 2
+        cost = 5
+        prerequisite = {
+            focus = USA_us_army
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_full_control_of_state = 463
+			}
+		}
+    }
+
+    focus = {
+        id = USA_reports_of_chinese_landings_in_alaska
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_us_army
+        x = 2
+        y = 2
+        cost = 10
+        prerequisite = {
+            focus = USA_the_chinese_wage_war_in_the_pacific
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                has_war_with = PRC 
+				NOT = {	
+                    has_full_control_of_state = 463
+                }
+			}
+		}
+    }
+
+    focus = {
+        id = USA_democracy_must_prevail_across_the_world
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_us_army
+        x = 3
+        y = 3
+        cost = 10
+        prerequisite = {
+            focus = USA_reports_of_chinese_landings_in_alaska
+        }
+    }
+
     focus = {
         id = USA_expand_recruitment_drives
         icon = GFX_focus_generic_recruitment
@@ -68,10 +154,11 @@ focus_tree = {
     focus = {
         id = USA_enforce_the_anchorage_line
         icon = GFX_focus_generic_recruitment
-        x = -15
-        y = 4
+        relative_position_id = USA_us_army
+        x = 1
+        y = 3
         cost = 10
-        prerequisite = { focus = USA_expand_recruitment_drives }
+        prerequisite = { focus = USA_reports_of_chinese_landings_in_alaska }
         completion_reward = {
             add_dynamic_modifier = {
                 modifier = USA_enforced_anchorage_line
@@ -107,6 +194,7 @@ focus_tree = {
 						option = HIDE
 					}
 				}
+                has_war_with = PRC
 				NOT = {	
                     has_full_control_of_state = 463
                 }
@@ -117,8 +205,9 @@ focus_tree = {
     focus = {
         id = USA_enact_the_draft
         icon = GFX_focus_generic_recruitment
-        x = -15
-        y = 5
+        relative_position_id = USA_us_army
+        x = 1
+        y = 4
         cost = 10
         prerequisite = { focus = USA_enforce_the_anchorage_line }
         completion_reward = {
@@ -133,8 +222,15 @@ focus_tree = {
     focus = {
         id = USA_mechanized_force_initiative
         icon = GFX_focus_generic_mechanized
-        x = -9
+        x = -7
         y = 3
+        offset = {
+            x = 4
+            y = 0
+            trigger = {
+                has_war_with = PRC
+            }
+        }
         cost = 10
         prerequisite = { focus = USA_us_army }
         completion_reward = {
@@ -219,8 +315,9 @@ focus_tree = {
     focus = {
         id = USA_next_generation_armor
         icon = GFX_focus_generic_tank
-        x = -4
-        y = 4
+        relative_position_id = USA_mechanized_force_initiative
+        x = 2
+        y = 1
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
@@ -235,8 +332,9 @@ focus_tree = {
     focus = {
         id = USA_composite_armor_research
         icon = GFX_focus_generic_tank
-        x = -4
-        y = 5
+        relative_position_id = USA_mechanized_force_initiative
+        x = 2
+        y = 2
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
@@ -251,9 +349,9 @@ focus_tree = {
     focus = {
         id = USA_mobile_logistics_corps
         icon = GFX_focus_generic_mechanized
-        relative_position_id = USA_us_army
-        x = 1
-        y = 2
+        relative_position_id = USA_mechanized_force_initiative
+        x = -2
+        y = 1
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
@@ -268,9 +366,9 @@ focus_tree = {
     focus = {
         id = USA_armored_military_police
         icon = GFX_focus_generic_tank
-        relative_position_id = USA_us_army
-        x = 1
-        y = 3
+        relative_position_id = USA_mechanized_force_initiative
+        x = -2
+        y = 2
         cost = 10
         prerequisite = { focus = USA_mobile_logistics_corps }
         completion_reward = {
@@ -298,9 +396,9 @@ focus_tree = {
     focus = {
         id = USA_heavy_recon_focus
         icon = GFX_focus_generic_recon
-        relative_position_id = USA_us_army
-        x = 3
-        y = 2
+        relative_position_id = USA_mechanized_force_initiative
+        x = 0
+        y = 1
         cost = 10
         prerequisite = { focus = USA_mechanized_force_initiative }
         completion_reward = {
@@ -315,9 +413,9 @@ focus_tree = {
     focus = {
         id = USA_main_battle_tanks
         icon = GFX_focus_generic_tank
-        relative_position_id = USA_us_army
-        x = 3
-        y = 4
+        relative_position_id = USA_mechanized_force_initiative
+        x = 0
+        y = 3
         cost = 10
         prerequisite = { focus = USA_heavy_recon_focus }
         prerequisite = { focus = USA_composite_armor_research }
@@ -333,9 +431,9 @@ focus_tree = {
     focus = {
         id = USA_advanced_gunnery
         icon = GFX_focus_generic_artillery
-        relative_position_id = USA_us_army
-        x = 2
-        y = 5
+        relative_position_id = USA_main_battle_tanks
+        x = -1
+        y = 1
         cost = 10
         prerequisite = { focus = USA_main_battle_tanks }
         completion_reward = {
@@ -350,9 +448,9 @@ focus_tree = {
     focus = {
         id = USA_reactive_armor_systems
         icon = GFX_focus_generic_artillery
-        relative_position_id = USA_us_army
-        x = 4
-        y = 5
+        relative_position_id = USA_main_battle_tanks
+        x = 1
+        y = 1
         cost = 10
         prerequisite = { focus = USA_main_battle_tanks }
         completion_reward = {
@@ -367,9 +465,9 @@ focus_tree = {
     focus = {
         id = USA_streamlined_tank_production
         icon = GFX_focus_generic_industry
-        relative_position_id = USA_us_army
-        x = 3
-        y = 6
+        relative_position_id = USA_main_battle_tanks
+        x = 0
+        y = 2
         cost = 10
         prerequisite = { focus = USA_reactive_armor_systems }
         prerequisite = { focus = USA_advanced_gunnery }
