@@ -1845,7 +1845,7 @@ focus_tree = {
         }
     }
 
-#### Commonwealth sub focuses mechanic
+#### Commonwealth sub focuses mechanic (not at all functional at all whatsoever)
 
 #### Sunbelt
     focus = {
@@ -1855,12 +1855,83 @@ focus_tree = {
         y = 2
     }
 
+    focus = {
+        id = USA_california_pacific_fighting_grounds
+        icon = GFX_focus_generic_political
+        x = -43
+        y = 3
+    }
+
+    focus = {
+        id = USA_california_hawaii_mobilized
+        icon = GFX_focus_generic_political
+        x = -43
+        y = 4
+    }
+
+    focus = {
+        id = USA_california_awarded_for_shipbuilding_efforts
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 5
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_california_awarded
+			}
+		}
+    }
+
 #### Cascadian   
     focus = {
         id = USA_cascadian_commonwealth
         icon = GFX_focus_generic_political
         x = -40
         y = 2
+    }
+
+    focus = {
+        id = USA_cascadian_alaskan_oil_line
+        icon = GFX_focus_generic_political
+        x = -39
+        y = 3
+    }
+
+    focus = {
+        id = USA_cascadian_pacific_fighting_grounds
+        icon = GFX_focus_generic_political
+        x = -41
+        y = 3
+    }
+
+    focus = {
+        id = USA_cascadian_oregon_shipbuilding_initiative
+        icon = GFX_focus_generic_political
+        x = -41
+        y = 4
+    }
+
+    focus = {
+        id = USA_cascadian_awarded_for_shipbuilding_efforts
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 5
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_cascadian_awarded
+			}
+		}
     }
 
 #### Great Northern
@@ -1910,6 +1981,8 @@ focus_tree = {
         x = -42
         y = 8
     }
+
+
 
 #### Gulf
     focus = {
