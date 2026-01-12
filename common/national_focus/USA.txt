@@ -1048,6 +1048,126 @@ focus_tree = {
                 value = -0.05
             }
         }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = USA_john_granite
+				}
+			}
+		}
+    }
+    
+    focus = {
+        id = USA_a_coalition_for
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_the_56_election
+        x = 25
+        y = 2
+        cost = 4
+        available = {
+            has_completed_focus = {
+                focus = USA_james_c_wallace
+            }
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                OR = {
+                    has_completed_focus = USA_james_c_wallace
+                }
+			}
+		}
+    }
+
+    focus = {
+        id = USA_democracy_will_not_come
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_coalition_for
+        x = -1
+        y = 1
+        cost = 4
+        prerequisite = {
+            focus = USA_a_coalition_for
+        }
+        mutually_exclusive = {
+            focus = USA_through_compromise_and_fear
+        }
+    }
+
+    focus = {
+        id = USA_without_contraries_is_no_progression
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_coalition_for
+        x = -1
+        y = 2
+        cost = 4
+        prerequisite = {
+            focus = USA_democracy_will_not_come
+        }
+    }
+
+    focus = {
+        id = USA_through_compromise_and_fear
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_coalition_for
+        x = 1
+        y = 1
+        cost = 4
+        prerequisite = {
+            focus = USA_a_coalition_for
+        }
+        mutually_exclusive = {
+            focus = USA_democracy_will_not_come
+        }
+        completion_reward = {
+            hidden_effect = {
+                complete_national_focus = {
+                    focus = USA_hiden_focus
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = USA_tell_all_the_truth_but_tell_it_slant
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_coalition_for
+        x = 1
+        y = 2
+        cost = 4
+        prerequisite = {
+            focus = USA_through_compromise_and_fear
+        }
+        completion_reward = {
+            hidden_effect = {
+                complete_national_focus = {
+                    focus = USA_hiden_focus
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = USA_hiden_focus
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_coalition_for
+        x = 0
+        y = 3
+        cost = 4
+        allow_branch = {
+            always = no
+        }
     }
 
     focus = {
@@ -1056,10 +1176,18 @@ focus_tree = {
         relative_position_id = USA_james_c_wallace
         cost = 3
         x = 0
-        y = 2
-        prerequisite = {
-            focus = USA_james_c_wallace
-        }
+        y = 5
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_completed_focus = USA_hiden_focus
+			}
+		}
     }
 
     focus = {
@@ -1068,9 +1196,9 @@ focus_tree = {
         relative_position_id = USA_james_c_wallace
         cost = 3
         x = 2
-        y = 2
+        y = 6
         prerequisite = {
-            focus = USA_james_c_wallace
+            focus = USA_a_very_needed_victory
         }
     }
 
@@ -1403,16 +1531,22 @@ focus_tree = {
             focus = USA_james_c_wallace
         }
         allow_branch = {
-            NOT = {
-                has_completed_focus = {
-                    focus = USA_james_c_wallace
-                }
-            }
-        }
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = USA_james_c_wallace
+				}
+			}
+		}
     }
 
     focus = {
-        id = USA_enclave_constant
+        id = USA_deciding_our_future
         icon = GFX_focus_generic_political
         relative_position_id = USA_the_56_election
         x = -25
@@ -1423,18 +1557,94 @@ focus_tree = {
                 focus = USA_john_granite
             }
         }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                OR = {
+                    has_completed_focus = USA_john_granite
+                }
+			}
+		}
+    }
+
+    focus = {
+        id = USA_what_is_vault_tec
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_deciding_our_future
+        x = 0
+        y = 1
+        cost = 4
+        prerequisite = {
+            focus = USA_deciding_our_future
+        }
+    }
+
+    focus = {
+        id = USA_alls_right_with_the_world
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_deciding_our_future
+        x = -1
+        y = 2
+        cost = 4
+        prerequisite = {
+            focus = USA_what_is_vault_tec
+        }
+        mutually_exclusive = {
+            focus = USA_gods_in_his_heaven
+        }
+    }
+
+    focus = {
+        id = USA_gods_in_his_heaven
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_deciding_our_future
+        x = 1
+        y = 2
+        cost = 4
+        prerequisite = {
+            focus = USA_what_is_vault_tec
+        }
+        mutually_exclusive = {
+            focus = USA_alls_right_with_the_world
+        }
+    }
+
+    focus = {
+        id = USA_above_the_starry_canopy
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_deciding_our_future
+        x = 0
+        y = 3
+        cost = 4
+        prerequisite = {
+            focus = USA_alls_right_with_the_world
+            focus = USA_gods_in_his_heaven
+        }
     }
 
     focus = {
         id = USA_our_patriotic_victory
         icon = GFX_focus_generic_political
-        relative_position_id = USA_john_granite
+        relative_position_id = USA_above_the_starry_canopy
         x = 0
-        y = 2
+        y = 1
         cost = 4
-        prerequisite = {
-            focus = USA_john_granite
-        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_completed_focus = USA_above_the_starry_canopy
+			}
+		}
     }
 
     focus = {
