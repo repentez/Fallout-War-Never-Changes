@@ -99,6 +99,19 @@ focus_tree = {
                 }
             }
         }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {	
+                    has_full_control_of_state = 463
+                }
+			}
+		}
     }
 
     focus = {
@@ -1900,6 +1913,19 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -39
         y = 3
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+                    has_full_control_of_state = 463
+                }
+			}
+		}
     }
 
     focus = {
@@ -1982,8 +2008,109 @@ focus_tree = {
         y = 8
     }
 
+    focus = {
+        id = USA_appalachia_attract_resource_mining_industry
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 9
+        prerequisite = {
+            focus = USA_appalachian_commonwealth
+        }
+    }
 
+    focus = {
+        id = USA_appalachia_take_down_the_corporation
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 10
+        prerequisite = {
+            focus = USA_appalachia_attract_resource_mining_industry
+        }
+    }
 
+    focus = {
+        id = USA_appalachia_the_federal_government_has_put_us_down
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 11
+        prerequisite = {
+            focus = USA_appalachia_take_down_the_corporation
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_appalachia_punish_the_appalachians
+			}
+		}
+    }
+
+    focus = {
+        id = USA_appalachia_the_federal_government_helps_us
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 11
+        prerequisite = {
+            focus = USA_appalachia_take_down_the_corporation
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_appalachia_aid_the_appalachians
+			}
+		}
+    }
+
+    focus = {
+        id = USA_appalachia_protestsa ## Worse version of the protests, potentially even declaring independence/war, becoming a puppet (?); delayable through executive orders
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 12
+        prerequisite = {
+            focus = USA_appalachia_the_federal_government_has_put_us_down
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_appalachia_punish_the_appalachians
+			}
+		}
+    }
+
+    focus = {
+        id = USA_appalachia_protestsb
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 12
+        prerequisite = {
+            focus = USA_appalachia_the_federal_government_helps_us
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_appalachia_aid_the_appalachians
+			}
+		}
+    }
 #### Gulf
     focus = {
         id = USA_gulf_commonwealth
@@ -2016,7 +2143,7 @@ focus_tree = {
         y = 8
     }
 
-#### The Commonweathlh (omg its THE commonwealth!!)
+#### The Commonwealth (omg its THE commonwealth!!)
     focus = {
         id = USA_the_commonwealth
         icon = GFX_focus_generic_political
