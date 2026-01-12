@@ -995,7 +995,7 @@ focus_tree = {
         id = USA_a_republic_in_crisis
         icon = GFX_goal_USA_republic_in_crisis
         cost = 3
-        x = -70
+        x = -75
         y = 2
         completion_reward = {
             add_stability = -0.05
@@ -1132,9 +1132,7 @@ focus_tree = {
         }
         completion_reward = {
             hidden_effect = {
-                complete_national_focus = {
-                    focus = USA_hiden_focus
-                }
+                set_country_flag = USA_completed_coalition_constant
             }
         }
     }
@@ -1151,22 +1149,8 @@ focus_tree = {
         }
         completion_reward = {
             hidden_effect = {
-                complete_national_focus = {
-                    focus = USA_hiden_focus
-                }
+                set_country_flag = USA_completed_coalition_constant
             }
-        }
-    }
-
-    focus = {
-        id = USA_hiden_focus
-        icon = GFX_focus_generic_political
-        relative_position_id = USA_a_coalition_for
-        x = 0
-        y = 3
-        cost = 4
-        allow_branch = {
-            always = no
         }
     }
 
@@ -1185,7 +1169,7 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-				has_completed_focus = USA_hiden_focus
+				has_country_flag = USA_completed_coalition_constant
 			}
 		}
     }
@@ -1859,5 +1843,111 @@ focus_tree = {
         prerequisite = {
             focus = USA_dear_old_friends
         }
+    }
+
+#### Commonwealth sub focuses mechanic
+
+#### Sunbelt
+    focus = {
+        id = USA_california_commonwealth
+        icon = GFX_focus_generic_political
+        x = -44
+        y = 2
+    }
+
+#### Cascadian   
+    focus = {
+        id = USA_cascadian_commonwealth
+        icon = GFX_focus_generic_political
+        x = -40
+        y = 2
+    }
+
+#### Great Northern
+    focus = {
+        id = USA_greath_northern_commonwealth
+        icon = GFX_focus_generic_political
+        x = -36
+        y = 2
+    }
+    
+#### Four Corners
+    focus = {
+        id = USA_four_corners_commonwealth
+        icon = GFX_focus_generic_political
+        x = -32
+        y = 2
+    }
+
+#### Texlahoma
+    focus = {
+        id = USA_texlahoma_commonwealth
+        icon = GFX_focus_generic_political
+        x = -28
+        y = 2
+    }
+
+#### Great Plains
+    focus = {
+        id = USA_great_plains_commonwealth
+        icon = GFX_focus_generic_political
+        x = -24
+        y = 2
+    }
+
+#### Great Lakes 
+    focus = {
+        id = USA_great_lakes_commonwealth
+        icon = GFX_focus_generic_political
+        x = -20
+        y = 2
+    }
+
+#### Appalachian
+    focus = {
+        id = USA_appalachian_commonwealth
+        icon = GFX_focus_generic_political
+        x = -42
+        y = 8
+    }
+
+#### Gulf
+    focus = {
+        id = USA_gulf_commonwealth
+        icon = GFX_focus_generic_political
+        x = -38
+        y = 8
+    }
+
+#### South-East
+    focus = {
+        id = USA_south_east_commonwealth
+        icon = GFX_focus_generic_political
+        x = -34
+        y = 8
+    }
+
+#### Columbian 
+    focus = {
+        id = USA_columbian_commonwealth
+        icon = GFX_focus_generic_political
+        x = -30
+        y = 8
+    }
+
+#### Liberty
+    focus = {
+        id = USA_commonwealth_of_liberty
+        icon = GFX_focus_generic_political
+        x = -26
+        y = 8
+    }
+
+#### The Commonweathlh (omg its THE commonwealth!!)
+    focus = {
+        id = USA_the_commonwealth
+        icon = GFX_focus_generic_political
+        x = -22
+        y = 8
     }
 }
