@@ -1402,6 +1402,27 @@ focus_tree = {
         mutually_exclusive = {
             focus = USA_james_c_wallace
         }
+        allow_branch = {
+            NOT = {
+                has_completed_focus = {
+                    focus = USA_james_c_wallace
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = USA_enclave_constant
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_the_56_election
+        x = -25
+        y = 2
+        cost = 4
+        available = {
+            has_completed_focus = {
+                focus = USA_john_granite
+            }
+        }
     }
 
     focus = {
@@ -1629,213 +1650,4 @@ focus_tree = {
             focus = USA_dear_old_friends
         }
     }
-
-    focus = {
-        id = USA_expand_cia_activities
-        icon = GFX_focus_generic_special_forces
-        relative_position_id = USA_the_cia
-        x = 0
-        y = 4
-        cost = 3
-        prerequisite = {
-            focus = USA_establish_international_security
-            focus = USA_keep_a_watchful_eye
-        }
-    }
-
-    focus = {
-        id = USA_state_of_the_enclave
-        icon = GFX_focus_generic_political
-        relative_position_id = USA_president_60
-        x = 0
-        y = 1
-        prerequisite = {
-            focus = USA_president_60
-        }
-     }
-     focus = {
-         id = USA_in_the_name_of_stability
-         icon = GFX_focus_generic_political
-         relative_position_id = USA_state_of_the_enclave
-         x = 0
-         y = 1
-         prerequisite = {
-             focus = USA_state_of_the_enclave
-         }
-      }
-      focus = {
-          id = USA_invade_the_congo
-          icon = GFX_focus_generic_army
-          relative_position_id = USA_in_the_name_of_stability
-          x = 0
-          y = 1
-          prerequisite = {
-              focus = USA_in_the_name_of_stability
-          }
-      }
-      focus = {
-          id = USA_and_capitalism
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_invade_the_congo
-          x = 0
-          y = 1
-          prerequisite = {
-              focus = USA_invade_the_congo
-          }
-      }
-      focus = {
-          id = USA_the_resource_crisis
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_state_of_the_enclave
-          x = -3
-          y = 1
-          prerequisite = {
-              focus = USA_state_of_the_enclave
-          }
-      }
-      focus = {
-          id = USA_the_second_resource_treaties
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_the_resource_crisis
-          x = -1
-          y = 1
-          prerequisite = {
-              focus = USA_the_resource_crisis
-          }
-      }
-      focus = {
-          id = USA_exploit_africa
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_the_resource_crisis
-          x = 1
-          y = 1
-          prerequisite = {
-              focus = USA_the_resource_crisis
-          }
-          prerequisite = {
-              focus = USA_in_the_name_of_stability
-          }
-      }
-      focus = { 
-          id = USA_patchwork_to
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_the_resource_crisis
-          x = 0
-          y = 2
-          prerequisite = {
-              focus = USA_exploit_africa
-          }
-          prerequisite = {
-              focus = USA_the_second_resource_treaties
-          }
-      }
-      focus = {
-          id = USA_the_scorporations
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_state_of_the_enclave
-          x = 4
-          y = 1
-          prerequisite = {
-              focus = USA_state_of_the_enclave
-          }
-      }
-      focus = {
-          id = USA_tax_cuts_for_the_wealthy
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_the_scorporations
-          x = 1
-          y = 1
-          prerequisite = {
-              focus = USA_the_scorporations
-          }
-      }
-      focus = {
-          id = USA_weaponize_the_american_dream
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_tax_cuts_for_the_wealthy
-          x = 0
-          y = 1
-          prerequisite = {
-              focus = USA_tax_cuts_for_the_wealthy
-          }
-      }
-      focus = {
-          id = USA_protests_across_the_country
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_the_scorporations
-          x = -1
-          y = 1
-          prerequisite = {
-              focus = USA_the_scorporations
-          }
-          prerequisite = {
-              focus = USA_the_resource_crisis
-          }
-      }
-      focus = {
-          id = USA_riot_control
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_protests_across_the_country
-          x = 0
-          y = 1
-          prerequisite = {
-              focus = USA_protests_across_the_country
-          }
-      }
-      focus = {
-          id = USA_first_enclave_congress
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_state_of_the_enclave
-          x = 0
-          y = 4
-          prerequisite = {
-              focus = USA_riot_control
-          }
-          prerequisite = {
-              focus = USA_weaponize_the_american_dream
-          }
-          prerequisite = {
-              focus = USA_and_capitalism
-          }
-          prerequisite = { 
-              focus = USA_patchwork_to
-          }
-      }
-      focus = {
-          id = USA_and_to_build_a_bridge_to_span_the_tides
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_first_enclave_congress
-          x = -1
-          y = 1
-          prerequisite = {
-              focus = USA_first_enclave_congress
-          }
-          mutually_exclusive = {
-            focus = USA_men_may_come_and_men_may_go
-          }
-      }
-      focus = {
-          id = USA_men_may_come_and_men_may_go
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_first_enclave_congress
-          x = 1
-          y = 1
-          prerequisite = {
-              focus = USA_first_enclave_congress
-          }
-          mutually_exclusive = {
-            focus = USA_and_to_build_a_bridge_to_span_the_tides
-          }
-      }
-      focus = {
-          id = USA_may_not_keep_this_one
-          icon = GFX_focus_generic_political
-          relative_position_id = USA_first_enclave_congress
-          x = 0
-          y = 2
-          prerequisite = {
-              focus = USA_men_may_come_and_men_may_go
-              focus = USA_and_to_build_a_bridge_to_span_the_tides
-          }
-      }
 }
