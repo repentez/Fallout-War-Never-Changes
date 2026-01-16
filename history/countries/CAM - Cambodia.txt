@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Sisowath_Youtevong
 	expire = "1953.3.1"
-	ideology = liberalism
+	ideology = Social_Liberalism
 	traits = {
 		
 	}
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Norodom_Sihanouk
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = Christian_Liberalism
 	traits = {
 		
 	}

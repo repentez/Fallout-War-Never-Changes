@@ -108,6 +108,10 @@ set_popularities = {
 	neutrality = 20
 }
 
+add_ideas = {
+	SOV_postavka_robotov_idea
+}
+
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"

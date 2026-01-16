@@ -28,3 +28,7 @@ add_ideas = {
 	ERI_the_deal
 	ERI_independence
 }
+	set_autonomy = {
+		target = TIG
+		autonomous_state = autonomy_puppet
+	}

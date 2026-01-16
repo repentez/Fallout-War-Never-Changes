@@ -145,7 +145,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = Social_Liberalism
 				traits = { pro_allied_politician }
 				expire = "1965.1.1.1"
 				id = -1
@@ -178,7 +178,7 @@ characters = {
 				}
 			}
 			country_leader={
-				ideology=liberalism
+				ideology=Social_Liberalism
 				expire="1965.1.1.1"
 				id=-1
 			}

@@ -13,7 +13,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = Social_Liberalism
 				traits = { JUNO_the_lion_of_tarapaca }
 				expire = "1965.1.1.1"
 				id = -1
@@ -33,7 +33,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = Social_Liberalism
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -266,7 +266,7 @@ characters = {
 			}
 			# This should be gettable later
 			#country_leader = {
-			#	ideology = socialism
+			#	ideology = Social_Liberalism
 			#	expire = "1965.1.1.1"
 			#	id = -1
 			#	traits  = {
@@ -287,7 +287,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = socialism
+				ideology = Social_Liberalism
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -570,7 +570,7 @@ characters = {
 			}
 			# This should be gettable later
 			#country_leader = {
-			#	ideology = socialism
+			#	ideology = Social_Liberalism
 			#	expire = "1965.1.1.1"
 			#	id = -1
 			#	traits  = {
@@ -1392,7 +1392,7 @@ characters = {
 			}
 			# This should be gettable later
 			#country_leader = {
-			#	ideology = liberalism
+			#	ideology = Social_Liberalism
 			#	expire = "1965.1.1.1"
 			#	id = -1
 			#	traits  = {
@@ -1495,7 +1495,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = socialism
+		#	ideology = Social_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1559,7 +1559,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Christian_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1792,7 +1792,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = socialism
+		#	ideology = Social_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1850,7 +1850,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Christian_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1904,7 +1904,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = conservatism
+		#	ideology = Christian_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {
@@ -1924,7 +1924,7 @@ characters = {
 		}
 		# This should be gettable later
 		#country_leader = {
-		#	ideology = liberalism
+		#	ideology = Social_Liberalism
 		#	expire = "1965.1.1.1"
 		#	id = -1
 		#	traits  = {

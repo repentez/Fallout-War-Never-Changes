@@ -202,7 +202,7 @@ POL_sanation_left_opposition_up = {
 						add_country_leader_role = {							
 							character = "POL_walery_slawek"
 							country_leader = {
-								ideology=socialism
+								ideology=Social_Liberalism
 								traits = { left_sanationist_minister }
 								expire="1965.1.1.1"
 							}

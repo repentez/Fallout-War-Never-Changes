@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= Stratocracy
+			ideology= Stratocratic_Fascism
 			expire="2077.1.1.1"
 			id=-1
 		}

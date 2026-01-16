@@ -41,6 +41,7 @@ recruit_character = BUL_teodor_atanasov
 add_ideas = {
 	BUL_BKP_idea
 	BUL_agricultural_crisis_1_idea
+	SOV_postavka_robotov_idea
 }
 
 set_country_flag = BUL_democratic_rebelions_mechanics_cf

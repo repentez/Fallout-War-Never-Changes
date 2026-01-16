@@ -27,3 +27,7 @@ add_ideas = {
 QEM_nationalist_fervour
 QEM_democratic_values
 }
+declare_war_on = {
+	target = BEG
+	type = annex_everything
+}

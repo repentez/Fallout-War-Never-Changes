@@ -26,3 +26,11 @@ set_popularities = {
 add_ideas = {
 	SID_monarchy_fervour
 }
+declare_war_on = {
+	target = ETH
+	type = annex_everything
+}
+declare_war_on = {
+	target = GBA
+	type = annex_everything
+}

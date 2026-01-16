@@ -8021,8 +8021,8 @@ SOV_start_civil_war = {
 			unlock_national_focus = SOV_the_military_conspiracy # effect already played out
 		}
 		IF = {
-			limit = { SOV = { has_country_flag = SOV_socialism_in_one_country_completed_flag } }
-			complete_national_focus = SOV_socialism_in_one_country
+			limit = { SOV = { has_country_flag = SOV_Social_Liberalism_in_one_country_completed_flag } }
+			complete_national_focus = SOV_Social_Liberalism_in_one_country
 		}
 		IF = {
 			limit = { SOV = { has_country_flag = SOV_secure_the_administration_completed_flag } }

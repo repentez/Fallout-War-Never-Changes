@@ -1,0 +1,15 @@
+characters={
+	EUC_European_Parliament = {
+			name = "European Parliament"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_European_Parliament"
+				}
+			}
+		country_leader = {
+				ideology =Christian_Liberalism
+				expire ="2056.1.1.1"
+
+			}
+		}
+	}

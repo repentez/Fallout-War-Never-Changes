@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=Christian_Liberalism
 			traits={ editor financial_expert }
 			expire="1956.1.1.12"
 			id=-1

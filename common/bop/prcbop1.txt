@@ -2,7 +2,7 @@ PRC_Violence_Balance = {
     initial_value = 0 
     left_side = PRC_left_side # Peaceful Regime
     right_side = PRC_right_side # Violent Regime
-    decision_Category = PRC_bop_decision_cat
+    decision_category = PRC_Violence_Balance_category
 
     range = {
         id = PRC_centre_range

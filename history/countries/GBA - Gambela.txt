@@ -29,3 +29,7 @@ add_ideas = {
 	GBA_peacekeepers
 	GBA_limited
 }
+declare_war_on = {
+	target = ETH
+	type = annex_everything
+}

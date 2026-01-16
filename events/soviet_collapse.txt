@@ -335,6 +335,273 @@ country_event = {
 		name = soviet_collapse.9.a
 	}
 }
+# central asia leaves USSR
+country_event = {
+	id = soviet_collapse.9
+	title = soviet_collapse.9.t
+	desc = soviet_collapse.9.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# TMS
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = TMS
+				}
+				transfer_state_to = TMS
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = UZB
+				}
+				transfer_state_to = UZB
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = TAJ
+				}
+				transfer_state_to = TAJ
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = KYR
+				}
+				transfer_state_to = KYR
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = KAZ
+				}
+				transfer_state_to = KAZ
+			}
+			SOV = {
+				puppet = KAZ
+				puppet = UZB
+				puppet = KYR
+				puppet = TAJ
+				puppet = TMS
+			}
+			country_event = {
+				id = soviet_collapse.10
+				days = 2
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.9.a
+		KAZ = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.9.b
+		UZB = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.9.c
+	}
+}
+# central asia no communism
+country_event = {
+	id = soviet_collapse.10
+	title = soviet_collapse.10.t
+	desc = soviet_collapse.10.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			TMS = {
+				set_politics = {
+                    ruling_party = neutrality
+				}
+			}
+			TAJ = {
+				set_politics = {
+                    ruling_party = neutrality
+				}
+			}
+			KYR = {
+				set_politics = {
+                    ruling_party = socialism
+				}
+			}
+			UZB = {
+				set_politics = {
+                    ruling_party = democratic
+				}
+			}
+			KAZ = {
+				set_politics = {
+                    ruling_party = neutrality
+				}
+			}
+			SOV = {
+				end_puppet = KAZ
+				end_puppet = UZB
+				end_puppet = KYR
+				end_puppet = TAJ
+				end_puppet = TMS
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = KAZ
+					is_core_of = RKZ
+				}
+				transfer_state_to = RKZ
+			}
+			RKZ = {
+				declare_war_on = {
+                    target = KAZ
+                    type = annex_everything
+				}
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.10.a
+		RKZ = { change_tag_from = KAZ }
+	}
+	option = {
+		name = soviet_collapse.10.b
+	}
+}
+### Caucasia left USSR ###
+country_event = {
+	id = soviet_collapse.11
+	title = soviet_collapse.11.t
+	desc = soviet_collapse.11.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = GEO
+				}
+				transfer_state_to = GEO
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = ARM
+				}
+				transfer_state_to = ARM
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = SOV
+					is_core_of = AZR
+				}
+				transfer_state_to = AZR
+			}
+			SOV = {
+				puppet = GEO
+				puppet = ARM
+				puppet = AZR
+			}
+			country_event = {
+				id = soviet_collapse.12
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.11.a
+		GEO = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.11.b
+		ARM = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.11.c
+		AZR = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.11.d
+	}
+}
+### Caucasia no communism ###
+country_event = {
+	id = soviet_collapse.12
+	title = soviet_collapse.12.t
+	desc = soviet_collapse.12.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			GEO = {
+				set_politics = {
+                    ruling_party = democratic
+				}
+			}
+			ARM = {
+				set_politics = {
+                    ruling_party = neutrality
+				}
+			}
+			AZR = {
+				set_politics = {
+                    ruling_party = neutrality
+				}
+			}
+			SOV = {
+				end_puppet = GEO
+				end_puppet = ARM
+				end_puppet = AZR
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = GEO
+					is_core_of = ABK
+				}
+				transfer_state_to = ABK
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = GEO
+					is_core_of = SOU
+				}
+				transfer_state_to = SOU
+			}
+			every_state = {
+				limit = {
+					is_controlled_by = GEO
+					is_core_of = ADJ
+				}
+				transfer_state_to = ADJ
+			}
+			ABK = {
+				declare_war_on = {
+                    target = GEO
+                    type = annex_everything
+				}
+			}
+			SOU = {
+				declare_war_on = {
+                    target = GEO
+                    type = annex_everything
+				}
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.12.b
+	}
+}
 ### SCRIPT ###
 # ukrainian rebelion
 country_event = {

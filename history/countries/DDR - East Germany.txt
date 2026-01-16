@@ -107,6 +107,7 @@ set_popularities = {
 add_ideas = {
 DDR_century_humiliation
 DDR_second_soviet_thaw
+SOV_postavka_robotov_idea
 }
 
 create_country_leader = {

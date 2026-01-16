@@ -1,0 +1,83 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "European Infantry"					# Infantry Division
+
+	division_names_group = EUR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "European Calvary" 				# Mobile Group
+	division_names_group = EUR_CAV_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }   
+	}
+}
+
+
+units = {
+	division = {
+		#name = "1. Pesi Divize 'Janosík'"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1065
+		division_template = "European Infantry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4073
+		division_template = "European Infantry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12049
+		division_template = "European Infantry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1015
+		division_template = "European Infantry"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7176
+		division_template = "European Infantry"
+		start_experience_factor = 0.2
+	}
+}

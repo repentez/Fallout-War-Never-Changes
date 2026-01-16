@@ -273,6 +273,7 @@ THU = "countries/Thuringia.txt"
 HES = "countries/Hesse.txt"
 RHI = "countries/Rhineland.txt"
 UBD = "countries/United Baltic Duchy.txt"
+RKZ = "countries/Russian Kazakstan.txt"
 # KOS	= "countries/Kosovo.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
@@ -361,3 +362,5 @@ UPA = "countries/Ukrainska Povstanska Armiia.txt"
 PDF = "countries/People's Defence Force.txt"
 ENC = "countries/Enclave.txt"
 TBA = "countries/Three Brotherhood Alliance.txt"
+ADJ = "countries/Adjaria.txt"
+SOU = "countries/South Osetia.txt"

@@ -280,7 +280,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=liberalism
+			ideology=Social_Liberalism
 			traits = { democratic_restorationist }
 			expire="1965.1.1.1"
 			id=-1
@@ -295,7 +295,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits = { morges_champion }
 			expire="1965.1.1.1"
 			id=-1
@@ -310,7 +310,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=socialism
+			ideology=Social_Liberalism
 			traits = { polish_peasant_champion }
 			expire="1965.1.1.1"
 			id=-1

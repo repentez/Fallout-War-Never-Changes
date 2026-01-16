@@ -1,0 +1,25 @@
+﻿capital = 553
+
+# Starting tech
+
+	set_convoys = 10
+
+	recruit_character = LEB_Karim_al_Rashid
+
+		set_popularities = {
+			neutrality = 10
+			theocracy = 50
+			authoritarian_democracy = 20
+			conservatism = 10
+			ultranationalism = 10
+		}
+
+	2049.2.1 = {
+	set_politics = {
+		ruling_party = theocracy
+		last_election = "2040.1.1"
+		election_frequency = 100
+		elections_allowed = no
+	}
+
+	}

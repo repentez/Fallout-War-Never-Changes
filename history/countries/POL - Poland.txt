@@ -119,6 +119,10 @@ set_popularities = {
 	neutrality = 20
 }
 
+add_ideas = {
+	SOV_postavka_robotov_idea
+}
+
 recruit_character = POL_ignacy_moscicki
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski

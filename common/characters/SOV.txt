@@ -27,6 +27,89 @@ characters = {
 		}
 	}
 
+	### new ###
+
+	SOV_georgy_chervov = {
+		name = SOV_georgy_chervov
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+		advisor =  {
+			slot = army_chief
+			idea_token = SOV_georgy_chervov_hg
+			ledger = army
+			can_be_fired = no
+		}
+		field_marshal = {
+			traits = { organisational_leader armor_officer media_personality }
+			skill = 4
+			attack_skill = 1
+			defence_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	SOV_maksim_petrichenko = {
+		name = SOV_maksim_petrichenko
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+		advisor =  {
+			slot = army_chief
+			idea_token = SOV_vasiliy_kuznezov_hg
+			ledger = army
+			can_be_fired = no
+		}
+		field_marshal = {
+			traits = { organisational_leader armor_officer }
+			skill = 2
+			attack_skill = 3
+			defence_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SOV_matvey_vasilyev = {
+		name = SOV_matvey_vasilyev
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+		field_marshal = {
+			traits = { organisational_leader infantry_officer }
+			skill = 3
+			attack_skill = 2
+			defence_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	SOV_vasiliy_kuznezov = {
+		name = SOV_vasiliy_kuznezov
+		portraits = {
+			army = {
+				small = "GFX_idea_georgy_zhukov"
+				large = GFX_portrait_SOV_georgy_zhukov
+			}
+		}
+		field_marshal = {
+			traits = { career_officer politically_connected }
+			skill = 4
+			attack_skill = 3
+			defence_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
 	#TODO: This should be a country leader token added to Stalin in the appropriate event/focus/whatever
 	SOV_tsar_iosif_stalin = {
 		name = "Tsar Joseph I"
@@ -3861,7 +3944,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = Social_Liberalism
 			expire = "1953.3.1.1"
 			id = -1
 		}

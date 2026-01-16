@@ -2481,7 +2481,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				OR = {
-					has_completed_focus = ITA_italian_socialism
+					has_completed_focus = ITA_italian_Social_Liberalism
 					has_completed_focus = ITA_monarchia_d_italia
 				}
 			}
@@ -2740,7 +2740,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = liberalism
+			ideology = Social_Liberalism
 			traits = { moderate_reformist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -2757,7 +2757,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = conservatism
+			ideology = Christian_Liberalism
 			traits = { master_of_politics }
 			expire = "1965.1.1.1"
 			id = -1
@@ -2856,7 +2856,7 @@ characters = {
 			available = {
 				OR = {
 					has_completed_focus = ITA_cooperate_with_moderates
-					has_completed_focus = ITA_italian_socialism
+					has_completed_focus = ITA_italian_Social_Liberalism
 					AND = {
 						has_completed_focus = ITA_common_ground
 						has_government = communism

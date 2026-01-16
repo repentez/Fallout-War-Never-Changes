@@ -51,15 +51,14 @@ if = {
 	}
 }
 
-create_faction = ASEAN
-add_to_faction = MAL
-add_to_faction = VIN
-add_to_faction = PHI
-add_to_faction = PNG
-add_to_faction = BRM
-add_to_faction = AST
-add_to_faction = SIA
-add_to_faction = NZL
+# create_faction = ASEAN
+# add_to_faction = MAL
+# add_to_faction = VIN
+# add_to_faction = PHI
+# add_to_faction = PNG
+# add_to_faction = AST
+# add_to_faction = SIA
+# add_to_faction = NZL
 
 set_convoys = 25
 set_popularities = {
