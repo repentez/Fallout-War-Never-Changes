@@ -2482,6 +2482,17 @@ focus_tree = {
         y = 2
     }
 
+    focus = {
+        id = USA_four_corners_commonwealth_vaultzero
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_four_corners_commonwealth
+        }
+    }
+
 #### Texlahoma
     focus = {
         id = USA_texlahoma_commonwealth
@@ -2490,12 +2501,95 @@ focus_tree = {
         y = 2
     }
 
+    focus = {
+        id = USA_texlahoma_commonwealth_attract_agriculture_and_corporations
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 0 
+        y = 1
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_texlahoma_commonwealth_subsidize_the_oil_industry
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 0 
+        y = 2
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_attract_agriculture_and_corporations
+        }
+    }
+
+    focus = {
+        id = USA_texlahoma_commonwealth_the_corporate_hub_of_america
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 2
+        y = 3
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_subsidize_the_oil_industry
+        }
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_lower_property_prices
+        }
+        prerequisite = {
+            focus = USA_great_lakes_commonwealth_invite_mega_corporations
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_texlahoma_victory
+			}
+		}
+    }
+
+    focus = {
+        id = USA_texlahoma_commonwealth_big_iron_big_money
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 1
+        y = 4
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_the_corporate_hub_of_america
+        }
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_depression_protests
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 4
+        y = 4
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_the_corporate_hub_of_america
+        }
+    }
+
+    focus = {
+        id = USA_great_lakes_commonwealth_unemployment_from_depression
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = 7
+        y = 4
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_the_corporate_hub_of_america
+        }
+    }
+
 #### Great Plains
     focus = {
         id = USA_great_plains_commonwealth
         icon = GFX_focus_generic_political
-        x = -24
-        y = 2
+        x = -26
+        y = 8
     }
 
 #### Great Lakes 
@@ -2504,6 +2598,89 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -20
         y = 2
+    }
+
+    focus = {
+        id = USA_great_lakes_commonwealth_reindustrialize_mobilize
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_great_lakes_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_great_lakes_commonwealth_invite_mega_corporations
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = 0
+        y = 2
+        prerequisite = {
+            focus = USA_great_lakes_commonwealth_reindustrialize_mobilize
+        }
+    }
+
+    focus = {
+        id = USA_great_lakes_mighty_steel_mills_mighty_american_industry
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = -2
+        y = 3
+        prerequisite = {
+            focus = USA_great_lakes_commonwealth_invite_mega_corporations
+        }
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_lower_property_prices
+        }
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_subsidize_the_oil_industry
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_great_lakes_victory
+			}
+		}
+    }
+
+    focus = {
+        id = USA_great_lakes_commonwealth_the_american_dream
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = -1
+        y = 4
+        prerequisite = {
+            focus = USA_great_lakes_mighty_steel_mills_mighty_american_industry
+        }
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_loss_to_our_neighbors
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = -4
+        y = 4
+        prerequisite = {
+            focus = USA_great_lakes_mighty_steel_mills_mighty_american_industry
+        }
+    }
+    
+    focus = {
+        id = USA_texlahoma_commonwealth_loss
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_lakes_commonwealth
+        x = -7
+        y = 4
+        prerequisite = {
+            focus = USA_great_lakes_mighty_steel_mills_mighty_american_industry
+        }
     }
 
 #### Appalachian
@@ -2651,8 +2828,91 @@ focus_tree = {
     focus = {
         id = USA_commonwealth_of_liberty
         icon = GFX_focus_generic_political
-        x = -26
-        y = 8
+        x = -24
+        y = 2
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_lower_corporate_taxes
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty
+        }
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_lower_property_prices
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = 0
+        y = 2
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_lower_corporate_taxes
+        }
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_the_commonwealth_that_never_sleeps
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = 0 
+        y = 3
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_subsidize_the_oil_industry
+        }
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_lower_property_prices
+        }
+        prerequisite = {
+            focus = USA_great_lakes_commonwealth_invite_mega_corporations
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_liberty_commonwealth_victory
+			}
+		}
+    }
+
+    focus = {
+        id = USA_commonwealth_of_liberty_the_american_dream
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = 0 
+        y = 4
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_the_commonwealth_that_never_sleeps
+        }
+    }
+
+    focus = {
+        id = USA_texlahoma_depression
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = -3
+        y = 4
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_the_commonwealth_that_never_sleeps
+        }
+    }
+
+    focus = {
+        id = USA_great_lakes_commonwealth_push_out_the_corporations
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_commonwealth_of_liberty
+        x = 3
+        y = 4
+        prerequisite = {
+            focus = USA_commonwealth_of_liberty_the_commonwealth_that_never_sleeps
+        }
     }
 
 #### The Commonwealth (omg its THE commonwealth!!)
