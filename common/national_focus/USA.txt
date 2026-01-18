@@ -93,7 +93,10 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-				has_full_control_of_state = 463
+                AND = {
+                    has_full_control_of_state = 463
+                    has_war_with = PRC
+                }
 			}
 		}
     }
@@ -1138,7 +1141,7 @@ focus_tree = {
         icon = GFX_james_c_wallace_election
         relative_position_id = USA_a_republic_in_crisis
         cost = 4
-        x = 25
+        x = 15
         y = 2
         prerequisite = {
             focus = USA_the_56_election
@@ -1178,7 +1181,7 @@ focus_tree = {
         id = USA_a_coalition_for
         icon = GFX_focus_generic_political
         relative_position_id = USA_the_56_election
-        x = 25
+        x = 15
         y = 2
         cost = 4
         available = {
@@ -1194,8 +1197,11 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-                OR = {
+                AND = {
                     has_completed_focus = USA_james_c_wallace
+                    NOT = {
+                        has_country_flag = USA_completed_coalition_constant
+                    }
                 }
 			}
 		}
@@ -1268,10 +1274,17 @@ focus_tree = {
     focus = {
         id = USA_a_very_needed_victory
         icon = GFX_focus_generic_political
-        relative_position_id = USA_james_c_wallace
+        relative_position_id = USA_tell_all_the_truth_but_tell_it_slant
         cost = 3
-        x = 0
-        y = 5
+        x = -1
+        y = 1
+        offset = {
+            x = 0
+            y = -3
+            trigger = {
+                has_country_flag = USA_completed_coalition_constant
+            }
+        }
         allow_branch = {
 			if = {
 				limit = {
@@ -1603,7 +1616,7 @@ focus_tree = {
         id = USA_john_granite
         icon = GFX_john_granite_election
         relative_position_id = USA_the_56_election
-        x = -25
+        x = -15
         y = 1
         cost = 4
         prerequisite = {
@@ -1644,7 +1657,7 @@ focus_tree = {
         id = USA_deciding_our_future
         icon = GFX_focus_generic_political
         relative_position_id = USA_the_56_election
-        x = -25
+        x = -15
         y = 2
         cost = 4
         available = {
@@ -1660,8 +1673,11 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-                OR = {
+                AND = {
                     has_completed_focus = USA_john_granite
+                    NOT = {
+                        has_country_flag = USA_completed_enclave_constant
+                    }
                 }
 			}
 		}
@@ -1728,6 +1744,13 @@ focus_tree = {
         relative_position_id = USA_above_the_starry_canopy
         x = 0
         y = 1
+        offset = {
+            x = 0
+            y = -4
+            trigger = {
+                has_country_flag = USA_completed_enclave_constant
+            }
+        }
         cost = 4
         allow_branch = {
 			if = {
@@ -1737,7 +1760,7 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-				has_completed_focus = USA_above_the_starry_canopy
+				has_country_flag = USA_completed_enclave_constant
 			}
 		}
     }
