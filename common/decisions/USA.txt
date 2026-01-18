@@ -1156,6 +1156,65 @@ USA_project_safehouse_cat = {
 		}
 	}
 
+	USA_construct_vault_24 = {
+
+		icon = GFX_decision_vault_icon
+
+		cost = 25
+
+		available = {
+			check_variable = {
+				var = USA_decision_vault_counter
+				value = 7
+				compare = less_than
+			}
+			custom_override_tooltip = {
+				tooltip = USA_decision_vault_counter_tt
+			}
+		}
+
+		days_remove = 2920
+
+		fire_only_once = yes
+
+		remove_effect = {
+			subtract_from_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_vault_created
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_completed 
+				value = 1
+			}
+			add_manpower = 2000
+		}
+
+		complete_effect = {
+			add_to_variable = {
+				var = USA_decision_vault_counter
+				value = 1
+			}
+			add_to_variable = {
+				var = USA_vault_created 
+				value = 1
+			}
+			add_manpower = -2000
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			country_resource_steel = -5
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
 	USA_construct_vault_31 = {
 
 		icon = GFX_decision_vault_icon
