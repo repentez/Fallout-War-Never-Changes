@@ -2478,8 +2478,19 @@ focus_tree = {
     focus = {
         id = USA_four_corners_commonwealth
         icon = GFX_focus_generic_political
-        x = -32
-        y = 2
+        x = -26
+        y = 8
+    }
+
+    focus = {
+        id = USA_four_corners_joint_development_of_the_border_with_mexico
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 1
+        prerequisite = {
+            focus = USA_four_corners_commonwealth
+        }
     }
 
     focus = {
@@ -2487,10 +2498,101 @@ focus_tree = {
         icon = GFX_focus_generic_political
         relative_position_id = USA_four_corners_commonwealth
         x = 0
-        y = 1
+        y = 2
         prerequisite = {
             focus = USA_four_corners_commonwealth
         }
+    }
+
+    focus = {
+        id = USA_four_corners_commonwealth_invite_vaulttec_and_military
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 3
+        prerequisite = {
+            focus = USA_four_corners_commonwealth_vaultzero
+        }
+        prerequisite = {
+            focus = USA_four_corners_joint_development_of_the_border_with_mexico
+        }
+    }
+
+    focus = {
+        id = USA_four_corners_commonwealth_allow_the_military_to_put_the_protests_down
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 4
+        prerequisite = {
+            focus = USA_four_corners_commonwealth_invite_vaulttec_and_military
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_four_corners_commonwealth_protests
+			}
+		}
+    }
+
+    focus = {
+        id = USA_four_corners_commonwealth_second_wave_of_protests
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 5
+        prerequisite = {
+            focus = USA_four_corners_commonwealth_allow_the_military_to_put_the_protests_down
+        }
+    }
+
+    focus = {
+        id = USA_four_corners_commonwealth_kick_out_the_military
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 6
+        prerequisite = {
+            focus = USA_four_corners_commonwealth_second_wave_of_protests
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_four_corners_intervention_retreat
+			}
+		}
+    }
+
+    focus = {
+        id = USA_four_corners_commonwealth_here_to_stay
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_four_corners_commonwealth
+        x = -1
+        y = 6
+        prerequisite = {
+            focus = USA_four_corners_commonwealth_second_wave_of_protests
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_four_corners_intervention_stay
+			}
+		}
     }
 
 #### Texlahoma
@@ -2513,6 +2615,31 @@ focus_tree = {
     }
 
     focus = {
+        id = USA_texlahoma_commonwealth_dethrone_the_great_plains
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_texlahoma_commonwealth
+        x = -2
+        y = 2
+        prerequisite = {
+            focus = USA_great_plains_commonwealth_texlahoma_challenges_our_agriculture
+        }
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_attract_agriculture_and_corporations
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_texlahoma_agricultural_victory
+			}
+		}
+    }
+
+    focus = {
         id = USA_texlahoma_commonwealth_subsidize_the_oil_industry
         icon = GFX_focus_generic_political
         relative_position_id = USA_texlahoma_commonwealth
@@ -2520,6 +2647,9 @@ focus_tree = {
         y = 2
         prerequisite = {
             focus = USA_texlahoma_commonwealth_attract_agriculture_and_corporations
+        }
+        select_effect = {
+            set_country_flag = USA_texlahoma_agriculture
         }
     }
 
@@ -2588,8 +2718,47 @@ focus_tree = {
     focus = {
         id = USA_great_plains_commonwealth
         icon = GFX_focus_generic_political
-        x = -26
-        y = 8
+        x = -32
+        y = 2
+    }
+
+    focus = {
+        id = USA_great_plains_commonwealth_texlahoma_challenges_our_agriculture
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_plains_commonwealth
+        x = 1
+        y = 1
+        prerequisite = {
+            focus = USA_great_plains_commonwealth
+        }
+        available = {
+            has_country_flag = USA_texlahoma_agriculture
+        }
+    }
+
+    focus = {
+        id = USA_great_plains_commonwealth_the_agricultural_hub_of_america
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_plains_commonwealth
+        x = 2
+        y = 2
+        prerequisite = {
+            focus = USA_great_plains_commonwealth_texlahoma_challenges_our_agriculture
+        }
+        prerequisite = {
+            focus = USA_texlahoma_commonwealth_attract_agriculture_and_corporations
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_great_plains_agricultural_victory
+			}
+		}
     }
 
 #### Great Lakes 
