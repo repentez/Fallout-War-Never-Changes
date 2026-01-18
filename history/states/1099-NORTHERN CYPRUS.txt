@@ -1,0 +1,18 @@
+state={
+	id=1099
+	name="STATE_1099"
+	provinces={
+		14690 16192 16193 19369 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+	manpower = 347959
+	state_category = rural
+
+	history=
+		{
+		owner = TUR
+		add_core_of = CYP
+	}
+}

@@ -1,0 +1,20 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2056.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "EUC"
+		default = yes
+		
+		"EUC"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+	}
+}
