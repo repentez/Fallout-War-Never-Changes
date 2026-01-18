@@ -284,7 +284,55 @@ country_event = {
 		BLR = { change_tag_from = SOV }
 	}
 	option = {
-		name = soviet_collapse.8.d
+		name = soviet_collapse.8.b
+	}
+}
+# Caucasus leaved USSR
+country_event = {
+	id = soviet_collapse.9
+	title = soviet_collapse.9.t
+	desc = soviet_collapse.9.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# some cool effects 
+			GEO = {
+				transfer_state = 826
+				transfer_state = 231
+				transfer_state = 1150
+				transfer_state = 1034
+				transfer_state = 1149
+				set_politics = {
+					ruling_party = communism
+				}
+			}
+			ARM = {
+				transfer_state = 1148
+				transfer_state = 230
+			}
+			TUR = { transfer_state = 1030 }
+			AZR = {
+				transfer_state = 229
+				transfer_state = 1035
+			}
+			DAG = {
+				transfer_state = 232
+			}
+			CIN = {
+				transfer_state = 821
+			}
+			# next
+			country_event = {
+				id = soviet_collapse.10
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.9.a
 	}
 }
 # central asia leaves USSR
@@ -607,11 +655,47 @@ news_event = {
 					id = soviet_collapse.4
 					days = 28
 				}
+				news_event = {
+					id = soviet_collapse_news.2
+					days = 7
+					random_hours = 24
+				}
 			}
 		}
 	}
 
 	option = {
 		name = soviet_collapse_news.1.a
+	}
+}
+news_event = {
+	id = soviet_collapse_news.2
+	title = soviet_collapse_news.2.t
+	desc = soviet_collapse_news.2.desc
+	picture = GFX_news_event_soviet_collapse_news_2
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SOV = {			
+				dismantle_faction = yes
+			}
+			set_global_flag = SOV_ECST_collapsed_flag
+			every_country = { 
+				limit = { is_subject_of = SOV }		
+				SOV = { end_puppet = PREV }
+				add_stability = -0.05
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse_news.2.a
+		effect_tooltip = {
+			every_country = { 
+				limit = { is_subject_of = SOV }		
+				add_stability = -0.05
+			}
+		}
 	}
 }

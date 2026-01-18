@@ -86,3 +86,5 @@ set_popularities = {
 	fascism = 81
 	neutrality = 19
 }
+
+set_country_flag = ukraine_speaking_country

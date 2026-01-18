@@ -1005,6 +1005,10 @@ TBA = {
 	color = rgb { 203 201 188 }
 	color_ui = rgb { 203 201 188 }
 }
+HRZ = {
+	color = rgb { 62 96 62 }
+	color_ui = rgb { 62 96 62 }
+}
 DMM = {
 	color = rgb { 40 145 70 }
 	color_ui = rgb { 40 145 10 }

@@ -1,14 +1,17 @@
-﻿capital = 202 #Kiev
+﻿capital = 105 # Montenegro
 
-oob = "UKR_1936"
+oob = "MNT_1936"
 
 set_research_slots = 3
 
 # Starting tech
+# clone of Yugoslavia
 set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
 	infantry_weapons = 1
-	command_control_equipment = 1
-	utility_vehicle_0 = 1
+	infantry_weapons1 = 1
 }
 
 if = {
@@ -17,43 +20,41 @@ if = {
 	}
 	set_technology = {
 		early_fighter = 1
-		fighter1 = 1
-		early_bomber = 1
-		strategic_bomber1 = 1
-		naval_bomber1 = 1
 	}
 }
 
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
+
 	}
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
 }
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
 		early_destroyer = 1
 		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
+		early_submarine = 1
 		transport = 1
 	}
 }
@@ -63,30 +64,29 @@ if = {
 	}
 	set_technology = {
 		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
 		early_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		mtg_transport = 1
 		basic_battery = 1
 		basic_torpedo = 1
+		mtg_transport = 1
 	}
 }
 
-recruit_character = UKR_andriy_paskevich
-
 set_politics = {
-	ruling_party = democratic
-	last_election = "2054.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 59
-	neutrality = 10
-	communism = 31
+	democratic = 19
+	neutrality = 71
+	communism = 10
 }
 
-set_country_flag = ukraine_speaking_country
+recruit_character = MNT_punisa_radonjic # Puniša Radonjić
+
+
+
 

@@ -1,0 +1,42 @@
+ideas = {
+	country = {
+		HRZ_holy_war = {
+			allowed = {
+				always = no
+			}
+		
+			modifier = {
+				war_support_factor = 0.08
+				army_artillery_attack_factor = 0.1
+				army_artillery_defence_factor = 0.05
+				army_morale_factor = 0.2
+				army_attack_speed_factor = 0.1
+			}
+
+			targeted_modifier = {
+				tag = BOS
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = CRO
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+				breakthrough_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = YUG
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+				breakthrough_bonus_against = 0.05
+			}
+		
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
