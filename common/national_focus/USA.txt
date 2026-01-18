@@ -1963,8 +1963,11 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-                NOT = {
-                    has_completed_focus = USA_operation_trumpet
+                AND = {
+                    NOT = {
+                        has_completed_focus = USA_operation_trumpet
+                    }
+                    has_country_flag = USA_completed_enclave_constant
                 }
 			}
 		}
@@ -1988,8 +1991,11 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-                NOT = {
-                    has_completed_focus = USA_operation_sunset
+                AND = {
+                    NOT = {
+                        has_completed_focus = USA_operation_sunset
+                    }
+                    has_country_flag = USA_completed_enclave_constant
                 }
 			}
 		}
