@@ -2161,15 +2161,16 @@ focus_tree = {
     focus = {
         id = USA_california_commonwealth
         icon = GFX_focus_generic_political
-        x = -44
+        x = -40
         y = 2
     }
 
     focus = {
         id = USA_california_las_vegas
         icon = GFX_focus_generic_political
-        x = -45
-        y = 3
+        relative_position_id = USA_california_commonwealth
+        x = -1
+        y = 1
         prerequisite = {
             focus = USA_california_commonwealth
         }
@@ -2178,8 +2179,9 @@ focus_tree = {
     focus = {
         id = USA_california_nuclear_protection ## Hearing of House's ABM measures the sunbelt commonwealth asks for the entire state to be protected
         icon = GFX_focus_generic_political
-        x = -45
-        y = 4
+        relative_position_id = USA_california_commonwealth
+        x = -1
+        y = 2
         prerequisite = {
             focus = USA_california_las_vegas
         }
@@ -2199,10 +2201,11 @@ focus_tree = {
     focus = {
         id = USA_california_only_vegas ## Appeases Vault-Tec, House, but angers the state of California and leads to protests
         icon = GFX_focus_generic_political
-        x = -45
-        y = 5
+        relative_position_id = USA_california_commonwealth
+        x = -1
+        y = 3
         prerequisite = {
-            focus = USA_california_las_vegas
+            focus = USA_california_nuclear_protection
         }
         allow_branch = {
 			if = {
@@ -2220,10 +2223,11 @@ focus_tree = {
     focus = {
         id = USA_california_commonwealth_wide_protection ## Angers Vault-Tec a lot but preserves the United States in the Sunbelt Commonwealth, and accelerates the arms race with china
         icon = GFX_focus_generic_political
-        x = -45
-        y = 5
+        relative_position_id = USA_california_commonwealth
+        x = -1
+        y = 3
         prerequisite = {
-            focus = USA_california_las_vegas
+            focus = USA_california_nuclear_protection
         }
         allow_branch = {
 			if = {
@@ -2242,8 +2246,9 @@ focus_tree = {
     focus = {
         id = USA_california_pacific_fighting_grounds
         icon = GFX_focus_generic_political
-        x = -43
-        y = 3
+        relative_position_id = USA_california_commonwealth
+        x = 1
+        y = 1
         prerequisite = {
             focus = USA_california_commonwealth
         }
@@ -2252,8 +2257,9 @@ focus_tree = {
     focus = {
         id = USA_california_hawaii_mobilized
         icon = GFX_focus_generic_political
-        x = -43
-        y = 4
+        relative_position_id = USA_california_commonwealth
+        x = 1
+        y = 2
         prerequisite = {
             focus = USA_california_pacific_fighting_grounds
         }
@@ -2262,7 +2268,7 @@ focus_tree = {
     focus = {
         id = USA_california_awarded_for_shipbuilding_efforts
         icon = GFX_focus_generic_political
-        x = -42
+        x = -38
         y = 5
         prerequisite = {
             focus = USA_california_hawaii_mobilized
@@ -2283,7 +2289,7 @@ focus_tree = {
     focus = {
         id = USA_california_roarin_years
         icon = GFX_focus_generic_political
-        x = -43
+        x = -39
         y = 6
         prerequisite = {
             focus = USA_california_awarded_for_shipbuilding_efforts
@@ -2293,7 +2299,7 @@ focus_tree = {
     focus = {
         id = USA_cascadian_depression ## After not being awarded the cascadian commonwealth is in a depression, spending so much of their money in a cold-war-esque competition with california only for it to be a waste and be at risk of invasion from the prc (?) for aidan to decide
         icon = GFX_focus_generic_political
-        x = -41
+        x = -37
         y = 6
         prerequisite = {
             focus = USA_california_awarded_for_shipbuilding_efforts
@@ -2303,7 +2309,7 @@ focus_tree = {
     focus = {
         id = USA_cascadian_protests ## appeasable through executive orders, the very worst is that cascadia becomes an 'independent territory' of the united states
         icon = GFX_focus_generic_political
-        x = -40
+        x = -36
         y = 7
         prerequisite = {
             focus = USA_cascadian_depression
@@ -2315,14 +2321,14 @@ focus_tree = {
     focus = {
         id = USA_cascadian_commonwealth
         icon = GFX_focus_generic_political
-        x = -40
+        x = -36
         y = 2
     }
 
     focus = {
         id = USA_cascadian_alaskan_oil_line
         icon = GFX_focus_generic_political
-        x = -39
+        x = -35
         y = 3
         allow_branch = {
 			if = {
@@ -2352,8 +2358,9 @@ focus_tree = {
     focus = {
         id = USA_cascadian_pacific_fighting_grounds
         icon = GFX_focus_generic_political
-        x = -41
-        y = 3
+        relative_position_id = USA_cascadian_commonwealth
+        x = -1
+        y = 1
         prerequisite = {
             focus = USA_cascadian_commonwealth
         }
@@ -2362,8 +2369,9 @@ focus_tree = {
     focus = {
         id = USA_cascadian_oregon_shipbuilding_initiative
         icon = GFX_focus_generic_political
-        x = -41
-        y = 4
+        relative_position_id = USA_cascadian_commonwealth
+        x = -1
+        y = 2
         prerequisite = {
             focus = USA_cascadian_pacific_fighting_grounds
         }
@@ -2372,8 +2380,9 @@ focus_tree = {
     focus = {
         id = USA_cascadian_awarded_for_shipbuilding_efforts
         icon = GFX_focus_generic_political
-        x = -42
-        y = 5
+        relative_position_id = USA_cascadian_oregon_shipbuilding_initiative
+        x = -1
+        y = 1
         allow_branch = {
 			if = {
 				limit = {
@@ -2393,8 +2402,9 @@ focus_tree = {
     focus = {
         id = USA_californian_depression ## After not being awarded the sunbelt commonwealth is in a depression, spending so much of their money in a cold-war-esque competition with cascadia only for it to be a waste and be at risk of invasion from the prc (?) for aidan to decide
         icon = GFX_focus_generic_political
-        x = -43
-        y = 6
+        relative_position_id = USA_cascadian_awarded_for_shipbuilding_efforts
+        x = -1
+        y = 1
         prerequisite = {
             focus = USA_cascadian_awarded_for_shipbuilding_efforts
         }
@@ -2403,8 +2413,9 @@ focus_tree = {
     focus = {
         id = USA_californian_protests ## appeasable through executive orders, the very worst is that california becomes an 'independent territory' of the united states led by diane welch
         icon = GFX_focus_generic_political
-        x = -44
-        y = 7
+        relative_position_id = USA_cascadian_awarded_for_shipbuilding_efforts
+        x = -2
+        y = 2
         prerequisite = {
             focus = USA_californian_depression
         }
@@ -2413,8 +2424,9 @@ focus_tree = {
     focus = {
         id = USA_cascadian_roarin_years
         icon = GFX_focus_generic_political
-        x = -41
-        y = 6
+        relative_position_id = USA_cascadian_awarded_for_shipbuilding_efforts
+        x = 1
+        y = 1
         prerequisite = {
             focus = USA_cascadian_awarded_for_shipbuilding_efforts
         }
@@ -2423,10 +2435,43 @@ focus_tree = {
 
 #### Great Northern
     focus = {
-        id = USA_greath_northern_commonwealth
+        id = USA_great_northern_commonwealth
         icon = GFX_focus_generic_political
-        x = -36
+        x = -44
         y = 2
+    }
+
+    focus = {
+        id = USA_great_northern_commonwealth_agricultural_expansion
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_northern_commonwealth
+        x = -1
+        y = 1
+        prerequisite = {
+            focus = USA_great_northern_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_great_northern_commonwealth_department_of_agriculture_deals
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_northern_commonwealth
+        x = -1
+        y = 2
+        prerequisite = {
+            focus = USA_great_northern_commonwealth_agricultural_expansion
+        }
+    }
+
+    focus = {
+        id = USA_great_northern_commonwealth_joint_development_of_missile_silos ## Alongside the Sunbelt Commonwealth, Cascadian Commonwealth, and the Four Corners republic we will construct new offensive missile silos aimed at china
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_great_northern_commonwealth
+        x = 1
+        y = 1
+        prerequisite = {
+            focus = USA_great_northern_commonwealth
+        }
     }
     
 #### Four Corners
