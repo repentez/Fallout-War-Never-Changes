@@ -19,7 +19,10 @@ focus_tree = {
     id = usa_presidents_cabinet_inlay_window
     position = { x = 6000 y = 1500 }
     }
-
+    inlay_window = {
+    id = usa_commonwealth_inlay_window
+    position = { x = 6000 y = 1500 }
+    }
 
     focus = {
         id = USA_the_armed_forces
@@ -1990,10 +1993,24 @@ focus_tree = {
     }
 
     focus = {
+        id = USA_california_las_vegas
+        icon = GFX_focus_generic_political
+        x = -45
+        y = 3
+        prerequisite = {
+            focus = USA_california_commonwealth
+        }
+    }
+    
+
+    focus = {
         id = USA_california_pacific_fighting_grounds
         icon = GFX_focus_generic_political
         x = -43
         y = 3
+        prerequisite = {
+            focus = USA_california_commonwealth
+        }
     }
 
     focus = {
@@ -2001,6 +2018,9 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -43
         y = 4
+        prerequisite = {
+            focus = USA_california_pacific_fighting_grounds
+        }
     }
 
     focus = {
@@ -2008,6 +2028,9 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -42
         y = 5
+        prerequisite = {
+            focus = USA_california_hawaii_mobilized
+        }
         allow_branch = {
 			if = {
 				limit = {
@@ -2020,6 +2043,37 @@ focus_tree = {
 			}
 		}
     }
+
+    focus = {
+        id = USA_california_roarin_years
+        icon = GFX_focus_generic_political
+        x = -43
+        y = 6
+        prerequisite = {
+            focus = USA_california_awarded_for_shipbuilding_efforts
+        }
+    }
+
+    focus = {
+        id = USA_cascadian_depression ## After not being awarded the cascadian commonwealth is in a depression, spending so much of their money in a cold-war-esque competition with california only for it to be a waste and be at risk of invasion from the prc (?) for aidan to decide
+        icon = GFX_focus_generic_political
+        x = -41
+        y = 6
+        prerequisite = {
+            focus = USA_california_awarded_for_shipbuilding_efforts
+        }
+    }
+
+    focus = {
+        id = USA_cascadian_protests ## appeasable through executive orders, the very worst is that cascadia becomes an 'independent territory' of the united states
+        icon = GFX_focus_generic_political
+        x = -40
+        y = 7
+        prerequisite = {
+            focus = USA_cascadian_depression
+        }
+    }
+
 
 #### Cascadian   
     focus = {
@@ -2047,6 +2101,9 @@ focus_tree = {
                 }
 			}
 		}
+        prerequisite = {
+            focus = USA_cascadian_commonwealth
+        }
     }
 
     focus = {
@@ -2054,6 +2111,9 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -41
         y = 3
+        prerequisite = {
+            focus = USA_cascadian_commonwealth
+        }
     }
 
     focus = {
@@ -2061,6 +2121,9 @@ focus_tree = {
         icon = GFX_focus_generic_political
         x = -41
         y = 4
+        prerequisite = {
+            focus = USA_cascadian_pacific_fighting_grounds
+        }
     }
 
     focus = {
@@ -2079,7 +2142,41 @@ focus_tree = {
 				has_country_flag = USA_cascadian_awarded
 			}
 		}
+        prerequisite = {
+            focus = USA_cascadian_oregon_shipbuilding_initiative
+        }
     }
+
+    focus = {
+        id = USA_californian_depression ## After not being awarded the sunbelt commonwealth is in a depression, spending so much of their money in a cold-war-esque competition with cascadia only for it to be a waste and be at risk of invasion from the prc (?) for aidan to decide
+        icon = GFX_focus_generic_political
+        x = -43
+        y = 6
+        prerequisite = {
+            focus = USA_cascadian_awarded_for_shipbuilding_efforts
+        }
+    }
+
+    focus = {
+        id = USA_californian_protests ## appeasable through executive orders, the very worst is that california becomes an 'independent territory' of the united states led by diane welch
+        icon = GFX_focus_generic_political
+        x = -44
+        y = 7
+        prerequisite = {
+            focus = USA_californian_depression
+        }
+    }
+
+    focus = {
+        id = USA_cascadian_roarin_years
+        icon = GFX_focus_generic_political
+        x = -41
+        y = 6
+        prerequisite = {
+            focus = USA_cascadian_awarded_for_shipbuilding_efforts
+        }
+    }
+
 
 #### Great Northern
     focus = {
@@ -2192,7 +2289,7 @@ focus_tree = {
     }
 
     focus = {
-        id = USA_appalachia_protestsa ## Worse version of the protests, potentially even declaring independence/war, becoming a puppet (?); delayable through executive orders
+        id = USA_appalachia_protestsa ## Worse version of the protests, potentially even declaring independence/war, becoming an 'independent territory' (?); delayable through executive orders
         icon = GFX_focus_generic_political
         x = -42
         y = 12
@@ -2213,7 +2310,7 @@ focus_tree = {
     }
 
     focus = {
-        id = USA_appalachia_protestsb
+        id = USA_appalachia_protestsb ## calmer version of the protests, appeasable through executive orders, the very worst is that appalachia becomes an 'independent territory' of the united states
         icon = GFX_focus_generic_political
         x = -42
         y = 12

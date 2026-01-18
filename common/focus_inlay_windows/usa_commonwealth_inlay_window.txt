@@ -1,6 +1,6 @@
-usa_presidents_cabinet_inlay_window = {
+usa_commonwealth_inlay_window = {
 
-    window_name = usa_presidents_cabinet_ui_window
+    window_name = usa_commonwealth_ui_window
 
     internal = yes
     visible = {
