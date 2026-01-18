@@ -1,5 +1,0 @@
-Political_Control_category = { # For War
-
-}
-
-

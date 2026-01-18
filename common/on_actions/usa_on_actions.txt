@@ -1,7 +1,0 @@
-#on_action = {
-#	on_startup = {
-#		USA = {
-#			start_mission = USA_vault_tec_mission
-#		}
-#	}
-#}

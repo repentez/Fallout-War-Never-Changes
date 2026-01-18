@@ -1,8 +1,0 @@
-clean_up_canada = {
-	icon = generic_research
-	
-	visible = {
-		original_tag = CAN
-		#has_country_flag = CAN_green_shit
-	}
-}
