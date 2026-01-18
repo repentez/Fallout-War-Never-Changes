@@ -1946,19 +1946,6 @@ focus_tree = {
     }
 
     focus = {
-        id = USA_limited_intervention
-        icon = GFX_focus_generic_army
-        relative_position_id = USA_resource_crisis_in_europe
-        x = 0
-        y = 2
-        cost = 3
-        prerequisite = {
-            focus = USA_ally_the_UAR
-            focus = USA_dear_old_friends
-        }
-    }
-
-    focus = {
         id = USA_operation_sunset
         icon = GFX_focus_generic_army
         relative_position_id = USA_ally_the_UAR
@@ -1968,6 +1955,19 @@ focus_tree = {
         prerequisite = {
             focus = USA_ally_the_UAR
         }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                NOT = {
+                    has_completed_focus = USA_operation_trumpet
+                }
+			}
+		}
     }
 
     focus = {
@@ -1979,6 +1979,173 @@ focus_tree = {
         cost = 3
         prerequisite = {
             focus = USA_dear_old_friends
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                NOT = {
+                    has_completed_focus = USA_operation_sunset
+                }
+			}
+		}
+    }
+
+    focus = {
+        id = USA_the_calm_before_the_storm
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_trumpet
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_operation_trumpet
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                has_completed_focus = USA_operation_trumpet
+			}
+		}
+    }
+
+    focus = {
+        id = USA_operation_thousand_spears
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_trumpet
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_the_calm_before_the_storm
+        }
+    }
+
+    focus = {
+        id = USA_operation_evergiven
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_trumpet
+        x = 0
+        y = 3
+        cost = 3
+        prerequisite = {
+            focus = USA_operation_thousand_spears
+        }
+    }
+
+    focus = {
+        id = USA_our_share_of_the_pie
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_trumpet
+        x = 0
+        y = 4
+        cost = 3
+        prerequisite = {
+            focus = USA_operation_evergiven
+        }
+    }
+
+    focus = {
+        id = USA_the_liberation_of_the_uk
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_operation_sunset
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                has_completed_focus = USA_operation_sunset
+			}
+		}
+    }
+
+    focus = {
+        id = USA_return_to_france
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_operation_sunset
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                has_completed_focus = USA_operation_sunset
+			}
+		}
+    }
+
+    focus = {
+        id = USA_taking_germany
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = -1
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_the_liberation_of_the_uk
+        }
+    }
+
+    focus = {
+        id = USA_taking_the_mediterannean
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = 1
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_return_to_france
+        }
+    }
+
+    focus = {
+        id = USA_partitioning_europe
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = 0
+        y = 3
+        cost = 3
+        prerequisite = {
+            focus = USA_taking_germany
+            focus = USA_taking_the_mediterannean
+        }
+    }
+
+    focus = {
+        id = USA_the_iron_curtain_revisited
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_operation_sunset
+        x = 0
+        y = 4
+        cost = 3
+        prerequisite = {
+            focus = USA_partitioning_europe
         }
     }
 
@@ -2000,6 +2167,69 @@ focus_tree = {
         prerequisite = {
             focus = USA_california_commonwealth
         }
+    }
+
+    focus = {
+        id = USA_california_nuclear_protection ## Hearing of House's ABM measures the sunbelt commonwealth asks for the entire state to be protected
+        icon = GFX_focus_generic_political
+        x = -45
+        y = 4
+        prerequisite = {
+            focus = USA_california_las_vegas
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_house_abm_measures_event
+			}
+		}
+    }
+
+    focus = {
+        id = USA_california_only_vegas ## Appeases Vault-Tec, House, but angers the state of California and leads to protests
+        icon = GFX_focus_generic_political
+        x = -45
+        y = 5
+        prerequisite = {
+            focus = USA_california_las_vegas
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_california_only_vegas
+			}
+		}
+    }
+
+    focus = {
+        id = USA_california_commonwealth_wide_protection ## Angers Vault-Tec a lot but preserves the United States in the Sunbelt Commonwealth, and accelerates the arms race with china
+        icon = GFX_focus_generic_political
+        x = -45
+        y = 5
+        prerequisite = {
+            focus = USA_california_las_vegas
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_california_commonwealth_wide_protection
+			}
+		}
     }
     
 
@@ -2096,8 +2326,15 @@ focus_tree = {
 						option = HIDE
 					}
 				}
-				NOT = {
-                    has_full_control_of_state = 463
+                AND = {
+            		NOT = {
+                        has_full_control_of_state = 463
+                    }
+                    has_full_control_of_state = 473
+                    has_full_control_of_state = 471
+                    has_full_control_of_state = 740
+                    has_full_control_of_state = 739
+                    has_war_with = PRC
                 }
 			}
 		}
