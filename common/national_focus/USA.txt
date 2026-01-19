@@ -2977,6 +2977,53 @@ focus_tree = {
         y = 8
     }
 
+    focus = {
+        id = USA_gulf_commonwealth_cuban_scare
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_gulf_commonwealth
+        x = 0 
+        y = 1
+        prerequisite = {
+            focus = USA_gulf_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_gulf_commonwealth_secure_the_gulf
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_gulf_commonwealth
+        x = 1
+        y = 2
+        prerequisite = {
+            focus = USA_gulf_commonwealth_cuban_scare
+        }
+    }
+
+    focus = {
+        id = USA_gulf_commonwealth_secured_the_gulf
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_gulf_commonwealth
+        x = 2
+        y = 3
+        prerequisite = {
+            focus = USA_south_east_commonwealth_revive_dockyards
+        }
+        prerequisite = {
+            focus = USA_gulf_commonwealth_secure_the_gulf
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_gulf_commonwealth_strategic_importance
+			}
+		}
+    }
+
 #### South-East
     focus = {
         id = USA_south_east_commonwealth
@@ -2985,12 +3032,81 @@ focus_tree = {
         y = 8
     }
 
+    focus = {
+        id = USA_south_east_commonwealth_atlantic_fighting_grounds
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_south_east_commonwealth
+        x = -1
+        y = 1
+        prerequisite = {
+            focus = USA_south_east_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_south_east_commonwealth_revive_dockyards
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_south_east_commonwealth
+        x = -1
+        y = 2
+        prerequisite = {
+            focus = USA_south_east_commonwealth_atlantic_fighting_grounds
+        }
+    }
+
+    focus = {
+        id = USA_south_east_commonwealth_america_rule_the_waves
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_south_east_commonwealth
+        x = -2
+        y = 3
+        prerequisite = {
+            focus = USA_south_east_commonwealth_revive_dockyards
+        }
+        prerequisite = {
+            focus = USA_gulf_commonwealth_secure_the_gulf
+        }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				has_country_flag = USA_south_east_commonwealth_strategic_importance
+			}
+		}
+    }
+
 #### Columbian 
     focus = {
         id = USA_columbian_commonwealth
         icon = GFX_focus_generic_political
         x = -30
         y = 8
+    }
+
+    focus = {
+        id = USA_columbian_commonwealth_unique_cocktail_of_military_corporation_and_government
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_columbian_commonwealth
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = USA_columbian_commonwealth
+        }
+    }
+
+    focus = {
+        id = USA_columbian_commonwealth_dc_martial_law
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_columbian_commonwealth
+        x = 0
+        y = 2
+        prerequisite = {
+            focus = USA_columbian_commonwealth_unique_cocktail_of_military_corporation_and_government
+        }
     }
 
 #### Liberty
