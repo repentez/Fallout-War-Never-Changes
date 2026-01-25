@@ -7,9 +7,9 @@ state = {
 	
 	history = {
 
-		owner = LIT
+		owner = SOV
+		add_core_of = SOV
 		add_core_of = LIT
-		add_claim_by = PRE
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel

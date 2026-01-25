@@ -6,7 +6,7 @@ state = {
 	state_category = enclave
 	
 	history = {
-		owner = EUC
+		owner = YUG
 		victory_points = { #Zara/Zadar
 			3943 5 
 		}
@@ -21,6 +21,7 @@ state = {
 		add_core_of = LBV
 		start_resistance = CRO #Yugoslavia shouldn't resist occupation
 		set_compliance = 70
+		set_demilitarized_zone = yes
 
 		### CHANGED TO A MROE ROBUST SYSTEM
 		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES

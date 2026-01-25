@@ -1,5 +1,4 @@
-state=
-{
+state={
 	id=102
 	name="STATE_102"
 	manpower = 811050 # was 1144300 before Ljubljana split
@@ -8,7 +7,7 @@ state=
 	
 	history =
 	{
-		owner = YUG
+		owner = SLV
 		buildings = {
 			infrastructure = 3
 		}

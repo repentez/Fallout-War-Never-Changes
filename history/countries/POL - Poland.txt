@@ -349,19 +349,10 @@ set_grand_doctrine = new_strategic_destruction
 set_convoys = 10
 
 set_popularities = {
-	democratic = 32
+	democratic = 25
 	fascism = 11
-	communism = 19
-	neutrality = 38
-}
-
-1939.1.1 = {
-	set_popularities = {
-		democratic = 13
-		fascism = 7
-		communism = 2
-		neutrality = 78
-	}
+	communism = 44
+	neutrality = 20
 }
 
 recruit_character = POL_ignacy_moscicki

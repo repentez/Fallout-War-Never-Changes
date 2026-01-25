@@ -8,7 +8,7 @@ state = {
 		victory_points = {
 			6626 3
 		}
-		owner = EUC
+		owner = SLV
 		add_core_of = EUC
 		add_core_of = YUG
 		add_core_of = SLV
