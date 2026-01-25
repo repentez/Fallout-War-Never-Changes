@@ -8,6 +8,8 @@ declare_war_on = {
 	type = annex_everything
 }
 
+create_faction = "Warsaw Pact"
+
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
@@ -184,6 +186,10 @@ if = {
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
 		target = BUL
 		autonomous_state = autonomy_puppet
 	}
@@ -204,10 +210,11 @@ if = {
 		puppet = POL
 		puppet = ROM
 		puppet = CZE
+		puppet = SLO
 		puppet = BUL
 		puppet = FIN
 		puppet = HUN
-		puppet = AFG
+		puppet = AFG 
 	}
 }
 
@@ -219,6 +226,16 @@ add_ideas = {
 	SOV_normally_robototechnic_idea
     war_economy
 	SOV_reformists_zagovor_idea 
+}
+
+SLO = {
+    add_popularity = { ideology = communism popularity = 0.5 }
+    set_politics = {
+        ruling_party = communism
+        last_election = "1936.1.1"
+        election_frequency = 48
+        elections_allowed = no
+    }
 }
 
 set_politics = {

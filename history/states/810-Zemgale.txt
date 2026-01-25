@@ -6,10 +6,10 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			6222 3 
+			6222 3 #Jelgava
 		}
 		victory_points = {
-			3255 1 
+			3255 1 #Jekabpils
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,15 +22,15 @@ state={
 			}
 
 		}
-		add_core_of = LAT
 		add_core_of = SOV
+		add_core_of = LAT
+
 	}
 
 	provinces={
-		222 310 319 341 3298 6459 7482 9275 11222 13375 
+		222 310 319 341 3255 3298 6459 9275 14361 14589 14590 14592 14595 14596 
 	}
-	manpower=590200
+	manpower=600250
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
 }

@@ -15,13 +15,13 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = LIT
 		add_core_of = SOV
+		add_core_of = LIT
 
 	}
 
 	provinces={
-		3272 6281 6407 11312 
+		1245 3272 6281 6407 11312 14568 14575 
 	}
 	manpower=219740
 	buildings_max_level_factor=1.000

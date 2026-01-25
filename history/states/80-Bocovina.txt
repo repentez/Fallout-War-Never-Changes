@@ -2,11 +2,14 @@ state={
 	id=80
 	name="STATE_80"
 	manpower = 474600
-	
+
+	resources = {
+		coal = 1 #initial distribution
+	}
+		
 	state_category = rural
 	
-	history=
-	{
+	history= {
 		victory_points = {
 			577 1 
 		}
@@ -17,9 +20,10 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
+		add_claim_by = ROM
 	}
 	provinces={
-		577 9548
+		577 9548 18162 3407
 	}
 
 	local_supplies=0.0 

@@ -1,41 +1,40 @@
 
 state={
 	id=103
-	name="STATE_103"
+	name="STATE_103" # Dalmatia
+	manpower = 1431700
+
+	state_category = large_town
+
 
 	history={
 		owner = YUG
-		victory_points = {
+		victory_points = { #Dubrovnik
 			6889 3 
 		}
-		victory_points = {
-			3924 3 
+		victory_points = { #Split
+			3924 3
 		}
 		buildings = {
 			infrastructure = 3
 			dockyard = 1
-			industrial_complex = 2
+			industrial_complex = 3
 			3924 = {
 				naval_base = 3
-
 			}
 			6889 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = YUG
+		#add_claim_by = EUC #added by focus
 		add_core_of = CRO
 		set_demilitarized_zone = yes
-
 	}
 
 	provinces={
-		984 3868 3924 3974 6889 11816 13388 13389 
+		984 3868 3924 6889 14660 14661 15615 15616 18173 18175 18183 
 	}
-	manpower=931000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=4.000
+
+	local_supplies=4.0 
 }

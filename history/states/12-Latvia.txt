@@ -19,12 +19,12 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = LAT
 		add_core_of = SOV
+		add_core_of = LAT
 	}
 
 	provinces={
-		3388 9317 9501 10493 11302
+		3388 7482 9317 9501 10323 10493 11222 11302 14598 
 	}
 
 	local_supplies=0.0 
