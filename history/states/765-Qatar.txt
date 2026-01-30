@@ -6,7 +6,8 @@ state = {
 
 	history = {
 		
-		owner = QAT
+		owner = UAR
+		add_core_of = UAR
 		add_core_of = QAT
 
 		victory_points = {

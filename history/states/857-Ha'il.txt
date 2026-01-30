@@ -5,7 +5,8 @@ state={
 		4968 5058 5099 7970 10748 10892 10923 12749 13464 13469 13479 18544 18551 18569 
 	}
 	history = {
-		owner = SAU
+		owner = UAR
+		add_core_of = UAR
 		add_core_of = SAU
 	}
 	manpower=5000

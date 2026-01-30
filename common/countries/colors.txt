@@ -1149,3 +1149,7 @@ ITS = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 } 
+UAR = {
+	color = rgb { 211 141 42 }
+	color_ui = rgb { 211 141 42 }
+}
