@@ -15,14 +15,6 @@ focus_tree = {
 
     default = no
     continuous_focus_position = { x = 1670 y = 3000 }
-    inlay_window = {
-    id = usa_presidents_cabinet_inlay_window
-    position = { x = 550 y = 700 }
-    }
-    inlay_window = {
-    id = usa_commonwealth_inlay_window
-    position = { x = 5000 y = 1500 }
-    }
 
     focus = {
         id = USA_the_armed_forces
