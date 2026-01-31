@@ -25,6 +25,7 @@ scripted_gui = {
         }
         
         triggers = {
+			tag = USA
         }
         
         properties = {
