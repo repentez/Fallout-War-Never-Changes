@@ -1818,6 +1818,17 @@ focus_tree = {
         prerequisite = {
             focus = USA_2056_military_evalutation
         }
+        allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+                has_war_with = PRC
+			}
+		}
     }
 
     focus = {

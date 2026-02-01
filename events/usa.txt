@@ -5,6 +5,7 @@ add_namespace = revelationstwo
 add_namespace = the_crossing_of_the_rubicon
 add_namespace = and_the_veil_comes_down
 add_namespace = vault_tec_growth_check
+add_namespace = civil_war_usa_super_event
 
 country_event = {
     id = congress_summons_doa.1
@@ -182,3 +183,36 @@ country_event = {
 #        }
 #    }
 #}
+
+country_event = {
+    id = civil_war_usa_super_event.1
+    title = civil_war_usa_super_event.t
+    desc = civil_war_usa_super_event.d
+    picture = GFX_report_event_diplomatic_message
+
+    is_triggered_only = no
+    
+    fire_only_once = yes
+    
+    hidden = yes
+
+    trigger = {
+        AND = {
+            ENC = { exists = yes }
+            USG = { exists = yes }
+            NOT = {
+                AWL = { exists = yes }
+            }
+        }
+    }
+
+    option = {
+        name = civil_war_usa_super_event.1.a
+
+        set_global_flag = USA_civil_war_started
+        set_global_flag = USA_civil_war_event_visible
+        play_song = "FreeAmerica"
+
+        set_global_flag = Super_civil_war
+    }
+}

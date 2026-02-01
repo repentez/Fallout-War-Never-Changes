@@ -46,3 +46,15 @@ defined_text = {
 		localization_key = revelationstwo_coaltion.1.a
 	}
 }
+defined_text = {
+	name = USA_you_cannot_achieve_peace
+	text = {
+		trigger = {
+			has_global_flag = peace_treaties_fall_through #56-60 EU-MC
+		}
+		localization_key = USA_you_cannot_achieve_peace_key
+	}
+	text = {
+		localization_key = USA_you_can_achieve_peace_key
+	}
+}
