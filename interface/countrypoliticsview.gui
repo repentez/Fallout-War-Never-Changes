@@ -51,6 +51,40 @@ guiTypes = {
 			frame = 1
 		}
 
+#	containerWindowType = {
+#		name = "USA_commonwealth_button_gui_window"
+#		position = {
+#			x = -100
+#			y = -342
+#		}
+#		size = {
+#			width = 175
+#			height = 80
+#		}
+#		orientation = center
+#		origo = center
+#		##fade_time = 100
+#		moveable = no
+#		##fade_type = linear
+#		click_to_front = no
+#		clipping = no
+#
+#		background = {
+#			name = "Background"
+#			quadTextureSprite = "GFX_tiled_window_1b_border"
+#		}
+#
+#		buttonType = {
+#			name ="Button_1"
+#			quadTextureSprite ="GFX_goal_USA_election"
+#			position = { x=30 y=4 }
+#			#this makes the window open / close 
+#			buttonText = ""
+#			buttonFont = "hoi_16mbs"
+#			Orientation = centre
+#		}
+#	}
+
 		containerWindowType = {
 		name = "chart_explanation"
 		position = { x = 334 y = 297 }

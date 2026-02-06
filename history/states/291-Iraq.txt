@@ -11,7 +11,8 @@ state = {
 
 	history = {
 
-		owner = SAU
+		owner = UAR
+		add_core_of = UAR
 		add_core_of = IRQ
 		add_claim_by = KUR
 
