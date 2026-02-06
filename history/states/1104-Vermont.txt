@@ -1,0 +1,16 @@
+state={
+	id=1104
+	name="STATE_1104"
+	provinces={
+		4445 7629 9675
+	}
+	buildings_max_level_factor=1
+	local_supplies=0
+    state_category = large_town
+	manpower = 41000
+
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+}
