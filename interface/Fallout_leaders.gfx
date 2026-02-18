@@ -9,7 +9,12 @@ spriteTypes = {
     # European Commonwealth Leaders
     spriteType = {
         name = "GFX_EUC_European_Parliament"
-        texturefile = "gfx/leaders/EUC/European_Parliament.dds"
+        texturefile = "gfx/leaders/EUC/European_Parliament.tga"
+    }
+
+    spriteType = {
+        name = "GFX_EUC_lottie_fevre"
+        texturefile = "gfx/leaders/EUC/portrait_euc_lottie_fevre.png"
     }
 
     # Turkish Leaders

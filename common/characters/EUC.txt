@@ -12,4 +12,32 @@ characters={
 
 			}
 		}
+
+	EUC_lottie_fevre = {
+			name = "lottie Fevre"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_lottie_fevre"
+				}
+			}
+		country_leader = {
+				ideology =Christian_Liberalism
+				expire ="2056.1.1.1"
+
+			}
+		}
+
+	EUC_Antonio_Leclerc = {
+			name = "Antonio Leclerc"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_lottie_fevre"
+				}
+			}
+		country_leader = {
+				ideology =MarxistLeninism
+				expire ="2056.1.1.1"
+
+			}
+		}
 	}

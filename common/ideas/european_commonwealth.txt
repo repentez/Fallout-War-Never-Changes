@@ -65,7 +65,7 @@ ideas = {
 		}
 		
 		euc_rampant_unrest_1 = {
-			# picture = 
+			picture = Collapsing_Homefront
 			
 			allowed = {
 				always = no
@@ -112,7 +112,7 @@ ideas = {
 		}
 		
 		euc_economic_recession_1 = {
-			# picture = 
+			picture = EuropeanDepression 
 			
 			allowed = {
 				always = no

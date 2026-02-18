@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+
+## EUC ##
+	SpriteType = {
+		name = "GFX_idea_Collapsing_Homefront"
+		texturefile = "gfx/interface/ideas/Collapsing_Homefront.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_EuropeanDepression"
+		texturefile = "gfx/interface/ideas/EuropeanDepression.tga"
+	}
+}
