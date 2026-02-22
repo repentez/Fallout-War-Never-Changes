@@ -36,10 +36,10 @@ spriteTypes = {
 	### Bulgaria ###
 	SpriteType = {
 		name = "GFX_goal_BUL_the_great_rule_of_bulgaria_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_the_great_rule_of_bulgaria_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_the_great_rule_of_bulgaria_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_the_great_rule_of_bulgaria_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_the_great_rule_of_bulgaria_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -52,7 +52,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_the_great_rule_of_bulgaria_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_the_great_rule_of_bulgaria_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -67,10 +67,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_carry_out_agricultural_reform_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_carry_out_agricultural_reform_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_carry_out_agricultural_reform_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_carry_out_agricultural_reform_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_carry_out_agricultural_reform_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -83,7 +83,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_carry_out_agricultural_reform_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_carry_out_agricultural_reform_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -98,10 +98,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_recovery_from_agricultural_crisis_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -114,7 +114,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -129,10 +129,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_recovery_from_agricultural_crisis_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -145,7 +145,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_recovery_from_agricultural_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_recovery_from_agricultural_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -160,10 +160,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_buy_equipment_from_ussr_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_buy_equipment_from_ussr_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_buy_equipment_from_ussr_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_buy_equipment_from_ussr_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_buy_equipment_from_ussr_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -176,7 +176,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_buy_equipment_from_ussr_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_buy_equipment_from_ussr_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -191,10 +191,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_land_reform_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_land_reform_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_land_reform_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_land_reform_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_land_reform_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -207,7 +207,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_land_reform_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_land_reform_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -222,10 +222,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_end_of_crisis_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_end_of_crisis_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_end_of_crisis_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_end_of_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_end_of_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -238,7 +238,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_end_of_crisis_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_end_of_crisis_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -253,10 +253,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_attract_more_people_to_work_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_attract_more_people_to_work_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_attract_more_people_to_work_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_attract_more_people_to_work_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_attract_more_people_to_work_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -269,7 +269,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_attract_more_people_to_work_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_attract_more_people_to_work_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -284,10 +284,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_five_year_plan_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_five_year_plan_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_five_year_plan_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_five_year_plan_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_five_year_plan_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -300,7 +300,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_five_year_plan_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_five_year_plan_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -315,10 +315,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_build_new_nuclear_power_plant_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_build_new_nuclear_power_plant_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_build_new_nuclear_power_plant_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_build_new_nuclear_power_plant_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_build_new_nuclear_power_plant_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -331,7 +331,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_build_new_nuclear_power_plant_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_build_new_nuclear_power_plant_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -346,10 +346,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_modernize_sofia_varna_road_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_modernize_sofia_varna_road_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_modernize_sofia_varna_road_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_modernize_sofia_varna_road_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_modernize_sofia_varna_road_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -362,7 +362,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_modernize_sofia_varna_road_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_modernize_sofia_varna_road_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -377,10 +377,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_more_factories_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_more_factories_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_more_factories_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_more_factories_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_more_factories_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -393,7 +393,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_more_factories_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_more_factories_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -408,10 +408,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_reduce_fuel_consumption_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_reduce_fuel_consumption_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_reduce_fuel_consumption_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_reduce_fuel_consumption_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_reduce_fuel_consumption_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -424,7 +424,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_reduce_fuel_consumption_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_reduce_fuel_consumption_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -439,10 +439,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_great_economy_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_great_economy_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_great_economy_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_great_economy_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_great_economy_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -455,7 +455,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_great_economy_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_great_economy_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -470,10 +470,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_freebul_free_bulgaria_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_freebul_free_bulgaria_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_freebul_free_bulgaria_focus.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_freebul_free_bulgaria_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_freebul_free_bulgaria_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -486,7 +486,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_freebul_free_bulgaria_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_freebul_free_bulgaria_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -501,10 +501,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_true_terror_just_ahead_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_true_terror_just_ahead_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_true_terror_just_ahead_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_true_terror_just_ahead_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_true_terror_just_ahead_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -517,7 +517,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_true_terror_just_ahead_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_true_terror_just_ahead_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -532,10 +532,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_keeping_eye_on_the_people_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_keeping_eye_on_the_people_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_keeping_eye_on_the_people_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_keeping_eye_on_the_people_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_keeping_eye_on_the_people_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -548,7 +548,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_keeping_eye_on_the_people_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_keeping_eye_on_the_people_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -563,10 +563,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_true_communism_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_true_communism_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_true_communism_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_true_communism_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_true_communism_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -579,7 +579,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_true_communism_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_true_communism_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -594,10 +594,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_dreams_of_bulgarian_communism_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_dreams_of_bulgarian_communism_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_dreams_of_bulgarian_communism_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_dreams_of_bulgarian_communism_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_dreams_of_bulgarian_communism_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -610,7 +610,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_dreams_of_bulgarian_communism_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_dreams_of_bulgarian_communism_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -625,10 +625,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_monarchy_again_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_monarchy_again_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_monarchy_again_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_monarchy_again_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_monarchy_again_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -641,7 +641,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_monarchy_again_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_monarchy_again_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -656,10 +656,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_diminishing_soviet_influence_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_diminishing_soviet_influence_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_diminishing_soviet_influence_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_diminishing_soviet_influence_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_diminishing_soviet_influence_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -672,7 +672,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_diminishing_soviet_influence_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_diminishing_soviet_influence_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -687,10 +687,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_BUL_suppress_different_thinking_focus_focus_shine"
-		texturefile = "gfx/interface/goals/BUL_suppress_different_thinking_focus.dds"
+		texturefile = "gfx/interface/goals/BUL/BUL_suppress_different_thinking_focus.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_suppress_different_thinking_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_suppress_different_thinking_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -703,7 +703,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/BUL_suppress_different_thinking_focus.dds"
+			animationmaskfile = "gfx/interface/goals/BUL/BUL_suppress_different_thinking_focus.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

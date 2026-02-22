@@ -162,4 +162,10 @@ spriteTypes = {
 		name = "GFX_idea_LAT_us_military_equipment_idea"
 		texturefile = "gfx/interface/ideas/LAT_us_military_equipment_idea.dds"
 	}
+	 ## generic ## 
+	 	spriteType = {
+		name = "GFX_idea_generic_usa_conflict"
+		texturefile = "gfx/interface/ideas/idea_generic_usa_conflict.dds"
+	}
 }
+
