@@ -105,42 +105,46 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_goal_CAN_subsidize_axe"
-		texturefile = "gfx/interface/goals/CAN_subsidize_axe.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_subsidize_axe.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_grabbing_rifle"
-		texturefile = "gfx/interface/goals/CAN_grabbing_rifle.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_grabbing_rifle.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_recycle"
-		texturefile = "gfx/interface/goals/CAN_recycle.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_recycle.dds"
 	}
-	
+    
+    spriteType = {
+		name = "GFX_goal_CAN_canada_big"
+		texturefile = "gfx/interface/goals/CAN/CAN_canada_big.dds"
+	}
 	spriteType = {
 		name = "GFX_goal_CAN_rose_bush"
-		texturefile = "gfx/interface/goals/CAN_rose_bush.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_rose_bush.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_cheap_bread"
-		texturefile = "gfx/interface/goals/CAN_cheap_bread.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_cheap_bread.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_c7a2_gun"
-		texturefile = "gfx/interface/goals/CAN_c7a2_gun.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_c7a2_gun.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_circuses"
-		texturefile = "gfx/interface/goals/CAN_circuses.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_circuses.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_goal_CAN_leaf"
-		texturefile = "gfx/interface/goals/CAN_leaf.dds"
+		texturefile = "gfx/interface/goals/CAN/CAN_leaf.dds"
 	}
 	
 	###UNITED KINGDOM###

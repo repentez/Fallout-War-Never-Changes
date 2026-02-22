@@ -510,6 +510,7 @@ recruit_character = USA_andrew_mckee
 recruit_character = USA_john_walter_christie
 recruit_character = USA_vannevar_bush
 
+	puppet = MEX
 if = {
 	limit = { not = { has_dlc = "No Compromise, No Surrender" } }
 	recruit_character = USA_jonathan_wainwright
