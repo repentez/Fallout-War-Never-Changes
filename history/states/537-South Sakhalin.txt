@@ -11,8 +11,8 @@ state = {
 
 	history = {
 	
-		owner = JAP
-		add_core_of = JAP
+		owner = SOV
+		add_core_of = SOV
 		add_core_of = ANU
 		
 		buildings = {

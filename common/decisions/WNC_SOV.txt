@@ -1,0 +1,63 @@
+sov_outer_politics_cat = {
+    SOV_guns_to_uar = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+        }
+        cost = 10
+        complete_effect = {
+            send_equipment = {
+                equipment = infantry_equipment
+                amount = 5000
+                target = UAR
+            }
+        }
+    }
+    SOV_intervention_on_iran = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+            AND = {
+                PER = {
+                    has_exists = yes
+                }
+            }
+        }
+        cost = 10
+        complete_effect = {
+            declare_war_on = {
+                target = PER
+                type = annex_everything
+            }
+        }
+    }
+}
+sov_unstability_union_cat = {
+    ussr_ssr_exit = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = yes
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = DON
+                }
+                transfer_state_to = DON
+            }
+        }
+    }
+}

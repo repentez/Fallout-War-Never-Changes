@@ -13,11 +13,59 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 2500 }
 	focus = {
-		id = SOV_focus_1
+		id = SOV_we_live_in_society
 		icon = GFX_goal_unknown
 		x = 15
 		y = 0
+		completion_reward = {
+		}
 	}
+	focus = {
+		id = SOV_retire_reformists
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_we_live_in_society
+		}
+		availalbe = {
+
+		}
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = SOV_chistki
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_retire_reformists
+		}
+		availalbe = {
+
+		}
+		x = 0
+		y = 2
+	}
+	#
+	focus = {
+		id = SOV_kill_the_kozlov
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_retire_reformists
+		}
+		availalbe = {
+
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			activate_mission = ussr_ssr_exit
+			set_country_flag = ussr_unstability_ct
+		}
+	}
+
+	###
 	focus = {
 		id = SOV_economic_of_ussr
 		icon = GFX_goal_unknown

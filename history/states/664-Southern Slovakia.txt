@@ -15,7 +15,7 @@ state = {
 	
 	history = {
 
-		owner = SLO
+		owner = CZE
 
 		buildings = {
 			infrastructure = 3 #was: 6

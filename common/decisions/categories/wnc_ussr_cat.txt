@@ -1,0 +1,18 @@
+sov_outer_politics_cat = {
+    icon = generic_propaganda
+
+    allowed = {
+        original_tag = SOV
+    }
+    visible = {
+        original_tag = SOV
+    }
+}
+sov_unstability_union_cat = {
+    allowed = {
+        has_country_flag = ussr_unstability_ct
+    }
+    visible = {
+        has_country_flag = ussr_unstability_ct
+    }
+}

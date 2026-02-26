@@ -8,7 +8,7 @@ declare_war_on = {
 	type = annex_everything
 }
 
-create_faction = "Warsaw Pact"
+create_faction = "Warsaw Pact Treaty"
 
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov
@@ -226,16 +226,6 @@ add_ideas = {
 	SOV_normally_robototechnic_idea
     war_economy
 	SOV_reformists_zagovor_idea 
-}
-
-SLO = {
-    add_popularity = { ideology = communism popularity = 0.5 }
-    set_politics = {
-        ruling_party = communism
-        last_election = "1936.1.1"
-        election_frequency = 48
-        elections_allowed = no
-    }
 }
 
 set_politics = {
