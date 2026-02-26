@@ -1,34 +1,7 @@
 ﻿capital = 812
 
-oob = "EST_1936"
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "EST_1936_air_bba"
-	else = {
-		set_air_oob = "EST_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
+oob = "EST_2056"
 
-		}
-	}
-}
-
-if = {
-	limit = { has_dlc = "Arms Against Tyranny" }
-	store_core_states_on_game_start = yes
-}
-set_research_slots = 3
-
-add_ideas = {
-	limited_conscription
-}
-IF = {
-	limit = { has_dlc = "No Step Back" }
-	add_ideas = {
-		democratic_opposition
-		EST_vaps_idea_1
-	}
-}
 
 recruit_character = EST_konstantin_pats
 recruit_character = EST_artur_sirk
@@ -113,9 +86,9 @@ set_convoys = 5
 		EST_vaps_idea_1
 	}
 
-	add_political_power = 1198
-	add_command_power = 100
-	
+	add_political_power = 35
+	add_command_power = 45
+	set_stability = 0.10
 	if = {
 		limit = {
 			has_dlc = "No Step Back"
@@ -140,7 +113,7 @@ set_convoys = 5
 		unlock_national_focus = BALTIC_natural_resources
 	}
 	
-	oob = "EST_1939"
+	oob = "EST_2056"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 			set_naval_oob = "EST_1939_naval_mtg"
@@ -222,16 +195,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 15
-	communism = 5
-	neutrality = 60
+	democratic = 89
+	communism = 1
+	neutrality = 10
 }
 
 1939.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
-		last_election = "1938.2.25"
+		last_election = "2055.12.20"
 		election_frequency = 48
 		elections_allowed = no
 	}
