@@ -1,5 +1,5 @@
 focus_tree = {
-	id = BUL_starting
+	id = SOV_starting
 	
 	country = {
 		factor = 0
@@ -28,10 +28,15 @@ focus_tree = {
 			focus = SOV_we_live_in_society
 		}
 		availalbe = {
-
 		}
 		x = 0
 		y = 1
+		completion_reward = {
+			country_event = {
+				id = wnc_soviet.1
+			    days = 10
+		    }
+		}
 	}
 	focus = {
 		id = SOV_chistki
@@ -46,26 +51,7 @@ focus_tree = {
 		x = 0
 		y = 2
 	}
-	#
-	focus = {
-		id = SOV_kill_the_kozlov
-		icon = GFX_goal_unknown
-		relative_position_id = SOV_we_live_in_society
-		prerequisite = {
-			focus = SOV_retire_reformists
-		}
-		availalbe = {
 
-		}
-		x = 5
-		y = 2
-		completion_reward = {
-			activate_mission = ussr_ssr_exit
-			set_country_flag = ussr_unstability_ct
-		}
-	}
-
-	###
 	focus = {
 		id = SOV_economic_of_ussr
 		icon = GFX_goal_unknown
@@ -1429,5 +1415,98 @@ focus_tree = {
 		completion_reward = {
 			
 		}
+	}
+	focus = {
+		id = SOV_kill_the_kozlov
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_retire_reformists
+		}
+		availalbe = {
+			NOT = {
+				has_ideas = SOV_reformists_zagovor_idea
+			}
+		}
+		allow_branch = {
+			has_country_flag = SOV_reformist_branch_cf
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			activate_mission = ussr_ssr_exit_1
+			set_country_flag = ussr_unstability_ct
+		}
+	}
+	focus = {
+		id = SOV_reformist_political_reforms
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_kill_the_kozlov
+		}
+		availalbe = {
+
+		}
+		x = 5
+		y = 3
+	}
+	focus = {
+		id = SOV_reform_of_the_union
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_kill_the_kozlov
+		}
+		availalbe = {
+
+		}
+		x = 7
+		y = 3
+	}
+	focus = {
+		id = SOV_project_of_new_union_state
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_reform_of_the_union
+		}
+		availalbe = {
+
+		}
+		x = 7
+		y = 4
+	}
+	focus = {
+		id = SOV_union_of_sovereigh_state
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_project_of_new_union_state
+		}
+		availalbe = {
+
+		}
+		mutually_exclusive = {
+			focus = SOV_everything_is_fine
+		}
+		x = 7
+		y = 5
+	}
+	focus = {
+		id = SOV_everything_is_fine
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		mutually_exclusive = {
+			focus = SOV_union_of_sovereigh_state
+		}
+		prerequisite = {
+			focus = SOV_project_of_new_union_state
+		}
+		availalbe = {
+
+		}
+		x = 9
+		y = 5
 	}
 }

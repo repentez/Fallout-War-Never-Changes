@@ -9,9 +9,6 @@ state = {
 	history = {
 		owner = SOV
 		victory_points = {
-			3757 2 
-		}
-		victory_points = {
 			741 1 
 		}
 		buildings = {
@@ -20,7 +17,6 @@ state = {
 			
 		}
 		add_core_of = SOV
-		add_core_of = DON
 		add_core_of = MOL
 		1939.1.1 = {
 			buildings = {
@@ -30,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		741 754 3757 14390 
+		741 754 14390 
 	}
 
 	local_supplies = 6.0 

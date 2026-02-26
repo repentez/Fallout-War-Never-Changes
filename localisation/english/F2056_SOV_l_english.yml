@@ -30,3 +30,12 @@
  SOV_fascism_party_long: "§RDISSIDENTS"
  SOV_ultranationalism_party: "§RDISSIDENTS"
  SOV_ultranationalism_party_long: "§RDISSIDENTS"
+
+ ### DECISIONS ###
+
+ ussr_ssr_exit_1: "SSR's declarated sovereigh..."
+
+ ### FOCUSES ###
+
+ SOV_everything_is_fine: "Defeat the new union"
+ SOV_everything_is_fine_desc: "All is well, beautiful Marquiese!"

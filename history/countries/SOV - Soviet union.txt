@@ -13,6 +13,7 @@ create_faction = "Warsaw Pact Treaty"
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
+recruit_character = SOV_nikolay_petrov
 recruit_character = SOV_georgy_chervov
 recruit_character = SOV_maksim_petrichenko
 recruit_character = SOV_matvey_vasilyev

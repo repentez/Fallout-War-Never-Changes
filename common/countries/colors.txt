@@ -42,16 +42,16 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 217 12 21 }
-	color_ui = rgb { 217 12 21 }
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
 }
 EST = {
 	color = rgb { 50 135 175 }
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 193 22 30 }
-	color_ui = rgb { 193 22 30 }
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
@@ -375,21 +375,6 @@ ICE = {
 UKR = {
 	color = rgb { 201 49 56 }
 	color_ui = rgb { 201 49 56 }	
-}
-
-AZR = {
-	color = rgb { 69  151  49 }
-	color_ui = rgb { 69  151  49 }
-}
-
-GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
-}
-
-ARM = {
-	color = rgb { 176  102  180 }
-	color_ui = rgb { 176  102  180 }
 }
 
 LAO = {
@@ -1114,6 +1099,50 @@ BLC = {
 KUR = {
 	color = rgb { 234 179 30 }
 	color_ui = rgb { 255 153 0 }	
+}
+TAJ = {
+	color = rgb { 114 20 34 }
+	color_ui = rgb { 114 20 34 }
+}
+TMS = {
+	color = rgb { 104 28 35 }
+	color_ui = rgb { 104 28 35 }
+}
+UZB = {
+	color = rgb { 128 32 32 }
+	color_ui = rgb { 128 32 32 }
+}
+KYR = {
+	color = rgb { 127 24 13 }
+	color_ui = rgb { 127 24 13 }
+}
+KAZ = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+GEO = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ADJ = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+SOU = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ARM = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+NAK = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+AZR = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
 }
 
 

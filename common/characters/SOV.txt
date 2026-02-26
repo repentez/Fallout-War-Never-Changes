@@ -26,6 +26,20 @@ characters = {
 			id = -1
 		}
 	}
+	SOV_nikolay_petrov = {
+		name = "Nikolay Petrov"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SOV_tsar_stalin"
+			}
+		}
+		country_leader = {
+			ideology = reformist_communism
+			traits = { }
+			expire = "5000.3.1.1"
+			id = -1
+		}
+	}
 
 	### new ###
 

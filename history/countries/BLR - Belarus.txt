@@ -91,11 +91,14 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = communism
+	last_election = "1934.2.11"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
+	communism = 100
 }
 
 recruit_character = BLR_adam_stankievic

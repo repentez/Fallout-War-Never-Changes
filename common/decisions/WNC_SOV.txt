@@ -43,20 +43,146 @@ sov_outer_politics_cat = {
     }
 }
 sov_unstability_union_cat = {
-    ussr_ssr_exit = {
+    ussr_ssr_exit_1 = {
         icon = mission_icon    
         is_good = no
         days_mission_timeout = 35
         selectable_mission = yes
+        cancel_trigger = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
         complete_effect = {
 
         }
         timeout_effect = {
             every_state = {
                 limit = {
+                    is_controlled_by = SOV
+                    is_core_of = EST
+                }
+                transfer_state_to = EST
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = LAT
+                }
+                transfer_state_to = LAT
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = LIT
+                }
+                transfer_state_to = LIT
+            }
+            EST = {
+                set_politics = {
+	            ruling_party = communism
+	                last_election = "1936.1.1"
+	                election_frequency = 48
+	                elections_allowed = no
+                }
+            }
+            activate_mission = ussr_ssr_exit_2
+        }
+    }
+    ussr_ssr_exit_2 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = yes
+        cancel_trigger = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = ARM
+                }
+                transfer_state_to = ARM
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = AZR
+                }
+                transfer_state_to = AZR
+            }
+            1106 = {
+                transfer_state_to = NAK
+            }
+            activate_mission = ussr_ssr_exit_3
+        }
+    }
+    ussr_ssr_exit_3 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = yes
+        cancel_trigger = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = GEO
+                }
+                transfer_state_to = GEO
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
                     is_core_of = DON
                 }
                 transfer_state_to = DON
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = MOL
+                }
+                transfer_state_to = MOL
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = UKR
+                }
+                transfer_state_to = UKR
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = BLR
+                }
+                transfer_state_to = BLR
+            }
+            826 = {
+                transfer_state_to = ABK
+            }
+            1104 = {
+                transfer_state_to = SOU
+            }
+            1105 = {
+                transfer_state_to = ADJ
+            }
+            137 = {
+                transfer_state_to = CRI
             }
         }
     }
