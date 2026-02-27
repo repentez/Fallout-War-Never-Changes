@@ -1,7 +1,106 @@
 spriteTypes = {
+
 	SpriteType = {
 		name = "GFX_goal_unknown"
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+
+    ##USA AIR ##
+
+ SpriteType = {
+		name = "GFX_enc_focus_navy_shipeagle"
+		texturefile = "gfx/interface/goals/USA/enc_focus_navy_shipeagle.tga"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_goal_continuous_naval_production"
+		texturefile = "gfx/interface/goals/USA/goal_continuous_naval_production.dds"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_enc_goal_enc_navy_dockyards"
+		texturefile = "gfx/interface/goals/USA/enc_goal_enc_navy_dockyards.tga"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_exchart"
+		texturefile = "gfx/interface/goals/USA/exchart.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_blackwell"
+		texturefile = "gfx/interface/goals/USA/blackwell.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_enc_a_nation_remade"
+		texturefile = "gfx/interface/goals/USA/enc_a_nation_remade.tga"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_vault_tec"
+		texturefile = "gfx/interface/goals/USA/vault_tec.dds"
+		legacy_lazy_load = no
+	}
+     SpriteType = {
+		name = "GFX_focus_generic_home_defense"
+		texturefile = "gfx/interface/goals/USA/focus_generic_home_defense.dds"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_goal_generic_air_fighter"
+		texturefile = "gfx/interface/goals/USA/goal_generic_air_fighter.dds"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_enc_industrial_air"
+		texturefile = "gfx/interface/goals/USA/enc_industrial_air.tga"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_enc_goal_air_elephant"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_elephant.tga"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_focus_PER_increase_oil_sales"
+		texturefile = "gfx/interface/goals/USA/focus_PER_increase_oil_sales.dds"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_goal_generic_radar"
+		texturefile = "gfx/interface/goals/USA/goal_generic_radar.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_enc_goal_air_futures"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_futures.tga"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_enc_goal_air_procurement"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_procurement.tga"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_enc_goal_air_school"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_school.tga"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_air_bases"
+		texturefile = "gfx/interface/goals/USA/focus_generic_air_bases.dds"
+		legacy_lazy_load = no
+	}
+   	SpriteType = {
+		name = "GFX_enc_goal_air_SAC"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_SAC.tga"
+		legacy_lazy_load = no
+	}
+    	SpriteType = {
+		name = "GFX_enc_goal_air_industry"
+		texturefile = "gfx/interface/goals/USA/enc_goal_air_industry.tga"
 		legacy_lazy_load = no
 	}
     ##Generic##

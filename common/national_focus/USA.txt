@@ -399,7 +399,7 @@ focus_tree = {
 
     focus = {
         id = USA_invigorate_shipbuilding_infrastructure
-        icon = GFX_focus_generic_industry
+        icon = GFX_enc_goal_enc_navy_dockyards
         relative_position_id = USA_us_navy
         x = 0
         y = 2
@@ -425,7 +425,7 @@ focus_tree = {
 
     focus = {
         id = USA_modern_naval_engineering
-        icon = GFX_focus_generic_industry
+        icon = GFX_goal_continuous_naval_production
         relative_position_id = USA_us_navy
         x = 2
         y = 2
@@ -442,7 +442,7 @@ focus_tree = {
 
     focus = {
         id = USA_modernize_naval_training_protocols
-        icon = GFX_focus_generic_navy
+        icon = GFX_goal_continuous_naval_production
         relative_position_id = USA_us_navy
         x = -2
         y = 2
@@ -620,7 +620,7 @@ focus_tree = {
 
     focus = {
         id = USA_command_the_waves
-        icon = GFX_focus_generic_navy
+        icon = GFX_focus_NOR_the_glucksburg_sea_wall
         relative_position_id = USA_us_navy
         x = 5
         y = 5
@@ -681,7 +681,7 @@ focus_tree = {
 
     focus = {
         id = USA_global_naval_presence
-        icon = GFX_focus_generic_navy
+        icon = GFX_enc_focus_navy_shipeagle
         relative_position_id = USA_us_navy
         x = 0
         y = 8
@@ -712,7 +712,7 @@ focus_tree = {
 
     focus = {
         id = USA_aerial_dominance_initiative
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_industry
         relative_position_id = USA_us_air_force
         x = 0
         y = 2
@@ -729,7 +729,7 @@ focus_tree = {
 
     focus = {
         id = USA_ace_pilot_programs
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_SAC
         relative_position_id = USA_us_air_force
         x = -1
         y = 3
@@ -742,7 +742,7 @@ focus_tree = {
 
     focus = {
         id = USA_airbase_expansion
-        icon = GFX_focus_generic_air
+        icon = GFX_focus_generic_air_bases
         relative_position_id = USA_us_air_force
         x = 1
         y = 3
@@ -761,7 +761,7 @@ focus_tree = {
 
     focus = {
         id = USA_standardize_aircraft_production
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_school
         relative_position_id = USA_us_air_force
         x = 0
         y = 4
@@ -778,7 +778,7 @@ focus_tree = {
 
     focus = {
         id = USA_aviation_fuel_optimization
-        icon = GFX_focus_generic_air
+        icon = GFX_focus_PER_increase_oil_sales
         relative_position_id = USA_us_air_force
         x = -2
         y = 4
@@ -795,7 +795,7 @@ focus_tree = {
 
     focus = {
         id = USA_radar_development_program
-        icon = GFX_focus_generic_air
+        icon = GFX_goal_generic_radar
         relative_position_id = USA_us_air_force
         x = -2
         y = 5
@@ -812,7 +812,7 @@ focus_tree = {
 
     focus = {
         id = USA_the_air_superiority_concept
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_industrial_air
         relative_position_id = USA_us_air_force
         x = 1
         y = 6
@@ -829,7 +829,7 @@ focus_tree = {
 
     focus = {
         id = USA_advanced_fighter_jet_program
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_futures
         relative_position_id = USA_us_air_force
         x = -4
         y = 3
@@ -846,7 +846,7 @@ focus_tree = {
 
     focus = {
         id = USA_dogfighting_expertise
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_elephant
         relative_position_id = USA_us_air_force
         x = -4
         y = 4
@@ -859,7 +859,7 @@ focus_tree = {
 
     focus = {
         id = USA_optimize_jet_engines
-        icon = GFX_focus_generic_air
+        icon = GFX_enc_goal_air_procurement
         relative_position_id = USA_us_air_force
         x = -4
         y = 5
@@ -876,7 +876,7 @@ focus_tree = {
 
     focus = {
         id = USA_advanced_air_to_air_combat_training
-        icon = GFX_focus_generic_air
+        icon = GFX_goal_generic_air_fighter
         relative_position_id = USA_us_air_force
         x = -5
         y = 6
@@ -889,7 +889,7 @@ focus_tree = {
 
     focus = {
         id = USA_defensive_aerial_tactics
-        icon = GFX_focus_generic_air
+        icon = GFX_focus_generic_home_defense
         relative_position_id = USA_us_air_force
         x = -3
         y = 6
@@ -1294,7 +1294,7 @@ focus_tree = {
 
     focus = {
         id = USA_senator_blackwell
-        icon = GFX_goal_unknown
+        icon = GFX_blackwell
         relative_position_id = USA_the_presidents_cabinet
         x = -6
         y = 2
@@ -1330,7 +1330,7 @@ focus_tree = {
 
     focus = {
         id = USA_thomas_eckhart
-        icon = GFX_goal_unknown
+        icon = GFX_exchart
         relative_position_id = USA_the_presidents_cabinet
         x = 6
         y = 2
@@ -1354,7 +1354,7 @@ focus_tree = {
 
     focus = {
         id = USA_vault_tec
-        icon = GFX_goal_unknown
+        icon = GFX_vault_tec
         relative_position_id = USA_the_presidents_cabinet
         x = 0
         y = 1
@@ -2614,7 +2614,7 @@ focus_tree = {
     }
     focus = {
         id = USA_state_of_the_enclave
-        icon = GFX_focus_generic_political
+        icon = GFX_enc_a_nation_remade
         relative_position_id = USA_farewell_mr_president
         x = 0
         y = 5
