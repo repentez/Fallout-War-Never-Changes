@@ -1523,4 +1523,348 @@ focus_tree = {
 		x = 9
 		y = 5
 	}
+	### Foreigh politic ###
+	focus = {
+		id = SOV_foreigh_politic
+		icon = GFX_goal_unknown
+		available = {
+			NOT = {
+				country_exists = EST
+			}
+		}
+		cost = 5
+		x = 58
+		y = 6
+		completion_reward = {
+			country_event = sovietunion_foreigh.1
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SOV_friends_from_middle_east
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+		cost = 4
+		x = -5
+		y = 1
+		completion_reward = {
+			country_event = sovietunion_foreigh.2
+			add_command_power = 20
+		}
+	}
+	focus = {
+		id = SOV_evil_europe
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		mutually_exclusive = {
+			focus = SOV_sanctions_from_ec
+		}
+		prerequisite = {
+			focus = SOV_friends_from_middle_east
+		}
+		cost = 6
+		x = 2
+		y = 2
+		completion_reward = {
+			add_political_power = -20
+		}
+	}
+	focus = {
+		id = SOV_sanctions_from_ec
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_friends_from_middle_east
+		}
+		cost = 6
+		x = 5
+		y = 2
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = SOV_investition_to_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_friends_from_middle_east
+		}
+		cost = 4
+		x = -7
+		y = 2
+		completion_reward = {
+			UAR = {
+				add_stability = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SOV_humanitarian_aid_to_palestine
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_investition_to_uar
+		}
+		cost = 4
+		x = -15
+		y = 3
+		completion_reward = {
+			UAR = {
+				add_stability = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SOV_soviet_medics_to_jerusalem
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_humanitarian_aid_to_palestine
+		}
+		cost = 4
+		x = -15
+		y = 4
+		completion_reward = {
+			UAR = {
+				add_stability = 0.03
+			}
+		}
+	}
+	focus = {
+		id = SOV_situation_in_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		available = {
+			UAR = {
+				has_war = yes
+			}
+		}
+		prerequisite = {
+			focus = SOV_investition_to_uar
+		}
+		cost = 6
+		x = -9
+		y = 3
+		completion_reward = {
+			country_event = sovietunion_foreigh.3
+		}
+	}
+	focus = {
+		id = SOV_help_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = SOV_situation_in_arabia
+		}
+		mutually_exclusive = {
+			focus = SOV_help_pro_soviet_states
+		}
+		cost = 0
+		x = -12
+		y = 4
+	}
+	focus = {
+		id = SOV_help_pro_soviet_states
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = SOV_situation_in_arabia
+		}
+		cost = 0
+		x = -2
+		y = 4
+	}
+	focus = {
+		id = SOV_tanks_to_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_soviet_medics_to_jerusalem
+		}
+		prerequisite = {
+			focus = SOV_help_uar
+		}
+		x = -12
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_guns_to_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_tanks_to_uar
+		}
+		x = -12
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_military_advisors_to_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_help_uar
+		}
+		x = -10
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_together_with_usa
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_military_advisors_to_uar
+		}
+		mutually_exclusive = {
+			focus = SOV_together_with_prc
+		}
+		x = -10
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_together_with_prc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_military_advisors_to_uar
+		}
+		x = -8
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_humanitarian_aid_from_peoples
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_together_with_usa
+			focus = SOV_together_with_prc
+		}
+		prerequisite = {
+			focus = SOV_guns_to_uar
+		}
+		x = -10
+		y = 7
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_military_base_in_syria
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_humanitarian_aid_from_peoples
+		}
+		x = -7
+		y = 8
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_military_base_in_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_soviet_medics_to_jerusalem
+		}
+		prerequisite = {
+			focus = SOV_help_pro_soviet_states
+		}
+		x = -4
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_army_in_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_military_base_in_arabia
+		}
+		x = -4
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_military_advisors_to_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_help_pro_soviet_states
+		}
+		x = -2
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_investition_to_pro_soviet_arab
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_military_advisors_to_arabia
+		}
+		x = -2
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_chistki_middle_east_ver
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_investition_to_pro_soviet_arab
+			focus = SOV_army_in_arabia
+		}
+		x = -2
+		y = 7
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
+	focus = {
+		id = SOV_loyality_governments_in_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_chistki_middle_east_ver
+		}
+		x = -5
+		y = 8
+		completion_reward = {
+			custom_effect_tooltip = SOV_foreigh_focus_notcomplete
+		}
+	}
 }
