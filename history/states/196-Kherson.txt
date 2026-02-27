@@ -1,9 +1,9 @@
 state = {
 	id = 196
 	name = "STATE_196"
-	manpower = 728363
+	manpower = 1500139
 	
-	state_category = rural
+	state_category = town
 	
 	resources = {
 		chromium = 15 # was: 22
@@ -24,7 +24,7 @@ state = {
 			air_base = 3
 
 			# Kakhovka Dam
-			#737 = { dam = 1 }
+		    737 = { dam = 1 }
 			
 		}
 		

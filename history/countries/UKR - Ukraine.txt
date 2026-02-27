@@ -102,7 +102,8 @@ recruit_character = UKR_stepan_bandera
 recruit_character = UKR_nikita_krushchyov
 recruit_character = UKR_kost_levytsky
 recruit_character = IA_olga_taratuta 
-recruit_character = UKR_pavlo_shandruk 
+recruit_character = UKR_pavlo_shandruk
+recruit_character = UKR_andriy_paskevich
 
 
 

@@ -4,12 +4,6 @@ state={
 
 	history={
 		victory_points = {
-			6557 1
-		}
-		#victory_points = {
-		#	572 5
-		#}
-		victory_points = {
 			422 3
 		}
 		owner = SOV
@@ -23,9 +17,9 @@ state={
 	}
 
 	provinces={
-		422 474 513 572 3412 3496 6435 6520 6557 9520 11441 11503 11543 14537 15595 18221 18242
+		422 474 513 3412 3496 6435 9520 11441 14537 18221
 	}
-	manpower=1985600
+	manpower=1011401
 	buildings_max_level_factor=1.000
 	state_category=town
 

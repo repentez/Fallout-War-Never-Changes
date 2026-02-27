@@ -2,9 +2,13 @@
 state={
 	id=228
 	name="STATE_228" # Voroshilovgrad
-	manpower = 2167411
+	manpower = 3002201
 	
 	state_category = town
+
+	resources = {
+		coal = 34
+	}
 
 	history={
 		owner = SOV
@@ -13,6 +17,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 2
 		}
 		add_core_of = SOV
 		add_core_of = DON

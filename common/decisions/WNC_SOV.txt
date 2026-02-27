@@ -47,8 +47,8 @@ sov_unstability_union_cat = {
         icon = mission_icon    
         is_good = no
         days_mission_timeout = 35
-        selectable_mission = yes
-        cancel_trigger = {
+        selectable_mission = no
+        available = {
             NOT = {
                 has_country_flag = ussr_unstability_ct
             }
@@ -86,6 +86,7 @@ sov_unstability_union_cat = {
 	                elections_allowed = no
                 }
             }
+            news_event = wnc_soviet_collapse.1
             activate_mission = ussr_ssr_exit_2
         }
     }
@@ -93,8 +94,8 @@ sov_unstability_union_cat = {
         icon = mission_icon    
         is_good = no
         days_mission_timeout = 35
-        selectable_mission = yes
-        cancel_trigger = {
+        selectable_mission = no
+        available = {
             NOT = {
                 has_country_flag = ussr_unstability_ct
             }
@@ -127,8 +128,8 @@ sov_unstability_union_cat = {
         icon = mission_icon    
         is_good = no
         days_mission_timeout = 35
-        selectable_mission = yes
-        cancel_trigger = {
+        selectable_mission = no
+        available = {
             NOT = {
                 has_country_flag = ussr_unstability_ct
             }
@@ -165,13 +166,6 @@ sov_unstability_union_cat = {
                 }
                 transfer_state_to = UKR
             }
-            every_state = {
-                limit = {
-                    is_controlled_by = SOV
-                    is_core_of = BLR
-                }
-                transfer_state_to = BLR
-            }
             826 = {
                 transfer_state_to = ABK
             }
@@ -183,6 +177,9 @@ sov_unstability_union_cat = {
             }
             137 = {
                 transfer_state_to = CRI
+            }
+            DON = {
+                load_oob = "DON_2056_nsb"
             }
         }
     }

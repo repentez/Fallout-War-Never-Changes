@@ -2,12 +2,13 @@
 state={
 	id=226
 	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
+	manpower = 4010200
 	
-	state_category = town
+	state_category = city
 	
 	resources={
 		oil=4 # was: 6
+		steel = 25
 	}
 
 	history={
@@ -19,8 +20,9 @@ state={
 			11561 1
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			infrastructure = 4 #was: 5
+			industrial_complex = 3
+			arms_factory = 1
 			air_base = 2
 		}
 		add_core_of = SOV

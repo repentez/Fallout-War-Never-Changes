@@ -15,6 +15,7 @@ focus_tree = {
 	focus = {
 		id = SOV_we_live_in_society
 		icon = GFX_goal_unknown
+		cost = 3
 		x = 15
 		y = 0
 		completion_reward = {
@@ -23,6 +24,7 @@ focus_tree = {
 	focus = {
 		id = SOV_retire_reformists
 		icon = GFX_goal_unknown
+		cost = 3
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_we_live_in_society
@@ -1419,6 +1421,7 @@ focus_tree = {
 	focus = {
 		id = SOV_kill_the_kozlov
 		icon = GFX_goal_unknown
+		cost = 1
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_retire_reformists
@@ -1434,7 +1437,6 @@ focus_tree = {
 		x = 5
 		y = 2
 		completion_reward = {
-			activate_mission = ussr_ssr_exit_1
 			set_country_flag = ussr_unstability_ct
 		}
 	}
@@ -1454,6 +1456,7 @@ focus_tree = {
 	focus = {
 		id = SOV_reform_of_the_union
 		icon = GFX_goal_unknown
+		cost = 2
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_kill_the_kozlov
@@ -1463,10 +1466,15 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
+		completion_reward = {
+			activate_mission = ussr_ssr_exit_1
+			country_event = wnc_soviet.2
+		}
 	}
 	focus = {
 		id = SOV_project_of_new_union_state
 		icon = GFX_goal_unknown
+		cost = 2
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_reform_of_the_union
@@ -1480,6 +1488,9 @@ focus_tree = {
 	focus = {
 		id = SOV_union_of_sovereigh_state
 		icon = GFX_goal_unknown
+		available = {
+			always = no
+		}
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_project_of_new_union_state
@@ -1496,6 +1507,9 @@ focus_tree = {
 	focus = {
 		id = SOV_everything_is_fine
 		icon = GFX_goal_unknown
+		available = {
+			always = no
+		}
 		relative_position_id = SOV_we_live_in_society
 		mutually_exclusive = {
 			focus = SOV_union_of_sovereigh_state

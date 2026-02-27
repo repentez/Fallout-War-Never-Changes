@@ -1,0 +1,73 @@
+sov_debug_decisions_cat = {
+    SOV_ukraine_not_ussr = {
+        allowed = {
+            OR = {
+                original_tag = SOV
+                original_tag = UKR
+                original_tag = DON
+            }
+        }
+        visible = {
+            OR = {
+                original_tag = SOV
+                original_tag = UKR
+                original_tag = DON
+            }
+        }
+        available = {
+            OR = {
+                original_tag = SOV
+                original_tag = UKR
+                original_tag = DON
+            }
+        }
+        complete_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = UKR
+                    is_controlled_by = SOV
+                }
+                transfer_state_to = UKR
+            }
+            every_state = {
+                limit = {
+                    is_core_of = DON
+                    is_controlled_by = SOV
+                }
+                transfer_state_to = DON
+            }
+            137 = {
+                transfer_state_to = CRI
+            }   
+            DON = {
+                load_oob = "DON_2056_nsb"
+            }  
+        }
+    }
+    SOV_donbass_com_ukraine = {
+        allowed = {
+            original_tag = DON
+        }
+        visible = {
+            original_tag = DON
+        }
+        available = {
+            original_tag = DON
+        }
+        complete_effect = {
+            DON = {
+                set_cosmetic_tag = DON_ukraine_ssr
+            }
+            DON = {
+                promote_character = DON_pavel_prudnikov
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = UKR
+                    is_core_of = UKR
+                }
+                add_core_of = DON
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 896311
+	manpower = 1390501
 	
 	state_category = rural
 
@@ -13,19 +13,14 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
-			dockyard = 1
+			dockyard = 2
 		}
 		add_core_of = SOV
 		add_core_of = DON
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
 	}
 
 	provinces={
-		574 6597 11546 11683 15594
+		574 3575 3738 6597 11546 11703 11683 15594 16164
 	}
 
 	local_supplies=5.0 

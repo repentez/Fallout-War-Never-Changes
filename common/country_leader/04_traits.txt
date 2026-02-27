@@ -1,0 +1,11 @@
+leader_traits = {
+	pro_ukrain_leader = {
+		random = no
+
+		custom_modifier_tooltip = pro_ukrain_leader_tt
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

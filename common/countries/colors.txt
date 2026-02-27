@@ -373,8 +373,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 201 49 56 }
-	color_ui = rgb { 201 49 56 }	
+	color = rgb { 107 31 45 }
+	color_ui = rgb { 107 31 45 }	
 }
 
 LAO = {
@@ -705,8 +705,8 @@ KAR = {
 	color_ui = rgb { 0 128 43 }
 }
 CRI = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 107 31 45 }
+	color_ui = rgb { 107 31 45 }	
 }
 TAT = {
 	color = rgb { 255 51 0 }

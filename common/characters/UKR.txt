@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = Neo_Liberalism
+			ideology = Left_Nationalism
 			traits={ }
 			expire="2121.1.1.1"
 			id=-1

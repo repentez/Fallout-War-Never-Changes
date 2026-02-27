@@ -2,9 +2,13 @@
 state = {
 	id = 192
 	name = "STATE_192"
-	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
+	manpower = 2010502 #1 8th removed due to Balta-Tiraspol
 	
-	state_category = city
+	state_category = large_city
+
+	resources = {
+		steel = 15
+	}
 
 	history = {
 		owner = SOV
@@ -15,8 +19,9 @@ state = {
 			11670 10 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			infrastructure = 4 #was: 5
+			industrial_complex = 3
+			arms_factory = 3
 			air_base = 6
 			11670 ={
 				naval_base = 3
@@ -25,15 +30,10 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = DON
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {
-		3575 3738 3757 9698 9714 11670 11703 14315 16162 16163 16164 
+		3757 9698 9714 11670 14315 16162 16163
 	}
 
 	local_supplies = 6.0 
