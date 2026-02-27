@@ -152,7 +152,7 @@
     }
     focus = {
         id = a_policy_of_neutrality
-        icon = GFX_goal_unknown
+        icon = GFX_goal_generic_neutrality_focus
         x = 19
         y = 4
         cost = 10
@@ -345,7 +345,7 @@
     }
     focus = {
         id = a_new_rifle_for_the_army
-        icon = GFX_goal_unknown
+        icon = GFX_goal_CAN_c7a2_gun
         x = 24
         y = 6
         cost = 10
@@ -377,7 +377,7 @@
     }
     focus = {
         id = a_bigger_gun
-        icon = GFX_goal_unknown
+        icon = GFX_goal_CAN_grabbing_rifle
         x = 30
         y = 7
         cost = 10
@@ -747,7 +747,7 @@
 
     focus = {
         id = rule_the_seas
-        icon = GFX_goal_unknown
+        icon = GFX_focus_generic_merchant_fleet
         x = 25
         y = 11
         cost = 10

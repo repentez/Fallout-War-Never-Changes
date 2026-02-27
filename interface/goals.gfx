@@ -4,6 +4,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 		legacy_lazy_load = no
 	}
+    ##Generic##
+      	SpriteType = {
+		name = "GFX_focus_generic_merchant_fleet"
+		texturefile = "gfx/interface/goals/Generic/focus_generic_merchant_fleet.dds"
+		legacy_lazy_load = no
+	}
+    	SpriteType = {
+		name = "GFX_goal_generic_neutrality_focus"
+		texturefile = "gfx/interface/goals/Generic/goal_generic_neutrality_focus.dds"
+		legacy_lazy_load = no
+	}
+
 	### BULGARIA ###
 	spriteType = {
 		name = "GFX_goal_BUL_the_great_rule_of_bulgaria_focus"
