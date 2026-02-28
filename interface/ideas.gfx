@@ -71,6 +71,10 @@ spriteTypes = {
 		name = "GFX_idea_EST_proud_small_nation"
 		texturefile = "gfx/interface/ideas/EST_proud_small_nation.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_EST_forest_brothers"
+		texturefile = "gfx/interface/ideas/idea_BALTIC_forest_brothers.dds"
+	}
 	### CROATIA ###
 	spriteType = {
 		name = "GFX_idea_CRO_divided_government_idea"
@@ -167,5 +171,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_usa_conflict"
 		texturefile = "gfx/interface/ideas/idea_generic_usa_conflict.dds"
 	}
+
 }
 

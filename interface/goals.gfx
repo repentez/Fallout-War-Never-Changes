@@ -9,6 +9,11 @@ spriteTypes = {
     ##USA AIR ##
 
   SpriteType = {
+		name = "GFX_focus_ARG_study_the_battle_of_the_river_plate"
+		texturefile = "gfx/interface/goals/USA/focus_ARG_study_the_battle_of_the_river_plate.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
 		name = "GFX_goal_generic_navy_battleship"
 		texturefile = "gfx/interface/goals/USA/goal_generic_navy_battleship.dds"
 		legacy_lazy_load = no

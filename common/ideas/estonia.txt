@@ -16,8 +16,6 @@ ideas = {
 				stability_weekly_factor = 0.15
 				war_support_factor = 0.15
 				local_manpower = 0.4
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.15
 				army_org_factor = 0.05
 				army_morale_factor = 0.05
 			}
@@ -26,6 +24,7 @@ ideas = {
 				factor = 1
 			}
 		}
+		
 		EST_proud_small_nation = {
 			removal_cost = -1
 
@@ -48,6 +47,74 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
+		}
+			EST_forest_brothers = {
+			picture = GFX_idea_EST_forest_brothers
+			removal_cost = -1
+
+			available = {
+				original_tag = EST
+			}
+		
+			allowed = {
+				original_tag = EST
+			}
+		
+			modifier = {
+			army_core_attack_factor = 0.15
+		army_core_defence_factor = 0.15
+			}
+		
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+			EST_legacy_phosphorite_war = {
+			picture = GFX_idea_EST_forest_brothers
+			removal_cost = -1
+
+			available = {
+				original_tag = EST
+			}
+		
+			allowed = {
+				original_tag = EST
+			}
+		
+			modifier = {
+		    base_fuel_gain = 10
+			army_artillery_attack_factor = 0.05
+			army_artillery_defence_factor = 0.03
+			}
+		
+			ai_will_do = {
+				factor = 1
+			}
+			
+		}
+		EST_baltic_environmentalism = {
+			picture = GFX_idea_EST_forest_brothers
+			removal_cost = -1
+
+			available = {
+				original_tag = EST
+			}
+		
+			allowed = {
+				original_tag = EST
+			}
+		
+			modifier = {
+		  
+            production_speed_buildings_factor = 0.1
+		    offence = 0.06
+			}
+		
+			ai_will_do = {
+				factor = 1
+			}
+			
 		}
 	}
 }
