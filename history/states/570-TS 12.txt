@@ -2,9 +2,9 @@
 state={
 	id=570
 	name="STATE_570" # Novosibirsk
-	manpower = 1765369
+	manpower = 2890020
 
-	state_category = town
+	state_category = large_city
 
 	history={
 		owner = SOV
@@ -12,16 +12,12 @@ state={
 			7274 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 2
-			air_base = 1
+			arms_factory = 3
+			air_base = 10
 		}
 		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

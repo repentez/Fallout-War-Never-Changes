@@ -9,6 +9,7 @@ state = {
 		owner = SOV
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = SOV
@@ -21,9 +22,9 @@ state = {
 	provinces = {
 		9647 11614 11633 15693 15694 18297 
 	}
-	manpower = 387990
+	manpower = 760000
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 
 	local_supplies = 0.0 
 }

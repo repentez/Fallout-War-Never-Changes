@@ -3,27 +3,26 @@ state={
 	id=814
 	name="STATE_814"
 
+	resources = {
+		coal = 25
+	}
+
 	history={
 		owner = SOV
-		victory_points = {
-			11312 1 #Marijampole
-		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
 			industrial_complex = 1
-			air_base = 4
 
 		}
 		add_core_of = SOV
-		add_core_of = LIT
+		add_core_of = KAZ
 
 	}
 
 	provinces={
-		1245 3272 6281 6407 11312 14568 14575 
+		1239 1243 1312 1382 1402 4250 4277 4389 4595 7335 7354 7392 7405 7407 10179 10220 10275 10277 12121 12177 
 	}
 	manpower=219740
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

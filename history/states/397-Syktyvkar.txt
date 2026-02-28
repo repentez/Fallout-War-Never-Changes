@@ -2,8 +2,8 @@
 state = {
 	id = 397
 	name = "STATE_397"
-	manpower = 137203
-	state_category = pastoral
+	manpower = 1262000
+	state_category = town
 
 	resources = {
 		oil = 7 # was: 8
@@ -17,7 +17,8 @@ state = {
 		}
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = SOV
@@ -25,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		6 108 154 1295 1307 3000 3155 4298 6121 6177 6202 6538 7318 7712 7898 9099 9121 9145 9225 9230 10551 10579 10677 10723 11098 11179 11200 11203 12393 12502 12558 14318 
+		6 45 108 154 1295 3000 3041 3155 4298 4314 6121 6177 6202 6538 7318 7712 7898 9099 9114 9121 9145 9155 9225 9230 10551 10579 10677 10723 11025 11098 11133 11179 11200 11203 12393 12502 12558 12587 14318 
 	}
 
 	local_supplies = 0.0 

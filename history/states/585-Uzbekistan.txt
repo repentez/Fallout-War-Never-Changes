@@ -26,7 +26,7 @@ state = {
 	provinces = {
 		1115 1532 1554 1573 1623 4488 4629 7501 7775 10420 14215 15784 17969 18618 18619 18625 
 	}
-	manpower = 1001035 # 9/10ths of before
+	manpower = 781035 # 9/10ths of before
 	buildings_max_level_factor = 1.000
 	state_category = town
 

@@ -2,7 +2,7 @@
 state = {
 	id = 880
 	name = "STATE_880" # Kotlas
-	manpower = 4003061
+	manpower = 3403061
 	
 	state_category = large_city
 
@@ -13,8 +13,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 3
+			industrial_complex = 1
+			arms_factory = 2
 		}
 		add_core_of = SOV
 		add_core_of = UZB

@@ -2,14 +2,16 @@
 state={
 	id=205
 	name="STATE_205" # Kaluga
-	manpower = 1121004
+	manpower = 1070200
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 4 #was: 5
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = SOV
 		victory_points = {

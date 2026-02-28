@@ -4,14 +4,8 @@ state = {
 
 	history = {
 		owner = SOV
-		victory_points = {
-			13204 1 
-		}
 		buildings = {
 			infrastructure = 1
-			13204 ={
-				naval_base = 1
-			}
 		}
 		add_core_of = SOV
 		add_core_of = CKK
@@ -20,11 +14,11 @@ state = {
 	}
 
 	provinces = {
-		13204 13254 
+		1823 1839 4744 5936 5972 8654  
 	}
-	manpower = 30000
+	manpower = 40000
 	buildings_max_level_factor = 1
-	state_category = "pastoral"
+	state_category = wasteland
 
 	local_supplies = 0.0 
 }

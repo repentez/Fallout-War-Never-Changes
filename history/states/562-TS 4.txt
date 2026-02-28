@@ -2,20 +2,20 @@
 state = {
 	id = 562
 	name = "STATE_562" # Okhotsk
-	manpower = 63480
+	manpower = 403900
 	state_category = pastoral
 
 	history = {
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		add_core_of = SOV
-		add_core_of = FER
+		add_core_of = KYR
 	}
 
 	provinces = {
-		1714 1772 1805 1807 4810 4881 5826 5838 7088 7772 10572 10590 10598 11607 12518 12650 13398 13402 13403 13405 13406 13411 
+		4391 4768 12511 13147 14257 18691 18697 
 	}
 
 	local_supplies = 0.0 

@@ -5,26 +5,18 @@ state={
 
 	history={
 		owner = SOV
-		victory_points = {
-			310 3 #Daugavpils
-		}
-		victory_points = {
-			222 1 #Rezekne
-		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
 		}
 		add_core_of = SOV
-		add_core_of = LAT
+		add_core_of = KAZ
 
 	}
 
 	provinces={
-		265 6222 11358 14586 14591 15686 
+		1272 1276 1303 1331 4337 7383 10295 12115 12139 12170 12257 12266 12285 18614 
 	}
-	manpower=215500
+	manpower= 320000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

@@ -8,7 +8,9 @@ state={
 
 	history={
 		owner = EST
-		controller = SOV
+		victory_points = {
+			185 1
+		}
 		victory_points = {
 			3174 1 #Voru
 		}
@@ -21,14 +23,23 @@ state={
 		}
 		add_core_of = EST
 
+		SOV = {
+			set_province_controller = 11291
+			set_province_controller = 14602
+			set_province_controller = 11607
+			set_province_controller = 308
+			set_province_controller = 6178
+			set_province_controller = 6408
+		}
+
 	}
 
 	provinces={
-		308 3074 3174 6381 11291 14602 14603 14604 
+		83 185 308 496 3074 3174 6178 6201 6381 6408 11291 14602 14603 14604 14607 
 	}
 
 	local_supplies=6.0 
-	manpower=423070
+	manpower=360347
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

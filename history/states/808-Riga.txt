@@ -11,9 +11,15 @@ state={
 		victory_points = {
 			9340 5 
 		}
+		victory_points = {
+			6222 3 #Jelgava
+		}
+		victory_points = {
+			10493 1 #Valmiera
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 1
+			infrastructure = 4 #was: 5
+			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
 			9340 = {
@@ -27,9 +33,9 @@ state={
 	}
 
 	provinces={
-		1925 1940 6342 9240 9340 14594 14612 
+		265 1925 1940 3298 3388 6222 6342 7482 9240 9317 9340 9501 10323 10493 11222 11302 14594 14598 14612 
 	}
-	manpower=420250
+	manpower=1302004
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 }

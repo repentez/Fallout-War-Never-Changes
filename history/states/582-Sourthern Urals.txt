@@ -11,27 +11,27 @@ state = {
 		owner = SOV
 
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #was: 5
 		}
 
 		add_core_of = SOV
 
 		victory_points = {
-			10256 3 # Magnitogorsk
+			4311 1 # Beloretsk
 		}
 		victory_points = {
-			4311 1 # Beloretsk
+			4354 1 
 		}
 
 	}
 
 	provinces = {
-		1334 1406 4215 4261 4265 4311 4383 4411 7281 7328 7373 7401 10185 10196 10224 10256 12200 14868 
+		1258 1378 4265 4311 4354 4383 7300 7373 10226 12200 14868 
 	}
 
-	manpower = 1044991
+	manpower = 1000900
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 
 	local_supplies = 0.0 
 }

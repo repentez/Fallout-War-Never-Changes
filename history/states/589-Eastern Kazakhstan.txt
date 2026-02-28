@@ -4,29 +4,19 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-
-			}
-
-		}
-		victory_points = {
-			1668 1
-		}
 	}
 
 	provinces={
-		4651 4764 4845 7795 7856 10547 10550 10619 10680 12529 13148 13149 13197 15808 18988 
+		4764 4845 7332 7795 7856 10550 10619 10680 12529 13149 13197 15808 
 	}
-	manpower=535191
+	manpower=722002
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

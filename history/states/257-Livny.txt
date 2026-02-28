@@ -2,9 +2,9 @@
 state={
 	id=257
 	name="STATE_257" # Tambov
-	manpower = 1779583
+	manpower = 1320700
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		chromium=7 # was: 10
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = SOV
 		victory_points = {

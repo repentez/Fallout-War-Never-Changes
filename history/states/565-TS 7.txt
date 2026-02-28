@@ -2,7 +2,7 @@ state = {
 	id = 565
 	name = "STATE_565" # Bodaybo
 
-	manpower = 195325
+	manpower = 71000
 
 	state_category = rural
 
@@ -15,7 +15,8 @@ state = {
 
 		owner = SOV
 		add_core_of = SOV
-		add_core_of = EVE
+		add_core_of = FER
+		add_core_of = BYA
 
 		buildings = {
 			infrastructure = 1
@@ -24,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		1792 4795 4868 7036 7483 7714 7759 10583 10654 12538 14222 
+		5270 5565 7786 
 	}
 
 	local_supplies = 5.0 

@@ -11,8 +11,7 @@ state={
 		add_core_of = SOU
 
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
 		}
 	}
 	provinces={

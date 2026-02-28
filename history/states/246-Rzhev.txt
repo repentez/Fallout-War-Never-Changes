@@ -2,26 +2,22 @@
 state={
 	id=246
 	name="STATE_246"
-	manpower = 1025458
+	manpower = 2350000
 	
-	state_category = rural
-	resources={
-		steel=16 # was: 24
-	}
+	state_category = town
 
 	history={
 		owner = SOV
-		victory_points = {
-			11349 1
-		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 1
 		}
 		add_core_of = SOV
+		add_core_of = TAJ
 	}
 
 	provinces={
-		187 226 287 2999 3235 3321 3344 6264 6303 6367 6400 9242 9265 9333 9343 11224 11272 11315 11326 11349 18255 18258 18268 18275 18284 18354 
+		1216 1919 16194 18621 18640 18641 18646 18674 18689 18696 
 	}
 
 	local_supplies=0.0 

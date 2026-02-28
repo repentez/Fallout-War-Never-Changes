@@ -11,7 +11,7 @@ state={
 		add_core_of = NAK
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 	}
 	provinces={

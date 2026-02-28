@@ -14,6 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 1
 
 		}
 		add_core_of = EST
@@ -21,10 +22,10 @@ state={
 	}
 
 	provinces={
-		592 627 835 6178 6408 9221 9485 14607 
+		592 627 835 6099 9221 9485 14605 14606 14608 
 	}
-	manpower=225840
+	manpower=275400
 	buildings_max_level_factor=1.000
 	local_supplies=0.0 
-	state_category=rural
+	state_category=town
 }

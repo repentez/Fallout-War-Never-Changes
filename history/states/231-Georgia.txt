@@ -2,6 +2,10 @@ state = {
 	id = 231
 	name = "STATE_231"
 
+	resources = {
+		steel = 15
+	}
+
 	history = {
 		owner = SOV
 		victory_points = {
@@ -9,8 +13,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 1
+			industrial_complex = 2
 			air_base = 3
 
 		}
@@ -20,9 +23,9 @@ state = {
 	}
 
 	provinces = {
-		654 672 772 1530 1599 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9632 9702 11599 12309 15130 18338 18346 18351 18355 18356 18357 
+		1530 1599 3656 3667 4534 4605 6436 6669 6671 9702 15130 18346 18351 18355
 	}
-	manpower = 5101984
+	manpower = 3100984
 	buildings_max_level_factor = 1.000
 	state_category = city
 

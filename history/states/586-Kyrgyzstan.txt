@@ -10,30 +10,20 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
 		add_core_of = KAZ
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
-
-		}
-		victory_points = {
-			1591 3 
-		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
+			infrastructure = 3
+			arms_factory = 1
 
 		}
 
 	}
 
 	provinces={
-		1591 1840 4224 4492 4773 7711 10146 10506 10603 12340 12385 12487 12640 12658 18818 
+		1840 4224 4651 7711 10146 10547 13148 18818 18988 
 	}
-	manpower=2563404
+	manpower=1700030
 	buildings_max_level_factor=1.000
 	state_category=city
 

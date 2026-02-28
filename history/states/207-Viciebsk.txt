@@ -2,9 +2,9 @@
 state={
 	id=207
 	name="STATE_207"
-	manpower =  1217854
+	manpower =  1415800
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = SOV
@@ -13,6 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 2
 			air_base = 5
 		}
 		add_core_of = SOV
@@ -20,7 +21,7 @@ state={
 	}
 
 	provinces={
-		216 323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 11322 14372 14564 14572 14580 14581 
+		233 323 358 3219 3331 6220 6249 6326 6354 6371 9241 9323 9341 11220 11241 11342 14372 14572 14577 14580 14581 14584 
 	}
 
 	local_supplies=5.0 

@@ -2,8 +2,8 @@
 state={
 	id=213
 	name="STATE_213"
-	manpower = 1120013
-	state_category = rural
+	manpower = 1187010
+	state_category = town
 	resources={
 		steel=14 # was: 28
 		chromium=12 # was: 24
@@ -25,8 +25,9 @@ state={
 		}
 		
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			air_base = 2
+			dockyard = 2
 			3134 = {
 				naval_base = 4
 				coastal_bunker = 1
@@ -37,7 +38,6 @@ state={
 		}
 
 		add_core_of = SOV
-		add_core_of = SMI
 		
 	}
 

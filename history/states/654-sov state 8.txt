@@ -2,9 +2,9 @@
 state={
 	id=654
 	name="STATE_654" # Gorno-Altaysk
-	manpower = 153510
+	manpower = 113000
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = SOV

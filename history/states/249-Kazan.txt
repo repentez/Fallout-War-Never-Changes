@@ -2,9 +2,9 @@
 state={
 	id=249
 	name="STATE_249"
-	manpower = 2761291
+	manpower = 2761290
 	
-	state_category = town
+	state_category = large_city
 	resources={
 		steel=25 # was: 40
 	}
@@ -12,19 +12,15 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 3 #was: 6
-			arms_factory = 1
+			infrastructure = 4 #was: 6
+			industrial_complex = 2
+			arms_factory = 3
 		}
 		victory_points = {
 			6338 10
 		}
 		add_core_of = SOV
 		add_core_of = TAT
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
 	}
 
 	provinces={

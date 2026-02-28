@@ -2,15 +2,15 @@
 state={
 	id=210
 	name="STATE_210" # Nevel
-	manpower = 3100403
+	manpower = 2600403
 	
 	state_category = metropolis
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 5 #was: 5
-			industrial_complex = 3
-			arms_factory = 4
+			industrial_complex = 2
+			arms_factory = 2
 		}
 		add_core_of = SOV
 		add_core_of = UZB

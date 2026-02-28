@@ -8,7 +8,8 @@ state = {
 	history = {
 		owner = SOV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 1
 
 		}
 		add_core_of = SOV
@@ -21,9 +22,9 @@ state = {
 	provinces = {
 		685 9628 18332 18334 
 	}
-	manpower = 387990
+	manpower = 634400
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_town
 
 	local_supplies = 0.0 
 }

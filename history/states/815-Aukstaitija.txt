@@ -8,8 +8,11 @@ state={
 		victory_points = {
 			6229 1 #Panevezys
 		}
+		victory_points = {
+			9483 3
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 		add_core_of = SOV
@@ -18,9 +21,9 @@ state={
 	}
 
 	provinces={
-		530 1899 6229 6376 9246 9374 9438 11226 11498 14585 14587 14588 
+		530 1899 6229 6376 9374 9438 9483 14585 14587 14588 
 	}
-	manpower=161450
+	manpower=860120
 	buildings_max_level_factor=1.000
 	state_category=town
 }

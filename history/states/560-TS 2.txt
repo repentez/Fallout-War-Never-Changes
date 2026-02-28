@@ -2,24 +2,22 @@
 state = {
 	id = 560
 	name = "STATE_560" # Nikolayevsk
-	manpower = 97663
+	manpower = 192500
 	
-	state_category = rural
-	resources={
-		steel=18 # was: 24
-	}
+	state_category = town
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = SOV
-		add_core_of = FER
+		add_core_of = KYR
 	}
 
 	provinces = {
-		1724 1842 3664 4290 4844 7748 7871 9659 10571 10577 12559 12569 12638 14875 15502 19485 19748 19751 
+		7706 14297 
 	}
 
 	local_supplies = 0.0 

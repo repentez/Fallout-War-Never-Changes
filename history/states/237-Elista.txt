@@ -2,14 +2,14 @@
 state={
 	id=237
 	name="STATE_237"
-	manpower = 169620
+	manpower = 350420
 	
 	state_category = rural
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		add_core_of = SOV
 		add_core_of = KAL

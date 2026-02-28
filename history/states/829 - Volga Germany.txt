@@ -2,7 +2,7 @@
 state = {
 	id = 829
 	name = "STATE_829" #Volga Germany
-	manpower = 3359053
+	manpower = 1359053
 	
 	state_category = town
 
@@ -10,7 +10,6 @@ state = {
 		owner = SOV
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 		}
 		add_core_of = SOV
 		add_core_of = UZB

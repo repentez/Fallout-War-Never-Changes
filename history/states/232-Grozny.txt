@@ -1,12 +1,12 @@
 state = {
 	id = 232
 	name = "STATE_232" #Dagestan
-	manpower = 1358292
+	manpower = 1810200
 	
-	state_category = rural
+	state_category = town
 	
 	resources = {
-		oil = 10 # was: 26 and then 19, but was split into 2 different states
+		oil = 30 # was: 26 and then 19, but was split into 2 different states
 	}
 
 	history = {
@@ -15,6 +15,7 @@ state = {
 
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
 			6701 = { #Makhachkala  - Caspian Sea addition
 				naval_base = 1
 			}
