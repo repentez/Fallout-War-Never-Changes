@@ -13,6 +13,7 @@ state = {
 		
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		
@@ -26,9 +27,9 @@ state = {
 		1479 1614 4618 7541 7641 10348 10395 12454 12474 13207 14259 14277 14323 17429 17129 17442 18620
 	}
 	
-	manpower = 258430 #Was 516860 but was divided by 2 due to Khiva (831) becoming a new state 
+	manpower = 2001305 #Was 516860 but was divided by 2 due to Khiva (831) becoming a new state 
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 
 	local_supplies = 0.0 
 }

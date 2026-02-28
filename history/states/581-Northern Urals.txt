@@ -2,27 +2,22 @@
 state = {
 	id = 581
 	name = "STATE_581"
-	manpower = 48831
+	manpower = 855000
 	
-	state_category = pastoral
-	
-	resources = {
-		chromium = 40 # was: 44
-		aluminium = 27 # was: 30
-	}
+	state_category = town
 
 	history = {
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 
 		}
 		add_core_of = SOV
-		add_core_of = KOM
+		add_core_of = UZB
 	}
 
 	provinces = {
-		10551 10677 11098 12393 12502 14318 
+		11687 18685
 	}
 
 	local_supplies = 0.0 

@@ -11,23 +11,22 @@ state = {
 		}
 		
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 2
 
 		}
 		
 		add_core_of = SOV
 		add_core_of = TMS
-		add_core_of = KHI
 
 	}
 
 	provinces = {
-		1493 1576 10435 10485 17294 18624 
+		1493 1576 7635 10435 10485 12324 17294 18615 18624 
 	}
-	manpower = 133065
+	manpower = 1405071
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 
 	local_supplies = 4.0 
 	

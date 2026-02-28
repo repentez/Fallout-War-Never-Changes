@@ -44,6 +44,43 @@ sov_debug_decisions_cat = {
             }  
         }
     }
+    SOV_uzbekoturkmenistan_not_ussr = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+        }
+        complete_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TMS
+                }
+                transfer_state_to = TMS
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = UZB
+                }
+                transfer_state_to = UZB
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TAJ
+                }
+                transfer_state_to = TAJ
+            }
+            823 = {
+                transfer_state_to = KKP
+            }
+        }
+    }
     SOV_donbass_com_ukraine = {
         allowed = {
             original_tag = DON

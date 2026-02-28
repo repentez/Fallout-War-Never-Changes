@@ -2,23 +2,26 @@
 state={
 	id=265
 	name="STATE_265"
-	manpower = 468781
+	manpower = 4003672
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = SOV
+		victory_points = {
+			10488 1 
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 4 #was: 5
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = SOV
-		victory_points = {
-			487 1
-		}
+		add_core_of = UZB
 	}
 
 	provinces={
-		487 518 544 579 3431 3518 3539 3582 6454 6528 6563 9436 9464 9502 11423 11451 11485 11512 11527 11555 18326 18328 
+		10488 10530 
 	}
 
 	local_supplies=0.0 

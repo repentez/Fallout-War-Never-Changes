@@ -741,8 +741,8 @@ VLA = {
 	color_ui = rgb { 204 163 0 }
 }
 KKP = {
-	color = rgb { 255 128 0 }
-	color_ui = rgb { 204 102 0 }
+	color = rgb { 128 32 32 }
+	color_ui = rgb { 128 32 32 }
 }
 YAM = {
 	color = rgb { 204 153 0 }

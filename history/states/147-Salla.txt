@@ -1,29 +1,25 @@
 state = {
 	id = 147
 	name = "STATE_147" #SALLA
-	manpower = 4630
+	manpower = 1485072
 	
-	state_category = enclave
+	state_category = large_town
 	
 	history = {	
 		owner = SOV
 
 		buildings = {
-			infrastructure = 1 
+			infrastructure = 3
+			industrial_complex = 1
 		}
 
 		add_core_of = SOV
-		add_core_of = KAR
-		add_core_of = SMI
-		
-		victory_points = { #Salla
-			197 1
-		}
+		add_core_of = TMS
 
 	}
 
 	provinces = {
-		197 9158 11085 	
+		4482 4958 5003 7560 10357 10414 12233 18626 18632 18681 18682 
 	}
 
 	local_supplies = 0.0 

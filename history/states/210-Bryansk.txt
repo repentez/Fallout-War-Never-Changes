@@ -2,23 +2,25 @@
 state={
 	id=210
 	name="STATE_210" # Nevel
-	manpower = 830133
+	manpower = 3100403
 	
-	state_category = rural
-
+	state_category = metropolis
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5 #was: 5
+			industrial_complex = 3
+			arms_factory = 4
 		}
 		add_core_of = SOV
+		add_core_of = UZB
 		victory_points = {
-			11234 1
+			1459 3 
 		}
 	}
 
 	provinces={
-		207 354 387 1181 3333 6242 6293 9254 9287 9331 9353 9386 11234 11259 11304 18288 
+		1459
 	}
 
 	local_supplies=0.0 

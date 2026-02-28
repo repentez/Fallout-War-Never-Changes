@@ -181,6 +181,47 @@ sov_unstability_union_cat = {
             DON = {
                 load_oob = "DON_2056_nsb"
             }
+            activate_mission = ussr_ssr_exit_4
+        }
+    }
+    ussr_ssr_exit_4 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = no
+        available = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TMS
+                }
+                transfer_state_to = TMS
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = UZB
+                }
+                transfer_state_to = UZB
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TAJ
+                }
+                transfer_state_to = TAJ
+            }
+            823 = {
+                transfer_state_to = KKP
+            }
         }
     }
 }

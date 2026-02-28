@@ -8,7 +8,7 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
-		add_core_of = KAR
+		add_core_of = TAT
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
@@ -32,7 +32,7 @@ state={
 	}
 
 	provinces={
-		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 15637 
+		292 355 403 3214 3328 3348 6308 6323 6352 6368 9385 9401 10301 11389 11496 15067 
 	}
 	
 	buildings_max_level_factor=1.000

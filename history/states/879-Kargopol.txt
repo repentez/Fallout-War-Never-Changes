@@ -2,29 +2,26 @@
 state = {
 	id = 879
 	name = "STATE_879" # Kargopol
-	manpower = 210177
+	manpower = 560786
 	
-	state_category = rural
+	state_category = town
 
 	history = {
 		owner = SOV
-		victory_points = {
-			138 1 
-		}
-		buildings = {
-			infrastructure = 1
-			
-		}
 		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
+		add_core_of = TMS
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7477 = { #Krasnovodsk - Caspian Sea addition
+				naval_base = 1
 			}
 		}
 	}
 
 	provinces = {
-		18 26 72 89 127 138 140 183 2356 3031 3086 3092 6017 6034 6051 6075 6109 6166 9130 9187 11038 11071 11137 11178 
+		1593 7477 7563 10359 10406 12359 14273 14704 14705
 	}
 
 	local_supplies = 0.0 
