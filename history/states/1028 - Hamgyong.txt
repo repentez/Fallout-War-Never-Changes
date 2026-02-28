@@ -12,7 +12,8 @@ state = {
 
 	history = {
 
-		owner = JAP
+		owner = DPK
+		add_core_of = DPK
 		add_core_of = KOR
 
 		buildings = {

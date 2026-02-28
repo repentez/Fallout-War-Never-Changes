@@ -452,9 +452,13 @@ PAK = {
 #    color = rgb { 120 150 80 }
 #    color_ui = rgb { 150 180 120 }
 #}
+DPK = {
+	color = rgb { 178 82 82 }
+	color_ui = rgb { 178 82 82 }	
+}
 KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color = rgb { 46  81  129 }
+	color_ui = rgb { 46  81  129 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
