@@ -8,6 +8,41 @@ spriteTypes = {
 
     ##USA AIR ##
 
+  SpriteType = {
+		name = "GFX_goal_generic_navy_battleship"
+		texturefile = "gfx/interface/goals/USA/goal_generic_navy_battleship.dds"
+		legacy_lazy_load = no
+	}
+   SpriteType = {
+		name = "GFX_enc_goal_enc_freedom_yards"
+		texturefile = "gfx/interface/goals/USA/enc_goal_enc_freedom_yards.tga"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_enc_integrate_scientists"
+		texturefile = "gfx/interface/goals/USA/enc_integrate_scientists.dds"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_focus_SMB_blue_water_fleet"
+		texturefile = "gfx/interface/goals/USA/focus_SMB_blue_water_fleet.dds"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_focus_generic_air_carrier"
+		texturefile = "gfx/interface/goals/USA/focus_generic_air_carrier.dds"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_enc_goal_us_navy"
+		texturefile = "gfx/interface/goals/USA/enc_goal_us_navy.tga"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_focus_NOR_the_glucksburg_sea_wall"
+		texturefile = "gfx/interface/goals/USA/focus_NOR_the_glucksburg_sea_wall.dds"
+		legacy_lazy_load = no
+	}
  SpriteType = {
 		name = "GFX_enc_focus_navy_shipeagle"
 		texturefile = "gfx/interface/goals/USA/enc_focus_navy_shipeagle.tga"

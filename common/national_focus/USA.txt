@@ -221,7 +221,7 @@ focus_tree = {
 
     focus = {
         id = USA_composite_armor_research
-        icon = GFX_focus_generic_tank
+        icon = GFX_enc_integrate_scientists
         x = -4
         y = 5
         cost = 10
@@ -475,7 +475,7 @@ focus_tree = {
 
     focus = {
         id = USA_carrier_strike_doctrine
-        icon = GFX_focus_generic_navy
+        icon = GFX_focus_generic_air_carrier
         relative_position_id = USA_us_navy
         x = -6
         y = 3
@@ -495,7 +495,7 @@ focus_tree = {
 
     focus = {
         id = USA_naval_technological_superiority
-        icon = GFX_focus_generic_navy
+        icon = GFX_enc_goal_us_navy
         relative_position_id = USA_us_navy
         x = 0
         y = 4
@@ -514,7 +514,7 @@ focus_tree = {
 
     focus = {
         id = USA_fleet_command_protocols
-        icon = GFX_focus_generic_navy
+        icon = GFX_focus_SMB_blue_water_fleet
         relative_position_id = USA_us_navy
         x = 7
         y = 5
@@ -527,7 +527,7 @@ focus_tree = {
 
     focus = {
         id = USA_strike_group_organization
-        icon = GFX_focus_generic_navy
+        icon = GFX_goal_generic_navy_battleship
         relative_position_id = USA_us_navy
         x = -7
         y = 5
@@ -591,7 +591,7 @@ focus_tree = {
 
     focus = {
         id = USA_stealth_tech_development
-        icon = GFX_goal_unknown
+        icon = GFX_enc_integrate_scientists
         relative_position_id = USA_us_navy
         x = -3
         y = 6
@@ -603,7 +603,7 @@ focus_tree = {
 
     focus = {
         id = USA_composite_hull_construction
-        icon = GFX_focus_generic_navy
+        icon = GFX_enc_goal_enc_freedom_yards
         relative_position_id = USA_us_navy
         x = 2
         y = 5
@@ -667,7 +667,7 @@ focus_tree = {
 
     focus = {
         id = USA_battlefleet_strategems
-        icon = GFX_goal_USA_us_navy
+        icon = GFX_focus_ARG_study_the_battle_of_the_river_plate
         relative_position_id = USA_us_navy
         x = 6
         y = 7
