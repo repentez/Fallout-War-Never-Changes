@@ -222,6 +222,224 @@ sov_unstability_union_cat = {
             823 = {
                 transfer_state_to = KKP
             }
+            activate_mission = ussr_ssr_exit_5
+        }
+    }
+    ussr_ssr_exit_5 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = no
+        available = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TAJ
+                }
+                transfer_state_to = TAJ
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KYR
+                }
+                transfer_state_to = KYR
+            }
+            activate_mission = ussr_ssr_exit_6
+        }
+    }
+    ussr_ssr_exit_6 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = no
+        available = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KAZ
+                }
+                transfer_state_to = KAZ
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = BLR
+                }
+                transfer_state_to = BLR
+            }
+            activate_mission = ussr_ssr_exit_7
+        }
+    }
+    ussr_ssr_exit_7 = {
+        icon = mission_icon    
+        is_good = no
+        days_mission_timeout = 35
+        selectable_mission = no
+        available = {
+            NOT = {
+                has_country_flag = ussr_unstability_ct
+            }
+        }
+        complete_effect = {
+
+        }
+        timeout_effect = {
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = YAK
+                }
+                transfer_state_to = YAK
+            }
+            564 = {
+                transfer_state_to = BYA
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TAN
+                }
+                transfer_state_to = TAN
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KHA
+                }
+                transfer_state_to = KHA
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = ALT
+                }
+                transfer_state_to = ALT
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = BSK
+                }
+                transfer_state_to = BSK
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = UDM
+                }
+                transfer_state_to = UDM
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = TAT
+                }
+                transfer_state_to = TAT
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = MEL
+                }
+                transfer_state_to = MEL
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = CHU
+                }
+                transfer_state_to = CHU
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = MRD
+                }
+                transfer_state_to = MRD
+            }
+            397 = {
+                transfer_state_to = KOM
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KAR
+                }
+                transfer_state_to = KAR
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KAL
+                }
+                transfer_state_to = KAL
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = DAG
+                }
+                transfer_state_to = DAG
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = CIN
+                }
+                transfer_state_to = CIN
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = ING
+                }
+                transfer_state_to = ING
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = NOA
+                }
+                transfer_state_to = NOA
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KBK
+                }
+                transfer_state_to = KBK
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = KRC
+                }
+                transfer_state_to = KRC
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = SOV
+                    is_core_of = ADG
+                }
+                transfer_state_to = ADG
+            }
         }
     }
 }

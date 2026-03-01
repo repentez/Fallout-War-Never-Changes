@@ -53,6 +53,22 @@ LAT = {
 	color = rgb { 110 35 45 }
 	color_ui = rgb { 110 35 45 }
 }
+MOR = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ADG = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+KRC = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ING = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
 SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }

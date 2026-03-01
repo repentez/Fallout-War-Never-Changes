@@ -15,6 +15,7 @@ state = {
 		}
 
 		add_core_of = SOV
+		add_core_of = BSK
 
 		victory_points = {
 			4311 1 # Beloretsk

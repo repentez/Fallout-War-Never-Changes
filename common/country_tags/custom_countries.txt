@@ -29,4 +29,8 @@ PRI = "countries/Peoples Republic Of Central Italy"
 UIP = "countries/Union Of Italian Provinces"
 SOS = "countries/Syndicate of Sicily"
 DOR = "countries/Dominion of Rome"
+MRD = "countries/Morvodia.txt"
+ADG = "countries/Adygea.txt"
+KRC = "countries/Karachaevo-Cherkessia.txt"
+ING = "countries/Ingushetia.txt"
 
