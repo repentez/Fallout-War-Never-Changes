@@ -56,6 +56,11 @@ BUL_united_and_strong_focus_desc:0 "It is not for nothing that the Balkans are c
 BUL_butcher_trait:0 "§tButcher§!" 
 BUL_paranoid_trait:0 "§tParanoid§!"
 
+### COSMETIC TAGS ###
+BUL_balkan_sfsr: "Balkan Soviet Federative Socialist Republic"
+BUL_balkan_sfsr_DEF: "the Balkan Soviet Federative Socialist Republic"
+BUL_balkan_sfsr_ADJ: "Balkanian"
+
 ### SCRIPTED TEXT ###
 BUL_drsg_sofia_region_sl_text:0 "Control level of the §6Sofia§! region: [?BUL_drsg_sofia_region_vv|+0]"
 BUL_drsg_burgas_region_sl_text:0 "Control level of the §6Burgas§! region: [?BUL_drsg_burgas_region_vv|+0]"

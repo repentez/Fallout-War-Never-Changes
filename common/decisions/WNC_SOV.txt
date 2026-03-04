@@ -60,13 +60,6 @@ sov_unstability_union_cat = {
             every_state = {
                 limit = {
                     is_controlled_by = SOV
-                    is_core_of = EST
-                }
-                transfer_state_to = EST
-            }
-            every_state = {
-                limit = {
-                    is_controlled_by = SOV
                     is_core_of = LAT
                 }
                 transfer_state_to = LAT
@@ -77,14 +70,6 @@ sov_unstability_union_cat = {
                     is_core_of = LIT
                 }
                 transfer_state_to = LIT
-            }
-            EST = {
-                set_politics = {
-	            ruling_party = communism
-	                last_election = "1936.1.1"
-	                election_frequency = 48
-	                elections_allowed = no
-                }
             }
             news_event = wnc_soviet_collapse.1
             activate_mission = ussr_ssr_exit_2
@@ -180,6 +165,9 @@ sov_unstability_union_cat = {
             }
             DON = {
                 load_oob = "DON_2056_nsb"
+            }
+            UKR = {
+                load_oob = "UKR_2056_nsb"
             }
             activate_mission = ussr_ssr_exit_4
         }
@@ -441,5 +429,377 @@ sov_unstability_union_cat = {
                 transfer_state_to = ADG
             }
         }
+    }
+}
+sov_union_of_sovereigh_state_cat = {
+    SOV_union_of_sovereigh_state_project_dec = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            SOV = {
+                has_stability = 0.20
+            }
+        }
+        days_remove = 180
+        cost = 150
+        modifier = {
+            weekly_stability_factor = -0.08
+        }
+        complete_effect = {
+            complete_national_focus = SOV_union_of_sovereigh_state
+            custom_effect_tooltip = SOV_ura_pobeda
+        }
+    }
+    SOV_return_belorussia_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            BLR = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            BLR = {
+                has_government = communism
+            }
+            BLR = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            BLR = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = BLR
+            }
+        }
+    }
+    SOV_return_ukraine_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            UKR = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            UKR = {
+                has_government = communism
+            }
+            UKR = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            UKR = {
+                has_government = communism
+            }
+            NOT = {
+                OR = {
+                    every_state = {
+                        limit = {
+                            is_controlled_by = DON
+                            is_core_of = UKR
+                        }
+                    }
+                    NOT = {
+                        country_exists = UKR
+                    }
+                }
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = UKR
+            }
+        }
+    }
+    SOV_return_novorossia_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            DON = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            DON = {
+                has_government = communism
+            }
+            DON = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            DON = {
+                has_government = communism
+            }
+            DON = {
+                NOT = {
+                    has_complete_focus = DON_communist_ukraine
+                }
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = UKR
+            }
+        }
+    }
+    SOV_return_moldova_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            MOL = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            MOL = {
+                has_government = communism
+            }
+            MOL = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            MOL = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = MOL
+            }
+        }
+    }
+    SOV_return_georgia_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            GEO = {
+                has_war = no
+            }
+        }
+        visible = {
+            original_tag = SOV
+            GEO = {
+                has_war = no
+            }
+            GEO = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            GEO = {
+                has_war = no
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = GEO
+            }
+        }
+    }
+    SOV_return_armenia_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            ARM = {
+                has_war = no
+            }
+        }
+        visible = {
+            original_tag = SOV
+            ARM = {
+                has_war = no
+            }
+            ARM = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            ARM = {
+                has_war = no
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = ARM
+            }
+        }
+    }
+    SOV_return_kazakhstan_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            KAZ = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            KAZ = {
+                has_government = communism
+            }
+            KAZ = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            KAZ = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = KAZ
+            }
+        }
+    }
+    SOV_return_kyrgystan_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            KYR = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            KYR = {
+                has_government = communism
+            }
+            KYR = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            KYR = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = KYR
+            }
+        }
+    }
+    SOV_return_tajikistan_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            TAJ = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            TAJ = {
+                has_government = communism
+            }
+            TAJ = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            TAJ = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = TAJ
+            }
+        }
+    }
+    SOV_return_uzbekistan_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            UZB = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            UZB = {
+                has_government = communism
+            }
+            UZB = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            UZB = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = UZB
+            }
+        }
+        SOV_return_turkmenistan_to_uss_dec = {
+        allowed = {
+            original_tag = SOV
+            TMS = {
+                has_government = communism
+            }
+        }
+        visible = {
+            original_tag = SOV
+            TMS = {
+                has_government = communism
+            }
+            TMS = {
+                exists = yes
+            }
+        }
+        available = {
+            original_tag = SOV
+            TMS = {
+                has_government = communism
+            }
+        }
+        days_remove = 10
+        cost = 10
+        complete_effect = {
+            SOV = {
+                puppet = TMS
+            }
+        }
+    }
     }
 }

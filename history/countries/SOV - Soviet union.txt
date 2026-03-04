@@ -8,7 +8,7 @@ declare_war_on = {
 	type = annex_everything
 }
 
-create_faction = "Warsaw Pact Treaty"
+create_faction = "Collective Security Treaty Organization"
 
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov

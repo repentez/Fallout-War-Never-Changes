@@ -15,16 +15,17 @@ focus_tree = {
 	focus = {
 		id = SOV_we_live_in_society
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 8
 		x = 15
 		y = 0
 		completion_reward = {
+			country_event = sovietunion.1
 		}
 	}
 	focus = {
 		id = SOV_retire_reformists
 		icon = GFX_goal_unknown
-		cost = 3
+		cost = 6
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
 			focus = SOV_we_live_in_society
@@ -35,7 +36,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			country_event = {
-				id = wnc_soviet.1
+				id = sovietunion.2
 			    days = 10
 		    }
 		}
@@ -44,16 +45,34 @@ focus_tree = {
 		id = SOV_chistki
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_we_live_in_society
+		cost = 8
 		prerequisite = {
 			focus = SOV_retire_reformists
 		}
 		availalbe = {
 
 		}
+		mutually_exclusive = {
+			focus = SOV_kill_the_kozlov
+		}
 		x = 0
 		y = 2
 	}
+	focus = {
+		id = SOV_change_leaders_of_ssr
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		cost = 8
+		prerequisite = {
+			focus = SOV_chistki
+		}
+		availalbe = {
 
+		}
+		x = 0
+		y = 3
+	}
+	###
 	focus = {
 		id = SOV_economic_of_ussr
 		icon = GFX_goal_unknown
@@ -81,7 +100,6 @@ focus_tree = {
 		
 	
 		completion_reward = {
-            country_event = sovietunion.1
 		}
 	}
 	focus = {
@@ -1441,7 +1459,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOV_reformist_political_reforms
+		id = SOV_sbor_kpss
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_we_live_in_society
 		prerequisite = {
@@ -1452,6 +1470,48 @@ focus_tree = {
 		}
 		x = 5
 		y = 3
+	}
+	focus = {
+		id = SOV_reformist_political_reforms
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_sbor_kpss
+		}
+		availalbe = {
+
+		}
+		x = 5
+		y = 4
+	}
+	focus = {
+		id = SOV_to_civilian_economy
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_reformist_political_reforms
+		}
+		availalbe = {
+
+		}
+		x = 5
+		y = 5
+	}
+	focus = {
+		id = SOV_economic_of_uss
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_we_live_in_society
+		prerequisite = {
+			focus = SOV_to_civilian_economy
+		}
+		prerequisite = {
+			focus = SOV_union_of_sovereigh_state
+		}
+		availalbe = {
+
+		}
+		x = 6
+		y = 6
 	}
 	focus = {
 		id = SOV_reform_of_the_union
@@ -1468,7 +1528,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			activate_mission = ussr_ssr_exit_1
-			country_event = wnc_soviet.2
+			country_event = sovietunion_unstability.1
 		}
 	}
 	focus = {
@@ -1484,6 +1544,9 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
+		completion_reward = {
+			unlock_decision_category_tooltip = sov_union_of_sovereigh_state_cat
+		}
 	}
 	focus = {
 		id = SOV_union_of_sovereigh_state
@@ -1503,6 +1566,11 @@ focus_tree = {
 		}
 		x = 7
 		y = 5
+		completion_reward = {
+			SOV = {
+				set_cosmetic_tag = SOV_uss
+			}
+		}
 	}
 	focus = {
 		id = SOV_everything_is_fine
@@ -1522,6 +1590,11 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
+		completion_reward = {
+			SOV = {
+				set_cosmetic_tag = SOV_rsfsr
+			}
+		}
 	}
 	### Foreigh politic ###
 	focus = {

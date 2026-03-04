@@ -11,6 +11,8 @@ if = {
 }
 set_convoys = 5 #VANILLA & DLC
 
+recruit_character = BUL_nikul_vasilev
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.2.16"

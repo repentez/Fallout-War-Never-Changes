@@ -167,6 +167,20 @@ ideas = {
 				custom_modifier_tooltip = SOV_reformists_zagovor_tt
 			}
 		}
+		SOV_reformists_zagovor_idea_1 = {
+			removal_cost = -1
+			available = {
+				original_tag = SOV
+			}
+		
+			allowed = {
+				original_tag = SOV
+			}
+
+			modifier = {
+				custom_modifier_tooltip = SOV_reformists_zagovor_tt
+			}
+		}
     }
 }
     

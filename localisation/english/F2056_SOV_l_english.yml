@@ -31,9 +31,24 @@
  SOV_ultranationalism_party: "§RDISSIDENTS"
  SOV_ultranationalism_party_long: "§RDISSIDENTS"
 
+ ### COSMETIC TAGS ###
+
+ SOV_uss: "Union of Sovereigh States"
+ SOV_uss_DEF: "the Union of Sovereigh States"
+ SOV_uss_ADJ: "Eurasian"
+ SOV_rsfsr: "Russian Soviet Federative Socialist Republic"
+ SOV_rsfsr_DEF: "the Russian Soviet Federative Socialist Republic"
+ SOV_rsfsr_ADJ: "Russian"
+
  ### DECISIONS ###
 
  ussr_ssr_exit_1: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_2: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_3: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_4: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_5: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_6: "SSR's declarated sovereigh..."
+ ussr_ssr_exit_7: "ASSR's declarated sovereigh..."
 
  ### FOCUSES ###
 

@@ -11,11 +11,11 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			synthetic_refinery = 2 #NSB
 			9448 = {
-					air_facility = 1
-				}
+				air_facility = 1
+			}
 		}
 		victory_points = {
 			413 5

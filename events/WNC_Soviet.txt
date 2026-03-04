@@ -20,7 +20,6 @@ country_event = {
         }
         set_country_flag = SOV_reformist_branch_cf
         mark_focus_tree_layout_dirty = yes
-        set_country_flag = ussr_unstability_ct
 	}
 }
 country_event = {

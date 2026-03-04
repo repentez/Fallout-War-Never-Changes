@@ -16,6 +16,14 @@ sov_unstability_union_cat = {
         has_country_flag = ussr_unstability_ct
     }
 }
+sov_union_of_sovereigh_state_cat = {
+    allowed = {
+        original_tag = SOV
+    }
+    visible = {
+        original_tag = SOV
+    }
+}
 sov_debug_decisions_cat = {
     allowed = {
         OR = {
