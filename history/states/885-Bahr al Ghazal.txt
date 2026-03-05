@@ -3,8 +3,8 @@ state={
 	name = "STATE_885" # Bahr al Ghazal
 	state_category = pastoral
 	history = {
-		owner = SUD
-		add_core_of = SUD
+		owner = SSU
+		add_core_of = SSU
 		buildings = {
 			infrastructure = 1
 		}

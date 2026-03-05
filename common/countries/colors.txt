@@ -1202,3 +1202,59 @@ UAR = {
 	color = rgb { 211 141 42 }
 	color_ui = rgb { 211 141 42 }
 }
+EUP = {
+	color = rgb { 20 71 173 }
+	color_ui = rgb { 20 71 173 }	
+}
+EUG = {
+	color = rgb { 0 31 133 }
+	color_ui = rgb { 0 31 133 }	
+}
+TAJ = {
+	color = rgb { 114 20 34 }
+	color_ui = rgb { 114 20 34 }
+}
+TMS = {
+	color = rgb { 104 28 35 }
+	color_ui = rgb { 104 28 35 }
+}
+UZB = {
+	color = rgb { 128 32 32 }
+	color_ui = rgb { 128 32 32 }
+}
+KYR = {
+	color = rgb { 127 24 13 }
+	color_ui = rgb { 127 24 13 }
+}
+KAZ = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+GEO = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ADJ = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+SOU = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+ARM = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+NAK = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+AZR = {
+	color = rgb { 110 35 45 }
+	color_ui = rgb { 110 35 45 }
+}
+SSU = {
+	rgb { 15 71 255 }
+	color_ui = rgb { 15 71 255 }
+}

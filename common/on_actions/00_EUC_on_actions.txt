@@ -6,8 +6,8 @@ on_actions = {
 	# Enter Civil War Mr. Coder #
 	#############################
 		EUC = {
-			country_event = { id = eot_euc.7 days = 17
-			}
+			country_event = { id = eot_euc.7 days = 17 }
+			activate_mission = Total_Collapse_President
 		}
 	}
 }

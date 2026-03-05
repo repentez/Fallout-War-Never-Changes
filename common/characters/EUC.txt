@@ -21,9 +21,16 @@ characters={
 				}
 			}
 		country_leader = {
-				ideology =Christian_Liberalism
+				ideology = Christian_Liberalism
+				expire ="2056.1.1.1"			
+			}
+		country_leader = {
+				ideology = right_wing_populism
 				expire ="2056.1.1.1"
-
+			}
+		country_leader = {
+				ideology = populist_conservatism
+				traits = { War_Hawk }
 			}
 		}
 

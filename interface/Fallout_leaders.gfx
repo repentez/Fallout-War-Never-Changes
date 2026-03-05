@@ -56,4 +56,10 @@ spriteTypes = {
         texturefile = "gfx/leaders/CHI/Li_Ming.tga"
     }
 
+    # South Sudan Leaders
+    spriteType = {
+        name = "GFX_portrait_SSU_malual_hothnyang"
+        texturefile = "gfx/leaders/SSU/SSU_Malual_Hothnyang.tga"
+    }    
+
 }
