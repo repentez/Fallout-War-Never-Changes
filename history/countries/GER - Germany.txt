@@ -480,11 +480,6 @@ set_war_support = 0.3
 	
 	
 	# Slovakia is set up as a subject manually
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
-	give_military_access = SLO
 
 	# So that the war can fire immediately 
 	create_wargoal = {
