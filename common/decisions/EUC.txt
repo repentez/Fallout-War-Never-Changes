@@ -1,5 +1,26 @@
 EUC_COLLAPSE_1_Category = {
 
+   Total_Collapse_President = { # Ruling on Seccession
+    available = { always = no }
+    activation = { 
+        AND = {
+            date < 2056.01.1
+             }   
+        } 
+    icon = mission_icon    
+    is_good = no
+    days_mission_timeout = 20
+    selectable_mission = yes
+    complete_effect = {
+
+    }
+    timeout_effect = {
+        EUC = {
+            country_event = { id = eot_euc.100 days = 17 }
+        }
+    }
+}
+
    European_Supreme_Court_1 = { # Ruling on Seccession
     available = { always = no }
     activation = { 

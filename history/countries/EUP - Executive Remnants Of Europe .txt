@@ -1,9 +1,6 @@
 ﻿capital = 1
 # Recruit Characters
-	recruit_character = EUC_lottie_fevre
-	recruit_character = EUC_Antonio_Leclerc
-	
-oob = "EUC_1936"
+starting_train_buffer = 0
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
@@ -12,15 +9,18 @@ set_convoys = 0
 
 # Politics for 1936.1.1
 set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarian_democracy
 	last_election = "1934.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 73
-	communism = 17
-	neutrality = 10
+        fascism = 20
+        neutrality = 10
+        theocracy = 5
+        authoritarian_democracy = 30
+        conservatism = 25
+        ultranationalism = 10	
 }
 
 # Government/National Spirits
