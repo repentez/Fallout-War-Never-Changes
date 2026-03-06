@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = Military_Dictatorship
+			ideology = Military_Junta
 			expire="2088.1.1.1"
 			id=-1
 		}

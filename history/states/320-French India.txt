@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = EUC
+		owner = RAJ
 		add_core_of = RAJ
 
 		victory_points = {

@@ -1,5 +1,5 @@
 characters = {
-	RSL_teodor_kocis = {
+	yyy_teodor_kocis = {
 		name="Teodor Kočiš"
 		portraits={
 			civilian={

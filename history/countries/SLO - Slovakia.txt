@@ -1,5 +1,7 @@
 ﻿capital = 70
 
+recruit_character = SLO_teodor_kocis
+
 set_technology = {
 	tech_trucks = 1
 	gw_artillery = 1

@@ -5,6 +5,7 @@ oob = "EST_2056"
 add_ideas = EST_defend_our_independence_idea
 add_ideas = EST_proud_small_nation
 add_ideas = EST_forest_brothers
+recruit_character = EST_kalju_kirsipuu
 recruit_character = EST_konstantin_pats
 recruit_character = EST_artur_sirk
 recruit_character = EST_johannes_kabin
