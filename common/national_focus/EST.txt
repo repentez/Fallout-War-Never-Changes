@@ -463,6 +463,123 @@ focus_tree = {
             }
         }
     }
+	   focus = {
+        id = EST_restore_contact
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_economic_recon }
+        x = 15
+        y = 6
+        cost = 10
+
+        completion_reward = {
+            
+   
+        }
+    }
+	  focus = {
+        id = EST_scandi_contact
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_contact}
+        x = 15
+        y = 7
+        cost = 10
+
+        completion_reward = {
+            
+   
+        }
+    }
+	  focus = {
+        id = EST_Soviet_exiles
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_contact}
+        x = 17
+        y = 7
+        cost = 10
+
+        completion_reward = {
+        add_war_support = 0.05
+        add_manpower = 1275
+        }
+    }
+	  focus = {
+        id = EST_Baltic_resist
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_Soviet_exiles}
+        x = 17
+        y = 8
+        cost = 10
+
+        completion_reward = {
+        SOV = { remove_state_core = 13 }
+        SOV = { remove_state_core = 812 }
+        SOV = { remove_state_core = 191 }
+
+		SOV = { remove_state_core = 808 }
+        SOV= { remove_state_core = 810 }
+        SOV = { remove_state_core = 190 }
+
+		SOV = { remove_state_core = 784 }
+        SOV = { remove_state_core = 815 }
+        SOV = { remove_state_core = 11 }
+		SOV = { remove_state_core = 188 }
+        }
+    }
+	 focus = {
+        id = EST_spread_Metsavagi
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_Baltic_resist}
+        x = 17
+        y = 9
+        cost = 10
+
+        completion_reward = {
+        }
+    }
+	 focus = {
+        id = EST_rally_to_the_cause
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_spread_Metsavagi}
+        x = 17
+        y = 10
+        cost = 10
+
+        completion_reward = {
+	     13 = { set_resistance = 100 }
+        812 = { set_resistance = 100 }
+        191 = { set_resistance = 100 }
+        808 = { set_resistance = 100 }
+        810 = { set_resistance = 100 }
+        190 = { set_resistance = 100 }
+        784 = { set_resistance = 100 }
+        815 = { set_resistance = 100 }
+        11 = { set_resistance = 100 }
+        188 = { set_resistance = 100 }
+        }
+    }
+		 focus = {
+        id = EST_spread_Metsavagi
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_rally_to_the_cause }
+        x = 18
+        y = 11
+        cost = 10
+
+        completion_reward = {
+        }
+    }
+		  focus = {
+        id = EST_Rally_european
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_contact}
+        x = 19
+        y = 7
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
 }
 
 

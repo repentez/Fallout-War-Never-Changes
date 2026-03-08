@@ -11,6 +11,15 @@ characters={
 			expire="2088.1.1.1"
 			id=-1
 		}
+		field_marshal={
+			traits={ old_guard }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
 	}
 
 	EST_johannes_kabin={
