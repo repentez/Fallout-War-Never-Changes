@@ -1,4 +1,7 @@
 ﻿l_english: 
+
+ ### IDEAS ###
+
  SOV_zastoy_idea: "Stagnation in foreign policy."
  SOV_zastoy_idea_tt: "The Union of Soviet Socialist Republics ceased to participate in the Cold War in the 2000s, when the USSR “accepted” NATO's victory in the Cold War against it. Left with only its sphere of influence in Eastern Europe, the USSR stopped helping other countries in any way, finally abandoning the ideas of Marxism-Leninism. Now the USSR is just watching the new Cold War between the US and China, remaining in the shadows."
  SOV_war_economic_idea: "Market Socialism in a War Economy."
@@ -9,6 +12,8 @@
  SOV_fake_socialism_idea_tt: ""
  SOV_normally_robototechnic_idea: "Quite advanced Soviet robotics."
  SOV_normally_robototechnic_idea_tt: ""
+
+ ### PARTIES ###
 
  SOV_communism_party: "CPSU"
  SOV_communism_party_long: "Communist Party of Soviet Union"
@@ -39,6 +44,10 @@
  SOV_rsfsr: "Russian Soviet Federative Socialist Republic"
  SOV_rsfsr_DEF: "the Russian Soviet Federative Socialist Republic"
  SOV_rsfsr_ADJ: "Russian"
+
+ ### FACTION NAMES ###
+
+ eurasian_collective_security_treaty_fact: "Eurasian Collective Security Treaty"
 
  ### DECISIONS ###
 

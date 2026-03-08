@@ -1,0 +1,12 @@
+SOV_uranium_ext = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense
+
+}
+SOV_atomic_electrostation_new = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense
+
+}

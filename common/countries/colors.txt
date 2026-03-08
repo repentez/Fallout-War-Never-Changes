@@ -435,10 +435,13 @@ ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
 }
-
+RCG = {
+	color = rgb { 123 0 28 }
+	color_ui = rgb { 123 0 28 }
+}
 COG = {
-	color = rgb { 152 159 209 }
-	color_ui = rgb { 152 159 209 }
+	color = rgb {0 72 173}
+	color_ui = rgb {0 72 173}
 }
 MZB = {
 	color = rgb { 112 62 90 }

@@ -136,7 +136,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-		SOV_development_of_nuclear_industry = {
+		SOV_development_of_nuclear_industry = { 
 			removal_cost = -1
 			available = {
 
@@ -167,7 +167,7 @@ ideas = {
 				custom_modifier_tooltip = SOV_reformists_zagovor_tt
 			}
 		}
-		SOV_reformists_zagovor_idea_1 = {
+		SOV_no_liberals = {
 			removal_cost = -1
 			available = {
 				original_tag = SOV
@@ -178,7 +178,63 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = SOV_reformists_zagovor_tt
+
+			}
+		}
+		SOV_political_reforms_m_1 = {
+			removal_cost = -1
+			available = {
+				original_tag = SOV
+			}
+		
+			allowed = {
+				original_tag = SOV
+			}
+
+			modifier = {
+
+			}
+		}
+		SOV_development_sovindustry = {
+			removal_cost = -1
+			available = {
+				original_tag = SOV
+			}
+		
+			allowed = {
+				original_tag = SOV
+			}
+
+			modifier = {
+
+			}
+		}
+		SOV_development_sovindustry_privat = {
+			removal_cost = -1
+			available = {
+				original_tag = SOV
+			}
+		
+			allowed = {
+				original_tag = SOV
+			}
+
+			modifier = {
+
+			}
+		}
+		SOV_development_sovindustry_nation = {
+			removal_cost = -1
+			available = {
+				original_tag = SOV
+			}
+		
+			allowed = {
+				original_tag = SOV
+			}
+
+			modifier = {
+
 			}
 		}
     }

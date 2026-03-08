@@ -8,10 +8,12 @@ declare_war_on = {
 	type = annex_everything
 }
 
-create_faction = "Eurasia Collective Security Treaty"
+create_faction_from_template = faction_template_ecto
 
 #COUNTRY LEADERS
 recruit_character = SOV_vasily_kozlov
+recruit_character = SOV_ivan_yanov
+recruit_character = SOV_matvey_anisimov
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
 recruit_character = SOV_nikolay_petrov
 recruit_character = SOV_georgy_chervov

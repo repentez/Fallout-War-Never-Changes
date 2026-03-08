@@ -1,6 +1,7 @@
 add_namespace = sovietunion
 add_namespace = sovietunion_unstability
 add_namespace = sovietunion_foreigh
+add_namespace = sovietunion_economy
 
 country_event = {
 	id = sovietunion_foreigh.1
@@ -94,6 +95,31 @@ country_event = {
 		name = sovietunion.3.a
 		add_political_power = -20
 		add_stability = -0.05
+	}
+}
+country_event = {
+	id = sovietunion.4
+	title = sovietunion.4.t
+	desc = sovietunion.4.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = sovietunion.4.a
+		add_political_power = 50
+	}
+	option = {
+		name = sovietunion.4.b
+		SOV = {
+            promote_character = SOV_nikolay_anisimov
+        }
+	}
+	option = {
+		name = sovietunion.4.c
+		SOV = {
+            promote_character = SOV_ivan_yanov 
+        }
 	}
 }
 country_event = {
@@ -218,5 +244,20 @@ country_event = {
 		name = sovietunion_unstability.4.c
 		add_political_power = -50
 		add_stability = 0.05
+	}
+}
+##########################
+######## ECONOMY #########
+##########################
+country_event = {
+	id = sovietunion_economy.1
+	title = sovietunion_economy.1.t
+	desc = sovietunion_economy.1.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = sovietunion_economy.1.a
 	}
 }

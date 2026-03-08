@@ -180,11 +180,11 @@ focus_tree = {
 		x = 11
 		y = 2
 	 available = {
-        owns_state = 813
+        owns_state = 812
     }
 	
 		completion_reward = {
-							813 = {
+							812 = {
 				add_building_construction = {
 					type = bunker
 					province = 11127
@@ -195,7 +195,7 @@ focus_tree = {
 		}
         random_owned_controlled_state = {
 				 prioritize = {
-					813
+					812
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -205,7 +205,7 @@ focus_tree = {
                      province = 11127
 				}
 			}                                   
-            813 = {
+            812 = {
 		         add_building_construction = {
                     type = coastal_bunker
                     level = 2
@@ -240,11 +240,11 @@ focus_tree = {
 		x = 11
 		y = 3
 	 available = {
-        owns_state = 811
+        owns_state = 13
     }
 	
 		completion_reward = {
-							811 = {
+							13 = {
 				add_building_construction = {
 					type = bunker
 					province =  185
@@ -254,8 +254,8 @@ focus_tree = {
 			
 		}
         random_owned_controlled_state = {
-				 prioritize = {
-					811
+				prioritize = {
+					13
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -265,16 +265,16 @@ focus_tree = {
                      province =  185
 				}
 			}                                   
-            811 = {
-		         add_building_construction = {
+            13 = {
+		        add_building_construction = {
                     type = coastal_bunker
                     level = 2
                     instant_build = yes
                     province =  185
                 }
             }
-            811= {
-                       add_building_construction = {
+            13= {
+                add_building_construction = {
                     type = anti_air_building
                     level = 1
                     instant_build = yes
@@ -386,7 +386,7 @@ focus_tree = {
     }
 }
 	focus = {
-		id = EST_Institute_cap
+		id = EST_Institute_cap_1
 		icon = goal_generic_improve_relations
 		cost = 3
         prerequisite = {
@@ -558,7 +558,7 @@ focus_tree = {
         }
     }
 		 focus = {
-        id = EST_spread_Metsavagi
+        id = EST_spread_Metsavagi_1
         icon = GFX_goal_generic_oil
         prerequisite = { focus =  EST_rally_to_the_cause }
         x = 18

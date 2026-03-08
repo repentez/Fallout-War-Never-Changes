@@ -1,7 +1,7 @@
 state = {
 	id = 65
 	name = "STATE_65"
-	manpower = 5592576
+	manpower = 4880203
 	resources = {
 		steel = 41 #was 12 was 32 #was 53 # was: 90
 		coal = 13 # initial distribution
@@ -44,7 +44,7 @@ state = {
 	}
 
 	provinces = {
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 15842 15843 
+		514 573 3514 3535 6559 9441 9471 9535 11481 15842 15843 
 	}
 
 	local_supplies = 0.0 
