@@ -3240,4 +3240,721 @@ focus_tree = {
             focus = USA_the_commonwealth_still_the_cultural_hub_of_america
         }
     }
+
+    focus = {
+        id = USA_state_of_the_Enclave
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_our_patriotic_victory
+        x = 0
+        y = 10
+        cost = 5
+        available = {
+            date > 2060.11.4
+        }
+    }
+
+    focus = {
+        id = USA_in_the_name_of_stability
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_state_of_the_Enclave
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_Enclave
+        }
+    }
+
+    focus = {
+        id = USA_invade_the_congo
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_in_the_name_of_stability
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_in_the_name_of_stability
+        }
+    }
+    
+    focus = {
+        id = USA_and_capitalism
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_invade_the_congo
+        x = 0
+        y = 1 
+        cost 3
+        prerequisite = {
+            focus = USA_invade_the_congo
+        }
+    }
+
+    focus = {
+        id = USA_the_resource_crisis
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_state_of_the_Enclave
+        x = -3
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_Enclave
+        }
+    }
+
+    focus = {
+        id = USA_exploit_africa
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_the_resource_crisis
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_in_the_name_of_stability
+        }
+        prerequisite = {
+            focus = USA_the_resource_crisis
+        }
+    }
+
+    focus = {
+        id = USA_the_second_resoruce_treaties
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_the_resource_crisis
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_the_resource_crisis
+        }
+    }
+
+    focus = {
+        id = USA_patchwork
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_the_second_resoruce_treaties
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_exploit_africa
+        }
+        prerequisite = {
+            focus = USA_the_second_resoruce_treaties
+        }
+    }
+
+    focus = {
+        id = USA_the_corporations
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_state_of_the_Enclave
+        x = 2.25
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_Enclave
+        }
+    }
+
+    focus = {
+        id = USA_protests_across_the_country
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_the_corporations
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_the_corporations
+        }
+        prerequisite = {
+            focus = USA_in_the_name_of_stability
+        }
+    }
+
+    focus = {
+        id = USA_riot_control
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_protests_across_the_country
+        x = 0 
+        y = 1
+        cost 3
+        prerequisite = {
+            focus = USA_protests_across_the_country
+        }
+    }
+
+    focus = {
+        id = USA_tax_cuts_for_the_wealthy
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_the_corporations
+        x = 1
+        y = 1
+        cost = 3 
+        prerequisite = {
+            focus = USA_the_corporations
+        }
+    }
+
+    focus = {
+        id = USA_weaponize_the_american_dream
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_tax_cuts_for_the_wealthy
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_tax_cuts_for_the_wealthy
+        }
+    }
+
+    focus = {
+        id = USA_first_Enclave_congress
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_and_capitalism
+        x = 0
+        y = 1
+        cost 3
+        prerequisite = {
+            focus = USA_and_capitalism
+        }
+        prerequisite = {
+            focus = USA_riot_control
+        }
+        prerequisite = {
+            focus = USA_weaponize_the_american_dream
+        }
+        prerequisite = {
+            focus = USA_patchwork
+        }
+    }
+
+    focus = {
+        id = USA_and_built_a_bridge_to_span_tides
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_first_Enclave_congress
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_first_Enclave_congress
+        }
+    }
+
+    focus = {
+        id = USA_men_may_come_men_may_go
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_first_Enclave_congress
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_first_Enclave_congress
+        }
+    }
+
+    focus = {
+        id = USA_might_not_keep_this_one
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_first_Enclave_congress
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_men_may_come_men_may_go
+        }
+        prerequisite = {
+            focus = USA_and_built_a_bridge_to_span_tides
+        }
+    }
+
+    focus = {
+        id = USA_a_world_in_motion
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_might_not_keep_this_one
+        x = 0
+        y = 2
+        cost = 5
+        available = {
+            date > 2064.11.4 
+        }
+    }
+    
+    focus = {
+        id = USA_water_water_everywhere
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_a_world_in_motion
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_a_world_in_motion
+        }
+    }
+
+    focus = {
+        id = USA_nor_any_drop_to_drink
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_water_water_everywhere
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_water_water_everywhere
+        }
+    }
+
+    focus = {
+        id = USA_finding_the_hidden_spring
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_nor_any_drop_to_drink
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_nor_any_drop_to_drink
+        }
+    }
+
+    focus = {
+        id = USA_whose_world_is_this_i_think_i_know
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_a_world_in_motion
+        x = -2
+        y = 1
+        cost 3
+        prerequisite = {
+            focus = USA_a_world_in_motion
+        }
+    }
+
+    focus = {
+        id = USA_parting_the_wealth_of_nations
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_whose_world_is_this_i_think_i_know
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_whose_world_is_this_i_think_i_know
+        }
+    }
+
+    focus = {
+        id = USA_send_peacekeepers_to_europe
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_a_world_in_motion
+        x = 3
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_a_world_in_motion
+        }
+    }
+
+    focus = {
+        id = USA_rebuild_the_ec
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_send_peacekeepers_to_europe
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_send_peacekeepers_to_europe
+        }
+    }
+
+    focus = {
+        id = USA_aid_the_italo_nationalists
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_send_peacekeepers_to_europe
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_send_peacekeepers_to_europe
+        }
+    }
+
+    focus = {
+        id = USA_declare_ground_zero_too_dangerous
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_send_peacekeepers_to_europe
+        x = 0 
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_rebuild_the_ec
+        }
+        prerequisite = {
+            focus = USA_aid_the_italo_nationalists
+        }
+    }
+
+    focus = {
+        id = USA_sino_american_war
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_a_world_in_motion
+        x = 6
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_a_world_in_motion
+        }
+    }
+
+    focus = {
+        id = USA_begin_the_draft
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_sino_american_war
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_sino_american_war
+        }
+    }
+
+    focus = {
+        id = USA_deploy_power_armor
+        icon = GFX_focus_generic_mechanized
+        relative_position_id = USA_begin_the_draft
+        x = 0 
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_begin_the_draft
+        }
+    }
+
+    focus = {
+        id = USA_state_of_the_union
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_make_a_deal_with_protestors
+        x = 0
+        y = 2
+        cost = 5
+        available = {
+            date > 2060.11.4
+        }
+    }
+
+    focus = {
+        id = USA_crisis_at_home
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_state_of_the_union
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_union
+        }
+    }
+
+    focus = {
+        id = USA_automation_crisis
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_crisis_at_home
+        x = -1
+        y = 1
+        cost 3
+        prerequisite = {
+            focus = USA_crisis_at_home
+        }
+    }
+
+    focus = {
+        id = USA_protests_across_the_nation
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_crisis_at_home
+        x = 1 
+        y = 1
+        cost 3
+        prerequisite = {
+            focus = USA_crisis_at_home
+        }
+    }
+
+    focus = {
+        id = USA_second_resource_treaties
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_state_of_the_union
+        x = 4
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_union
+        }
+    }
+
+    focus = {
+        id = USA_alaskan_oil_and_fishing_treaty
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_second_resource_treaties
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_second_resource_treaties
+        }
+    }
+
+    focus = {
+        id = USA_crisis_not_averted
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_protests_across_the_nation
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_automation_crisis
+        }
+        prerequisite = {
+            focus = USA_protests_across_the_nation
+        }
+        prerequisite = {
+            focus = USA_alaskan_oil_and_fishing_treaty
+        }
+    }
+
+    focus = {
+        id = USA_crisis_abroad
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_state_of_the_union
+        x = -4
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_state_of_the_union
+        }
+    }
+
+    focus = {
+        id = USA_meet_with_the_soviets
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_crisis_abroad
+        x = -1
+        y = 1
+        cost = 3 
+        prerequisite = {
+            focus = USA_crisis_abroad
+        }
+    }
+
+    focus = {
+        id = USA_seek_closer_ties_in_europe
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_meet_with_the_soviets
+        x = 0 
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_meet_with_the_soviets
+        }
+    }
+
+    focus = {
+        id = USA_growing_tensions_with_china
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_crisis_abroad
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_crisis_abroad
+        }
+    }
+
+    focus = {
+        id = USA_seek_closer_ties_in_asia
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_growing_tensions_with_china
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_growing_tensions_with_china
+        }
+    }
+
+    focus = {
+        id = USA_friends_across_the_world
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_crisis_abroad
+        x = 0
+        y = 3
+        cost = 3
+        prerequisite = {
+            focus = USA_seek_closer_ties_in_europe
+        }
+        prerequisite = {
+            focus = USA_seek_closer_ties_in_asia
+        }
+    }
+
+    focus = {
+        id = USA_burden_of_the_hour
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_state_of_the_union
+        x = 0
+        y = 6
+        cost = 5
+        available = {
+            date > 2064.11.4
+        }
+    }
+    
+    focus = {
+        id = USA_global_peace_efforts
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_burden_of_the_hour
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_burden_of_the_hour
+        }
+    }
+
+    focus  = {
+        id = USA_visit_the_wasteland
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_global_peace_efforts
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_global_peace_efforts
+        }
+    }
+
+    focus = {
+        id = USA_ground_zero_the_old_world_dead
+        icon = GFX_focus_generic_recon
+        relative_position_id = USA_visit_the_wasteland
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_visit_the_wasteland
+        }
+    }
+
+    focus = {
+        id = USA_strategic_arms_limitation_talks
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_ground_zero_the_old_world_dead
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_ground_zero_the_old_world_dead
+        }
+    }
+
+    focus = {
+        id = USA_treat_the_economy
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_burden_of_the_hour
+        x = -2
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_burden_of_the_hour
+        }
+    }
+
+    focus = {
+        id = USA_spoils_of_the_victor
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_treat_the_economy
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_treat_the_economy
+        }
+    }
+
+    focus = {
+        id = USA_sino_american_conflict
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_burden_of_the_hour
+        x = 4
+        y = 1
+        cost = 3 
+        prerequisite = {
+            focus = USA_burden_of_the_hour
+        }
+    }
+
+    focus = {
+        id = USA_deploy_power_armor_to_the_front
+        icon = GFX_focus_generic_mechanized
+        relative_position_id = USA_sino_american_conflict
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_sino_american_conflict
+        }
+    }
+
+    focus = {
+        id = USA_oil_and_gas_treaties
+        icon = GFX_focus_generic_industry
+        relative_position_id = USA_sino_american_conflict
+        x = -1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_sino_american_conflict
+        }
+    }
+
+    focus = {
+        id = USA_offshore_treaties
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_oil_and_gas_treaties
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_oil_and_gas_treaties
+        }
+    }
+
+    focus = {
+        id = USA_a_diplomatic_resolve
+        icon = GFX_focus_generic_political
+        relative_position_id = USA_offshore_treaties
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_offshore_treaties
+        }
+    }
+
+    focus = {
+        id = USA_strike_back
+        icon = GFX_focus_generic_army
+        relative_position_id = USA_sino_american_conflict
+        x = 1
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = USA_sino_american_conflict
+        }
+    }
+
+    focus = {
+        id = USA_prepare_the_marines
+        icon = GFX_focus_generic_navy
+        relative_position_id = USA_strike_back
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = USA_strike_back
+        }
+    }
 }
