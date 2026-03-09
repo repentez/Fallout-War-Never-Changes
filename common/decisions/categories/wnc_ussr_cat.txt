@@ -48,3 +48,15 @@ sov_atomic_energy_dev_cat = {
         }
     }
 }
+sov_gidro_energy_dev_cat = {
+    icon = generic_propaganda
+
+    allowed = {
+        original_tag = SOV
+    }
+    visible = {
+        SOV = {
+            has_country_flag = SOV_gidroenergy_dev_ct
+        }
+    }
+}

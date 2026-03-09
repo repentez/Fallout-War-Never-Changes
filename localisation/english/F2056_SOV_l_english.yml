@@ -44,6 +44,9 @@
  SOV_rsfsr: "Russian Soviet Federative Socialist Republic"
  SOV_rsfsr_DEF: "the Russian Soviet Federative Socialist Republic"
  SOV_rsfsr_ADJ: "Russian"
+ SOV_nossr: "Russian Federation"
+ SOV_nossr_DEF: "the Russian Federation"
+ SOV_nossr_ADJ: "Russian"
 
  ### FACTION NAMES ###
 

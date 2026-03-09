@@ -33,10 +33,6 @@ state = {
 		add_core_of = ETH
 		add_core_of = QEM
 
-		1936.6.1 = {
-			owner = EUC
-			controller = EUC
-		}
 	}
 
 	provinces = {

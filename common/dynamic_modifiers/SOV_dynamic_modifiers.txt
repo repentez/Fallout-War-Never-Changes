@@ -10,3 +10,9 @@ SOV_atomic_electrostation_new = {
 	icon = GFX_modifiers_SOV_civilian_labor_in_defense
 
 }
+SOV_computer_academy_new = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_civilian_labor_in_defense
+
+}

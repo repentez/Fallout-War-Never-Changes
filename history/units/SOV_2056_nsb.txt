@@ -981,7 +981,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 11618
+		location = 3478
 		division_template = "Motorizirovanaya Diviziya"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.9

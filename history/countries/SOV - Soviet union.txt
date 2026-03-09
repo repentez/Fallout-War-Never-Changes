@@ -230,10 +230,9 @@ if = {
 }
 
 add_ideas = {
-	SOV_zastoy_idea
-	SOV_war_economic_idea
-	SOV_soviet_army_supreme_idea
-	SOV_fake_socialism_idea
+	SOV_foreigh_policy_idea
+	SOV_full_war_ready_idea
+	SOV_militarist_policy_idea
 	SOV_normally_robototechnic_idea
     war_economy
 	SOV_reformists_zagovor_idea 

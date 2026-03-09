@@ -34,6 +34,7 @@ state={
 
 		}
 		add_core_of = EST
+		add_core_of = SOV
 
 		SOV = {
 			set_province_controller = 249

@@ -27,11 +27,6 @@ sov_outer_politics_cat = {
         }
         available = {
             original_tag = SOV
-            AND = {
-                PER = {
-                    has_exists = yes
-                }
-            }
         }
         cost = 10
         complete_effect = {
@@ -447,7 +442,7 @@ sov_union_of_sovereigh_state_cat = {
         days_remove = 180
         cost = 150
         modifier = {
-            weekly_stability_factor = -0.08
+
         }
         complete_effect = {
             complete_national_focus = SOV_union_of_sovereigh_state
@@ -898,6 +893,69 @@ sov_atomic_energy_dev_cat = {
         days_remove = 100
         remove_effect = {
             555 = {
+                add_dynamic_modifier = {
+                    modifier = SOV_atomic_electrostation_new
+                }
+            }
+        }
+    }
+}
+#
+sov_gidro_energy_dev_cat = {
+    SOV_building_second_novosibirsk_aes = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+        }
+        cost = 10
+        days_remove = 100
+        remove_effect = {
+            570 = {
+                add_dynamic_modifier = {
+                    modifier = SOV_atomic_electrostation_new
+                }
+            }
+        }
+    }
+    SOV_building_ural_aes = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+        }
+        cost = 10
+        days_remove = 100
+        remove_effect = {
+            653 = {
+                add_dynamic_modifier = {
+                    modifier = SOV_atomic_electrostation_new
+                }
+            }
+        }
+    }
+    SOV_building_second_siberian_aes = {
+        allowed = {
+            original_tag = SOV
+        }
+        visible = {
+            original_tag = SOV
+        }
+        available = {
+            original_tag = SOV
+        }
+        cost = 10
+        days_remove = 100
+        remove_effect = {
+            578 = {
                 add_dynamic_modifier = {
                     modifier = SOV_atomic_electrostation_new
                 }

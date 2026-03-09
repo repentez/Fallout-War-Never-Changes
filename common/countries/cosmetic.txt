@@ -1238,12 +1238,88 @@ ROM_drop_soviet_tag_ct = {
 	color = rgb { 119 86 33 }
 	color_ui = rgb { 119 86 33 }
 }
-
-UKR_blue = {
+##################
+LAT_nossr = {
+	color = rgb { 128 50 47 }
+	color_ui = rgb { 128 50 47 }
+}
+LIT_nossr = {
+	color = rgb { 197 227 132 }
+	color_ui = rgb { 197 227 132 }
+}
+BLR_nossr = {
+	color = rgb { 65 122 64 }
+	color_ui = rgb { 65 122 64 }
+}
+UKR_nossr = {
 	color = rgb { 33 76 207 }
 	color_ui = rgb { 33 76 207 }
 }
-
+DON_nossr = {
+	color = rgb { 138 59 30 }
+	color_ui = rgb { 138 59 30 }
+}
+MOL_nossr = {
+	color = rgb { 177 81 36 }
+	color_ui = rgb { 177 81 36 }
+}
+ARM_nossr = {
+	color = rgb { 195 88 49 }
+	color_ui = rgb { 195 88 49 }
+}
+AZR_nossr = {
+	color = rgb { 140 203 94 }
+	color_ui = rgb { 140 203 94 }
+}
+NAK_nossr = {
+	color = rgb { 163 73 72 }
+	color_ui = rgb { 163 73 72 }
+}
+GEO_nossr = {
+	color = rgb { 172 117 128 }
+	color_ui = rgb { 172 117 128 }
+}
+SOU_nossr = {
+	color = rgb { 255 253 208 }
+	color_ui = rgb { 255 253 208 }
+}
+ADJ_nossr = {
+	color = rgb { 122 189 255 }
+	color_ui = rgb { 122 189 255 }
+}
+ABK_nossr = {
+	color = rgb { 80 222 191 }
+	color_ui = rgb { 80 222 191 }
+}
+TAJ_nossr = {
+	color = rgb { 160 214 180 }
+	color_ui = rgb { 160 214 180 }
+}
+UZB_nossr = {
+	color = rgb { 128 218 235 }
+	color_ui = rgb { 128 218 235 }
+}
+KKP_nossr = {
+	color = rgb { 243 229 171 }
+	color_ui = rgb { 243 229 171 }
+}
+TMS_nossr = {
+	color = rgb { 71 122 37 }
+	color_ui = rgb { 71 122 37 }
+}
+KYR_nossr = {
+	color = rgb { 191 63 63 }
+	color_ui = rgb { 191 63 63 }
+}
+KAZ_nossr = {
+	color = rgb { 127 199 255 }
+	color_ui = rgb { 127 199 255 }
+}
+SOV_nossr = {
+	color = rgb { 65 122 64 }
+	color_ui = rgb { 65 122 64 }
+}
+####################
 BUL_balkan_sfsr = {
 	color = rgb { 94 33 41 }
 	color_ui = rgb { 94 33 41 }

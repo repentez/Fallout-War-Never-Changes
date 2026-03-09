@@ -1,6 +1,6 @@
 ideas = {
-	country = { 
-        SOV_zastoy_idea = {
+	country = {
+		SOV_foreigh_policy_idea = {
 			removal_cost = -1
 			available = {
 				original_tag = SOV
@@ -11,17 +11,16 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = SOV_zastoy_idea_tt
+				custom_modifier_tooltip = SOV_foreigh_policy_idea_tt
                 ai_focus_peaceful_factor = 1.0
                 ai_focus_aggressive_factor = -1.0
                 guarantee_tension = 1.0
                 lend_lease_tension = 1.0
                 send_volunteer_size = -10
                 send_volunteers_tension = 1.0
-                war_support_factor = -0.15
 			}
 		}
-		SOV_war_economic_idea = {
+		SOV_full_war_ready_idea = {
 			removal_cost = -1
 			available = {
 				original_tag = SOV
@@ -32,45 +31,20 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = SOV_war_economic_idea_tt
-				consumer_goods_expected_value = -0.50
+				custom_modifier_tooltip = SOV_full_war_ready_idea_tt
+				consumer_goods_expected_value = -0.30
 				production_factory_efficiency_gain_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.05
-				production_speed_industrial_complex_factor = -0.50 					
-                production_cost_industrial_complex_factor = 0.20
-				production_speed_arms_factory_factor = 0.20
-				production_cost_arms_factory_factor = -0.20
-				research_speed_factor = -0.20
 				industrial_capacity_factory = 0.30
-			}
-		}
-		SOV_soviet_army_supreme_idea = {
-			removal_cost = -1
-			available = {
-				original_tag = SOV
-			}
-		
-			allowed = {
-				original_tag = SOV
-			}
-
-			modifier = {
-				custom_modifier_tooltip = SOV_soviet_army_supreme_idea_tt
-				army_fuel_capacity_factor = 0.30
-				experience_gain_army_factor = 0.10
-				minimum_training_level = 0.10
-				army_attack_factor = -0.05
-				army_defence_factor = 0.10
+				army_defence_factor = 0.15
 				army_armor_speed_factor = 0.10
-				army_org_factor = 0.10
+				army_org_factor = 0.15
 				planning_speed = 0.10
-				political_power_factor = -0.15
-				war_support_factor = -0.15
-				stability_factor = -0.05
+				minimum_training_level = 0.10
+				experience_gain_army_factor = 0.10
 			}
 		}
-		SOV_fake_socialism_idea = {
+		SOV_militarist_policy_idea = {
 			removal_cost = -1
 			available = {
 				original_tag = SOV
@@ -81,10 +55,13 @@ ideas = {
 			}
 
 			modifier = {
-				custom_modifier_tooltip = SOV_fake_socialism_idea_tt
-				stability_factor = -0.20
+				custom_modifier_tooltip = SOV_militarist_policy_idea_tt
+				stability_factor = -0.10
 				political_power_factor = -0.15
 				drift_defence_factor = 0.3
+				research_speed_factor = -0.20
+				war_stability_factor = 0.10
+				war_support_factor = 0.05
 			}
 		}
 		SOV_normally_robototechnic_idea = {

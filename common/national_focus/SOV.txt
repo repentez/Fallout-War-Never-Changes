@@ -94,6 +94,9 @@ focus_tree = {
 		}
 		x = -1
 		y = 4
+		completion_reward = {
+			country_event = sovietunion.5
+		}
 	}
     focus = {
 		id = SOV_political_reforms_m
@@ -128,6 +131,9 @@ focus_tree = {
 		}
 		x = -1
 		y = 6
+		completion_reward = {
+			country_event = sovietunion.6
+		}
 	}
     focus = {
 		id = SOV_congress_cpsu_2060
@@ -158,6 +164,7 @@ focus_tree = {
 			focus = SOV_congress_cpsu_2060
 		}
 		availalbe = {
+			always = no
 			OR = {
 				has_country_leader = {
 	                character = SOV_vasily_kozlov
@@ -181,6 +188,7 @@ focus_tree = {
 			focus = SOV_congress_cpsu_2060
 		}
 		availalbe = {
+			always = no
 			SOV = {
 				has_country_leader = {
 	                character = SOV_matvey_anisimov
@@ -353,7 +361,7 @@ focus_tree = {
 		id = SOV_update_gosplan
 		icon = GFX_goal_unknown
 		cost = 0
-		x = 40
+		x = 42
 		y = 0
 		completion_reward = {
 			country_event = sovietunion_economy.1
@@ -364,13 +372,14 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_update_gosplan
 		prerequisite = {
-			focus = SOV_update_gosplan
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
 		}
 		cost = 0
-		x = -6
-		y = 1
+		x = -8
+		y = 2
 		completion_reward = {
-			add_ideas = SOV_development_sovindustry
+			country_event = sovietunion_economy.2
 		}
 	}
 	focus = {
@@ -378,19 +387,16 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_update_gosplan
 		prerequisite = {
-			focus = SOV_development_soviet_industry
+			focus = SOV_update_gosplan
 		}
 		mutually_exclusive = {
 			focus = SOV_nationalisation
 		}
 		cost = 0
-		x = -7
-		y = 2
+		x = -2
+		y = 1
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = SOV_development_sovindustry
-				add_idea = SOV_development_sovindustry_privat
-			}
+			add_ideas = SOV_development_sovindustry
 		}
 	}
 	focus = {
@@ -398,16 +404,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_update_gosplan
 		prerequisite = {
-			focus = SOV_development_soviet_industry
+			focus = SOV_update_gosplan
 		}
 		cost = 0
-		x = -5
-		y = 2
+		x = 2
+		y = 1
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = SOV_development_sovindustry
-				add_idea = SOV_development_sovindustry_nation
-			}
+			add_ideas = SOV_development_sovindustry
 		}
 	}
 	focus = {
@@ -415,11 +418,12 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_update_gosplan
 		prerequisite = {
-			focus = SOV_update_gosplan
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
 		}
 		cost = 0
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		completion_reward = {
 			add_ideas = SOV_development_of_nuclear_industry
 		}
@@ -433,7 +437,7 @@ focus_tree = {
 		}
 		cost = 0
 		x = -2
-		y = 2
+		y = 3
 		completion_reward = {
 			572 = {
 				add_dynamic_modifier = {
@@ -456,7 +460,7 @@ focus_tree = {
 		}
 		cost = 0
 		x = -2
-		y = 3
+		y = 4
 		completion_reward = {
 			add_tech_bonus = {
                 bonus = 0.5
@@ -474,7 +478,7 @@ focus_tree = {
 		}
 		cost = 0
 		x = 3
-		y = 2
+		y = 3
 		completion_reward = {
 			set_country_flag = SOV_atomic_energy_dev_ct
 			unlock_decision_category_tooltip = sov_atomic_energy_dev_cat
@@ -489,7 +493,14 @@ focus_tree = {
 		}
 		cost = 0
 		x = 3
-		y = 4
+		y = 5
+		completion_reward = {
+			244 = {
+				add_dynamic_modifier = {
+                    modifier = SOV_atomic_electrostation_new
+                }
+			}
+		}
 	}
 	focus = {
 		id = SOV_water_resources_of_ussr
@@ -500,7 +511,11 @@ focus_tree = {
 		}
 		cost = 0
 		x = 1
-		y = 3
+		y = 4
+		completion_reward = {
+			set_country_flag = SOV_gidroenergy_dev_ct
+			unlock_decision_category_tooltip = sov_gidro_energy_dev_cat
+		}
 	}
 	focus = {
 		id = SOV_modernisation_of_ges
@@ -511,18 +526,19 @@ focus_tree = {
 		}
 		cost = 0
 		x = 1
-		y = 5
+		y = 6
 	}
 	focus = {
 		id = SOV_soviet_pc
 		icon = GFX_goal_unknown
 		relative_position_id = SOV_update_gosplan
 		prerequisite = {
-			focus = SOV_update_gosplan
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
 		}
 		cost = 0
-		x = 8
-		y = 1
+		x = 10
+		y = 2
 	}
 	focus = {
 		id = SOV_modernisation_pc
@@ -532,8 +548,8 @@ focus_tree = {
 			focus = SOV_soviet_pc
 		}
 		cost = 0
-		x = 5
-		y = 2
+		x = 7
+		y = 3
 	}
 	focus = {
 		id = SOV_far_east_nii
@@ -543,8 +559,15 @@ focus_tree = {
 			focus = SOV_modernisation_pc
 		}
 		cost = 0
-		x = 5
-		y = 3
+		x = 7
+		y = 4
+		completion_reward = {
+			244 = {
+				add_dynamic_modifier = {
+                    modifier = SOV_computer_academy_new
+                }
+			}
+		}
 	}
 	focus = {
 		id = SOV_development_leningrad_nii
@@ -557,8 +580,8 @@ focus_tree = {
 			focus = SOV_modernisation_leningrad_aes
 		}
 		cost = 0
-		x = 5
-		y = 5
+		x = 7
+		y = 6
 	}
 	focus = {
 		id = SOV_bolshe_pc
@@ -568,8 +591,8 @@ focus_tree = {
 			focus = SOV_far_east_nii
 		}
 		cost = 0
-		x = 7
-		y = 4
+		x = 9
+		y = 5
 	}
 	focus = {
 		id = SOV_modernisation_krasnoyarsk_aes
@@ -580,6 +603,165 @@ focus_tree = {
 		}
 		cost = 0
 		x = 3
+		y = 6
+		completion_reward = {
+			568 = {
+				add_dynamic_modifier = {
+                    modifier = SOV_atomic_electrostation_new
+                }
+			}
+		}
+	}
+	focus = {
+		id = SOV_development_small_atomic_reactors
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_leningrad_nii
+		}
+		cost = 0
+		x = 7
+		y = 7
+	}
+	focus = {
+		id = SOV_soviet_robotechnics
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_soviet_pc
+		}
+		cost = 0
+		x = 14
+		y = 3
+	}
+	focus = {
+		id = SOV_development_new_robot_model
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_soviet_robotechnics
+		}
+		cost = 0
+		x = 14
+		y = 4
+	}
+	focus = {
+		id = SOV_industry_plan
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_soviet_industry
+		}
+		cost = 0
+		x = -13
+		y = 3
+	}
+	focus = {
+		id = SOV_development_kazakh_ssr
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_industry_plan
+		}
+		cost = 0
+		x = -13
+		y = 4
+	}
+	focus = {
+		id = SOV_programm_vpk
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_industry_plan
+		}
+		cost = 0
+		x = -11
+		y = 4
+	}
+	focus = {
+		id = SOV_development_roads
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_soviet_industry
+		}
+		cost = 0
+		x = -6
+		y = 3
+		completion_reward = {
+			random_controlled_state = {
+                prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			random_controlled_state = {
+                prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			random_controlled_state = {
+                prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			random_controlled_state = {
+                prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+			random_controlled_state = {
+                prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
+		}
+	}
+	focus = {
+		id = SOV_infrastructure_plan
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_roads
+		}
+		cost = 0
+		x = -6
+		y = 4
+	}
+	focus = {
+		id = SOV_car_construct
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_infrastructure_plan
+		}
+		cost = 0
+		x = -6
+		y = 5
+	}
+	focus = {
+		id = SOV_find_oil
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_infrastructure_plan
+		}
+		cost = 0
+		x = -8
 		y = 5
 	}
 	###########################
@@ -589,8 +771,44 @@ focus_tree = {
 		id = SOV_soviet_army
 		icon = GFX_goal_unknown
 		cost = 0
-		x = 55
+		x = 60
 		y = 0
+	}
+	focus = {
+		id = SOV_second_plan_of_militarisation
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_soviet_army
+		}
+		cost = 0
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = SOV_army_militarisation
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_second_plan_of_militarisation
+		}
+		cost = 0
+		x = -2
+		y = 3
+	}
+	focus = {
+		id = SOV_use_robots_in_military
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_second_plan_of_militarisation
+		}
+		prerequisite = {
+			focus = SOV_soviet_robotechnics
+		}
+		cost = 0
+		x = -2
+		y = 4
 	}
 	###########################
 	######FOREIGH FOCUSES######

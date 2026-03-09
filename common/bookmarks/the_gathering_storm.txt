@@ -126,14 +126,14 @@ bookmarks = {
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				SOV_militarist_policy_idea
+				SOV_full_war_ready_idea
+				SOV_normally_robototechnic_idea
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
+				SOV_congress_2056
+				SOV_foreigh_politic
+				SOV_congress_cpsu_2060
 			}	
 		}
 		"SOV"={
@@ -141,14 +141,14 @@ bookmarks = {
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				SOV_militarist_policy_idea
+				SOV_full_war_ready_idea
+				SOV_normally_robototechnic_idea
 			}
 			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
+				SOV_congress_2056
+				SOV_foreigh_politic
+				SOV_congress_cpsu_2060
 			}	
 		}
 
