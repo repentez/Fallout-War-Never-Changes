@@ -580,6 +580,276 @@ focus_tree = {
         
         }
     }
+		  focus = {
+        id = EST_where_were_u
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 17
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+				  focus = {
+        id = EST_enlist_air
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_where_were_u}
+        x = 17
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		 focus = {
+        id = EST_soviet_air
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_enlist_air}
+        x = 17
+        y = 3
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+			  focus = {
+        id = EST_absorb_ESR
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_where_were_u}
+        x = 19
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_soviet_army_doc
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_absorb_ESR }
+        x = 19
+        y = 3
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_enlist_naval
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_where_were_u}
+        x = 15
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_soviet_naval_doc
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_enlist_naval}
+        x = 15
+        y = 3
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_commando_resist
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 21
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+			  focus = {
+        id = EST_we_lived_for_est
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_commando_resist }
+        x = 21
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+				  focus = {
+        id = EST_we_died_for_est
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_we_lived_for_est}
+        x = 21
+        y = 3
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+					  focus = {
+        id = EST_a_land_watered
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_we_died_for_est}
+        x = 21
+        y = 4
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_legacy_of_sign
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 23
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+			  focus = {
+        id = EST_they_shall_know
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_legacy_of_sign }
+        x = 23
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+				  focus = {
+        id = EST_if_you_need_a_gun
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_they_shall_know }
+        x = 23
+        y = 3
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+					  focus = {
+        id = EST_survival_kit
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_if_you_need_a_gun}
+        x = 23
+        y = 4
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+		  focus = {
+        id = EST_if_you_cant_fight_build
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 25
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+			  focus = {
+        id = EST_bunker_blues
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_if_you_cant_fight_build}
+        x = 25
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+				  focus = {
+        id = EST_pillbug_machine
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus =  EST_if_you_need_a_gun }
+        x = 25
+        y = 4
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+			  focus = {
+        id = EST_urban_jungles
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 27
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+				  focus = {
+        id = EST_HOLD_HOLD_HOLD
+        icon = GFX_goal_generic_oil
+        prerequisite = { focus = EST_urban_jungles }
+        x = 27
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+					  focus = {
+        id = EST_minks_compromise
+        icon = GFX_goal_generic_oil
+    
+    mutually_exclusive = {
+        focus =EST_treaty_of_pskov
+    }
+        x = 30
+        y = 0
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
+	focus = {
+        id = EST_treaty_of_pskov
+        icon = GFX_goal_generic_oil
+            
+    mutually_exclusive = {
+        focus = EST_minks_compromise
+    }
+        x = 32
+        y = 0
+        cost = 10
+
+        completion_reward = {
+        
+        }
+    }
 }
 
 
