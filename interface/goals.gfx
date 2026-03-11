@@ -5,7 +5,83 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 		legacy_lazy_load = no
 	}
+    ##ESTONIA##
 
+SpriteType = {
+		name = "GFX_focus_BEL_legacy_of_the_great_war"
+		texturefile = "gfx/interface/goals/EST/focus_BEL_legacy_of_the_great_war.dds"
+		legacy_lazy_load = no
+	}
+SpriteType = {
+		name = "GFX_focus_EST_estonia_is_scandinavia"
+		texturefile = "gfx/interface/goals/EST/focus_EST_estonia_is_scandinavia.dds"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_focus_BEL_la_dame_blanche"
+		texturefile = "gfx/interface/goals/EST/focus_BEL_la_dame_blanche.dds"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_goal_generic_construct_civ_factory"
+		texturefile = "gfx/interface/goals/EST/goal_generic_construct_civ_factory.dds"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_focus_generic_support_the_left_right"
+		texturefile = "gfx/interface/goals/EST/focus_generic_support_the_left_right.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_focus_generic_total_war"
+		texturefile = "gfx/interface/goals/EST/focus_generic_total_war.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_rally_plp_war"
+		texturefile = "gfx/interface/goals/EST/rally_plp_war.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_focus_generic_spur_communist_revolutions"
+		texturefile = "gfx/interface/goals/EST/focus_generic_spur_communist_revolutions.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_goal_generic_oil_refinery"
+		texturefile = "gfx/interface/goals/EST/goal_generic_oil_refinery.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_focus_SWE_beneath_sticks_and_stone"
+		texturefile = "gfx/interface/goals/EST/focus_SWE_beneath_sticks_and_stone.dds"
+		legacy_lazy_load = no
+	}
+  SpriteType = {
+		name = "GFX_focus_generic_economic_recovery"
+		texturefile = "gfx/interface/goals/EST/focus_generic_economic_recovery.dds"
+		legacy_lazy_load = no
+	}
+   SpriteType = {
+		name = "GFX_focus_RAJ_give_me_blood_and_i_will_grant_you_freedom"
+		texturefile = "gfx/interface/goals/EST/focus_RAJ_give_me_blood_and_i_will_grant_you_freedom.dds"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+		name = "GFX_focus_usa_focus_on_europe"
+		texturefile = "gfx/interface/goals/EST/focus_usa_focus_on_europe.dds"
+		legacy_lazy_load = no
+	}
+     SpriteType = {
+		name = "GFX_focus_PHI_fortify_corregidor"
+		texturefile = "gfx/interface/goals/EST/focus_PHI_fortify_corregidor.dds"
+		legacy_lazy_load = no
+	}
+ SpriteType = {
+		name = "GFX_goal_generic_fortify_city"
+		texturefile = "gfx/interface/goals/EST/goal_generic_fortify_city.dds"
+		legacy_lazy_load = no
+	}
     ##USA AIR ##
 
   SpriteType = {

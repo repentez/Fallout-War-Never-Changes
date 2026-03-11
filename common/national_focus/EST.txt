@@ -9,7 +9,7 @@ focus_tree = {
 	}
     focus = {
 		id = EST_restore_talinn_bunk
-		icon = GFX_goal_the_setting_sun
+		icon = GFX_goal_generic_fortify_city
 		cost = 1
 		x = 15
 		y = 0
@@ -59,7 +59,7 @@ focus_tree = {
 }
 	focus = {
 		id = EST_window_to_the_west
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_usa_focus_on_europe
 		cost = 1
         	prerequisite = {
 			focus = EST_restore_talinn_bunk
@@ -107,7 +107,7 @@ focus_tree = {
 }
 	focus = {
 		id = EST_fortify_Parnu
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_PHI_fortify_corregidor
 		cost = 2
            	prerequisite = {
 			focus = EST_restore_talinn_bunk
@@ -167,7 +167,7 @@ focus_tree = {
 	}
     	focus = {
 		id = EST_fortify_Rakvere
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_PHI_fortify_corregidor
 		cost = 2
            	prerequisite = {
 			focus = EST_fortify_Parnu
@@ -213,7 +213,7 @@ focus_tree = {
                     province = 11127
                 }
             }
-            813= {
+            812= {
                        add_building_construction = {
                     type = anti_air_building
                     level = 1
@@ -227,7 +227,7 @@ focus_tree = {
 	}    
    	focus = {
 		id = EST_fortify_Kuressaare
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_PHI_fortify_corregidor
 		cost = 2
            	prerequisite = {
 			focus = EST_fortify_Rakvere
@@ -287,7 +287,7 @@ focus_tree = {
 	} 
  	focus = {
 		id = EST_fortify_Tartu
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_PHI_fortify_corregidor
 		cost = 2
            	prerequisite = {
 			focus = EST_fortify_Kuressaare
@@ -347,7 +347,7 @@ focus_tree = {
 	} 
 	focus = {
 		id = EST_economic_recon
-		icon = goal_generic_improve_relations
+		icon = GFX_focus_generic_economic_recovery
 		cost = 3
         	prerequisite = {
 			focus = EST_window_to_the_west
@@ -367,7 +367,7 @@ focus_tree = {
 }
 	focus = {
 		id = EST_Institute_cap
-		icon = goal_generic_improve_relations
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 3
         	prerequisite = {
 			focus = EST_economic_recon
@@ -386,8 +386,8 @@ focus_tree = {
     }
 }
 	focus = {
-		id = EST_Institute_cap_1
-		icon = goal_generic_improve_relations
+		id = EST_solicit_bis
+		icon = GFX_focus_generic_support_the_left_right
 		cost = 3
         prerequisite = {
 			focus = EST_Institute_cap
@@ -416,7 +416,7 @@ focus_tree = {
 
         focus = {
         id = EST_baltic_environmentalism
-        icon = GFX_goal_generic_construction
+        icon = GFX_focus_SWE_beneath_sticks_and_stone
          prerequisite = { focus = EST_economic_recon }
         x = 11
         y = 6
@@ -429,7 +429,7 @@ focus_tree = {
 
     focus = {
         id = EST_legacy_phosphorite_war
-        icon = GFX_goal_generic_artillery
+        icon = GFX_focus_BEL_legacy_of_the_great_war
         prerequisite = { focus = EST_baltic_environmentalism }
         x = 11
         y = 7
@@ -447,7 +447,7 @@ focus_tree = {
 
     focus = {
         id = EST_sustainable_energy_development
-        icon = GFX_goal_generic_oil
+        icon = GFX_goal_generic_oil_refinery
         prerequisite = { focus = EST_legacy_phosphorite_war }
         x = 11
         y = 8
@@ -465,7 +465,7 @@ focus_tree = {
     }
 	   focus = {
         id = EST_restore_contact
-        icon = GFX_goal_generic_oil
+        icon = GFX_focus_BEL_la_dame_blanche
         prerequisite = { focus = EST_economic_recon }
         x = 15
         y = 6
@@ -478,7 +478,7 @@ focus_tree = {
     }
 	  focus = {
         id = EST_scandi_contact
-        icon = GFX_goal_generic_oil
+        icon = GFX_focus_EST_estonia_is_scandinavia
         prerequisite = { focus = EST_restore_contact}
         x = 15
         y = 7
@@ -491,7 +491,7 @@ focus_tree = {
     }
 	  focus = {
         id = EST_Soviet_exiles
-        icon = GFX_goal_generic_oil
+        icon = GFX_focus_generic_spur_communist_revolutions
         prerequisite = { focus = EST_restore_contact}
         x = 17
         y = 7
@@ -538,7 +538,7 @@ focus_tree = {
     }
 	 focus = {
         id = EST_rally_to_the_cause
-        icon = GFX_goal_generic_oil
+        icon = GFX_rally_plp_war
         prerequisite = { focus =  EST_spread_Metsavagi}
         x = 17
         y = 10
@@ -558,7 +558,7 @@ focus_tree = {
         }
     }
 		 focus = {
-        id = EST_spread_Metsavagi_1
+        id = EST_unify_Metsavagi
         icon = GFX_goal_generic_oil
         prerequisite = { focus =  EST_rally_to_the_cause }
         x = 18
@@ -582,7 +582,7 @@ focus_tree = {
     }
 		  focus = {
         id = EST_where_were_u
-        icon = GFX_goal_generic_oil
+        icon = GFX_focus_RAJ_give_me_blood_and_i_will_grant_you_freedom
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 17
         y = 1
