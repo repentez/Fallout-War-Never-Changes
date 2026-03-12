@@ -158,7 +158,7 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 40 140 140 }
+	color = rgb { 40 40 140 }
 	color_ui = rgb { 40 40 140 }
 }
 CHL = {
@@ -329,8 +329,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+	color = rgb { 174 13 13 }
+	color_ui = rgb { 174 13 13 }
 }
 
 GXC = {
