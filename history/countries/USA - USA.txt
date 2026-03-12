@@ -221,7 +221,6 @@ set_autonomy = {
 give_guarantee = AST
 give_guarantee = JAP
 give_guarantee = NZL
-give_guarantee = PLU
 give_guarantee = CHI
 give_guarantee = PHI
 
