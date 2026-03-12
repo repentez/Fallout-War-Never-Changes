@@ -218,6 +218,13 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
+give_guarantee = AST
+give_guarantee = JAP
+give_guarantee = NZL
+give_guarantee = PLU
+give_guarantee = CHI
+give_guarantee = PHI
+
 recruit_character = USA_phillip_e_oswald
 recruit_character = USA_james_c_wallace
 recruit_character = USA_john_granite
