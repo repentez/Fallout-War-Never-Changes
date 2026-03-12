@@ -438,6 +438,11 @@ set_autonomy = {
 	}
 }
 
+give_guarantee = AST
+give_guarantee = JAP
+give_guarantee = NZL
+give_guarantee = CHI
+give_guarantee = PHI
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt
